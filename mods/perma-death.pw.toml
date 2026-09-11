@@ -1,0 +1,13 @@
+name = "Perma Death"
+filename = "permadeath-1.21.1-2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/d02pnaNW/versions/D2tDLBNm/permadeath-1.21.1-2.jar"
+hash-format = "sha512"
+hash = "1642e44460141b07d4c0dcd5335ea6a74f3b2f0eef9a5e5c08408ac194721fd0801de9bcc76124f97cc9b68b27586ae7bc70e6ffac0902c1822a0e6280be7373"
+
+[update]
+[update.modrinth]
+mod-id = "d02pnaNW"
+version = "D2tDLBNm"

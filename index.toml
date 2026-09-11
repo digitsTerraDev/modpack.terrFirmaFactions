@@ -1673,6 +1673,10 @@ hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
 
 [[files]]
+file = "mods/perma-death.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/precision-prospecting.pw.toml"
 hash = "e29e8c5adf17844525c3841f5e421fa60f2048a8245ae1796b56f736f636e82f"
 metafile = true
