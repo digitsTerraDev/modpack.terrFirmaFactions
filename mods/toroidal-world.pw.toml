@@ -1,0 +1,13 @@
+name = "Toroidal World"
+filename = "toroidal_world-neoforge-0.17.2+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CdjG7l5z/versions/p985gAiN/toroidal_world-neoforge-0.17.2%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "7384ef55f4f944f7f689cf0c92057592d34332b1c252bfde42e90ca96609dfe39a575946f0c5998159c14e6cdd08ce252be6fb8ff017fbec672a79a1f0d27b97"
+
+[update]
+[update.modrinth]
+mod-id = "CdjG7l5z"
+version = "p985gAiN"
