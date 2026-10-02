@@ -100,16 +100,24 @@ jobs:
 
       - name: Deploy server
         shell: bash
+        env:
+          IMAGE_NAME: digitsterradev/modpack.terrfirmafactions
+          SERVER_VERSION: ${{ github.sha }}
         run: |
+          IMAGE_NAME="${IMAGE_NAME,,}"
+
           ssh \
             -o StrictHostKeyChecking=yes \
             -i ~/.ssh/tfc_deploy \
             binary-server@100.88.59.97 \
-            "wsl -d Ubuntu -u binary-server -- bash -s" <<'EOF'
+            "wsl -d Ubuntu -u binary-server -- bash -s" <<EOF
+          set -e
           cd ~/minecraft-dev
-          echo "SERVER_VERSION=${{ github.sha }}" > .env
 
-          export DOCKER_CONFIG="$HOME/.docker-ghcr"
+          printf 'SERVER_VERSION=%s\n' '$SERVER_VERSION' > .env
+          printf 'SERVER_IMAGE=%s\n' 'ghcr.io/$IMAGE_NAME' >> .env
+
+          export DOCKER_CONFIG="\$HOME/.docker-ghcr"
 
           docker compose pull
           docker compose up -d
