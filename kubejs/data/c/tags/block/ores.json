@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "terra:alexandriite_ore",
+    "terra:byzantium_ore",
+    "terra:vitalum_ore",
+    "terra:mugenium_ore",
+    "terra:antinomia_ore",
+    "terra:vutironium_ore",
+    "terra:durallium_ore"
+  ]
+}
