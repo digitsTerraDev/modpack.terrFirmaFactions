@@ -1,0 +1,68 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 45,
+    "density": 0.4,
+    "min_y": 10,
+    "max_y": 90,
+    "size": 20,
+    "random_name": "surface_hematite",
+    "blocks": [
+      {
+        "replace": [
+          "tfc:rock/raw/rhyolite"
+        ],
+        "with": [
+          {
+            "block": "terra:durallium_ore",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/basalt"
+        ],
+        "with": [
+          {
+            "block": "terra:durallium_ore",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/andesite"
+        ],
+        "with": [
+          {
+            "block": "terra:durallium_ore",
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/dacite"
+        ],
+        "with": [
+          {
+            "block": "terra:durallium_ore",
+            "weight": 100
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 24,
+      "depth": 35,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "blocks": [
+        {
+          "block": "tfc:ore/small_hematite"
+        }
+      ]
+    }
+  }
+}

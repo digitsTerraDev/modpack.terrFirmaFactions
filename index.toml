@@ -847,6 +847,78 @@ file = "kubejs/config/tfc.json"
 file = "kubejs/config/web_server.json"
 
 [[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/montane_bismuthinite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/montane_cassiterite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/montane_hematite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/montane_limonite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/montane_magnetite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/montane_malachite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/montane_native_copper.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/montane_native_silver.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/montane_sphalerite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/montane_tetrahedrite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/normal_bismuthinite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/normal_malachite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/normal_native_gold.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/normal_native_silver.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/normal_sphalerite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/normal_tetrahedrite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/rich_native_gold.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/surface_bismuthinite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/surface_hematite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/surface_limonite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/surface_magnetite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/surface_malachite.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/surface_native_copper.json"
+
+[[files]]
+file = "kubejs/data/tfc/worldgen/configured_feature/vein/surface_sphalerite.json"
+
+[[files]]
 file = "kubejs/package.json"
 
 [[files]]
@@ -880,6 +952,9 @@ file = "kubejs/server_scripts/mepafolderserver/hardtack sandwich/craftablesandwi
 file = "kubejs/server_scripts/mepafolderserver/hardtack sandwich/sandwichnutrition.js"
 
 [[files]]
+file = "kubejs/server_scripts/ore_conversions.js"
+
+[[files]]
 file = "kubejs/server_scripts/profession/adventurer/adventurer_tools_recipe.js"
 
 [[files]]
@@ -899,6 +974,9 @@ file = "kubejs/startup_scripts/items.js"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
+
+[[files]]
+file = "kubejs/startup_scripts/ores.js"
 
 [[files]]
 file = "kubejs/startup_scripts/sledgehammer_excavator_durability.js"
