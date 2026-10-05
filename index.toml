@@ -937,6 +937,150 @@ file = "kubejs/data/terra/loot_table/blocks/vitalum_crystal.json"
 file = "kubejs/data/terra/loot_table/blocks/vutironium_crystal.json"
 
 [[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/normal_bismuthinite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/normal_cassiterite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/normal_garnierite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/normal_hematite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/normal_limonite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/normal_magnetite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/normal_malachite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/normal_native_copper.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/normal_native_gold.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/normal_native_silver.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/normal_sphalerite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/normal_tetrahedrite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/poor_bismuthinite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/poor_cassiterite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/poor_garnierite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/poor_hematite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/poor_limonite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/poor_magnetite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/poor_malachite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/poor_native_copper.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/poor_native_gold.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/poor_native_silver.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/poor_sphalerite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/poor_tetrahedrite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/rich_bismuthinite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/rich_cassiterite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/rich_garnierite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/rich_hematite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/rich_limonite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/rich_magnetite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/rich_malachite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/rich_native_copper.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/rich_native_gold.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/rich_native_silver.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/rich_sphalerite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/rich_tetrahedrite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/small_bismuthinite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/small_cassiterite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/small_garnierite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/small_hematite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/small_limonite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/small_magnetite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/small_malachite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/small_native_copper.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/small_native_gold.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/small_native_silver.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/small_sphalerite.json"
+
+[[files]]
+file = "kubejs/data/tfc/recipe/heating/ore/small_tetrahedrite.json"
+
+[[files]]
 file = "kubejs/data/tfc/worldgen/configured_feature/vein/montane_bismuthinite.json"
 
 [[files]]
