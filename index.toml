@@ -817,10 +817,76 @@ file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/steel.png"
 file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/wrought_iron.png"
 
 [[files]]
+file = "kubejs/assets/terra/blockstates/alexandriite_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/blockstates/antinomia_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/blockstates/byzantium_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/blockstates/durallium_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/blockstates/mugenium_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/blockstates/vitalum_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/blockstates/vutironium_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/block/alexandriite_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/block/antinomia_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/block/byzantium_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/block/durallium_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/block/mugenium_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/block/vitalum_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/block/vutironium_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/item/alexandriite_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/item/antinomia_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/item/byzantium_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/item/durallium_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/item/mugenium_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/item/vitalum_crystal.json"
+
+[[files]]
+file = "kubejs/assets/terra/models/item/vutironium_crystal.json"
+
+[[files]]
 file = "kubejs/assets/terra/textures/item/hardtack_sandwich.png"
 
 [[files]]
 file = "kubejs/assets/terra/textures/item/unfired_ceremetal.png"
+
+[[files]]
+file = "kubejs/assets/terraindustry/lang/en_us.json"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -845,6 +911,30 @@ file = "kubejs/config/tfc.json"
 
 [[files]]
 file = "kubejs/config/web_server.json"
+
+[[files]]
+file = "kubejs/data/c/tags/block/ores.json"
+
+[[files]]
+file = "kubejs/data/terra/loot_table/blocks/alexandriite_crystal.json"
+
+[[files]]
+file = "kubejs/data/terra/loot_table/blocks/antinomia_crystal.json"
+
+[[files]]
+file = "kubejs/data/terra/loot_table/blocks/byzantium_crystal.json"
+
+[[files]]
+file = "kubejs/data/terra/loot_table/blocks/durallium_crystal.json"
+
+[[files]]
+file = "kubejs/data/terra/loot_table/blocks/mugenium_crystal.json"
+
+[[files]]
+file = "kubejs/data/terra/loot_table/blocks/vitalum_crystal.json"
+
+[[files]]
+file = "kubejs/data/terra/loot_table/blocks/vutironium_crystal.json"
 
 [[files]]
 file = "kubejs/data/tfc/worldgen/configured_feature/vein/montane_bismuthinite.json"
@@ -983,6 +1073,9 @@ file = "kubejs/startup_scripts/sledgehammer_excavator_durability.js"
 
 [[files]]
 file = "kubejs/startup_scripts/smithing_unfinished/unfinished.js"
+
+[[files]]
+file = "kubejs/startup_scripts/terraindustry_refineries.js"
 
 [[files]]
 file = "kubejs/startup_scripts/triple_ingot.js"
@@ -1561,4 +1654,8 @@ metafile = true
 
 [[files]]
 file = "mods/water-flasks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/world-preview-terrafirmacraft.pw.toml"
 metafile = true

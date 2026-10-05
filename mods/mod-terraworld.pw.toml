@@ -1,15 +1,15 @@
 name = "mod.terraWorld"
-filename = "tfc_toroidal_compat-0.0.6.jar"
+filename = "tfc_toroidal_compat-0.1.0.jar"
 side = "both"
 
 [download]
-url = "https://github.com/digitsTerraDev/mod.terraWorld/releases/download/v0.0.6/tfc_toroidal_compat-0.0.6.jar"
+url = "https://github.com/digitsTerraDev/mod.terraWorld/releases/download/v0.1.0/tfc_toroidal_compat-0.1.0.jar"
 hash-format = "sha256"
-hash = "fa97d8e6566ef5823b50377fdfc179377640313e2db7e81f82c4c7ea4675ce0a"
+hash = "a0796b29ebfbd69dd2bbf1f9ca2ee3e42f7e3a666e9bf0c925f1a3d245e0b2ba"
 
 [update]
 [update.github]
 branch = "master"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
 slug = "digitsTerraDev/mod.terraWorld"
-tag = "v0.0.6"
+tag = "v0.1.0"

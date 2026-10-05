@@ -1,15 +1,15 @@
 name = "mod.terraIndustry"
-filename = "terraindustry-0.0.1.jar"
+filename = "terraindustry-0.0.3.jar"
 side = "both"
 
 [download]
-url = "https://github.com/digitsTerraDev/mod.terraIndustry/releases/download/v0.0.1/terraindustry-0.0.1.jar"
+url = "https://github.com/digitsTerraDev/mod.terraIndustry/releases/download/v0.0.3/terraindustry-0.0.3.jar"
 hash-format = "sha256"
-hash = "d769ad8a17009e7bb669ff20f5567d259235dbc6918af6d4e0e6bdc22a4e8428"
+hash = "56cbdb5ce056084d82cd4e46ab3c991db334502eb5e61fef308658b9f572a370"
 
 [update]
 [update.github]
 branch = "main"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
 slug = "digitsTerraDev/mod.terraIndustry"
-tag = "v0.0.1"
+tag = "v0.0.3"

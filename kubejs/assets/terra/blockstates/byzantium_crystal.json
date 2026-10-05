@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "terra:block/byzantium_crystal"
+    },
+    "facing=down": {
+      "model": "terra:block/byzantium_crystal",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "terra:block/byzantium_crystal",
+      "x": 90
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "terra:block/byzantium_crystal",
+      "x": 90
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "terra:block/byzantium_crystal",
+      "x": 90
+    },
+    "facing=west": {
+      "y": 270,
+      "model": "terra:block/byzantium_crystal",
+      "x": 90
+    }
+  }
+}
