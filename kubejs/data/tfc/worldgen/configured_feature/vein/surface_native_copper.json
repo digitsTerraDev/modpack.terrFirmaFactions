@@ -1,11 +1,11 @@
 {
   "type": "tfc:cluster_vein",
   "config": {
-    "rarity": 36,
+    "rarity": 108,
     "density": 0.25,
     "min_y": 40,
     "max_y": 100,
-    "size": 43,
+    "size": 34,
     "random_name": "surface_native_copper",
     "blocks": [
       {
@@ -14,8 +14,13 @@
         ],
         "with": [
           {
-            "block": "terra:alexandriite_ore",
-            "weight": 110
+            "block": {
+              "Name": "terra:normal_alexandriite_ore",
+              "Properties": {
+                "rock": "rhyolite"
+              }
+            },
+            "weight": 100
           }
         ]
       },
@@ -25,8 +30,13 @@
         ],
         "with": [
           {
-            "block": "terra:alexandriite_ore",
-            "weight": 110
+            "block": {
+              "Name": "terra:normal_alexandriite_ore",
+              "Properties": {
+                "rock": "basalt"
+              }
+            },
+            "weight": 100
           }
         ]
       },
@@ -36,8 +46,13 @@
         ],
         "with": [
           {
-            "block": "terra:alexandriite_ore",
-            "weight": 110
+            "block": {
+              "Name": "terra:normal_alexandriite_ore",
+              "Properties": {
+                "rock": "andesite"
+              }
+            },
+            "weight": 100
           }
         ]
       },
@@ -47,8 +62,13 @@
         ],
         "with": [
           {
-            "block": "terra:alexandriite_ore",
-            "weight": 110
+            "block": {
+              "Name": "terra:normal_alexandriite_ore",
+              "Properties": {
+                "rock": "dacite"
+              }
+            },
+            "weight": 100
           }
         ]
       }

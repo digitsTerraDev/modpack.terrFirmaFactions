@@ -1,11 +1,11 @@
 {
   "type": "tfc:cluster_vein",
   "config": {
-    "rarity": 40,
+    "rarity": 120,
     "density": 0.5,
     "min_y": -30,
     "max_y": 70,
-    "size": 65,
+    "size": 51,
     "random_name": "normal_tetrahedrite",
     "blocks": [
       {
@@ -14,7 +14,12 @@
         ],
         "with": [
           {
-            "block": "terra:alexandriite_ore",
+            "block": {
+              "Name": "terra:normal_alexandriite_ore",
+              "Properties": {
+                "rock": "quartzite"
+              }
+            },
             "weight": 100
           }
         ]
@@ -25,7 +30,12 @@
         ],
         "with": [
           {
-            "block": "terra:alexandriite_ore",
+            "block": {
+              "Name": "terra:normal_alexandriite_ore",
+              "Properties": {
+                "rock": "slate"
+              }
+            },
             "weight": 100
           }
         ]
@@ -36,7 +46,12 @@
         ],
         "with": [
           {
-            "block": "terra:alexandriite_ore",
+            "block": {
+              "Name": "terra:normal_alexandriite_ore",
+              "Properties": {
+                "rock": "phyllite"
+              }
+            },
             "weight": 100
           }
         ]
@@ -47,7 +62,12 @@
         ],
         "with": [
           {
-            "block": "terra:alexandriite_ore",
+            "block": {
+              "Name": "terra:normal_alexandriite_ore",
+              "Properties": {
+                "rock": "schist"
+              }
+            },
             "weight": 100
           }
         ]
@@ -58,7 +78,12 @@
         ],
         "with": [
           {
-            "block": "terra:alexandriite_ore",
+            "block": {
+              "Name": "terra:normal_alexandriite_ore",
+              "Properties": {
+                "rock": "gneiss"
+              }
+            },
             "weight": 100
           }
         ]
@@ -69,7 +94,12 @@
         ],
         "with": [
           {
-            "block": "terra:alexandriite_ore",
+            "block": {
+              "Name": "terra:normal_alexandriite_ore",
+              "Properties": {
+                "rock": "marble"
+              }
+            },
             "weight": 100
           }
         ]

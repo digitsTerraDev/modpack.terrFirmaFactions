@@ -1,11 +1,11 @@
 {
   "type": "tfc:cluster_vein",
   "config": {
-    "rarity": 40,
+    "rarity": 120,
     "density": 0.3,
     "min_y": 40,
     "max_y": 100,
-    "size": 43,
+    "size": 34,
     "random_name": "surface_sphalerite",
     "blocks": [
       {
@@ -14,7 +14,12 @@
         ],
         "with": [
           {
-            "block": "terra:vitalum_ore",
+            "block": {
+              "Name": "terra:normal_vitalum_ore",
+              "Properties": {
+                "rock": "rhyolite"
+              }
+            },
             "weight": 100
           }
         ]
@@ -25,7 +30,12 @@
         ],
         "with": [
           {
-            "block": "terra:vitalum_ore",
+            "block": {
+              "Name": "terra:normal_vitalum_ore",
+              "Properties": {
+                "rock": "basalt"
+              }
+            },
             "weight": 100
           }
         ]
@@ -36,7 +46,12 @@
         ],
         "with": [
           {
-            "block": "terra:vitalum_ore",
+            "block": {
+              "Name": "terra:normal_vitalum_ore",
+              "Properties": {
+                "rock": "andesite"
+              }
+            },
             "weight": 100
           }
         ]
@@ -47,7 +62,12 @@
         ],
         "with": [
           {
-            "block": "terra:vitalum_ore",
+            "block": {
+              "Name": "terra:normal_vitalum_ore",
+              "Properties": {
+                "rock": "dacite"
+              }
+            },
             "weight": 100
           }
         ]

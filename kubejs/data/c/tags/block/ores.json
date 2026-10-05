@@ -1,12 +1,26 @@
 {
   "replace": false,
   "values": [
-    "terra:alexandriite_ore",
-    "terra:byzantium_ore",
-    "terra:vitalum_ore",
-    "terra:mugenium_ore",
-    "terra:antinomia_ore",
-    "terra:vutironium_ore",
-    "terra:durallium_ore"
+    "terra:normal_alexandriite_ore",
+    "terra:normal_byzantium_ore",
+    "terra:normal_vitalum_ore",
+    "terra:normal_mugenium_ore",
+    "terra:normal_antinomia_ore",
+    "terra:normal_vutironium_ore",
+    "terra:normal_durallium_ore",
+    "terra:crystalline_alexandriite_ore",
+    "terra:crystalline_byzantium_ore",
+    "terra:crystalline_vitalum_ore",
+    "terra:crystalline_mugenium_ore",
+    "terra:crystalline_antinomia_ore",
+    "terra:crystalline_vutironium_ore",
+    "terra:crystalline_durallium_ore",
+    "terra:dense_alexandriite_ore",
+    "terra:dense_byzantium_ore",
+    "terra:dense_vitalum_ore",
+    "terra:dense_mugenium_ore",
+    "terra:dense_antinomia_ore",
+    "terra:dense_vutironium_ore",
+    "terra:dense_durallium_ore"
   ]
 }

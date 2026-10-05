@@ -1,11 +1,11 @@
 {
   "type": "tfc:cluster_vein",
   "config": {
-    "rarity": 90,
+    "rarity": 270,
     "density": 0.25,
     "min_y": 0,
     "max_y": 70,
-    "size": 32,
+    "size": 26,
     "random_name": "normal_native_gold",
     "blocks": [
       {
@@ -14,7 +14,12 @@
         ],
         "with": [
           {
-            "block": "terra:vutironium_ore",
+            "block": {
+              "Name": "terra:normal_vutironium_ore",
+              "Properties": {
+                "rock": "rhyolite"
+              }
+            },
             "weight": 100
           }
         ]
@@ -25,7 +30,12 @@
         ],
         "with": [
           {
-            "block": "terra:vutironium_ore",
+            "block": {
+              "Name": "terra:normal_vutironium_ore",
+              "Properties": {
+                "rock": "basalt"
+              }
+            },
             "weight": 100
           }
         ]
@@ -36,7 +46,12 @@
         ],
         "with": [
           {
-            "block": "terra:vutironium_ore",
+            "block": {
+              "Name": "terra:normal_vutironium_ore",
+              "Properties": {
+                "rock": "andesite"
+              }
+            },
             "weight": 100
           }
         ]
@@ -47,7 +62,12 @@
         ],
         "with": [
           {
-            "block": "terra:vutironium_ore",
+            "block": {
+              "Name": "terra:normal_vutironium_ore",
+              "Properties": {
+                "rock": "dacite"
+              }
+            },
             "weight": 100
           }
         ]
@@ -58,7 +78,12 @@
         ],
         "with": [
           {
-            "block": "terra:vutironium_ore",
+            "block": {
+              "Name": "terra:normal_vutironium_ore",
+              "Properties": {
+                "rock": "granite"
+              }
+            },
             "weight": 100
           }
         ]
@@ -69,7 +94,12 @@
         ],
         "with": [
           {
-            "block": "terra:vutironium_ore",
+            "block": {
+              "Name": "terra:normal_vutironium_ore",
+              "Properties": {
+                "rock": "diorite"
+              }
+            },
             "weight": 100
           }
         ]
@@ -80,7 +110,12 @@
         ],
         "with": [
           {
-            "block": "terra:vutironium_ore",
+            "block": {
+              "Name": "terra:normal_vutironium_ore",
+              "Properties": {
+                "rock": "gabbro"
+              }
+            },
             "weight": 100
           }
         ]
