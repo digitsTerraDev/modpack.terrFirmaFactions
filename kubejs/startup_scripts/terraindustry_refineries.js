@@ -40,30 +40,6 @@ const fantasyOres = [
     }
 ]
 
-const fantasyOreHostRocks = [
-    "andesite",
-    "basalt",
-    "chalk",
-    "chert",
-    "claystone",
-    "conglomerate",
-    "dacite",
-    "diorite",
-    "dolomite",
-    "gabbro",
-    "gneiss",
-    "granite",
-    "limestone",
-    "marble",
-    "phyllite",
-    "quartzite",
-    "rhyolite",
-    "schist",
-    "shale",
-    "slate",
-    "tuff"
-]
-
 fantasyOres.forEach(fantasyOre => {
     const refineryId = fantasyOre.source.replace('_ore', '_refinery')
     const refinery = RefineryDefinitions.refinery(refineryId)
@@ -71,16 +47,13 @@ fantasyOres.forEach(fantasyOre => {
         .fuelItem('minecraft:coal', 1, 120)
 
     const fantasyName = fantasyOre.source.substring('terra:'.length)
-    // Match host-rock states using TerraIndustry 0.0.4 input selectors.
-    fantasyOreHostRocks.forEach(rock => {
-        const poorOre = `tfc:ore/poor_${fantasyOre.ore}/${rock}`
-        const normalOre = `tfc:ore/normal_${fantasyOre.ore}/${rock}`
-        const richOre = `tfc:ore/rich_${fantasyOre.ore}/${rock}`
-        refinery.transform(`terra:normal_${fantasyName}[rock=${rock}]`, normalOre, 1.0)
-        refinery.transform(`terra:dense_${fantasyName}[rock=${rock}]`, richOre, 1.0)
-        refinery.transform(`terra:crystalline_${fantasyName}[rock=${rock}]`, poorOre, 1.0)
-
-        refinery.crystallize(poorOre, fantasyOre.crystal, 0.1)
-    })
+    // Mined ore loses its host-rock state and is placed as tuff.
+    const poorOre = `tfc:ore/poor_${fantasyOre.ore}/tuff`
+    const normalOre = `tfc:ore/normal_${fantasyOre.ore}/tuff`
+    const richOre = `tfc:ore/rich_${fantasyOre.ore}/tuff`
+    refinery.transform(`terra:normal_${fantasyName}[rock=tuff]`, normalOre, 1.0)
+    refinery.transform(`terra:dense_${fantasyName}[rock=tuff]`, richOre, 1.0)
+    refinery.transform(`terra:crystalline_${fantasyName}[rock=tuff]`, poorOre, 1.0)
+    refinery.crystallize(poorOre, fantasyOre.crystal, 0.1)
     refinery.register()
 })

@@ -4,31 +4,31 @@ ClientEvents.generateAssets('after_mods', event => {
     const ores = [
     {
         "name": "alexandriite",
-        "defaultRock": "rhyolite"
+        "defaultRock": "tuff"
     },
     {
         "name": "byzantium",
-        "defaultRock": "granite"
+        "defaultRock": "tuff"
     },
     {
         "name": "vitalum",
-        "defaultRock": "granite"
+        "defaultRock": "tuff"
     },
     {
         "name": "mugenium",
-        "defaultRock": "granite"
+        "defaultRock": "tuff"
     },
     {
         "name": "antinomia",
-        "defaultRock": "granite"
+        "defaultRock": "tuff"
     },
     {
         "name": "vutironium",
-        "defaultRock": "granite"
+        "defaultRock": "tuff"
     },
     {
         "name": "durallium",
-        "defaultRock": "rhyolite"
+        "defaultRock": "tuff"
     }
 ]
     const rocks = [
