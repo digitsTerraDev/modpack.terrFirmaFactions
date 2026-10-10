@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "table_cloth",
+  "name": {
+    "translate": "collapsible_groups.group.table_cloth",
+    "fallback": "Table Cloth"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tff:light_blue_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:yellow_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:green_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:orange_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:lime_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:magenta_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:black_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:purple_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:red_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:pink_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:light_gray_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:cyan_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:gray_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:blue_small_table_cloth"
+      },
+      {
+        "type": "item",
+        "id": "tff:brown_small_table_cloth"
+      }
+    ]
+  }
+}

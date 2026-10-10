@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "stomping_barrel",
+  "name": {
+    "translate": "collapsible_groups.group.stomping_barrel",
+    "fallback": "Stomping Barrel"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/willow"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/sycamore"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/spruce"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/pine"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/palm"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/oak"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/maple"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/kapok"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/hickory"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/birch"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/aspen"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/ash"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/stomping_barrel/acacia"
+      }
+    ]
+  }
+}

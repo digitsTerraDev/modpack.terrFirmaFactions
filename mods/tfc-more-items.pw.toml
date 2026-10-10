@@ -1,13 +1,18 @@
-name = "TFC More Items"
-filename = "TFC-items-1.21.1-neoforge-1.2.1.jar"
-side = "both"
+filename = 'TFC-items-1.21.1-neoforge-1.2.1.jar'
+name = 'TFC More Items'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.1'
 
 [download]
-url = "https://cdn.modrinth.com/data/YQibRpfp/versions/FfLf18uj/TFC-items-1.21.1-neoforge-1.2.1.jar"
-hash-format = "sha512"
-hash = "86d2e46ba1b43528233758794d93f6011f6752b4ea6ed47b10c2eac0e9adefa235aa4d41a9ff7dc056c72d2c491186cb60de3e30955fb265d7b284ce14229562"
+hash = '86d2e46ba1b43528233758794d93f6011f6752b4ea6ed47b10c2eac0e9adefa235aa4d41a9ff7dc056c72d2c491186cb60de3e30955fb265d7b284ce14229562'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YQibRpfp/versions/FfLf18uj/TFC-items-1.21.1-neoforge-1.2.1.jar'
 
-[update]
 [update.modrinth]
-mod-id = "YQibRpfp"
-version = "FfLf18uj"
+mod-id = 'YQibRpfp'
+version = 'FfLf18uj'

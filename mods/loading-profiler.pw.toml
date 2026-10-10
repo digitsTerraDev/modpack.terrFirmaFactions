@@ -1,0 +1,18 @@
+filename = 'loadingprofiler-1.0.1.jar'
+name = 'Loading Profiler'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = '8719236756fd802f0553819b8ecaff9582a69cbbef2210072214320c0466f348bbea0ce3a38e084753b2295159b14008686b316b9c41277ade5924b0ef58ba92'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7uT5A6Rr/versions/1TkpSENC/loadingprofiler-1.0.1.jar'
+
+[update.modrinth]
+mod-id = '7uT5A6Rr'
+version = '1TkpSENC'

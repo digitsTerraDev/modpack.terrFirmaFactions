@@ -1,0 +1,32 @@
+[latitude]
+	#The initial amount of axial tilt in degrees
+	# Default: 23.439291
+	# Range: -90.0 ~ 90.0
+	axial_tilt = 23.439291
+	#The max number of degrees of latitude that you can get away from the equator. Basically, the latitude is clamped to the [-latitudeCLamp, latitudeCLamp] interval. Useful for making it so never polar night when using the mod on server without the mod.
+	# Default: 90.0
+	# Range: 0.0 ~ 90.0
+	latitudeClamp = 90.0
+	#Multiplier to the planet diameter for the purposes of latitude calculation, without affecting the rest of mechanics and rendering.
+	# Default: 1.0
+	# Range: 1.0E-6 ~ 1.7976931348623157E308
+	planet_diameter_multiplier = 1.0
+	#What should be affected by the camera latitude (the z coordinate)
+	#Allowed Values: NONE, ALL
+	latitude_effects = "ALL"
+
+[celestial]
+	#Whether eclipses should happen
+	eclipses = true
+	#Whether the size of the sun on Earth should be the same as in vanilla Minecraft. Other celestial bodies are scaled proportionally. Since this affects the timing of eclipses, must be here on the server side.
+	vanilla_sun_size = true
+
+[time]
+	#The initial julian date. Since Minecraft days start at 6 AM, it is recommended to honor this in the date.
+	# Default: 2451544.75
+	# Range: 0.0 ~ 1.7976931348623157E308
+	julian_date = 2451544.75
+	#A multiplier to the speed of Minecraft time
+	# Default: 1.0
+	# Range: 4.9E-324 ~ 1.7976931348623157E308
+	time_speed = 1.0

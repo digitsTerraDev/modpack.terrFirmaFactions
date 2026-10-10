@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "id": "night_stand_double_drawer",
+  "name": {
+    "translate": "collapsible_groups.group.night_stand_double_drawer",
+    "fallback": "Night Stand (Double Drawer)"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tff:rosewood_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_night_stand_double_drawer"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_night_stand_double_drawer"
+      }
+    ]
+  }
+}

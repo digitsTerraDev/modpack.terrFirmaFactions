@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "create_pillar",
+  "name": {
+    "translate": "collapsible_groups.group.create_pillar",
+    "fallback": "Create Pillar"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "create:veridium_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:scorchia_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:scoria_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:ochrum_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:crimsite_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:asurine_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:tuff_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:deepslate_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:dripstone_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:calcite_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:andesite_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:diorite_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:granite_pillar"
+      },
+      {
+        "type": "item",
+        "id": "create:limestone_pillar"
+      }
+    ]
+  }
+}

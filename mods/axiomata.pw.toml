@@ -1,0 +1,13 @@
+name = "Axiomata"
+filename = "axiomata-neoforge-0.1.0-beta.7+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a181e925402b321a2488888cab63c1db1a777585"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9069264
+project-id = 1713796

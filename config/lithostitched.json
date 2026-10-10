@@ -1,0 +1,5 @@
+{
+  // If disabled, some features will be turned off to prioritize parity with vanilla seeds. This includes custom wood type shipwrecks and some optimizations to Jigsaw structures.
+  "breaks_seed_parity": true,
+  "log_debug_messages": false
+}

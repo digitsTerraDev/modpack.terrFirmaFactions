@@ -1,0 +1,170 @@
+# Prints all system information like hardware, os (and version), capabilities, supported codecs and engines version (GL/VK/AL)
+# Turns out, this impacts A LOT in bootstrap performance because it runs BAT and SH scripts to obtain certain driver capabilities (I am looking at you NVIDIA)
+# Enable by developer request. This is usually requested once
+logSystemInformation = false
+
+[decoders]
+  # Hard cap (in MB) for image downloads consumed by TxMediaPlayer
+  # Sources above this limit are aborted before full buffering
+  # Allows math expressions
+  # Value must be greater than 1
+  maxImageSourceSize = 128
+
+[decoders.png]
+    # Decoder fails when PNG chunk data doesn't match with the CRC
+    failOnCorruptedData = true
+
+    # Use the PNG bKGD chunk as the disposal background colour
+    # When false, transparent disposal is used (recommended for compositing).
+    useBKGDChunk = false
+
+[decoders.svg]
+    # Default maximum dimension (px) when rasterizing vector SVG images
+    # SVG is resolution-independent; the larger raster side is capped to this, preserving aspect ratio (never upscaled)
+    # Allows math expressions
+    # Value must be less than '8192' and greater than '1'
+    maxSize = 512
+
+[decoders.vp8]
+    # Attempt to repair VP8 frames declaring broken token partition sizes instead of failing the decode
+    # Broken sizes are clamped to the bytes actually available; empty partitions are replaced with a duplicate of the previous one or with fake zeroed data
+    # Repaired frames decode best-effort and may show visual artifacts
+    brokenTokens = false
+
+[decoders.gif]
+    # Clamp animation frames whose image descriptor extends beyond the logical screen instead of failing the decode
+    # When false an out-of-bounds frame throws; when true it is clamped to the canvas (best-effort, may show artifacts)
+    clampImageDesc = false
+
+[network]
+  # Enables file storage server
+  # Used only on server-side
+  enableServer = false
+
+  # Force-Enable file storage server even on client-side
+  # NOTE: this doesn't mean that the server will be accessible from other devices, you need to open the port and set the remoteHost to your public IP or domain
+  forceEnableServer = false
+
+  # Maximum upload file size in megabytes, files larger than this will be rejected by the server
+  # Zero means unlimited, but be careful with that if your users aren't trustworthy enough
+  # NOTE: this doesn't affect manual file uploads to the server storage folder or existing files, but only uploads through the API
+  # Used only on server-side
+  # Allows math expressions
+  # Value must be greater than 0
+  maxUploadSize = 8
+
+  # Sets file storage server port, ask to your provider if the port is open worldwide before start the server or blame the lib
+  # Used only on server-side
+  # Value must be less than '65535' and greater than '1'
+  serverPort = 25572
+
+  # Sets the remote file server to upload and download files, it must match your game server IP or domain with the given port
+  # Include the scheme and port, e.g. http://your-host:25572/
+  # Used only on client-side
+  # Value must match with ^https?://([a-zA-Z0-9]([a-zA-Z0-9\-]*[a-zA-Z0-9])?)(\.([a-zA-Z0-9]([a-zA-Z0-9\-]*[a-zA-Z0-9])?))*(:\d{1,5})?(/.*)?$
+  # Allows (non-null) empty values
+  remoteHost = "http://localhost:25572/"
+
+  # The password to access the server, change this every time you have to update your server and the client to prevent external access and bandwidth abuse
+  # Used on server-side and client-side
+  # Value must contain 
+  # Allows (non-null) empty values
+  token = "watermedia_default_token_change_it"
+
+  # Default connect/read timeout for NetworkRequest, in milliseconds
+  # Value must be less than '600000' and greater than '1000'
+  timeout = 15000
+
+  # Maximum number of redirect hops NetworkRequest will follow before aborting
+  # Value must be less than '50' and greater than '0'
+  maxRedirects = 10
+
+  # Hard cap (in bytes) for NetworkRequest text/JSON bodies — anything larger throws
+  # Allows math expressions
+  # Value must be greater than 1024
+  maxTextSize = 16777216
+
+[media]
+  # Default quality for streaming media without a specified quality
+  # Accepted values are: [UNKNOWN, Q144P, LOWEST, LOWER, LOW, MEDIUM, HIGH, HIGHER, HIGHEST, Q8K]
+  defaultQuality = "HIGHER"
+
+  # Cleanup Interval in Minutes for all expired MRL or with errors (memory saver)
+  # MRL manager usually doesn't consume much memory, intervals below 60 minutes will not reduce memory consumption at all
+  cleanupInterval = 60.0
+
+  # Total on-disk budget (in MB) for the shared media cache store (network + codec tiers under %TEMP%)
+  # Checked after every cache write; once the store grows past this cap the oldest entries are evicted until it fits again
+  # Allows math expressions
+  # Value must be greater than 1
+  cacheMaxSize = 8192
+
+[media.ffmpeg]
+    # Disables FFMPEG bootstrap, run this requires a restart
+    disable = false
+
+    # Adds this path to the discovery path
+    # Path must not be the fat ffmpeg.exe file
+    # path must be a runtime path
+    customPath = ""
+
+    # Enables hardware-accelerated video decoding (NVDEC, QuickSync, D3D11VA, VAAPI...)
+    # Disable if you experience stutter, lag or black video — software decoding is often smoother on some GPUs (notably AMD)
+    hardwareAccel = true
+
+    # Configures how many audio packets read when video has an audio slave
+    # Increment this value if you find YouTube videos with slow playback
+    # Value must be less than '12' and greater than '1'
+    slavePacketReads = 3
+
+    # Enables the on-disk HTTP media cache used by FFMediaPlayer for small files
+    cache = true
+
+    # Maximum FFMediaPlayer network response size to cache, in megabytes
+    # Allows math expressions
+    # Value must be greater than 1
+    cacheMaxSize = 10
+
+    # FFMediaPlayer stream probing duration (FFmpeg analyzeduration), in milliseconds
+    # Higher values help FFmpeg detect audio/video parameters (sample rate, channels) on slow or live HLS streams, at the cost of startup latency
+    # Zero leaves FFmpeg's own default in place
+    # Value must be less than '60000' and greater than '0'
+    analyzeDuration = 7000
+
+    # FFMediaPlayer stream probing size (FFmpeg probesize), in megabytes
+    # Higher values let FFmpeg read more data while detecting stream parameters, improving codec detection on streams with sparse headers
+    # Allows math expressions
+    # Value must be greater than 1
+    probeSize = 10
+
+[media.watertx]
+    # Enables the on-disk HTTP image cache used by TxMediaPlayer
+    cache = true
+
+    # Enables the on-disk BC7/DDS codec cache used by TxMediaPlayer
+    # Decoded frames are recompressed to GPU block-compressed textures (DDS) so replays skip the decode and use a quarter of the VRAM
+    # Requires GPU block-compression support; ignored when the BC codecs are unavailable
+    codecCache = false
+
+    # VRAM budget (in MB) for keeping an animated image as one GL texture per frame
+    # Animations whose decoded frames fit under this budget skip per-frame streaming entirely (best performance, like v2)
+    # Set to 0 to force TxMediaPlayer to stream animated image frames into a single texture
+    # Value must be less than '512' and greater than '0'
+    texturesBudget = 32
+
+[platforms]
+  # Allow resolving streams/videos marked as mature content (e.g. Kick).
+  # When false, mature streams throw and never reach the player.
+  allowMatureContent = false
+
+  # Cleanup interval in minutes for the in-memory platform search results cache
+  # Identical searches are served from memory until the whole cache is flushed on this interval (general sweep)
+  # Set to 0 to disable caching and always query the platforms
+  searchCacheCleanup = 15.0
+
+  # BiliBili session cookie for authenticated access
+  # Without it only 360p/480p are available, with a free account up to 1080p, VIP up to 8K
+  # Value should look like: SESSDATA=abc123; bili_jct=def456; DedeUserID=789
+  # Value must contain 
+  # Allows (non-null) empty values
+  biliBiliCookie = ""

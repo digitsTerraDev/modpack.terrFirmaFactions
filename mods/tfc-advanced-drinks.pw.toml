@@ -1,0 +1,13 @@
+name = "TFC Advanced Drinks"
+filename = "jsdrinks-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "13234bbc9f53009df5ad004ade918e9f7ee15b38"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9056513
+project-id = 1722839

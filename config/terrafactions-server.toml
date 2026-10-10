@@ -1,0 +1,196 @@
+[power]
+	#Base maximum power available to every faction.
+	# Default: 20
+	# Range: > 0
+	basePower = 20
+	#Additional maximum power supplied by each faction member.
+	# Default: 20
+	# Range: > 0
+	powerPerMember = 20
+	#Power lost whenever a faction member dies in PvP.
+	# Default: 10
+	# Range: > 0
+	deathPowerPenalty = 10
+	#Ticks between faction power regeneration pulses.
+	# Default: 12000
+	# Range: > 1
+	regenerationIntervalTicks = 12000
+	#Power restored to each outstanding player-attributed loss at every regeneration pulse.
+	# Default: 1
+	# Range: > 0
+	regenerationAmount = 1
+	#Power consumed by one capital or core claim.
+	# Default: 10
+	# Range: > 1
+	coreClaimCost = 10
+	#Power consumed by one border claim.
+	# Default: 1
+	# Range: > 1
+	borderClaimCost = 1
+	#Border claims can be attacked at or below this fraction of maximum faction power.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	borderVulnerabilityPercent = 0.3
+
+[claims]
+	#Require new claims to share a cardinal edge with existing territory in that dimension.
+	requireSideConnectivity = true
+	#Maximum chunk radius in which players can claim territory from JourneyMap.
+	# Default: 3
+	# Range: > 0
+	journeyMapClaimRadius = 3
+	#Hide players from each other's JourneyMap radar unless they belong to the same faction.
+	journeyMapFactionOnlyPlayerRadar = true
+	#Maximum power that can be allocated to one faction anchor.
+	# Default: 1000
+	# Range: > 0
+	maximumAnchorPower = 1000
+	#Ticks between periodic anchor border reconciliations. Overlapping projections are awarded by effective anchor power and distance.
+	# Default: 200
+	# Range: > 1
+	anchorRecalculationIntervalTicks = 200
+	#Time an exposed anchor stays protected and pending after losing its connection to the Capital Anchor.
+	# Default: 12000
+	# Range: > 0
+	anchorDisconnectionGraceTicks = 12000
+	#Y offset from a dimension's sea level required for an anchor to activate (0 means sea level).
+	# Default: 0
+	# Range: -128 ~ 320
+	anchorMinimumYAboveSeaLevel = 0
+	#Explosion damage required to breach a fractured Capital Anchor.
+	# Default: 100
+	# Range: > 1
+	coreSiegeDamageRequired = 100
+	#Maximum distance from the Capital Anchor at which an explosion applies siege damage.
+	# Default: 32
+	# Range: 1 ~ 256
+	coreSiegeRadiusBlocks = 32
+	#Ticks a newly created faction has to place its first anchor before being automatically disbanded.
+	# Default: 12000
+	# Range: > 20
+	factionAnchorPlacementDeadlineTicks = 12000
+
+[protections]
+	#Controls PvP in unclaimed territory. FORCED_ON is the default: faction protections never disable wilderness PvP.
+	#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+	outsidePvp = "FORCED_ON"
+
+	[protections.core]
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		blockBreaking = "FACTION_CONTROLLED"
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		blockPlacement = "FACTION_CONTROLLED"
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		blockInteractions = "FACTION_CONTROLLED"
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		entityInteractions = "FACTION_CONTROLLED"
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		liquidPlacement = "FACTION_CONTROLLED"
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		explosions = "FACTION_CONTROLLED"
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		pvp = "FACTION_CONTROLLED"
+
+	[protections.border]
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		blockBreaking = "FACTION_CONTROLLED"
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		blockPlacement = "FACTION_CONTROLLED"
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		blockInteractions = "FACTION_CONTROLLED"
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		entityInteractions = "FACTION_CONTROLLED"
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		liquidPlacement = "FACTION_CONTROLLED"
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		explosions = "FACTION_CONTROLLED"
+		#FACTION_CONTROLLED lets faction leadership toggle this protection; FORCED_ON and FORCED_OFF override every faction.
+		#Allowed Values: FACTION_CONTROLLED, FORCED_ON, FORCED_OFF
+		pvp = "FACTION_CONTROLLED"
+
+[war]
+	#Real-world minutes between declaring a formal war and it becoming eligible to start.
+	# Default: 10
+	# Range: 0 ~ 10080
+	preparationDurationMinutes = 10
+	#When true, formal wars begin only in the defender's configured UTC daily window. When false, a war begins as soon as its preparation period ends.
+	warWindowsEnabled = true
+	#Default UTC minute of day at which a faction's daily war window begins (0-1439).
+	# Default: 720
+	# Range: 0 ~ 1439
+	defaultWindowStartUtcMinute = 720
+	#Default real-world duration, in minutes, of a faction's daily UTC war window.
+	# Default: 360
+	# Range: 1 ~ 1440
+	defaultWindowDurationMinutes = 360
+	#Ticks between Active Power pressure pulses during an active formal war.
+	# Default: 1200
+	# Range: > 20
+	powerDrainIntervalTicks = 1200
+	#Active Power removed from the defending faction per formal-war pressure pulse.
+	# Default: 2
+	# Range: > 0
+	powerDrainAmount = 2
+	#Ticks a placed War Camp spends establishing before it becomes active.
+	# Default: 12000
+	# Range: > 0
+	warCampEstablishmentDurationTicks = 12000
+	#Ticks after a war starts that an offensive side has to place its War Camp before forfeiting its goal.
+	# Default: 12000
+	# Range: > 20
+	warCampPlacementDeadlineTicks = 12000
+	#Maximum ticks an active war may last before all unfinished goals fail and the war resolves.
+	# Default: 1728000
+	# Range: > 20
+	maximumWarDurationTicks = 1728000
+	#Successful enemy sabotage interactions required to destroy a War Camp.
+	# Default: 10
+	# Range: > 1
+	warCampDestructionInteractions = 10
+	#Extra chunk gap allowed between a War Camp or occupied-anchor projection and the next anchor.
+	# Default: 3
+	# Range: > 0
+	anchorOccupationRangeChunks = 3
+	#One-second faction-presence pulses required to occupy or liberate an anchor.
+	# Default: 20
+	# Range: > 1
+	anchorSiegeInteractions = 20
+	#Ticks for conquest Integration Power to decay linearly to zero.
+	# Default: 1728000
+	# Range: > 1
+	integrationPowerDecayDurationTicks = 1728000
+	#Ticks that a successfully plundered anchor region remains breached.
+	# Default: 36000
+	# Range: > 1
+	plunderBreachDurationTicks = 36000
+	#Allow the breaching faction to break ordinary blocks inside active Plunder regions.
+	plunderAllowBlockBreaking = true
+	#Allow the breaching faction to place blocks inside active Plunder regions.
+	plunderAllowBlockPlacement = true
+	#Allow the breaching faction to use containers, machines, and non-player entities in active Plunder regions.
+	plunderAllowInteractions = true
+	#Total allocated Power of enemy anchors that must be occupied to complete a Punitive goal.
+	# Default: 300
+	# Range: > 1
+	punitiveRequiredAnchorPower = 300
+	#Ticks that a victorious Punitive suppression remains active (default: about three days at 20 TPS).
+	# Default: 5184000
+	# Range: > 1
+	punitiveSuppressionDurationTicks = 5184000
+	#Fraction of permanent faction Power suppressed after a Punitive victory.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	punitiveSuppressionPercent = 0.2

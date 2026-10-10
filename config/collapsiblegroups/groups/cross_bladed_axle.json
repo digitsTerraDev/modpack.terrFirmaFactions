@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "cross_bladed_axle",
+  "name": {
+    "translate": "collapsible_groups.group.cross_bladed_axle",
+    "fallback": "Cross Bladed Axle"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/pine"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/hickory"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/birch"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/ash"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/palm"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/kapok"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/acacia"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/oak"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/spruce"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/aspen"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/maple"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/willow"
+      },
+      {
+        "type": "item",
+        "id": "tfcfasttriphammer:cross_bladed_axle/sycamore"
+      }
+    ]
+  }
+}

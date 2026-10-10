@@ -1,18 +1,13 @@
-filename = 'kotlinforforge-5.12.0-all.jar'
-name = 'Kotlin for Forge'
-side = 'both'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20.6', '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '5.12.0'
+name = "Kotlin for Forge"
+filename = "kotlinforforge-5.12.0-all.jar"
+side = "both"
 
 [download]
-hash = 'b8c3942f4d33179edf3f102f3d870b99dd436f8b8236dbbd31aa51b888162c692cfd88927295f24dc8b4375232f4c6c17360c5d6c4823f93cbcd7cf4bdc8bd14'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/ordsPcFz/versions/uhJhCT7X/kotlinforforge-5.12.0-all.jar'
+url = "https://cdn.modrinth.com/data/ordsPcFz/versions/uhJhCT7X/kotlinforforge-5.12.0-all.jar"
+hash-format = "sha512"
+hash = "b8c3942f4d33179edf3f102f3d870b99dd436f8b8236dbbd31aa51b888162c692cfd88927295f24dc8b4375232f4c6c17360c5d6c4823f93cbcd7cf4bdc8bd14"
 
+[update]
 [update.modrinth]
-mod-id = 'ordsPcFz'
-version = 'uhJhCT7X'
+mod-id = "ordsPcFz"
+version = "uhJhCT7X"

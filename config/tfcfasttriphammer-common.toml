@@ -1,0 +1,11 @@
+[trip_hammer]
+	#When true, the Trip Hammer automatically solves and executes the correct
+	#ForgeStep sequence to complete any anvil recipe.
+	#When false, the Trip Hammer keeps its original behavior (only HIT_LIGHT).
+	autoForge = true
+	#Target ForgingBonus level for auto-forged products (0=None, 1=Modest,
+	#2=Well, 3=Expert, 4=Perfect). Only applied to recipes that can receive a bonus.
+	#Set to 0 for no bonus.
+	# Default: 4
+	# Range: 0 ~ 4
+	forgingBonus = 4

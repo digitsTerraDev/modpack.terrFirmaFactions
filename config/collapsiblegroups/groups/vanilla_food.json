@@ -1,0 +1,801 @@
+{
+  "schema_version": 1,
+  "id": "vanilla_food",
+  "name": {
+    "translate": "collapsible_groups.group.vanilla_food",
+    "fallback": "Vanilla Food"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:brown_mushroom",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:red_mushroom",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:crimson_fungus",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:warped_fungus",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:sugar_cane",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:cocoa_beans",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:glow_berries",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:sweet_berries",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:egg",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:apple",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:golden_apple",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:melon_slice",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:chorus_fruit",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:carrot",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:golden_carrot",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:potato",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:baked_potato",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:beetroot",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:dried_kelp",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:beef",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:cooked_beef",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:porkchop",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:cooked_porkchop",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:mutton",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:cooked_mutton",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:chicken",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:cooked_chicken",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:wheat",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:suspicious_stew",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              },
+              "minecraft:suspicious_stew_effects": [
+                {
+                  "id": "minecraft:nausea",
+                  "duration": 100
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:suspicious_stew",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              },
+              "minecraft:suspicious_stew_effects": [
+                {
+                  "id": "minecraft:wither"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:suspicious_stew",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              },
+              "minecraft:suspicious_stew_effects": [
+                {
+                  "id": "minecraft:poison",
+                  "duration": 240
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:suspicious_stew",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              },
+              "minecraft:suspicious_stew_effects": [
+                {
+                  "id": "minecraft:jump_boost",
+                  "duration": 120
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:suspicious_stew",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              },
+              "minecraft:suspicious_stew_effects": [
+                {
+                  "id": "minecraft:regeneration"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:suspicious_stew",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              },
+              "minecraft:suspicious_stew_effects": [
+                {
+                  "id": "minecraft:weakness",
+                  "duration": 180
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:suspicious_stew",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              },
+              "minecraft:suspicious_stew_effects": [
+                {
+                  "id": "minecraft:blindness"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:suspicious_stew",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              },
+              "minecraft:suspicious_stew_effects": [
+                {
+                  "id": "minecraft:fire_resistance",
+                  "duration": 80
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:suspicious_stew",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              },
+              "minecraft:suspicious_stew_effects": [
+                {
+                  "id": "minecraft:night_vision",
+                  "duration": 100
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:suspicious_stew",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              },
+              "minecraft:suspicious_stew_effects": [
+                {
+                  "id": "minecraft:saturation",
+                  "duration": 7
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:rabbit_stew",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:beetroot_soup",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:pumpkin_pie",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:cookie",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:bread",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:tropical_fish",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:cooked_salmon",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:salmon",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:cooked_cod",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:cod",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:cooked_rabbit",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:rabbit",
+            "components": {
+              "tfc:heat": {},
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "minecraft:mushroom_stew",
+            "components": {
+              "tfc:food": {
+                "creation_date": 3484800
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

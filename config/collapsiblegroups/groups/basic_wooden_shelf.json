@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "basic_wooden_shelf",
+  "name": {
+    "translate": "collapsible_groups.group.basic_wooden_shelf",
+    "fallback": "Basic Wooden Shelf"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tff:rosewood_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_basic_wooden_shelf"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_basic_wooden_shelf"
+      }
+    ]
+  }
+}

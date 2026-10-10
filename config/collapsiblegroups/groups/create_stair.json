@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "create_stair",
+  "name": {
+    "translate": "collapsible_groups.group.create_stair",
+    "fallback": "Create Stair"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "create:copper_shingle_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:exposed_copper_shingle_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:weathered_copper_shingle_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:oxidized_copper_shingle_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:waxed_copper_shingle_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:waxed_exposed_copper_shingle_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:weathered_copper_tile_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:oxidized_copper_tile_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:waxed_weathered_copper_shingle_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:waxed_oxidized_copper_shingle_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:copper_tile_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:exposed_copper_tile_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:waxed_copper_tile_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:waxed_exposed_copper_tile_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:waxed_weathered_copper_tile_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:waxed_oxidized_copper_tile_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_granite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_granite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_granite_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_granite_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_diorite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_diorite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_diorite_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_diorite_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_andesite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_andesite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_andesite_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_andesite_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_calcite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_calcite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_calcite_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_calcite_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_dripstone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_dripstone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_dripstone_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_dripstone_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_deepslate_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_deepslate_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_deepslate_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_deepslate_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_tuff_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_tuff_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_tuff_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_tuff_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_asurine_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_asurine_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_asurine_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_asurine_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_crimsite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_crimsite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_crimsite_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_crimsite_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_limestone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_limestone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_veridium_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_veridium_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_veridium_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_veridium_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_scorchia_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_scorchia_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_scorchia_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_scorchia_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_scoria_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_scoria_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_scoria_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_scoria_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_ochrum_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_ochrum_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_ochrum_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_ochrum_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:small_limestone_brick_stairs"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_limestone_brick_stairs"
+      }
+    ]
+  }
+}

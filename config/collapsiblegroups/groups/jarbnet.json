@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "jarbnet",
+  "name": {
+    "translate": "collapsible_groups.group.jarbnet",
+    "fallback": "Jarbnet"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/willow"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/sycamore"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/spruce"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/pine"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/palm"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/oak"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/maple"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/kapok"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/hickory"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/birch"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/aspen"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/ash"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/jarbnet/acacia"
+      }
+    ]
+  }
+}

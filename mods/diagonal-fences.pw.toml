@@ -1,0 +1,13 @@
+name = "Diagonal Fences"
+filename = "DiagonalFences-v21.1.1-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d77da342ec4fcdea694911cba068e310a0230621"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5918197
+project-id = 458048

@@ -1,0 +1,13 @@
+name = "Engineered Schematics"
+filename = "engineered_schematics-2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/t4meWc1o/versions/qLB02VDS/engineered_schematics-2.0.jar"
+hash-format = "sha512"
+hash = "73af034406a8ec46db4a27e1b4422a7db8c2ba7b5a3417e323b0ebe434a5ef8f464d69eef20d197fbefc011d283183a8d509a423596223c86b9bb11dc971d6a1"
+
+[update]
+[update.modrinth]
+mod-id = "t4meWc1o"
+version = "qLB02VDS"

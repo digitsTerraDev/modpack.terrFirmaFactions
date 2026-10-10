@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "flagstones_slab",
+  "name": {
+    "translate": "collapsible_groups.group.flagstones_slab",
+    "fallback": "Flagstones Slab"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:concrete_road_flagstones_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:yellow_sandstone_flagstones_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:white_sandstone_flagstones_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:red_sandstone_flagstones_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/granite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/diorite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/gabbro_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/shale_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/claystone_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/limestone_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/conglomerate_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/dolomite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/chert_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/chalk_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/tuff_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/rhyolite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/basalt_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/andesite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/dacite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/quartzite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/slate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/slate_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/slate_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/phyllite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/schist_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/gneiss_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/marble_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:black_sandstone_flagstones_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:brown_sandstone_flagstones_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:green_sandstone_flagstones_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:pink_sandstone_flagstones_slab"
+      }
+    ]
+  }
+}

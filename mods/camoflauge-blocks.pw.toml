@@ -1,0 +1,13 @@
+name = "Camoflauge Blocks"
+filename = "[NEOFORGE-1.21.1]camo-blocks-mod-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d8aa20f3b882732e00ab40cfeafcc1bf231b76a0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7918637
+project-id = 1511562

@@ -1,0 +1,8 @@
+{
+  "show_builtin": true,
+  "show_kubejs": true,
+  "hide_used": true,
+  "manager_source_filter": "user",
+  "manager_sort_mode": "priority",
+  "manager_show_empty": false
+}

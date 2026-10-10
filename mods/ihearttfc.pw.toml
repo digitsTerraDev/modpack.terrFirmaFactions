@@ -1,0 +1,13 @@
+name = "I ❤ TFC (I Heart TFC)"
+filename = "I Heart TFC-1.21.1-1.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cc9f7a0b77e0f2cc8d7f2edbc6c11cecb9b944c8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7455936
+project-id = 1118578

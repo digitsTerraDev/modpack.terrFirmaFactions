@@ -1,0 +1,13 @@
+name = "Fantasy Language System"
+filename = "langsystem-1.51.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "94f74661c18d18a8af2e6da7d294c84061afa64a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9089972
+project-id = 1669563

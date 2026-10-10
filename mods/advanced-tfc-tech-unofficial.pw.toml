@@ -1,0 +1,25 @@
+filename = 'AdvancedTFCTech-NeoForge-1.21.1-3.3.jar'
+name = 'Advanced TFC Tech Unofficial'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.3'
+
+[download]
+hash = '8d928eb00001c59a4f0be735f1d7ff95d8872160ad33a58fc7c6bcd0557c84429d95356a39407cef1cadd58aabb792d1dbaafc0228a4fb72f8c04a272be732e8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wEKs9gH0/versions/xzXArmox/AdvancedTFCTech-NeoForge-1.21.1-3.3.jar'
+
+[update.modrinth]
+mod-id = 'wEKs9gH0'
+version = 'xzXArmox'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JaCEZUhg'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'tIm2nV03'
+type = 'REQUIRED'

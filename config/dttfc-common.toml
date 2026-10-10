@@ -1,0 +1,3 @@
+#Settings for Dynamic Trees TerraFirmaCraft
+#Set Dynamic Trees configurations to match TFC expectations: Passable Leaves, Trees yield 1.5x wood, Leaf seed drops 2%, Axe damaged from tree volume
+tweakDTConfigs = false

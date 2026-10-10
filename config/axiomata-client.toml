@@ -1,0 +1,10 @@
+#Config layout version, not the mod version. Leave this unchanged.
+#Adding settings does not change the layout version.
+# Default: 1
+# Range: > 1
+configVersion = 1
+
+[updates]
+	#Show a download link in chat once per game launch when a newer version is available.
+	#The loader checks for updates; this only controls the chat message.
+	showNotice = true

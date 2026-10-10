@@ -1,0 +1,13 @@
+name = "Two Players One Horse"
+filename = "twoplayersonehorse-neoforge-1.21.1-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c4256096b78ef3e1d90e70d392efede6e0fa3ea1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6620900
+project-id = 432444

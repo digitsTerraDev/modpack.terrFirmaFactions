@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "reaper",
+  "name": {
+    "translate": "collapsible_groups.group.reaper",
+    "fallback": "Reaper"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "astikorcartsredux:oak_reaper"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:spruce_reaper"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:birch_reaper"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:acacia_reaper"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:cherry_reaper"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:jungle_reaper"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:dark_oak_reaper"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:crimson_reaper"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:bamboo_reaper"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:mangrove_reaper"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:warped_reaper"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+[chainDistances]
+	#Tier 0 — Bismuth, Tin, Zinc
+	# Default: 3
+	# Range: 1 ~ 512
+	tier0 = 3
+	#Tier I — Copper
+	# Default: 8
+	# Range: 1 ~ 512
+	tier1 = 8
+	#Tier II — Bronze, Bismuth Bronze, Black Bronze
+	# Default: 13
+	# Range: 1 ~ 512
+	tier2 = 13
+	#Tier III — Wrought Iron
+	# Default: 18
+	# Range: 1 ~ 512
+	tier3 = 18
+	#Tier IV — Steel
+	# Default: 26
+	# Range: 1 ~ 512
+	tier4 = 26
+	#Tier V — Black Steel
+	# Default: 31
+	# Range: 1 ~ 512
+	tier5 = 31
+	#Tier VI — Blue Steel, Red Steel (longest TFC reach)
+	# Default: 38
+	# Range: 1 ~ 512
+	tier6 = 38
+	#Max distance when using vanilla minecraft:chain
+	# Default: 38
+	# Range: 1 ~ 512
+	vanillaMax = 38

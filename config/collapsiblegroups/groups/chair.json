@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "chair",
+  "name": {
+    "translate": "collapsible_groups.group.chair",
+    "fallback": "Chair"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tff:rosewood_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_chair"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_chair"
+      }
+    ]
+  }
+}

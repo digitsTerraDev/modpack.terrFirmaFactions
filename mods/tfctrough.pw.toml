@@ -1,0 +1,13 @@
+name = "TFCtrough"
+filename = "tfctrough-1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "919165a9b95801da6ada4b57ddc8616b05e3e3eb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8257705
+project-id = 1508002

@@ -1,7 +1,0 @@
-#Whether to limit world generation to fit the current map projection. Similar to "Finite Continents".
-limitWorldGenerationOutsideMapProjection = true
-#What map/world projection to use on new worlds.
-#Allowed Values: CRASTER_PARABOLIC, TFC_REAL_WORLD_FULL_WORLD, TFC_REAL_WORLD_NEW_WORLD, TFC_REAL_WORLD_OLD_WORLD
-mapProjection = "CRASTER_PARABOLIC"
-#Whether to prevent island and hotspot volcanoes outside the "world".
-keepIslandsAndHotspotVolcanoesInside = true

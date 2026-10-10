@@ -1,0 +1,90 @@
+[minigame_settings]
+	#Speed of the cursor. (Default: 0.02)
+	# Default: 0.02
+	# Range: 0.001 ~ 0.5
+	cursor_speed = 0.02
+	#Multiplier for missing the sweet spot. (Default: 3.0)
+	# Default: 3.0
+	# Range: 0.0 ~ 10.0
+	punish_multiplier = 3.0
+	#Minimum quality score if you miss completely. (Default: 0.2)
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	minimum_score = 0.2
+
+[marksmanship]
+	#Master toggle for the archery skill / XP system.
+	archery_skill_enabled = false
+	#XP gained for landing an arrow on a living target.
+	# Default: 2
+	# Range: 0 ~ 1000
+	xp_per_hit = 2
+	#Extra XP when the arrow hits the top of the target's hitbox (a headshot).
+	# Default: 3
+	# Range: 0 ~ 1000
+	xp_headshot_bonus = 3
+	#Extra XP when an arrow hit kills the target.
+	# Default: 5
+	# Range: 0 ~ 1000
+	xp_per_kill = 5
+	#Maximum archery level a player can reach.
+	# Default: 50
+	# Range: 1 ~ 1000
+	max_level = 50
+	#Skill points a capstone costs. Capstones unlock at the tip of a maxed branch.
+	#At the defaults (max level 50, 3 branches of 10 ranks, cost 10, two capstones)
+	#a fully levelled archer spends exactly every point.
+	# Default: 10
+	# Range: 1 ~ 1000
+	capstone_cost = 10
+	#How many of the three capstones one archer may own. Choosing is the point.
+	# Default: 2
+	# Range: 0 ~ 3
+	max_capstones = 2
+
+[eagles]
+	#Whether eagles spawn naturally in the world (mountain-biome spawn pool + nest worldgen feature).
+	#Enabled by default. The spawn-egg item still works regardless.
+	#Set to false to disable natural spawning; no other changes needed.
+	natural_spawning = false
+
+[crafting]
+	#Whether a bow can be built from two different woods, creating a composite that
+	#blends both limbs' stats. Powerful, so it is off by default.
+	#While off, two different limbs simply will not assemble.
+	composite_bows = false
+	#Restringing a bow or crossbow at the Fletching Table restores this share of its
+	#durability (0.5 = half). Photosynthesis is the other repair route, for wooden bows.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	restring_repair = 0.5
+	#Retuning a bow or crossbow without restringing it costs this share of its durability:
+	#tuning works the string. A retune that would break the weapon is refused.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	retune_cost = 0.1
+
+[world]
+	#Whether skeletons, strays, bogged and pillagers can spawn carrying modular bows and
+	#crossbows. Which mobs, how often and which woods live in the data map
+	#data/fletcherstrestle/data_maps/entity_type/mob_armory.json, so packs can extend it.
+	armed_mobs = true
+
+[garrison]
+	#How far an emplacement shoots, in blocks.
+	# Default: 16
+	# Range: 1 ~ 128
+	range = 16
+	#Its range with a scope (any attachment that zooms) fitted.
+	# Default: 32
+	# Range: 1 ~ 128
+	scoped_range = 32
+	#Half the firing cone, in degrees either side of the emplacement's facing.
+	# Default: 45
+	# Range: 1 ~ 180
+	half_cone = 45
+	#How far a Bolt Warden strays from where it was built, and how far from there it
+	#looks for emplacements to crew.
+	# Default: 16
+	# Range: 2 ~ 64
+	home_radius = 16

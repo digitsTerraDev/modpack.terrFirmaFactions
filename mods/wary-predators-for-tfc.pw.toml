@@ -1,13 +1,13 @@
 name = "Wary Predators for TFC"
-filename = "warypredators-0.1.4.jar"
+filename = "warypredators-0.1.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "53047b584a7bbf49511506ee0467a00dce7af109"
+hash = "bc28111209791bdbf29c300d8d534b7f1d992ba9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8563122
+file-id = 9040412
 project-id = 1626740

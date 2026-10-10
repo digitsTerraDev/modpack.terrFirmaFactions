@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "keg",
+  "name": {
+    "translate": "collapsible_groups.group.keg",
+    "fallback": "Keg"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/willow"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/sycamore"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/spruce"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/pine"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/palm"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/oak"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/maple"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/kapok"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/hickory"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/birch"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/aspen"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/ash"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/keg/acacia"
+      }
+    ]
+  }
+}

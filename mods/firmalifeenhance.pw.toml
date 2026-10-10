@@ -1,0 +1,13 @@
+name = "FirmalifeEnhance"
+filename = "FirmalifeEnhance-NeoForge-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f193ad6253f5764613b9d5e78cc6305a2ec0d9b6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9012128
+project-id = 1499784

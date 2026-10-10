@@ -1,0 +1,4 @@
+#The starting weight each player is capable of holding.
+# Default: 1000.0
+# Range: 0.0 ~ 1.7976931348623157E308
+startingWeight = 1000.0

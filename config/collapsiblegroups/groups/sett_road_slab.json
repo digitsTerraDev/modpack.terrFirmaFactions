@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "sett_road_slab",
+  "name": {
+    "translate": "collapsible_groups.group.sett_road_slab",
+    "fallback": "Sett Road Slab"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/granite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/diorite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/gabbro_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/shale_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/claystone_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/limestone_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/conglomerate_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/dolomite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/chert_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/chalk_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/tuff_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/rhyolite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/basalt_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/andesite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/dacite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/quartzite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/slate_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/phyllite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/schist_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/gneiss_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/marble_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:brick_road_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:concrete_road_sett_slab"
+      }
+    ]
+  }
+}

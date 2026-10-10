@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "id": "road_stair",
+  "name": {
+    "translate": "collapsible_groups.group.road_stair",
+    "fallback": "Road Stair"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:concrete_road_panel_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:cracked_trodden_concrete_road_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:trodden_concrete_road_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/basalt_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/basalt_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:concrete_road_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:cracked_concrete_road_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/marble_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/marble_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/marble_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/gneiss_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/gneiss_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/gneiss_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/chalk_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/chalk_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/schist_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/schist_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/schist_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/chalk_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/chert_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/phyllite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/tuff_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/tuff_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/tuff_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/rhyolite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/rhyolite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/rhyolite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/basalt_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/andesite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/andesite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/dacite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/dacite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/quartzite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/quartzite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/quartzite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/dacite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/andesite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/slate_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/slate_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/slate_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/phyllite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/phyllite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/chert_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/chert_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/dolomite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/dolomite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/dolomite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/conglomerate_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/conglomerate_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/conglomerate_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/limestone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/limestone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/limestone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/claystone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/claystone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/claystone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/shale_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/shale_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/shale_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/gabbro_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/gabbro_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/diorite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/diorite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/diorite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/granite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/granite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/granite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/gabbro_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:hoggin_stairs"
+      }
+    ]
+  }
+}

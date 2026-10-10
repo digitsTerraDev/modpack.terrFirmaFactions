@@ -1,0 +1,81 @@
+{
+  "_comment": "One entry per animal, keyed by entity ID (e.g. \"minecraft:cow\"). New animals are added with their detected diet the first time they are seen. Every key inside an entry is optional: anything left out uses the value from animalweights.json. Example: \"minecraft:strider\": {\"diet\": \"NETHER\", \"maxWeight\": 4, \"weightGainChance\": 0.25}.",
+  "_comment_diet": "What the animal needs nearby to gain weight, on top of light and open space. HERBIVORE: water and grazing ground. CARNIVORE: water. OMNIVORE: water or grazing ground. AQUATIC: water. NETHER: lava and nylium or netherrack (light is optional), and it only gains weight in the Nether unless netherAnimalsGainAnywhere is on. Leave it out to let the mod detect it. Possible inputs: HERBIVORE, CARNIVORE, OMNIVORE, AQUATIC, NETHER.",
+  "_comment_minWeight": "Lowest weight this animal can drop to. Whole number, 0 or higher.",
+  "_comment_maxWeight": "Highest weight this animal can reach. Higher weight means more drops and XP. Whole number, at least minWeight + 1.",
+  "_comment_defaultWeight": "Weight this animal starts at. Whole number between minWeight and maxWeight.",
+  "_comment_sickThreshold": "At or below this weight the animal is sick: it gets a tint and particles, and cannot breed. Whole number.",
+  "_comment_weightTickIntervalTicks": "How often this animal's weight is rechecked, in game ticks. 20 ticks = 1 second. Minimum 20.",
+  "_comment_weightGainChance": "Chance from 0.0 to 1.0 for this animal to gain weight when its habitat is good.",
+  "_comment_weightMinorLossChance": "Chance from 0.0 to 1.0 for this animal to lose weight when its habitat is poor.",
+  "_comment_weightSevereLossChance": "Chance from 0.0 to 1.0 for this animal to lose weight when its habitat is very poor.",
+  "minecraft:chicken": {
+    "diet": "OMNIVORE"
+  },
+  "minecraft:cow": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:donkey": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:hoglin": {
+    "diet": "NETHER"
+  },
+  "minecraft:horse": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:pig": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:sheep": {
+    "diet": "HERBIVORE"
+  },
+  "minecraft:wolf": {
+    "diet": "CARNIVORE"
+  },
+  "tfc:alpaca": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:chicken": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:cow": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:donkey": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:duck": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:fox": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:frog": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:goat": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:horse": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:mule": {
+    "diet": "OMNIVORE"
+  },
+  "tfc:musk_ox": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:pig": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:quail": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:rabbit": {
+    "diet": "HERBIVORE"
+  },
+  "tfc:sheep": {
+    "diet": "HERBIVORE"
+  }
+}

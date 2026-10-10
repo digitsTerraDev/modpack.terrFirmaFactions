@@ -1,0 +1,30 @@
+#Show faction territory overlays in JourneyMap.
+overlayEnabled = true
+
+#Configure the territory radar HUD panel.
+[hud]
+	#Show this panel on the HUD.
+	enabled = false
+	#HUD scale. 1 is normal size.
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	scale = 1.0
+	#Panel background opacity. 0 is transparent and 1 is opaque.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	opacity = 1.0
+	#Horizontal position as a percentage of screen width.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	horizontalPercent = 1.0
+	#Vertical position as a percentage of screen height.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	verticalPercent = 1.0
+	#The point on the HUD attached to the configured screen position.
+	#Allowed Values: TOP_LEFT, TOP, TOP_RIGHT, LEFT, CENTER, RIGHT, BOTTOM_LEFT, BOTTOM, BOTTOM_RIGHT
+	anchor = "TOP_LEFT"
+	#Flash the warning when the current territory is vulnerable.
+	vulnerabilityFlashEnabled = true
+	#Show your faction power and claim security in the radar panel.
+	factionInfoEnabled = true

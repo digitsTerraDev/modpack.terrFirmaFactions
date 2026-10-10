@@ -1,0 +1,13 @@
+name = "TFC Fast Trip Hammer"
+filename = "tfcfasttriphammer-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2d0be07fdd5bed8412fbcb2004b79b6ffc7d9f6b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8885059
+project-id = 1584883

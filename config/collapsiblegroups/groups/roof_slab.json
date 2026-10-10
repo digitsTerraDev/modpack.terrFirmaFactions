@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "roof_slab",
+  "name": {
+    "translate": "collapsible_groups.group.roof_slab",
+    "fallback": "Roof Slab"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/willow_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/white_cedar_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/sycamore_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/spruce_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/sequoia_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/rosewood_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/pine_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/palm_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/oak_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/maple_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/mangrove_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/kapok_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/hickory_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/douglas_fir_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/chestnut_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/blackwood_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/birch_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/aspen_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/ash_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/acacia_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:ceramic_roof_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:terracotta_roof_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:thatch_roof_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:roof_frame_slab"
+      }
+    ]
+  }
+}

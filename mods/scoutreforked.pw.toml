@@ -1,0 +1,13 @@
+name = "Scout Reforked"
+filename = "scoutreforked-0.0.7-neoforged-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "005c4ab0340af0ac66e41852634f426a9593a5b9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8954140
+project-id = 1283433

@@ -1,0 +1,18 @@
+filename = 'create_train_physics-0.1.jar'
+name = 'Create Train Physics'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.1'
+
+[download]
+hash = 'cd41bd9d4fdc4d9c36596dfd166cb70b64fdd9151dcbe68ebffa38ba7ba40d595c2d9671da3073ed38414db90f929d165cdf797a0351a2f9bab3d3ba646a1355'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5nYnKExR/versions/D6Oe3qC9/create_train_physics-0.1.jar'
+
+[update.modrinth]
+mod-id = '5nYnKExR'
+version = 'D6Oe3qC9'

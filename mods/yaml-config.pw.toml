@@ -1,0 +1,13 @@
+name = "YAML Config"
+filename = "yamlconfig-9.0.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/L1FFB418/versions/KDUgkC1O/yamlconfig-9.0.0-neoforge.jar"
+hash-format = "sha512"
+hash = "72c636db1c4c367f0f83cdb6cb45b49bf663670f4c90280373382896d781f1350004ac4b7e68c6e6d5ca12a88dbdbaea184065aa07ae9b436f951d34a7b4020d"
+
+[update]
+[update.modrinth]
+mod-id = "L1FFB418"
+version = "KDUgkC1O"

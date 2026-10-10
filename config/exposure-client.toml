@@ -73,7 +73,7 @@
 	#Default: false
 	force_direct_capture = false
 	#Direct capture will be used if any of these mods is installed.
-	#Format: '["mod_id", "mod_id"]'. Default: [veil, pmweather]
+	#Format: '["mod_id", "mod_id"]'. Default: [veil, pmweather, renderscale]
 	force_direct_capture_default_mods = ["veil", "pmweather"]
 	#Delay in frames before capturing an image if 'direct_capture' method is in use.
 	#Set to higher value when leftovers of GUI elements (such as nameplates) are visible on the images
@@ -143,7 +143,7 @@
 [tutorial]
 	#Toast that teaches hovering mouse over camera parts will be shown when attachments menu is first opened. Default: true.
 	#*This setting will be automatically set to false on first show.*
-	attachments_show_info_toast = true
+	attachments_show_info_toast = false
 	#Toast that teaches wiki opening will be shown when attachments menu is first opened, after info toast. Default: true.
 	#*This setting will be automatically set to false on first show.*
 	attachments_show_wiki_toast = true

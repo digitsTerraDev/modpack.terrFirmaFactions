@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "id": "road",
+  "name": {
+    "translate": "collapsible_groups.group.road",
+    "fallback": "Road"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:concrete_road_panel"
+      },
+      {
+        "type": "item",
+        "id": "rnr:cracked_trodden_concrete_road"
+      },
+      {
+        "type": "item",
+        "id": "rnr:trodden_concrete_road"
+      },
+      {
+        "type": "item",
+        "id": "rnr:cracked_concrete_road"
+      },
+      {
+        "type": "item",
+        "id": "rnr:concrete_road_control_joint"
+      },
+      {
+        "type": "item",
+        "id": "rnr:concrete_road"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/marble"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/marble"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/marble"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/gneiss"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/gneiss"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/gneiss"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/schist"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/schist"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/schist"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/phyllite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/chert"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/chalk"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/chalk"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/gabbro"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/gabbro"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/gabbro"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/shale"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/shale"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/shale"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/basalt"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/andesite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/andesite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/andesite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/quartzite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/quartzite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/slate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/slate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/slate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/phyllite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/phyllite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/chert"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/chert"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/dolomite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/dolomite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/dolomite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/conglomerate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/conglomerate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/conglomerate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/limestone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/limestone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/limestone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/claystone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/claystone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/claystone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/diorite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/diorite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/diorite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/granite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/granite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/granite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:hoggin"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/chalk"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/tuff"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/tuff"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/tuff"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/rhyolite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/rhyolite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/rhyolite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/basalt"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/basalt"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/dacite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/dacite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/dacite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/quartzite"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+#Allowed Values: ONE, THREE, MANY
+crate_item_rendering = "THREE"

@@ -1,13 +1,18 @@
-name = "PAUCAL"
-filename = "paucal-0.7.0+neoforge-1.21.1.jar"
-side = "both"
+filename = 'paucal-0.7.0+neoforge-1.21.1.jar'
+name = 'PAUCAL'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '0.7.0'
 
 [download]
-url = "https://cdn.modrinth.com/data/TZo2wHFe/versions/zgpdzVKd/paucal-0.7.0%2Bneoforge-1.21.1.jar"
-hash-format = "sha512"
-hash = "49364da2d43ddbab5533300a2da0163ff6328f2680111efb2128822a497abd94c9c770b8844b21aabc57b77b8b275ae50cc2f922462cf44322b58cf4916ae467"
+hash = '49364da2d43ddbab5533300a2da0163ff6328f2680111efb2128822a497abd94c9c770b8844b21aabc57b77b8b275ae50cc2f922462cf44322b58cf4916ae467'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TZo2wHFe/versions/zgpdzVKd/paucal-0.7.0%2Bneoforge-1.21.1.jar'
 
-[update]
 [update.modrinth]
-mod-id = "TZo2wHFe"
-version = "zgpdzVKd"
+mod-id = 'TZo2wHFe'
+version = 'zgpdzVKd'

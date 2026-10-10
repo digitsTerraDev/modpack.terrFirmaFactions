@@ -1,18 +1,13 @@
-filename = 'tfc_cans-1.0.2-1.21.1.jar'
-name = 'TFC More Cans and Jars'
-side = 'both'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.0.2-1.21.1'
+name = "TFC More Cans and Jars"
+filename = "tfc_cans-1.0.4-1.21.1.jar"
+side = "both"
 
 [download]
-hash = 'd83af436d89cbc623380bce1f6cbe6de1d845a8168cc347332384634d1beeba4cbc13c90e447956af8c54eecf4c7014a78212715a0ae95bf07f528d801b6470e'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/l2VkEWt8/versions/jonySxA7/tfc_cans-1.0.2-1.21.1.jar'
+url = "https://cdn.modrinth.com/data/l2VkEWt8/versions/xkwCykeX/tfc_cans-1.0.4-1.21.1.jar"
+hash-format = "sha512"
+hash = "1dae936cf03ec302845d34606694272db42401ec096b4ef2304300d2ebb78930d740568ba07d5befe053aceb43fed73aeb489efe8066b388de621d769b81e531"
 
+[update]
 [update.modrinth]
-mod-id = 'l2VkEWt8'
-version = 'jonySxA7'
+mod-id = "l2VkEWt8"
+version = "xkwCykeX"

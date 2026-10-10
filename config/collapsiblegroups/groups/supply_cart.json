@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "supply_cart",
+  "name": {
+    "translate": "collapsible_groups.group.supply_cart",
+    "fallback": "Supply Cart"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "astikorcartsredux:oak_supply_cart"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:spruce_supply_cart"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:birch_supply_cart"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:acacia_supply_cart"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:cherry_supply_cart"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:jungle_supply_cart"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:dark_oak_supply_cart"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:crimson_supply_cart"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:warped_supply_cart"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:mangrove_supply_cart"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:bamboo_supply_cart"
+      }
+    ]
+  }
+}

@@ -49,10 +49,19 @@ file = "config/advancedtfctech-client.toml"
 file = "config/advancedtfctech-server.toml"
 
 [[files]]
-file = "config/astages/astages-client.toml"
+file = "config/alternatingflux-server.toml"
 
 [[files]]
-file = "config/astages/astages-common.toml"
+file = "config/animaldiets.json"
+
+[[files]]
+file = "config/animalweights.json"
+
+[[files]]
+file = "config/apple_crates_client.toml"
+
+[[files]]
+file = "config/arc-common.yaml"
 
 [[files]]
 file = "config/astikorcartsredux-client.toml"
@@ -73,10 +82,22 @@ file = "config/auroras/overworld.json"
 file = "config/auroras/the_end.json"
 
 [[files]]
+file = "config/axiomata-client.toml"
+
+[[files]]
+file = "config/axiomata-server.toml"
+
+[[files]]
 file = "config/azimuth-client.toml"
 
 [[files]]
 file = "config/azimuth-common.toml"
+
+[[files]]
+file = "config/barebonesbrews-common.toml"
+
+[[files]]
+file = "config/barrels_2012-server.toml"
 
 [[files]]
 file = "config/better-advanced-tooltips-client.toml"
@@ -91,6 +112,21 @@ file = "config/butchercraft-common.toml"
 file = "config/c2tfc-common.toml"
 
 [[files]]
+file = "config/caelum-client.toml"
+
+[[files]]
+file = "config/caelum-server.toml"
+
+[[files]]
+file = "config/caelum_client--server_fallback.toml"
+
+[[files]]
+file = "config/chaoslib/chaoslib-client.json"
+
+[[files]]
+file = "config/chaoslib/chaoslib-common.json"
+
+[[files]]
 file = "config/chatanimation.json"
 
 [[files]]
@@ -98,6 +134,231 @@ file = "config/chloride-client.json"
 
 [[files]]
 file = "config/chunky/config.json"
+
+[[files]]
+file = "config/cirrus-client.json"
+
+[[files]]
+file = "config/collapsiblegroups/collapsiblegroups.toml"
+
+[[files]]
+file = "config/collapsiblegroups/expand_state.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/animal_cart.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/animal_cart_2.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/axle.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/barrel.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/barrel_press.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/basic_counter.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/basic_log_shelf.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/basic_wooden_shelf.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/bladed_axle.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/bookshelf.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/candle_holder.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/chair.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/create_brick_slab.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/create_brick_wall.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/create_bricks.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/create_chair.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/create_cut_wall.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/create_pillar.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/create_stair.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/cross_bladed_axle.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/cushion.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/encased_axle.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/flagstone.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/flagstones.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/flagstones_slab.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/flagstones_stairs.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/food_shelf.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/gravel_fill.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/hand_cart.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/height_gravel.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/jarbnet.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/kaleidoscope_chair.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/keg.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/log_counter.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/log_stool.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/log_wall_cabinet_double_door.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/log_wall_cabinet_single_door.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/log_wall_cabinet_with_shelf.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/night_stand_double_drawer.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/night_stand_single_drawer.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/pilot.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/plow.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/postbox.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/reaper.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/road.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/road_slab.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/road_stair.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/roof.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/roof_slab.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/roof_stairs.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/roof_tile.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/round_table.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/seat.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/seed_drill.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/sett_road.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/sett_road_slab.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/sett_stairs.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/shelf.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/stomping_barrel.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/stool.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/supply_cart.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/table.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/table_cloth.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/table_cloth_2.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/tall_stool.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/toolbox.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/valve_handle.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/vanilla_food.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/vanilla_minecraft.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/wine_shelf.json"
+
+[[files]]
+file = "config/collapsiblegroups/groups/wooden_wheel.json"
+
+[[files]]
+file = "config/collapsiblegroups/ui_state.json"
 
 [[files]]
 file = "config/configuration-options.json"
@@ -115,16 +376,7 @@ file = "config/create-client.toml"
 file = "config/create-common.toml"
 
 [[files]]
-file = "config/create-server-1.toml.bak"
-
-[[files]]
 file = "config/create-server.toml"
-
-[[files]]
-file = "config/create_central_kitchen-client.toml"
-
-[[files]]
-file = "config/create_central_kitchen-common.toml"
 
 [[files]]
 file = "config/create_connected-common.toml"
@@ -133,40 +385,16 @@ file = "config/create_connected-common.toml"
 file = "config/create_connected-server.toml"
 
 [[files]]
-file = "config/create_dragons_plus-client.toml"
-
-[[files]]
-file = "config/create_dragons_plus-common.toml"
-
-[[files]]
-file = "config/create_dragons_plus-server.toml"
-
-[[files]]
-file = "config/create_factory_logistics-server.toml"
-
-[[files]]
-file = "config/create_pickywheels_tfc_wind-server.toml"
-
-[[files]]
 file = "config/create_power_loader-server.toml"
 
 [[files]]
 file = "config/create_train_physics-common.toml"
 
 [[files]]
-file = "config/createbigcannons-client.toml"
-
-[[files]]
-file = "config/createbigcannons-server.toml"
-
-[[files]]
 file = "config/createbullettrain-common.toml"
 
 [[files]]
 file = "config/createcasing-common.toml"
-
-[[files]]
-file = "config/createhorsepower-server.toml"
 
 [[files]]
 file = "config/createjeicompat-client.toml"
@@ -182,9 +410,6 @@ file = "config/createoreexcavation-common.toml"
 
 [[files]]
 file = "config/createoreexcavation-server.toml"
-
-[[files]]
-file = "config/createpickywheels-common.toml"
 
 [[files]]
 file = "config/createvintageneoforged-client.toml"
@@ -211,13 +436,22 @@ file = "config/decay_2012-client.toml"
 file = "config/decay_2012-server.toml"
 
 [[files]]
+file = "config/defaultoptions-common.toml"
+
+[[files]]
 file = "config/delightfulcreators-server.toml"
 
 [[files]]
-file = "config/discordintegration-server.toml"
+file = "config/dndecor-server.toml"
 
 [[files]]
-file = "config/dndecor-server.toml"
+file = "config/drippyloadingscreen/early_window_reference.properties"
+
+[[files]]
+file = "config/drippyloadingscreen/options.txt"
+
+[[files]]
+file = "config/dttfc-common.toml"
 
 [[files]]
 file = "config/easy_factions-client.toml"
@@ -229,6 +463,9 @@ file = "config/easy_factions-objective.toml"
 file = "config/easy_factions-server.toml"
 
 [[files]]
+file = "config/effectdescriptions-client.toml"
+
+[[files]]
 file = "config/efwarborn-server.toml"
 
 [[files]]
@@ -236,6 +473,21 @@ file = "config/enhanced_bes.properties"
 
 [[files]]
 file = "config/entityculling.json"
+
+[[files]]
+file = "config/epicknights/armor.json5"
+
+[[files]]
+file = "config/epicknights/general.json5"
+
+[[files]]
+file = "config/epicknights/mobs_equipment.json5"
+
+[[files]]
+file = "config/epicknights/shields.json5"
+
+[[files]]
+file = "config/epicknights/weapons.json5"
 
 [[files]]
 file = "config/exposure-client.toml"
@@ -250,13 +502,25 @@ file = "config/exposure-server.toml"
 file = "config/fabric/indigo-renderer.properties"
 
 [[files]]
+file = "config/fancymenu/assets/1.mp4"
+
+[[files]]
+file = "config/fancymenu/assets/placeholder.png"
+
+[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
 
 [[files]]
-file = "config/fancymenu/customization/title_screen_layout.txt"
+file = "config/fancymenu/customization/ballright.txt"
+
+[[files]]
+file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+
+[[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -316,25 +580,28 @@ file = "config/ferritecore-mixin.toml"
 file = "config/firmalife-server.toml"
 
 [[files]]
+file = "config/firmalife_greenhouse_patch-common.toml"
+
+[[files]]
 file = "config/firmanutrition-server.toml"
 
 [[files]]
 file = "config/firmasupps-server.toml"
 
 [[files]]
-file = "config/flywheel-client-1.toml.bak"
+file = "config/flerovium.json"
+
+[[files]]
+file = "config/fletcherstrestle-client.toml"
+
+[[files]]
+file = "config/fletcherstrestle-server.toml"
 
 [[files]]
 file = "config/flywheel-client.toml"
 
 [[files]]
 file = "config/fml.toml"
-
-[[files]]
-file = "config/ftblibrary-client.snbt"
-
-[[files]]
-file = "config/ftbquests-client.snbt"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -352,19 +619,13 @@ file = "config/ftbquests/quests/chapters/primitive_age.snbt"
 file = "config/ftbquests/quests/data.snbt"
 
 [[files]]
-file = "config/ftbteams-server.snbt"
+file = "config/global_packs.toml"
 
 [[files]]
-file = "config/ftbxmodcompat.snbt"
+file = "config/heavyinventories-client.toml"
 
 [[files]]
-file = "config/greate-recipes.yaml"
-
-[[files]]
-file = "config/greate-server.toml"
-
-[[files]]
-file = "config/gtceu.yaml"
+file = "config/heavyinventories-common.toml"
 
 [[files]]
 file = "config/hexcasting-client.toml"
@@ -374,6 +635,33 @@ file = "config/hexcasting-common.toml"
 
 [[files]]
 file = "config/hexcasting-server.toml"
+
+[[files]]
+file = "config/historystages/global/_exampleStage.json"
+
+[[files]]
+file = "config/historystages/individual/Smith/Smith0.json"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-10_18-07-26.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-10_18-09-52.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-10_18-20-23.log"
+
+[[files]]
+file = "config/historystages/settings/gameplay.toml"
+
+[[files]]
+file = "config/historystages/settings/graph.toml"
+
+[[files]]
+file = "config/historystages/settings/visual.toml"
+
+[[files]]
+file = "config/ihearttfc-client.toml"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -391,16 +679,16 @@ file = "config/immersiveengineering-server.toml"
 file = "config/immersiveengineering-startup.toml"
 
 [[files]]
-file = "config/irons_jewelry-server.toml"
+file = "config/inventoryessentials-common.toml"
 
 [[files]]
-file = "config/irons_spellbooks-client.toml"
+file = "config/iris-excluded.json"
 
 [[files]]
-file = "config/irons_spellbooks-server.toml"
+file = "config/iris.properties"
 
 [[files]]
-file = "config/irons_spellbooks_spell_config/global_config.json"
+file = "config/item-restrictions-common.yaml"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -430,6 +718,39 @@ file = "config/jei-server.toml"
 file = "config/jei/blacklist.json"
 
 [[files]]
+file = "config/jei/client/default/jei-client.ini"
+
+[[files]]
+file = "config/jei/client/default/jei-colors.ini"
+
+[[files]]
+file = "config/jei/client/default/jei-debug.ini"
+
+[[files]]
+file = "config/jei/client/default/jei-mod-id-format.ini"
+
+[[files]]
+file = "config/jei/client/ingredient-list-mod-sort-order.ini"
+
+[[files]]
+file = "config/jei/client/ingredient-list-type-sort-order.ini"
+
+[[files]]
+file = "config/jei/client/jei-client.ini"
+
+[[files]]
+file = "config/jei/client/jei-colors.ini"
+
+[[files]]
+file = "config/jei/client/jei-debug.ini"
+
+[[files]]
+file = "config/jei/client/jei-mod-id-format.ini"
+
+[[files]]
+file = "config/jei/client/recipe-category-sort-order.ini"
+
+[[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
 
 [[files]]
@@ -451,10 +772,28 @@ file = "config/jei/jei-mod-id-format.ini"
 file = "config/jei/recipe-category-sort-order.ini"
 
 [[files]]
+file = "config/jei/world/local/New World (1)/lookupHistory.json"
+
+[[files]]
+file = "config/jei/world/local/New World (2)/lookupHistory.json"
+
+[[files]]
+file = "config/jei/world/local/New World/lookupHistory.json"
+
+[[files]]
+file = "config/jei/world/local/combat/lookupHistory.json"
+
+[[files]]
+file = "config/jeioptimizer-client.toml"
+
+[[files]]
 file = "config/journeymap-server.toml"
 
 [[files]]
 file = "config/journeymaptfcintegration-client.toml"
+
+[[files]]
+file = "config/jsdrinks-server.toml"
 
 [[files]]
 file = "config/jupiter.json"
@@ -470,6 +809,15 @@ file = "config/kaleidoscope_tavern-common.toml"
 
 [[files]]
 file = "config/kaleidoscopetfctavern-common.toml"
+
+[[files]]
+file = "config/keymap.json"
+
+[[files]]
+file = "config/kingdom_come_combat_equipment_render.json"
+
+[[files]]
+file = "config/kingdom_come_combat_server.json"
 
 [[files]]
 file = "config/kiwi-client.yaml"
@@ -493,16 +841,31 @@ file = "config/konkrete/locals/pt_br.local"
 file = "config/ktfcc-common.toml"
 
 [[files]]
-file = "config/kubastfca-common.toml"
+file = "config/lambdynlights.toml"
 
 [[files]]
-file = "config/lambdynlights.toml"
+file = "config/legendarysurvivaloverhaul-client.toml"
+
+[[files]]
+file = "config/legendarysurvivaloverhaul-common.toml"
 
 [[files]]
 file = "config/libtooltips-client.toml"
 
 [[files]]
+file = "config/lightspeed-common.toml"
+
+[[files]]
 file = "config/lithium.properties"
+
+[[files]]
+file = "config/lithostitched.json"
+
+[[files]]
+file = "config/lmft.json"
+
+[[files]]
+file = "config/lodged.json5"
 
 [[files]]
 file = "config/lootr-client.toml"
@@ -514,13 +877,13 @@ file = "config/lootr-common.toml"
 file = "config/lychee-common.yaml"
 
 [[files]]
+file = "config/mezz_config/client/default/settings.ini"
+
+[[files]]
 file = "config/modernfix-common.toml"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-
-[[files]]
-file = "config/molten_vents-common.toml"
 
 [[files]]
 file = "config/molten_vents/conductive/asurine.json"
@@ -595,6 +958,15 @@ file = "config/neoorigins/gameplay.toml"
 file = "config/neoorigins/power_overrides.toml"
 
 [[files]]
+file = "config/numismatics-client.toml"
+
+[[files]]
+file = "config/numismatics-common.toml"
+
+[[files]]
+file = "config/numismatics-server.toml"
+
+[[files]]
 file = "config/origins.json"
 
 [[files]]
@@ -610,13 +982,40 @@ file = "config/pehkui-common.toml"
 file = "config/pehkui-server.toml"
 
 [[files]]
+file = "config/petrolpark-client.toml"
+
+[[files]]
+file = "config/petrolpark-common.toml"
+
+[[files]]
+file = "config/petrolpark-server.toml"
+
+[[files]]
 file = "config/ponder-client.toml"
+
+[[files]]
+file = "config/potionblender/potion_blender_config.json"
 
 [[files]]
 file = "config/precision-prospecting.toml"
 
 [[files]]
 file = "config/puffish_skills/config.json"
+
+[[files]]
+file = "config/rechanted-common.toml"
+
+[[files]]
+file = "config/reliable_recipes.json"
+
+[[files]]
+file = "config/reliable_recipes/recipe_example.json.disabled"
+
+[[files]]
+file = "config/reliable_remover.json"
+
+[[files]]
+file = "config/reliable_remover/removal_example.json.disabled"
 
 [[files]]
 file = "config/ritchiesprojectilelib-server.toml"
@@ -628,28 +1027,16 @@ file = "config/sable-client.toml"
 file = "config/sable-common.toml"
 
 [[files]]
-file = "config/selling_bin-client.toml"
+file = "config/siegeworks-client.toml"
 
 [[files]]
-file = "config/selling_bin-server.toml"
+file = "config/siegeworks-server.toml"
 
 [[files]]
 file = "config/sliceanddice-client.toml"
 
 [[files]]
 file = "config/sliceanddice-common.toml"
-
-[[files]]
-file = "config/snatched_config_-1352013608426716486.json"
-
-[[files]]
-file = "config/snatched_config_-5216816109932813918.json"
-
-[[files]]
-file = "config/snatched_config_-5277158511244451204.json"
-
-[[files]]
-file = "config/snatched_config_1477663930589749576.json"
 
 [[files]]
 file = "config/sodium-fingerprint.json"
@@ -661,6 +1048,9 @@ file = "config/sodium-mixins.properties"
 file = "config/sodium-options.json"
 
 [[files]]
+file = "config/solstick-common.toml"
+
+[[files]]
 file = "config/spark/config.json"
 
 [[files]]
@@ -670,12 +1060,6 @@ file = "config/spark/tmp-client/about.txt"
 file = "config/spark/tmp/about.txt"
 
 [[files]]
-file = "config/starcatcher-client.toml"
-
-[[files]]
-file = "config/starcatcher-server.toml"
-
-[[files]]
 file = "config/supplementaries-client.toml"
 
 [[files]]
@@ -683,6 +1067,9 @@ file = "config/supplementaries-common.toml"
 
 [[files]]
 file = "config/survivorsabilities-common.toml"
+
+[[files]]
+file = "config/survivorsdelight-common.toml"
 
 [[files]]
 file = "config/tabchannel-common.toml"
@@ -706,6 +1093,15 @@ file = "config/tabchannel/stream_chat.json"
 file = "config/tabchannel/stream_overlay.json"
 
 [[files]]
+file = "config/terrablender.toml"
+
+[[files]]
+file = "config/terrafactions-client.toml"
+
+[[files]]
+file = "config/terrafactions-server.toml"
+
+[[files]]
 file = "config/terraskills-client.toml"
 
 [[files]]
@@ -721,16 +1117,10 @@ file = "config/tfc-client.toml"
 file = "config/tfc-common.toml"
 
 [[files]]
-file = "config/tfc-server-1.toml.bak"
-
-[[files]]
 file = "config/tfc-server.toml"
 
 [[files]]
 file = "config/tfc_eratosthenes-client.toml"
-
-[[files]]
-file = "config/tfc_eratosthenes-common-1.toml.bak"
 
 [[files]]
 file = "config/tfc_eratosthenes-common.toml"
@@ -748,6 +1138,9 @@ file = "config/tfc_real_world/common.toml"
 file = "config/tfc_tobacconist-server.toml"
 
 [[files]]
+file = "config/tfc_toroidal_compat-client.toml"
+
+[[files]]
 file = "config/tfcambiental-client.toml"
 
 [[files]]
@@ -760,6 +1153,18 @@ file = "config/tfcastikorcarts-common.toml"
 file = "config/tfccanes-server.toml"
 
 [[files]]
+file = "config/tfccreatechaincompt-common.toml"
+
+[[files]]
+file = "config/tfcdepthprospecting-server.toml"
+
+[[files]]
+file = "config/tfcfasttriphammer-common.toml"
+
+[[files]]
+file = "config/tfcfertigation-server.toml"
+
+[[files]]
 file = "config/tfcfridge-common.toml"
 
 [[files]]
@@ -769,16 +1174,19 @@ file = "config/tfcgenviewer-client.toml"
 file = "config/tfchotornot-startup.toml"
 
 [[files]]
+file = "config/tfcmountains-common.toml"
+
+[[files]]
 file = "config/tfcoffsetsmoker-common.toml"
 
 [[files]]
 file = "config/tfcthings-common.toml"
 
 [[files]]
-file = "config/tfcvolcanoes-client.toml"
+file = "config/tfctrough-common.toml"
 
 [[files]]
-file = "config/tfcvolcanoes-startup-1.toml.bak"
+file = "config/tfcvolcanoes-client.toml"
 
 [[files]]
 file = "config/tfcvolcanoes-startup.toml"
@@ -793,10 +1201,10 @@ file = "config/tfmg-server.toml"
 file = "config/thermia-client.toml"
 
 [[files]]
-file = "config/thermia-server-1.toml.bak"
+file = "config/thermia-server.toml"
 
 [[files]]
-file = "config/thermia-server.toml"
+file = "config/tinkerers_smithing.toml"
 
 [[files]]
 file = "config/tinymultiblocklib-client.toml"
@@ -811,6 +1219,9 @@ file = "config/tobacconistmod-common.toml"
 file = "config/tobacconistmod-server.toml"
 
 [[files]]
+file = "config/toroidal_world.json"
+
+[[files]]
 file = "config/transition.json"
 
 [[files]]
@@ -818,6 +1229,21 @@ file = "config/trender.json"
 
 [[files]]
 file = "config/trotting_wagons-server.toml"
+
+[[files]]
+file = "config/vintage-client.toml"
+
+[[files]]
+file = "config/vintage-common.toml"
+
+[[files]]
+file = "config/vintage-server.toml"
+
+[[files]]
+file = "config/visualworkbench-client.toml"
+
+[[files]]
+file = "config/visualworkbench-server.toml"
 
 [[files]]
 file = "config/voicechat/category-volumes.properties"
@@ -838,13 +1264,46 @@ file = "config/voicechat/voicechat-client.properties"
 file = "config/voicechat/voicechat-server.properties"
 
 [[files]]
+file = "config/vortylib-client.toml"
+
+[[files]]
 file = "config/warypredators-common.toml"
+
+[[files]]
+file = "config/waterconfig.toml"
 
 [[files]]
 file = "config/waterflasks-common.toml"
 
 [[files]]
+file = "config/watermedia.toml"
+
+[[files]]
+file = "config/weaversparadise-client.toml"
+
+[[files]]
+file = "config/weaversparadise-common.toml"
+
+[[files]]
+file = "config/wfweight/weight_config_modern.yaml"
+
+[[files]]
+file = "config/world_preview_tfc/config.json"
+
+[[files]]
+file = "config/world_preview_tfc/renderConfig.json"
+
+[[files]]
+file = "config/worldplanner-client.toml"
+
+[[files]]
 file = "config/xercapaint-server.toml"
+
+[[files]]
+file = "config/xptome.toml"
+
+[[files]]
+file = "config/yacl.json5"
 
 [[files]]
 file = "datapacks/neoorigins_avian_datapack.zip"
@@ -863,6 +1322,12 @@ file = "datapacks/neoorigins_mantleforged_datapack.zip"
 
 [[files]]
 file = "datapacks/neoorigins_merfolk_datapack.zip"
+
+[[files]]
+file = "datapacks/siegeworks_datapack.zip"
+
+[[files]]
+file = "datapacks/tfc_dmg_res_datapack.zip"
 
 [[files]]
 file = "docker/Dockerfile"
@@ -940,9 +1405,6 @@ file = "kubejs/assets/terra/textures/item/vermilion_crystal.png"
 file = "kubejs/client_scripts/jsconfig.json"
 
 [[files]]
-file = "kubejs/client_scripts/mustache/rename.js"
-
-[[files]]
 file = "kubejs/client_scripts/renaming.js"
 
 [[files]]
@@ -964,12 +1426,6 @@ file = "kubejs/config/tfc.json"
 file = "kubejs/config/web_server.json"
 
 [[files]]
-file = "kubejs/index.toml"
-
-[[files]]
-file = "kubejs/pack.toml"
-
-[[files]]
 file = "kubejs/package.json"
 
 [[files]]
@@ -985,13 +1441,13 @@ file = "kubejs/server_scripts/frost/metal_properties.js"
 file = "kubejs/server_scripts/frost/new_tags.js"
 
 [[files]]
+file = "kubejs/server_scripts/frost/recipe_fix.js"
+
+[[files]]
 file = "kubejs/server_scripts/frost/unfinished/copper_backtank.js"
 
 [[files]]
 file = "kubejs/server_scripts/frost/universal_recipe.js"
-
-[[files]]
-file = "kubejs/server_scripts/frost/vintage.js"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
@@ -1019,9 +1475,6 @@ file = "kubejs/server_scripts/profession/smith/smith_recipe.js"
 
 [[files]]
 file = "kubejs/server_scripts/profession/smith/smith_recipe_addon.js"
-
-[[files]]
-file = "kubejs/server_scripts/profession/smith/smith_recipe_lock.js"
 
 [[files]]
 file = "kubejs/server_scripts/profession/smith/smith_recipe_unspecialized.js"
@@ -1084,15 +1537,23 @@ file = "kubejs/startup_scripts/smithing_unfinished/unfinished.js"
 file = "kubejs/startup_scripts/triple_ingot.js"
 
 [[files]]
+file = "mods/advanced-tfc-tech-unofficial.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/alternating-flux-neoforge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/animal-weight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/apple-crates.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/astages-pufferfishs-skills.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/astages.pw.toml"
 metafile = true
 
 [[files]]
@@ -1104,11 +1565,23 @@ file = "mods/atlas-api.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/auroras.pw.toml"
+file = "mods/axiomata.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/azimuth-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/barebonesbrews.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/barrels-2012.pw.toml"
 metafile = true
 
 [[files]]
@@ -1117,6 +1590,10 @@ metafile = true
 
 [[files]]
 file = "mods/better-advanced-tooltips.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-brewing-stand-fuels.pw.toml"
 metafile = true
 
 [[files]]
@@ -1132,7 +1609,15 @@ file = "mods/butchercraft.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/caelum.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/caelus.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/camoflauge-blocks.pw.toml"
 metafile = true
 
 [[files]]
@@ -1148,7 +1633,15 @@ file = "mods/chunky.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cirrus.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/collapsible-groups.pw.toml"
 metafile = true
 
 [[files]]
@@ -1168,7 +1661,7 @@ file = "mods/corals-tfc.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-big-cannons.pw.toml"
+file = "mods/create-better-fps.pw.toml"
 metafile = true
 
 [[files]]
@@ -1180,23 +1673,19 @@ file = "mods/create-connected.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-horse-power.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/create-jei-compat.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-picky-waterwheels.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-picky-wheels-tfc-wind.pw.toml"
+file = "mods/create-kinetics-limitations.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/create-power-loader.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-tfc-unofficial-port.pw.toml"
 metafile = true
 
 [[files]]
@@ -1205,6 +1694,10 @@ metafile = true
 
 [[files]]
 file = "mods/create-train-parts.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-train-physics.pw.toml"
 metafile = true
 
 [[files]]
@@ -1232,7 +1725,27 @@ file = "mods/decay-2012.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/discord-integration.pw.toml"
+file = "mods/default-options.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/diagonal-fences.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/drippy-early-loading-module.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/effect-insights.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/engineered-schematics.pw.toml"
 metafile = true
 
 [[files]]
@@ -1241,6 +1754,10 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/epic-knights-armor-and-weapons.pw.toml"
 metafile = true
 
 [[files]]
@@ -1256,11 +1773,31 @@ file = "mods/fancymenu.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fantasy-language-mod.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-tfc.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/firma-crates.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/firmalife.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/firmalifeenhance.pw.toml"
 metafile = true
 
 [[files]]
@@ -1269,6 +1806,14 @@ metafile = true
 
 [[files]]
 file = "mods/firmasupplementaries.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/flerovium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fletchers-trestle.pw.toml"
 metafile = true
 
 [[files]]
@@ -1284,11 +1829,7 @@ file = "mods/geckolib.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/greate-unofficial-port.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/gregtech-modern-reborn.pw.toml"
+file = "mods/globalpacks.pw.toml"
 metafile = true
 
 [[files]]
@@ -1296,7 +1837,23 @@ file = "mods/hexcast-neoforged.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/history-stages.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ihearttfc.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immersive-engineering-js.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immersive-engineering.pw.toml"
 metafile = true
 
 [[files]]
@@ -1304,19 +1861,15 @@ file = "mods/immersive-melodies.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/immersiveengineering.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/interiors.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/irons-jewelry.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/irons-lib.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/irons-spells-n-spellbooks.pw.toml"
+file = "mods/inventory-essentials.pw.toml"
 metafile = true
 
 [[files]]
@@ -1336,6 +1889,10 @@ file = "mods/jei.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/jeioptimizer.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/journeymap.pw.toml"
 metafile = true
 
@@ -1352,6 +1909,10 @@ file = "mods/jupiter.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-immersive-multiblocks.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kaleidoscope-cookery.pw.toml"
 metafile = true
 
@@ -1364,6 +1925,18 @@ file = "mods/kaleidoscopetavern.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/kaleidoscopetfctavern.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/keymap-maintained.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/kingdomcome-combat.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kiwi.pw.toml"
 metafile = true
 
@@ -1373,10 +1946,6 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/kubas-tfc-additions.pw.toml"
 metafile = true
 
 [[files]]
@@ -1396,7 +1965,27 @@ file = "mods/lambdynamiclights.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/lightspeedre.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lmft.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/loading-profiler.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lodged.pw.toml"
 metafile = true
 
 [[files]]
@@ -1412,6 +2001,10 @@ file = "mods/melody.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mezzconfig.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/minecraft-mod-terraindustry.pw.toml"
 metafile = true
 
@@ -1420,15 +2013,39 @@ file = "mods/minecraft-mod-terraskills.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mod-terrafactions.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mod-terraindustry.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mod-terralib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mod-terraskills.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mod-terraworld.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/modern-ui.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/mouse-tweaks.pw.toml"
+file = "mods/more-vanilla-potions.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/neo-origins.pw.toml"
+file = "mods/mouse-tweaks.pw.toml"
 metafile = true
 
 [[files]]
@@ -1437,6 +2054,10 @@ metafile = true
 
 [[files]]
 file = "mods/numismatics.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
 metafile = true
 
 [[files]]
@@ -1452,7 +2073,19 @@ file = "mods/pehkui.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/petrolpark.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/player-animation-library.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/playeranimator.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/potion-blender.pw.toml"
 metafile = true
 
 [[files]]
@@ -1468,7 +2101,15 @@ file = "mods/puzzles-lib.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/recipe-machine-stages-zs-js.pw.toml"
+file = "mods/rechanted.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/reliable-recipes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/reliable-remover.pw.toml"
 metafile = true
 
 [[files]]
@@ -1484,7 +2125,7 @@ file = "mods/rpl.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/sdm-stages.pw.toml"
+file = "mods/scoutreforked.pw.toml"
 metafile = true
 
 [[files]]
@@ -1496,19 +2137,15 @@ file = "mods/selene.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/siegeworks.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/skills.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/slice-and-dice.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/snatched.pw.toml"
 metafile = true
 
 [[files]]
@@ -1536,7 +2173,19 @@ file = "mods/survivors-butchery-tfc-x-butchercraft.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/survivors-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/survivors-rich-soil.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/tabchannel.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/terrablender-neoforge.pw.toml"
 metafile = true
 
 [[files]]
@@ -1548,7 +2197,19 @@ file = "mods/terrafirmacraft.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/terrafirmafurniture.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/terrafirmathings-continued.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tfc-advanced-drinks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tfc-ambiental.pw.toml"
 metafile = true
 
 [[files]]
@@ -1560,11 +2221,15 @@ file = "mods/tfc-canes.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/tfc-debark.pw.toml"
+file = "mods/tfc-create-chain-compat.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/tfc-electric-fridge.pw.toml"
+file = "mods/tfc-depth-prospecting.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tfc-fast-trip-hammer.pw.toml"
 metafile = true
 
 [[files]]
@@ -1576,6 +2241,10 @@ file = "mods/tfc-glass-workshop.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/tfc-hammer-time-(unofficial-port).pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/tfc-hammer-time-unofficial-port.pw.toml"
 metafile = true
 
@@ -1584,7 +2253,7 @@ file = "mods/tfc-hot-or-not.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/tfc-info-integration.pw.toml"
+file = "mods/tfc-ie-crossover.pw.toml"
 metafile = true
 
 [[files]]
@@ -1624,10 +2293,6 @@ file = "mods/tfc-vessel-tooltip.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/tfc-volcanoes.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/tfc_thermia.pw.toml"
 metafile = true
 
@@ -1636,7 +2301,19 @@ file = "mods/tfcdraughtworks.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/tfcfertigation.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/tfcgenviewer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tfctrough.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tinkerers-smithing.pw.toml"
 metafile = true
 
 [[files]]
@@ -1644,11 +2321,27 @@ file = "mods/tobacconist.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/toroidal-world.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/torque-link-create-to-tfc.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/trotting-wagons.pw.toml"
+file = "mods/two-players-one-horse.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ui-lib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/visual-workbench.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vortylib.pw.toml"
 metafile = true
 
 [[files]]
@@ -1657,4 +2350,36 @@ metafile = true
 
 [[files]]
 file = "mods/water-flasks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/watermedia-binaries.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/weavers-paradise.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/witchy-brewing-stand-retexture.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/world-preview-terrafirmacraft.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/xp-tome.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yaml-config.pw.toml"
 metafile = true

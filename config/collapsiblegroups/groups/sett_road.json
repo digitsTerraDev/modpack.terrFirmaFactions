@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "sett_road",
+  "name": {
+    "translate": "collapsible_groups.group.sett_road",
+    "fallback": "Sett Road"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/granite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/diorite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/gabbro"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/shale"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/claystone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/limestone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/conglomerate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/dolomite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/chert"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/chalk"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/basalt"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/andesite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/dacite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/quartzite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/slate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/phyllite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/schist"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/gneiss"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/marble"
+      },
+      {
+        "type": "item",
+        "id": "rnr:brick_road"
+      },
+      {
+        "type": "item",
+        "id": "rnr:concrete_road_sett"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/rhyolite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/tuff"
+      }
+    ]
+  }
+}

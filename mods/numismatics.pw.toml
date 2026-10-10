@@ -1,21 +1,13 @@
-filename = 'CreateNumismatics-1.0.20+neoforge-mc1.21.1.jar'
-name = 'Create: Numismatics'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.0.20+neoforge-mc1.21.1'
+name = "Create: Numismatics"
+filename = "CreateNumismatics-1.1.0+neoforge-mc1.21.1.jar"
+side = "both"
 
 [download]
-hash = '2b4ccd516865997735e1a3ec323615bd32d9388e15cc04097ac455f2b453423fccd21969782ecfd031b3de6ed85506ba5349da24c32f5e3eaaf558c5163cf203'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/Jdbbtt0i/versions/guON3qvQ/CreateNumismatics-1.0.20%2Bneoforge-mc1.21.1.jar'
+url = "https://cdn.modrinth.com/data/Jdbbtt0i/versions/kVi3TESX/CreateNumismatics-1.1.0%2Bneoforge-mc1.21.1.jar"
+hash-format = "sha512"
+hash = "f0a8e65828f4a36c500f4f2cad99dce89f4899711f3ebe4b8a691bf26a8be9ac8f83386507f87aaead712ab8c5f8a847cd06befb1927cb1f81de95f6cb6b7754"
 
+[update]
 [update.modrinth]
-mod-id = 'Jdbbtt0i'
-version = 'guON3qvQ'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'LNytGWDc'
-type = 'REQUIRED'
+mod-id = "Jdbbtt0i"
+version = "kVi3TESX"

@@ -1,18 +1,13 @@
-filename = 'spark-1.10.124-neoforge.jar'
-name = 'spark'
-side = 'both'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.10.124-neoforge-1.21.1'
+name = "spark"
+filename = "spark-1.10.124-neoforge.jar"
+side = "both"
 
 [download]
-hash = 'f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/l6YH9Als/versions/v5qtqRQi/spark-1.10.124-neoforge.jar'
+url = "https://cdn.modrinth.com/data/l6YH9Als/versions/v5qtqRQi/spark-1.10.124-neoforge.jar"
+hash-format = "sha512"
+hash = "f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4"
 
+[update]
 [update.modrinth]
-mod-id = 'l6YH9Als'
-version = 'v5qtqRQi'
+mod-id = "l6YH9Als"
+version = "v5qtqRQi"

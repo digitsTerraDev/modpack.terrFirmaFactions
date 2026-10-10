@@ -1,0 +1,66 @@
+#If true, all mountains will generate snow caps regardless of the surrounding climate.
+snowCaps = true
+#The Y level above which snow caps will form (if snowCaps is enabled).
+# Default: 230
+# Range: 0 ~ 1024
+snowLineY = 230
+#If true, TFC's natural climate-based snow will also be prevented below snowLineY. Keep disabled if you prefer vanilla TFC snow behaviour in colder climates.
+enforceSnowLine = true
+#Vertical scale multiplier for all volcanoes. Vanilla TFC uses 1.
+# Default: 1.35
+# Range: 0.1 ~ 5.0
+volcanoHeightScale = 1.35
+#Controls how wide the transitional altitude bands (foothills) around mountains are. Vanilla TFC uses 4.
+# Default: 8
+# Range: 4 ~ 8
+foothillWidth = 8
+#How smoothly the terrain transitions from differing heights. Note that this applies to ALL biomes and will increase world gen times
+#Vanilla TFC uses 4.
+# Default: 16
+# Range: 4 ~ 32
+heightBlend = 16
+#If true, individual mountain ranges are allowed to grow much longer before stopping
+extendedMountainRanges = true
+#Only used if extendedMountainRanges is enabled. 
+#Scales how far a single mountain range is allowed to grow before stopping
+# Default: 10.0
+# Range: 0.1 ~ 20.0
+extendedMountainRangesMultiplier = 10.0
+#Vertical scale multiplier for these biomes' mountains.
+# Default: 0.85
+# Range: 0.1 ~ 20.0
+heightScale = 0.85
+#Horizontal scale multiplier for these biomes' mountains.
+# Default: 2.0
+# Range: 0.1 ~ 20.0
+horizontalScale = 2.0
+#If true, adds extra jagged/eroded detail noise to slopes and peaks.
+erosionNoise = true
+#Strength of the erosion detail noise (if erosionNoise is enabled). Note that increasing this also increases the overall height of the mountains.
+# Default: 5.0
+# Range: 0.0 ~ 20.0
+erosionNoiseStrength = 5.0
+#Adds sharp spires/pinnacles at the top of peaks, on top of whatever height erosionNoise already produces. 0 disables this entirely. Higher values add taller, narrower spikes near summits.
+# Default: 1.0
+# Range: 0.0 ~ 8.0
+peakSharpness = 1.0
+#Multiplier for peaks of mountains.
+# Default: 1.0
+# Range: 0.0 ~ 4.0
+ridgePeakIntensity = 1.0
+#Adds large scale variation to overall peak height along a mountain range, so some massifs tower over their neighbors and others are noticeably lower, rather than a uniform ridgeline of similar-height peaks. 0 disables this.
+# Default: 1.5
+# Range: 0.0 ~ 5.0
+macroVariation = 1.5
+#Controls how wide each tall/short stretch produced by macroVariation is. Lower values make each section wider and more spread out, higher values pack them closer together.
+# Default: 1.0
+# Range: 0.1 ~ 5.0
+macroVariationScale = 1.0
+#Amplitude of TFC's fine-grained surface texture noise applied everywhere on these biomes. Distinct from erosionNoise (which only affects slopes/peaks).
+# Default: 50.0
+# Range: 0.0 ~ 100.0
+textureNoiseAmplitude = 50.0
+#Frequency of the surface texture noise. Lower values produce larger surface undulations, higher values produce finer, rockier texture.
+# Default: 1.2
+# Range: 0.05 ~ 4.0
+textureNoiseFrequency = 1.2

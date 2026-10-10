@@ -1,0 +1,103 @@
+#Poop drop and sound settings.
+[poop]
+	#How many pending poop placement attempts can be processed per server tick (per dimension). Lower values reduce lag spikes.
+	# Default: 64
+	# Range: 1 ~ 4096
+	drops_per_tick = 64
+	#How many successful poop placement sounds can play per server tick (per dimension). Set to 0 to disable.
+	# Default: 8
+	# Range: 0 ~ 256
+	sounds_per_tick = 8
+	#Minimum volume for the poop sound.
+	# Default: 0.9
+	# Range: 0.0 ~ 1.0
+	sound_volume_min = 0.9
+	#Maximum volume for the poop sound.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	sound_volume_max = 1.0
+	#Minimum pitch for the poop sound.
+	# Default: 0.95
+	# Range: 0.5 ~ 2.0
+	sound_pitch_min = 0.95
+	#Maximum pitch for the poop sound.
+	# Default: 1.05
+	# Range: 0.5 ~ 2.0
+	sound_pitch_max = 1.05
+
+#Feeding trough settings.
+[troughs]
+
+	[troughs.wood]
+		#Feeding scan size in X (full width, e.g. 5 means 5x?x?). Prefer odd numbers.
+		# Default: 5
+		# Range: 1 ~ 63
+		range_x = 5
+		#Feeding scan size in Y (full height). Prefer odd numbers.
+		# Default: 5
+		# Range: 1 ~ 63
+		range_y = 5
+		#Feeding scan size in Z (full depth). Prefer odd numbers.
+		# Default: 5
+		# Range: 1 ~ 63
+		range_z = 5
+		#Maximum daily feed budget (what the slider can go up to).
+		# Default: 8
+		# Range: 0 ~ 4096
+		max_feed_limit = 8
+		#Feeding throughput. How many feed actions can happen per second (0 disables feeding).
+		# Default: 2
+		# Range: 0 ~ 256
+		feed_rate_per_second = 2
+		#Maximum daily feed budget for the large (3-block) wood trough.
+		# Default: 32
+		# Range: 0 ~ 4096
+		large_max_feed_limit = 32
+
+	[troughs.metal]
+		#Feeding scan size in X (full width, e.g. 5 means 5x?x?). Prefer odd numbers.
+		# Default: 9
+		# Range: 1 ~ 63
+		range_x = 9
+		#Feeding scan size in Y (full height). Prefer odd numbers.
+		# Default: 5
+		# Range: 1 ~ 63
+		range_y = 5
+		#Feeding scan size in Z (full depth). Prefer odd numbers.
+		# Default: 9
+		# Range: 1 ~ 63
+		range_z = 9
+		#Maximum daily feed budget (what the slider can go up to).
+		# Default: 16
+		# Range: 0 ~ 4096
+		max_feed_limit = 16
+		#Feeding throughput. How many feed actions can happen per second (0 disables feeding).
+		# Default: 4
+		# Range: 0 ~ 256
+		feed_rate_per_second = 4
+		#Maximum daily feed budget for the large (3-block) metal trough.
+		# Default: 64
+		# Range: 0 ~ 4096
+		large_max_feed_limit = 64
+
+	[troughs.pottery]
+		#Feeding scan size in X (full width, e.g. 5 means 5x?x?). Prefer odd numbers.
+		# Default: 3
+		# Range: 1 ~ 63
+		range_x = 3
+		#Feeding scan size in Y (full height). Prefer odd numbers.
+		# Default: 3
+		# Range: 1 ~ 63
+		range_y = 3
+		#Feeding scan size in Z (full depth). Prefer odd numbers.
+		# Default: 3
+		# Range: 1 ~ 63
+		range_z = 3
+		#Maximum daily feed budget (what the slider can go up to).
+		# Default: 4
+		# Range: 0 ~ 4096
+		max_feed_limit = 4
+		#Feeding throughput. How many feed actions can happen per second (0 disables feeding).
+		# Default: 1
+		# Range: 0 ~ 256
+		feed_rate_per_second = 1

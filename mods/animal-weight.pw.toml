@@ -1,0 +1,13 @@
+name = "Animal  Weights"
+filename = "animalweights-1.21.1-NeoForge-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/L8hKhAzB/versions/usvkNIVJ/animalweights-1.21.1-NeoForge-1.2.1.jar"
+hash-format = "sha512"
+hash = "6e1529ec2659ff3c3fe364b64e4565b74699cc154bccef0b5404f7644556a785e783a9400003c7374ae2ab0845040a9f92339ba36ea98da94b5816ab0a3cb487"
+
+[update]
+[update.modrinth]
+mod-id = "L8hKhAzB"
+version = "usvkNIVJ"

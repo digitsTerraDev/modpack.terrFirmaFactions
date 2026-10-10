@@ -1,0 +1,47 @@
+#Number of worker threads. 0 = auto (cores - 2, min 2).
+# Default: 0
+# Range: 0 ~ 64
+worker_count = 0
+#Log how long each acceleration phase took.
+log_timing = true
+
+[filter]
+	#Strategy for accelerating JEI ingredient filter build.
+	#  OFF              — vanilla JEI
+	#  BATCH            — pack per-item calls into one addAll (~10-15% faster, safe)
+	#  PARALLEL_PREFIX  — build each search prefix on its own thread (safe)
+	#  PARALLEL_FULL    — also parallelize tokenization inside each prefix (best)
+	#Default: PARALLEL_FULL
+	#Allowed Values: OFF, BATCH, PARALLEL_PREFIX, PARALLEL_FULL
+	mode = "PARALLEL_FULL"
+
+[plugins]
+	#EXPERIMENTAL. Phase names of PluginCaller.callOnPlugins to run in parallel.
+	#Each plugin's handler runs concurrently. Mods NOT thread-safe in their JEI plugins
+	#WILL crash here (we saw theurgy, ars_nouveau, compactmachines crash in our test).
+	#Empty list = disabled (DEFAULT, recommended).
+	#Try: ["Registering recipes"] only if you've verified your mod set is safe.
+	parallel_phases = []
+	#NOT SUPPORTED on this JEI version — has no effect.
+	#JEI now also adds items that no creative tab lists, straight from the registries,
+	#so a parallel walk over the tabs would drop them. Kept so existing configs load.
+	parallel_creative_tabs = false
+
+[recipes]
+	#Skip JEI's generated book-enchanting (anvil) and disenchanting (grindstone) entries.
+	#JEI builds one entry per enchantable item x enchantment x level, so the count
+	#explodes on packs with many enchantments.
+	#TRADE-OFF: those entries disappear from JEI. Real recipes are untouched.
+	#Default: false.
+	skip_generated_enchantment_recipes = false
+	#Skip JEI's generated anvil and grindstone REPAIR entries.
+	#The grindstone half walks every damageable item in the pack.
+	#TRADE-OFF: those entries disappear from JEI. Real recipes are untouched.
+	#Default: false.
+	skip_generated_repair_recipes = false
+	#JEI builds its anvil and grindstone entries by driving a hidden menu once per
+	#combination. Writing each input slot triggers a full recipe recalculation, and
+	#only the last one can see both inputs. Skip the redundant ones and recalculate
+	#once, after both slots are set.
+	#Transparent: the values JEI reads are identical. Default: true.
+	skip_redundant_menu_updates = true

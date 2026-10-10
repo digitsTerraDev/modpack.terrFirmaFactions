@@ -1,0 +1,215 @@
+[temperature]
+	#气象站还没保存过目标温度时，界面默认显示的温度。
+	#Default target temperature shown when a climate station has not stored a value yet.
+	# Default: 20
+	# Range: -4096 ~ 4096
+	defaultTargetTemperature = 20
+	#补丁允许输入的最低目标温度硬下限。
+	#Minimum value accepted by the patch temperature clamp.
+	# Default: -100
+	# Range: -4096 ~ 4096
+	minimumTargetTemperature = -24
+	#补丁允许输入的最高目标温度硬上限。
+	#Maximum value accepted by the patch temperature clamp.
+	# Default: 100
+	# Range: -4096 ~ 4096
+	maximumTargetTemperature = 20
+	#地窖模式在降温后允许达到的最低温度。
+	#Lowest cellar temperature the patch will allow after cooling.
+	# Default: -24
+	# Range: -4096 ~ 4096
+	minimumCellarTemperature = -24
+
+[searchRadius]
+	#应用到 Firmalife 温室搜索半径的倍率。
+	#Multiplier applied to Firmalife greenhouse search radius.
+	# Default: 3.0
+	# Range: 0.1 ~ 16.0
+	greenhouseRadiusMultiplier = 3.0
+	#应用到 Firmalife 地窖搜索半径的倍率。
+	#Multiplier applied to Firmalife cellar search radius.
+	# Default: 2.0
+	# Range: 0.1 ~ 16.0
+	cellarRadiusMultiplier = 2.0
+
+[thermalItems]
+	#气象站加热槽可接受的物品列表。
+	#格式：modid:item=倍率
+	#默认包含原版岩浆块和常见 TFC 岩浆岩方块。
+	#Heating items accepted by the climate station.
+	#Format: modid:item=factor
+	#Default includes vanilla magma block and common TFC magma-rock blocks.
+	heatingItems = ["minecraft:magma_block=0.01", "tfc:rock/magma/andesite=0.01", "tfc:rock/magma/basalt=0.01", "tfc:rock/magma/dacite=0.01", "tfc:rock/magma/diorite=0.01", "tfc:rock/magma/gabbro=0.01", "tfc:rock/magma/granite=0.01", "tfc:rock/magma/rhyolite=0.01"]
+	#气象站降温槽可接受的物品列表。
+	#格式：modid:item=倍率
+	#Cooling items accepted by the climate station.
+	#Format: modid:item=factor
+	coolingItems = ["minecraft:ice=0.005", "minecraft:packed_ice=0.0075", "minecraft:blue_ice=0.01"]
+
+[greenhouseWalls]
+	#混合温室检测使用的保温温室墙规则。
+	#格式：方块ID或标签=tier
+	#可选扩展：方块ID或标签=tier,额外控温值
+	#例子：
+	#  #firmalife:all_treated_wood_greenhouse=5
+	#  #firmalife:stainless_steel_greenhouse=25
+	#如果同一个方块命中多条规则，只取最前面的一条。
+	#第二个数字只有在你想手动额外补控温范围时才需要写。
+	#Insulated greenhouse wall rules used by the mixed greenhouse detector.
+	#Format: block_or_tag=tier
+	#Optional: block_or_tag=tier,controlBonus
+	#Examples:
+	#  #firmalife:all_treated_wood_greenhouse=5
+	#  #firmalife:stainless_steel_greenhouse=25
+	#First match wins when one block matches multiple rules.
+	#Only use controlBonus when you explicitly want extra heating/cooling range on top of tier.
+	greenhouseThermalWalls = ["#firmalife:all_treated_wood_greenhouse=5", "#firmalife:all_copper_greenhouse=10", "#firmalife:all_iron_greenhouse=15", "#firmalife:stainless_steel_greenhouse=25"]
+	#只负责封闭温室、但不提供保温倍率的功能温室墙规则。
+	#格式：方块ID或标签
+	#默认已加入 IE 的低压/中压/高压蓄电池。
+	#除非它们也被列进 greenhouseAlwaysValidWalls，否则仍需要满足结实面的判定。
+	#Functional greenhouse walls that only seal the structure but do not add insulation.
+	#Format: block_or_tag
+	#Defaults already include IE LV/MV/HV capacitors.
+	#These blocks still need a sturdy face unless they are also listed in greenhouseAlwaysValidWalls.
+	greenhouseSealOnlyWalls = ["immersiveengineering:capacitor_lv", "immersiveengineering:capacitor_mv", "immersiveengineering:capacitor_hv"]
+	#匹配这些标签或方块后，可跳过温室墙的结实面检查。
+	#格式：方块ID或标签
+	#默认跳过门和活板门，也适合端口、电缆、管道等功能接口方块。
+	#Functional greenhouse walls that are allowed to seal the greenhouse without a sturdy-face check.
+	#Format: block_or_tag
+	#Defaults skip doors and trapdoors, and it also works for ports, cables, pipes, and similar interface blocks.
+	greenhouseAlwaysValidWalls = ["#firmalife:always_valid_greenhouse_wall", "#minecraft:doors", "#minecraft:trapdoors"]
+	#保温温室墙在所有被计入的侧墙/屋顶壳体中的最低占比。
+	#例如 0.95 = 95%。
+	#地板不参与这个比例的计算。
+	#Minimum ratio of insulated greenhouse walls among all counted side/roof shell blocks.
+	#For example, 0.95 = 95%.
+	#The floor is not counted in this ratio.
+	# Default: 0.95
+	# Range: 0.0 ~ 1.0
+	greenhouseMinimumThermalCoverage = 0.95
+	#温室被判定为有效时所需的最少保温温室墙数量。
+	#Minimum number of insulated greenhouse walls required for a greenhouse to become valid.
+	# Default: 8
+	# Range: 0 ~ 65536
+	greenhouseMinimumThermalBlocks = 8
+	#多种保温温室墙混合时，如何计算最终生效的温室等级。
+	#weighted_average = 按各种保温温室墙占比算平均
+	#minimum = 取最差的那种保温温室墙
+	#maximum = 取最好的那种保温温室墙
+	#How mixed insulated greenhouse walls are merged into one effective greenhouse tier.
+	#weighted_average = weighted average by wall count
+	#minimum = use the weakest insulated wall
+	#maximum = use the strongest insulated wall
+	greenhouseTierMode = "weighted_average"
+
+[cellarWalls]
+	#用于地窖检测的保温墙规则。
+	#格式：方块ID或标签
+	#默认包含 Firmalife 原版 #firmalife:cellar_insulation。
+	#只有匹配这里的方块，才会被计入地窖保温墙占比。
+	#Insulated cellar wall rules used by cellar detection.
+	#Format: block id or tag
+	#Defaults include Firmalife's #firmalife:cellar_insulation.
+	#Only matching blocks count toward the insulated cellar wall coverage.
+	cellarThermalWalls = ["#firmalife:cellar_insulation"]
+	#只负责封闭地窖、但不计入保温墙占比的功能地窖墙规则。
+	#格式：方块ID或标签
+	#默认已加入 IE 的低压/中压/高压蓄电池。
+	#这类方块可以参与地窖壳体检测，但不会提供地窖保温墙占比。
+	#Functional cellar walls that seal the cellar but do not count as insulated walls.
+	#Format: block id or tag
+	#Defaults already include IE LV/MV/HV capacitors.
+	#These blocks can seal the cellar shell but do not contribute to insulated wall coverage.
+	cellarSealOnlyWalls = ["immersiveengineering:capacitor_lv", "immersiveengineering:capacitor_mv", "immersiveengineering:capacitor_hv"]
+	#地窖保温墙在所有被计入的地窖壳体中的最低占比。
+	#例如 0.95 = 95%。
+	#纯功能墙地窖或保温墙占比太低的地窖会直接失效。
+	#Minimum ratio of insulated cellar walls among all counted cellar shell blocks.
+	#For example, 0.95 = 95%.
+	#Pure functional-wall cellars or cellars with too little insulated coverage will fail.
+	# Default: 0.95
+	# Range: 0.0 ~ 1.0
+	cellarMinimumThermalCoverage = 0.95
+	#地窖模式的基础保温倍率。
+	#默认 10 就是当前常说的“10倍控温”。
+	#最终可升温/降温范围还会再乘热源或冷源物品因子。
+	#Base insulation multiplier used by cellar mode.
+	#The default 10 is the current commonly mentioned "10x cellar control".
+	#The final heating/cooling range is still multiplied by the thermal item factor.
+	# Default: 10
+	# Range: 0 ~ 256
+	cellarBaseControlRange = 10
+
+[cellarPreservation]
+	#当地窖温度 <= 这个值时，使用第 1 档保鲜倍率。
+	#Level 1 applies when cellar temperature is <= this value.
+	# Default: -24
+	# Range: -4096 ~ 4096
+	level1MaxTemperature = -24
+	#第 1 档保鲜倍率。
+	#Level 1 preservation multiplier.
+	# Default: 8.0
+	# Range: 0.01 ~ 1024.0
+	level1Multiplier = 8.0
+	#当地窖温度 <= 这个值时，使用第 2 档保鲜倍率。
+	#Level 2 applies when cellar temperature is <= this value.
+	# Default: -21
+	# Range: -4096 ~ 4096
+	level2MaxTemperature = -21
+	#第 2 档保鲜倍率。
+	#Level 2 preservation multiplier.
+	# Default: 7.0
+	# Range: 0.01 ~ 1024.0
+	level2Multiplier = 7.0
+	#当地窖温度 <= 这个值时，使用第 3 档保鲜倍率。
+	#Level 3 applies when cellar temperature is <= this value.
+	# Default: -18
+	# Range: -4096 ~ 4096
+	level3MaxTemperature = -18
+	#第 3 档保鲜倍率。
+	#Level 3 preservation multiplier.
+	# Default: 6.0
+	# Range: 0.01 ~ 1024.0
+	level3Multiplier = 6.0
+	#当地窖温度 <= 这个值时，使用第 4 档保鲜倍率。
+	#Level 4 applies when cellar temperature is <= this value.
+	# Default: -15
+	# Range: -4096 ~ 4096
+	level4MaxTemperature = -15
+	#第 4 档保鲜倍率。
+	#Level 4 preservation multiplier.
+	# Default: 5.0
+	# Range: 0.01 ~ 1024.0
+	level4Multiplier = 5.0
+	#当地窖温度 <= 这个值时，使用第 5 档保鲜倍率。
+	#Level 5 applies when cellar temperature is <= this value.
+	# Default: -12
+	# Range: -4096 ~ 4096
+	level5MaxTemperature = -12
+	#第 5 档保鲜倍率。
+	#Level 5 preservation multiplier.
+	# Default: 4.0
+	# Range: 0.01 ~ 1024.0
+	level5Multiplier = 4.0
+	#当地窖温度 <= 这个值时，使用第 6 档保鲜倍率。
+	#Level 6 applies when cellar temperature is <= this value.
+	# Default: -1
+	# Range: -4096 ~ 4096
+	level6MaxTemperature = -1
+	#第 6 档保鲜倍率。
+	#Level 6 preservation multiplier.
+	# Default: 3.0
+	# Range: 0.01 ~ 1024.0
+	level6Multiplier = 3.0
+	#当地窖温度 <= 这个值时，使用兜底档保鲜倍率。
+	#Fallback level applies when cellar temperature is <= this value.
+	# Default: 2048
+	# Range: -4096 ~ 4096
+	level7MaxTemperature = 2048
+	#兜底档保鲜倍率。
+	#Fallback level preservation multiplier.
+	# Default: 2.5
+	# Range: 0.01 ~ 1024.0
+	level7Multiplier = 2.5

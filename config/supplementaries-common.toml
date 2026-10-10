@@ -260,6 +260,7 @@
 
 		[functional.cannon.plunderer]
 			enabled = true
+			#Galleons are automatically disabled if 'rope' feature is disabled
 			galleon = true
 			#Chance for a raid wave to spawn in open water near the village instead of on land. Such waves arrive on boats steered by plunderers, which take the place of some of the wave pillagers. The rest swim along and hop on when a seat is free. Set to 0 to disable
 			# Default: 0.75
@@ -428,6 +429,7 @@
 		enabled = true
 		#Displays current coordinates when using a globe
 		show_coordinates = true
+		#Sepia globes are automatically disabled if 'antique_ink' feature is disabled
 		sepia_globe = true
 
 	[building.way_sign]

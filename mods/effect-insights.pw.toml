@@ -1,0 +1,13 @@
+name = "Effect Insights"
+filename = "EffectDescriptions-v21.1.1-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "700355b3e6c5f11e56d0aff6cc6825604e910da0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6077939
+project-id = 891326

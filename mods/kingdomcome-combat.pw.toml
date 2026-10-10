@@ -1,0 +1,13 @@
+name = "Kingdomcome Combat"
+filename = "kingdom_come_combat-1.7.4+neoforge-mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7440add2b425fdbbf5b2ee9f71661b157009dc48"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8731847
+project-id = 1588509

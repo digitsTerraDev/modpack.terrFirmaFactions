@@ -3,11 +3,11 @@ filename = "kubejs-neoforge-2101.7.2-build.377.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "150c5d6efc09b969ac350ea205128dff832e0850"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/umyGl7zF/versions/THIGFPwf/kubejs-neoforge-2101.7.2-build.377.jar"
+hash-format = "sha512"
+hash = "fcdbee8790f8f39c106ab4bf606808c9c5bf0f13a41e216207a6fe4d15bf4a5722ce57078781e3a1823e7fdd2928e8e042d104d8ae255a36db8f12a9f46d8089"
 
 [update]
-[update.curseforge]
-file-id = 8843626
-project-id = 238086
+[update.modrinth]
+mod-id = "umyGl7zF"
+version = "THIGFPwf"

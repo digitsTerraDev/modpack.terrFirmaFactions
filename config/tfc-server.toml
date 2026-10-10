@@ -588,7 +588,7 @@
 		# Range: > 0
 		bananaSaplingGrowthTicks = 172800
 		#
-		# Ticks required between berry bush growth steps
+		# Ticks required between banana tree growth steps
 		# Default: 115200
 		# Range: > 0
 		bananaPlantGrowthTicks = 115200
@@ -597,6 +597,11 @@
 		# Default: 288000
 		# Range: > 0
 		fruitPickBloomDelayTicks = 288000
+		#
+		# Ticks required between berry bush growth steps
+		# Default: 115200
+		# Range: > 0
+		berryBushGrowthTicks = 115200
 
 	[blocks.crops]
 		#
@@ -887,7 +892,7 @@
 		# How much thirst the player gains from drinking in the rain (standing outside in the rain and looking up) per tick.
 		# Default: 0.20833333333333334
 		# Range: 0.0 ~ 100.0
-		thirstGainedFromDrinkingInTheRain = 0.20833333333333334
+		thirstGainedFromDrinkingInTheRain = 0.1
 		#
 		# A multiplier for how quickly the player regenerates health, under TFC's passive regeneration.
 		# By default, the player regenerates 0.2 HP/second, or 0.6 HP/second when above 80% hunger and thirst, where 1 HP = 1/50 of a heart.
@@ -923,7 +928,7 @@
 		# A multiplier for the minimum health that the player will obtain, based on their nutrition
 		# Default: 0.2
 		# Range: 0.001 ~ 1000.0
-		nutritionMinimumHealthModifier = 0.2
+		nutritionMinimumHealthModifier = 0.1
 		#
 		# A multiplier for the default health that the player will have (this is at a average nutrition of 40%, aka the starting nutrition.
 		# Nutrition above this value will linearly scale to the maximum multiplier.

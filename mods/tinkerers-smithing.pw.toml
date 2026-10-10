@@ -1,0 +1,13 @@
+name = "Tinkerer's Smithing"
+filename = "tinkerers-smithing-2.7.2+1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ea40b32cd1af3b3d166f448063e03f7c808809ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7883562
+project-id = 1506047

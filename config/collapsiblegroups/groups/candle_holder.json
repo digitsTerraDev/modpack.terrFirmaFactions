@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "candle_holder",
+  "name": {
+    "translate": "collapsible_groups.group.candle_holder",
+    "fallback": "Candle Holder"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tff:nickel_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:cast_iron_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:gold_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:bismuth_bronze_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:bismuth_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:zinc_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:wrought_iron_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:bronze_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:steel_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:black_steel_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:red_steel_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:silver_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:brass_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:black_bronze_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:rose_gold_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:blue_steel_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:copper_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:sterling_silver_candle_holder"
+      },
+      {
+        "type": "item",
+        "id": "tff:tin_candle_holder"
+      }
+    ]
+  }
+}

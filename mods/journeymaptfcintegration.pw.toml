@@ -1,25 +1,13 @@
-filename = 'journeymaptfcintegration-neoforge-1.0.2.jar'
-name = 'journeymaptfcintegration'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.0.2'
+name = "journeymaptfcintegration"
+filename = "journeymaptfcintegration-neoforge-1.0.3.jar"
+side = "both"
 
 [download]
-hash = '8fea2c980a9dd3da80ccb1b0e6aca6d856689985be9a35099a84617ae3f46efbd110a62abd23b494d4e5c08497f07b0fec3d99e14b1eaddd5466ccf892a1d82c'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/lYsRkKJg/versions/gfC4F6aT/journeymaptfcintegration-neoforge-1.0.2.jar'
+url = "https://cdn.modrinth.com/data/lYsRkKJg/versions/uyJfcEqC/journeymaptfcintegration-neoforge-1.0.3.jar"
+hash-format = "sha512"
+hash = "dbf48d64f8eaaf19ba51f39aa4fe5c85f03f9575675093562f8636bfb89da7ef62d5996a40bbafc886f455bd0121c87db96e3e6a84ca8794178e689525a6f907"
 
+[update]
 [update.modrinth]
-mod-id = 'lYsRkKJg'
-version = 'gfC4F6aT'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'JaCEZUhg'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'lfHFW1mp'
-type = 'REQUIRED'
+mod-id = "lYsRkKJg"
+version = "uyJfcEqC"

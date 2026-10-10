@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "id": "road_slab",
+  "name": {
+    "translate": "collapsible_groups.group.road_slab",
+    "fallback": "Road Slab"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:cracked_trodden_concrete_road_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:concrete_road_panel_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:trodden_concrete_road_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:cracked_concrete_road_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:concrete_road_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/marble_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/marble_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/marble_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/gneiss_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/gneiss_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/gneiss_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/schist_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/schist_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/schist_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/phyllite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/chert_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/chalk_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/chalk_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/chalk_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/tuff_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/tuff_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/tuff_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/rhyolite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/rhyolite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/rhyolite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/basalt_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/basalt_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/basalt_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/andesite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/andesite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/andesite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/dacite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/dacite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/dacite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/quartzite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/quartzite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/quartzite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/slate_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/slate_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/slate_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/phyllite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/phyllite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/chert_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/chert_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/dolomite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/dolomite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/dolomite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/conglomerate_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/conglomerate_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/conglomerate_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/limestone_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/limestone_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/limestone_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/claystone_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/claystone_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/claystone_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/shale_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/shale_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/shale_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/gabbro_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/gabbro_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/gabbro_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/diorite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/diorite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/diorite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/macadam_road/granite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/gravel_road/granite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/cobbled_road/granite_slab"
+      },
+      {
+        "type": "item",
+        "id": "rnr:hoggin_slab"
+      }
+    ]
+  }
+}

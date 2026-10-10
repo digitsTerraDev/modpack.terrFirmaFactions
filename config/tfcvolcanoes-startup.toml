@@ -191,23 +191,3 @@
 	tickDelayMafic = 5
 	#Toggle finite water for salt-, fresh-, river- and spring water? Setting this to true will prevent water from creating source blocks when spreading.
 	toggleFiniteWater = false
-	#Maximum horizontal distance (Chebyshev) that fire can jump from the source block. Default 2.
-	# Default: 3
-	# Range: 0 ~ 32
-	maxFireJumpHoriz = 3
-	#Maximum number of blocks fire can jump upward from the source block. Default 4.
-	# Default: 5
-	# Range: 0 ~ 32
-	maxFireJumpUp = 5
-	#Maximum number of blocks fire can jump downward from the source block. Default 1.
-	# Default: 5
-	# Range: 0 ~ 32
-	maxFireJumpDown = 5
-	#Lower bound (inclusive) for the random interval used to rejuvenate charred blocks (in ticks).
-	# Default: 30
-	# Range: > 1
-	rejuvenationLowerBound = 30
-	#Upper bound (inclusive) for the random interval used to rejuvenate charred blocks (in ticks).
-	# Default: 250
-	# Range: > 1
-	rejuvenationUpperBound = 250

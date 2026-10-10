@@ -1,0 +1,31 @@
+[survey]
+	#Whether normal prospecting shows all detected minerals instead of a single random result.
+	#是否让普通勘探显示全部探测到的矿物，而不是只显示一种随机结果。
+	enable_multi_mineral_scan = true
+	#How normal prospecting summaries present detected mineral amounts.
+	#普通勘探摘要的数量显示方式。
+	#Allowed Values: EXACT, APPROXIMATE
+	normal_scan_count_mode = "APPROXIMATE"
+	#Whether deep survey is enabled.
+	#是否启用深度勘探。
+	enable_deep_survey = false
+	#Multiplier applied to the target tool's base use cost when a deep survey starts.
+	#深度勘探开始时，对目标勘探工具基础消耗次数施加的倍率。
+	# Default: 20
+	# Range: 1 ~ 10000
+	tool_use_multiplier = 20
+	#How long the player is locked in place while a survey is running.
+	#深度勘探期间玩家被固定在原地的持续时间。
+	# Default: 100
+	# Range: 1 ~ 72000
+	survey_lock_ticks = 100
+	#How deep survey reports present mineral counts.
+	#深度勘探记录表的数量显示方式。
+	#Allowed Values: EXACT, APPROXIMATE
+	deep_survey_count_mode = "APPROXIMATE"
+	#Whether new deep survey reports record the player's coordinates.
+	#是否在新的深度勘探记录表中记录玩家坐标。
+	include_player_coords = false
+	#Whether holding a deep survey report highlights matching minerals on the client.
+	#是否允许手持深度勘探记录表时高亮对应矿物。
+	enable_report_highlight = false

@@ -1,0 +1,13 @@
+name = "BareBonesBrews"
+filename = "barebonesbrews-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ec400f15560a6545e224a86e61f7a9ef1cbc4843"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8988383
+project-id = 1708382

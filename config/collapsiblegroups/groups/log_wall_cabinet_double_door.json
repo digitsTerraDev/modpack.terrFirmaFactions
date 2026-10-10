@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "id": "log_wall_cabinet_double_door",
+  "name": {
+    "translate": "collapsible_groups.group.log_wall_cabinet_double_door",
+    "fallback": "Log Wall Cabinet (Double Door)"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_wall_cabinet_double_door"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_wall_cabinet_double_door"
+      }
+    ]
+  }
+}

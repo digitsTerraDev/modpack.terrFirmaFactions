@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "cushion",
+  "name": {
+    "translate": "collapsible_groups.group.cushion",
+    "fallback": "Cushion"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "interiors:black_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:red_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:green_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:brown_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:blue_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:purple_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:cyan_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:light_gray_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:gray_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:pink_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:lime_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:yellow_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:light_blue_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:magenta_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:orange_cushion"
+      },
+      {
+        "type": "item",
+        "id": "interiors:white_cushion"
+      }
+    ]
+  }
+}

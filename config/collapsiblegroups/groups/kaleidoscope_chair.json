@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "kaleidoscope_chair",
+  "name": {
+    "translate": "collapsible_groups.group.kaleidoscope_chair",
+    "fallback": "Kaleidoscope Chair"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "kaleidoscope_cookery:chair_warped"
+      },
+      {
+        "type": "item",
+        "id": "kaleidoscope_cookery:chair_mangrove"
+      },
+      {
+        "type": "item",
+        "id": "kaleidoscope_cookery:chair_jungle"
+      },
+      {
+        "type": "item",
+        "id": "kaleidoscope_cookery:chair_dark_oak"
+      },
+      {
+        "type": "item",
+        "id": "kaleidoscope_cookery:chair_crimson"
+      },
+      {
+        "type": "item",
+        "id": "kaleidoscope_cookery:chair_cherry"
+      },
+      {
+        "type": "item",
+        "id": "kaleidoscope_cookery:chair_birch"
+      },
+      {
+        "type": "item",
+        "id": "kaleidoscope_cookery:chair_bamboo"
+      },
+      {
+        "type": "item",
+        "id": "kaleidoscope_cookery:chair_acacia"
+      },
+      {
+        "type": "item",
+        "id": "kaleidoscope_cookery:chair_spruce"
+      },
+      {
+        "type": "item",
+        "id": "kaleidoscope_cookery:chair_oak"
+      }
+    ]
+  }
+}

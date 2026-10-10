@@ -1,0 +1,13 @@
+name = "Apple Crates"
+filename = "applecrates-neoforge-1.21.1-4.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "943318abea7f9054155afb74083c866bf0edb8f2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7040141
+project-id = 630726

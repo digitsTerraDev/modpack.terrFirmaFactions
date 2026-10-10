@@ -1,0 +1,15 @@
+[toroidalHud]
+	#Show latitude and longitude in the bottom-left HUD.
+	enabled = true
+	#HUD scale. 1 is normal size.
+	# Default: 1.0
+	# Range: 0.5 ~ 4.0
+	scale = 1.0
+	#Distance from the left edge in pixels.
+	# Default: 6
+	# Range: 0 ~ 1000
+	leftOffset = 6
+	#Distance from the bottom edge in pixels.
+	# Default: 6
+	# Range: 0 ~ 1000
+	bottomOffset = 6

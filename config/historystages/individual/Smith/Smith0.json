@@ -1,0 +1,46 @@
+{
+  "display_name": "Beginner Smith",
+  "mode": "auto",
+  "auto_trigger": {
+    "triggers": [
+      {
+        "id": "tfc:metal/pickaxe/copper",
+        "type": "item"
+      }
+    ]
+  },
+  "research_time": 20,
+  "min_pedestal_tier": 1,
+  "pedestal_tier_mode": "min",
+  "items": [],
+  "tags": [],
+  "mods": [],
+  "mod_exceptions": [],
+  "fluids": [],
+  "recipes": [
+    "tfc:crafting/metal/pickaxe/copper_specialized"
+  ],
+  "dimensions": [],
+  "structures": {
+    "structures": []
+  },
+  "biomes": {
+    "biomes": []
+  },
+  "zones": [],
+  "entities": {
+    "spawnlock": [],
+    "attacklock": [],
+    "interactionlock": [],
+    "modLinked": []
+  },
+  "trades": {
+    "offers": [],
+    "professions": [],
+    "levels": []
+  },
+  "dependencies": [],
+  "hidden_display": {
+    "name_mode": "replace"
+  }
+}

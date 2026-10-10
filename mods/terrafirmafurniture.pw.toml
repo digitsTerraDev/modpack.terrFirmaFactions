@@ -1,0 +1,13 @@
+name = "TerraFirmaFurniture"
+filename = "tff-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d441a2a0f0a2ed25b3bbb2b3632dc3c52bb2b22c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8934983
+project-id = 1705167

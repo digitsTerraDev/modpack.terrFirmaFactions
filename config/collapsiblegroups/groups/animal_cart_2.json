@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "animal_cart_2",
+  "name": {
+    "translate": "collapsible_groups.group.animal_cart_2",
+    "fallback": "Animal Cart"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/acacia"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/ash"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/aspen"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/birch"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/hickory"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/kapok"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/maple"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/oak"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/palm"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/sycamore"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/willow"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/spruce"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:animal_cart/pine"
+      }
+    ]
+  }
+}

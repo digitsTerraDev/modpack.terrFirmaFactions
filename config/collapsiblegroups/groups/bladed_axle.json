@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "bladed_axle",
+  "name": {
+    "translate": "collapsible_groups.group.bladed_axle",
+    "fallback": "Bladed Axle"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/willow"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/sycamore"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/spruce"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/pine"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/palm"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/oak"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/maple"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/kapok"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/hickory"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/birch"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/aspen"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/ash"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bladed_axle/acacia"
+      }
+    ]
+  }
+}

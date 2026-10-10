@@ -1,0 +1,14 @@
+# Maps items to equivalent tags that other mods substitute in crafting recipes
+[ingredientSubstitutions]
+	"minecraft:iron_nugget" = "c:nuggets/iron"
+	"minecraft:gold_ingot" = "c:ingots/gold"
+	"minecraft:iron_ingot" = "c:ingots/iron"
+	"minecraft:emerald" = "c:gems/emerald"
+	"minecraft:netherite_ingot" = "c:ingots/netherite"
+	"minecraft:chest" = "c:chests/wooden"
+	"minecraft:amethyst_shard" = "c:gems/amethyst"
+	"minecraft:gold_nugget" = "c:nuggets/gold"
+	"minecraft:diamond" = "c:gems/diamond"
+	"minecraft:copper_ingot" = "c:ingots/copper"
+	"minecraft:cobblestone" = "c:cobblestones"
+	"minecraft:string" = "c:strings"

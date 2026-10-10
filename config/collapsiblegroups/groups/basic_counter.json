@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "basic_counter",
+  "name": {
+    "translate": "collapsible_groups.group.basic_counter",
+    "fallback": "Basic Counter"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_basic_wooden_counter"
+      }
+    ]
+  }
+}

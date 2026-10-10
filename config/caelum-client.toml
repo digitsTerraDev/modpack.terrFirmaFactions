@@ -1,0 +1,22 @@
+[stars]
+	#What stars to use
+	#Allowed Values: VANILLA, CUSTOM, NONE
+	stars_type = "CUSTOM"
+	#Stars with magnitude above this value won't be rendered.
+	# Default: 5.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	max_magnitude = 5.0
+	#Controls the brightness/opacity of the colors.
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	star_brightness = 2.0
+	#Should stars have colors?
+	star_colors = true
+	#Controls the size of the (custom) stars
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	star_size = 1.0
+
+[debug]
+	#Should render the debug overlay with information about the time, sun and position.
+	debug_overlay = false

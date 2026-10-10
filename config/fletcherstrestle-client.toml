@@ -1,0 +1,13 @@
+[hud_settings]
+	#X offset of the Quiver HUD
+	# Default: 0.0
+	# Range: -2000.0 ~ 2000.0
+	quiver_hud_x = 0.0
+	#Y position of the Quiver HUD
+	# Default: 15.0
+	# Range: 0.0 ~ 2000.0
+	quiver_hud_y = 15.0
+
+[rendering]
+	#Show quivers on players' backs.
+	quiver_on_back = true

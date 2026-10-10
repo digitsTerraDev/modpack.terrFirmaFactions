@@ -1,0 +1,13 @@
+name = "TFC/Create Chain Compat"
+filename = "tfccreatechaincompt-neoforge-1.21.1-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1a377730e014bca9c2db432201d46e79020dba7a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8261269
+project-id = 1263169

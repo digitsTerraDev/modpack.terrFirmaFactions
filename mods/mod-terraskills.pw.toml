@@ -1,0 +1,15 @@
+name = "mod.terraSkills"
+filename = "terraskills-0.0.6.jar"
+side = "both"
+
+[download]
+url = "https://github.com/digitsTerraDev/mod.terraSkills/releases/download/v0.0.6/terraskills-0.0.6.jar"
+hash-format = "sha256"
+hash = "78994f8332d076336bfd0384c5f557a861690ae70d37948918ed6cc9cccaa6e4"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "digitsTerraDev/mod.terraSkills"
+tag = "v0.0.6"

@@ -1,0 +1,36 @@
+[alternating_flux]
+	#AF line carrying capacity (trunk/aggregate) in IF/t. Default 131072.
+	#Each AF<->HV transformer moves at most the HV rate (32768), so the 4x
+	#refers to one AF trunk aggregating multiple HV feeds, not single-link
+	#delivery. Minimum 1 (0 would divide-by-zero the shock-damage formula).
+	# Default: 131072
+	# Range: > 1
+	transferRate = 131072
+	#Maximum length of a single AF wire, in blocks.
+	#There is no hard cap in IE; longer wires simply cross more chunks, so keep
+	#both endpoints chunk-loaded. Default 96.
+	# Default: 96
+	# Range: 1 ~ 1024
+	maxLength = 96
+	#Power lost across a full-length AF run (loss = lossRatio * length / maxLength,
+	#identical to IE's own energy-wire formula). Default 0.0005 — below HV's 0.0008
+	#over a span twice as long, so one AF line beats chaining HV connectors.
+	# Default: 5.0E-4
+	# Range: 0.0 ~ 1.0
+	lossRatio = 5.0E-4
+	#RGB colour of the AF wire. Default 0xf6866c (original salmon).
+	# Default: 16156268
+	# Range: 0 ~ 16777215
+	wireColour = 16156268
+	#How close an entity must get to a live AF wire to be shocked, in blocks
+	#(entity hitbox is inflated by this much for the check). IE's own tiers:
+	#LV 0.05 / MV 0.1 / HV 0.3. Default 0.5 — AF sits above HV.
+	# Default: 0.5
+	# Range: 0.0 ~ 4.0
+	damageRadius = 0.5
+	#Base shock damage of a fully-loaded AF wire; actual damage scales with
+	#current throughput (IE's formula). IE's tiers: LV 2 / MV 5 / HV 15.
+	#Default 25. Set 0 to disable shock damage entirely.
+	# Default: 25.0
+	# Range: 0.0 ~ 1024.0
+	shockDamageBase = 25.0

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "roof_tile",
+  "name": {
+    "translate": "collapsible_groups.group.roof_tile",
+    "fallback": "Roof Tile"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:ceramic_roof_tile"
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "rnr:unfired_roof_tile",
+            "components": {
+              "tfc:heat": {}
+            }
+          }
+        }
+      },
+      {
+        "type": "item",
+        "id": "rnr:terracotta_roof_tile"
+      },
+      {
+        "type": "item",
+        "stack": {
+          "data_format": "minecraft:item_components",
+          "data": {
+            "id": "rnr:unfired_terracotta_roof_tile",
+            "components": {
+              "tfc:heat": {}
+            }
+          }
+        }
+      }
+    ]
+  }
+}

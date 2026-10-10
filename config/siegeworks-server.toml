@@ -1,0 +1,821 @@
+#Config layout version, not the mod version. Leave this unchanged.
+#Adding settings does not change the layout version.
+# Default: 1
+# Range: > 1
+configVersion = 1
+
+#Per-engine operation settings. Durations are measured in ticks (20 ticks = 1 second).
+[engines]
+
+		#Movement and steering settings.
+		[engines.serpentine.movement]
+			#Movement speed when operated by a player.
+			# Default: 0.045
+			# Range: 0.0 ~ 10.0
+			playerSpeed = 0.045
+			#Movement speed when pulled by a horse.
+			# Default: 0.19
+			# Range: 0.0 ~ 10.0
+			horseSpeed = 0.19
+			#Speed gained per tick while a player is driving.
+			# Default: 0.002045454545454545
+			# Range: 0.0 ~ 10.0
+			playerAcceleration = 0.002045454545454545
+			#Speed gained per tick while a horse is pulling.
+			# Default: 0.005588235294117647
+			# Range: 0.0 ~ 10.0
+			horseAcceleration = 0.005588235294117647
+			#Speed lost per tick after a direct operator releases forward or backward.
+			# Default: 0.002045454545454545
+			# Range: 0.0 ~ 10.0
+			playerDeceleration = 0.002045454545454545
+			#Speed lost per tick after a draft-mount rider releases forward or backward.
+			# Default: 0.005588235294117647
+			# Range: 0.0 ~ 10.0
+			horseDeceleration = 0.005588235294117647
+			#Maximum reverse speed as a fraction of forward speed.
+			# Default: 0.55
+			# Range: 0.0 ~ 1.0
+			reverseSpeedMultiplier = 0.55
+			#Degrees turned per tick while driven by a player.
+			# Default: 0.62
+			# Range: 0.0 ~ 180.0
+			playerTurnDegreesPerTick = 0.62
+			#Degrees turned per tick while pulled by a horse.
+			# Default: 1.308888888888889
+			# Range: 0.0 ~ 180.0
+			horseTurnDegreesPerTick = 1.308888888888889
+
+		#Firing, activation and loading timings.
+		[engines.serpentine.operation]
+			#Recovery time after firing or activating. Loading cannot begin during recovery.
+			#The minimum preserves the fixed firing or impact event in the animation.
+			# Default: 105
+			# Range: 60 ~ 72000
+			recoveryTicks = 105
+
+			#Loading stage durations. Winding stages also scale their reload animation to match.
+			[engines.serpentine.operation.loading]
+				# Default: 115
+				# Range: 1 ~ 72000
+				powderTicks = 115
+				# Default: 82
+				# Range: 1 ~ 72000
+				ramChargeTicks = 82
+				# Default: 80
+				# Range: 1 ~ 72000
+				ammunitionTicks = 80
+				# Default: 70
+				# Range: 1 ~ 72000
+				ramProjectileTicks = 70
+				# Default: 30
+				# Range: 1 ~ 72000
+				primingTicks = 30
+
+		#Movement and steering settings.
+		[engines.culverin.movement]
+			#Movement speed when operated by a player.
+			# Default: 0.065
+			# Range: 0.0 ~ 10.0
+			playerSpeed = 0.065
+			#Movement speed when pulled by a horse.
+			# Default: 0.23
+			# Range: 0.0 ~ 10.0
+			horseSpeed = 0.23
+			#Speed gained per tick while a player is driving.
+			# Default: 0.0040625
+			# Range: 0.0 ~ 10.0
+			playerAcceleration = 0.0040625
+			#Speed gained per tick while a horse is pulling.
+			# Default: 0.008214285714285714
+			# Range: 0.0 ~ 10.0
+			horseAcceleration = 0.008214285714285714
+			#Speed lost per tick after a direct operator releases forward or backward.
+			# Default: 0.0040625
+			# Range: 0.0 ~ 10.0
+			playerDeceleration = 0.0040625
+			#Speed lost per tick after a draft-mount rider releases forward or backward.
+			# Default: 0.008214285714285714
+			# Range: 0.0 ~ 10.0
+			horseDeceleration = 0.008214285714285714
+			#Maximum reverse speed as a fraction of forward speed.
+			# Default: 0.55
+			# Range: 0.0 ~ 1.0
+			reverseSpeedMultiplier = 0.55
+			#Degrees turned per tick while driven by a player.
+			# Default: 1.0
+			# Range: 0.0 ~ 180.0
+			playerTurnDegreesPerTick = 1.0
+			#Degrees turned per tick while pulled by a horse.
+			# Default: 1.7692307692307692
+			# Range: 0.0 ~ 180.0
+			horseTurnDegreesPerTick = 1.7692307692307692
+
+		#Firing, activation and loading timings.
+		[engines.culverin.operation]
+			#Recovery time after firing or activating. Loading cannot begin during recovery.
+			#The minimum preserves the fixed firing or impact event in the animation.
+			# Default: 75
+			# Range: 60 ~ 72000
+			recoveryTicks = 75
+
+			#Loading stage durations. Winding stages also scale their reload animation to match.
+			[engines.culverin.operation.loading]
+				# Default: 90
+				# Range: 1 ~ 72000
+				powderTicks = 90
+				# Default: 65
+				# Range: 1 ~ 72000
+				ramChargeTicks = 65
+				# Default: 65
+				# Range: 1 ~ 72000
+				ammunitionTicks = 65
+				# Default: 55
+				# Range: 1 ~ 72000
+				ramProjectileTicks = 55
+				# Default: 25
+				# Range: 1 ~ 72000
+				primingTicks = 25
+
+		#Movement and steering settings.
+		[engines.mons_meg.movement]
+			#Movement speed when operated by a player.
+			# Default: 0.018
+			# Range: 0.0 ~ 10.0
+			playerSpeed = 0.018
+			#Movement speed when pulled by a horse.
+			# Default: 0.11
+			# Range: 0.0 ~ 10.0
+			horseSpeed = 0.11
+			#Speed gained per tick while a player is driving.
+			# Default: 3.5999999999999997E-4
+			# Range: 0.0 ~ 10.0
+			playerAcceleration = 3.5999999999999997E-4
+			#Speed gained per tick while a horse is pulling.
+			# Default: 0.00171875
+			# Range: 0.0 ~ 10.0
+			horseAcceleration = 0.00171875
+			#Speed lost per tick after a direct operator releases forward or backward.
+			# Default: 4.090909090909091E-4
+			# Range: 0.0 ~ 10.0
+			playerDeceleration = 4.090909090909091E-4
+			#Speed lost per tick after a draft-mount rider releases forward or backward.
+			# Default: 0.0019642857142857144
+			# Range: 0.0 ~ 10.0
+			horseDeceleration = 0.0019642857142857144
+			#Maximum reverse speed as a fraction of forward speed.
+			# Default: 0.55
+			# Range: 0.0 ~ 1.0
+			reverseSpeedMultiplier = 0.55
+			#Degrees turned per tick while driven by a player.
+			# Default: 0.14
+			# Range: 0.0 ~ 180.0
+			playerTurnDegreesPerTick = 0.14
+			#Degrees turned per tick while pulled by a horse.
+			# Default: 0.42777777777777787
+			# Range: 0.0 ~ 180.0
+			horseTurnDegreesPerTick = 0.42777777777777787
+
+		#Firing, activation and loading timings.
+		[engines.mons_meg.operation]
+			#Recovery time after firing or activating. Loading cannot begin during recovery.
+			#Set to 0 to disable recovery.
+			# Default: 600
+			# Range: 0 ~ 72000
+			recoveryTicks = 600
+
+			#Loading stage durations. Winding stages also scale their reload animation to match.
+			[engines.mons_meg.operation.loading]
+				# Default: 190
+				# Range: 1 ~ 72000
+				powderTicks = 190
+				# Default: 145
+				# Range: 1 ~ 72000
+				ramChargeTicks = 145
+				# Default: 160
+				# Range: 1 ~ 72000
+				ammunitionTicks = 160
+				# Default: 130
+				# Range: 1 ~ 72000
+				ramProjectileTicks = 130
+				# Default: 50
+				# Range: 1 ~ 72000
+				primingTicks = 50
+
+		#Movement and steering settings.
+		[engines.tower_crossbow.movement]
+			#Movement speed when operated by a player.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			playerSpeed = 0.0
+			#Movement speed when pulled by a horse.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			horseSpeed = 0.0
+			#Speed gained per tick while a player is driving.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			playerAcceleration = 0.0
+			#Speed gained per tick while a horse is pulling.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			horseAcceleration = 0.0
+			#Speed lost per tick after a direct operator releases forward or backward.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			playerDeceleration = 0.0
+			#Speed lost per tick after a draft-mount rider releases forward or backward.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			horseDeceleration = 0.0
+			#Maximum reverse speed as a fraction of forward speed.
+			# Default: 0.55
+			# Range: 0.0 ~ 1.0
+			reverseSpeedMultiplier = 0.55
+			#Degrees turned per tick while driven by a player.
+			# Default: 0.0
+			# Range: 0.0 ~ 180.0
+			playerTurnDegreesPerTick = 0.0
+			#Degrees turned per tick while pulled by a horse.
+			# Default: 0.0
+			# Range: 0.0 ~ 180.0
+			horseTurnDegreesPerTick = 0.0
+
+		#Firing, activation and loading timings.
+		[engines.tower_crossbow.operation]
+			#Recovery time after firing or activating. Loading cannot begin during recovery.
+			#Set to 0 to disable recovery.
+			# Default: 95
+			# Range: 0 ~ 72000
+			recoveryTicks = 95
+
+			#Loading stage durations. Winding stages also scale their reload animation to match.
+			[engines.tower_crossbow.operation.loading]
+				# Default: 115
+				# Range: 1 ~ 72000
+				boltTicks = 115
+				# Default: 100
+				# Range: 1 ~ 72000
+				windingTicks = 100
+
+		#Movement and steering settings.
+		[engines.arcballista.movement]
+			#Movement speed when operated by a player.
+			# Default: 0.075
+			# Range: 0.0 ~ 10.0
+			playerSpeed = 0.075
+			#Movement speed when pulled by a horse.
+			# Default: 0.21
+			# Range: 0.0 ~ 10.0
+			horseSpeed = 0.21
+			#Speed gained per tick while a player is driving.
+			# Default: 0.004166666666666667
+			# Range: 0.0 ~ 10.0
+			playerAcceleration = 0.004166666666666667
+			#Speed gained per tick while a horse is pulling.
+			# Default: 0.007
+			# Range: 0.0 ~ 10.0
+			horseAcceleration = 0.007
+			#Speed lost per tick after a direct operator releases forward or backward.
+			# Default: 0.004166666666666667
+			# Range: 0.0 ~ 10.0
+			playerDeceleration = 0.004166666666666667
+			#Speed lost per tick after a draft-mount rider releases forward or backward.
+			# Default: 0.007
+			# Range: 0.0 ~ 10.0
+			horseDeceleration = 0.007
+			#Maximum reverse speed as a fraction of forward speed.
+			# Default: 0.55
+			# Range: 0.0 ~ 1.0
+			reverseSpeedMultiplier = 0.55
+			#Degrees turned per tick while driven by a player.
+			# Default: 1.15
+			# Range: 0.0 ~ 180.0
+			playerTurnDegreesPerTick = 1.15
+			#Degrees turned per tick while pulled by a horse.
+			# Default: 1.6099999999999999
+			# Range: 0.0 ~ 180.0
+			horseTurnDegreesPerTick = 1.6099999999999999
+
+		#Firing, activation and loading timings.
+		[engines.arcballista.operation]
+			#Recovery time after firing or activating. Loading cannot begin during recovery.
+			#Set to 0 to disable recovery.
+			# Default: 48
+			# Range: 0 ~ 72000
+			recoveryTicks = 48
+
+			#Loading stage durations. Winding stages also scale their reload animation to match.
+			[engines.arcballista.operation.loading]
+				# Default: 72
+				# Range: 1 ~ 72000
+				boltTicks = 72
+				# Default: 60
+				# Range: 1 ~ 72000
+				windingTicks = 60
+
+		#Movement and steering settings.
+		[engines.mangonel.movement]
+			#Movement speed when operated by a player.
+			# Default: 0.055
+			# Range: 0.0 ~ 10.0
+			playerSpeed = 0.055
+			#Movement speed when pulled by a horse.
+			# Default: 0.17
+			# Range: 0.0 ~ 10.0
+			horseSpeed = 0.17
+			#Speed gained per tick while a player is driving.
+			# Default: 0.0021153846153846153
+			# Range: 0.0 ~ 10.0
+			playerAcceleration = 0.0021153846153846153
+			#Speed gained per tick while a horse is pulling.
+			# Default: 0.004473684210526316
+			# Range: 0.0 ~ 10.0
+			horseAcceleration = 0.004473684210526316
+			#Speed lost per tick after a direct operator releases forward or backward.
+			# Default: 0.0022916666666666667
+			# Range: 0.0 ~ 10.0
+			playerDeceleration = 0.0022916666666666667
+			#Speed lost per tick after a draft-mount rider releases forward or backward.
+			# Default: 0.004722222222222222
+			# Range: 0.0 ~ 10.0
+			horseDeceleration = 0.004722222222222222
+			#Maximum reverse speed as a fraction of forward speed.
+			# Default: 0.55
+			# Range: 0.0 ~ 1.0
+			reverseSpeedMultiplier = 0.55
+			#Degrees turned per tick while driven by a player.
+			# Default: 0.36
+			# Range: 0.0 ~ 180.0
+			playerTurnDegreesPerTick = 0.36
+			#Degrees turned per tick while pulled by a horse.
+			# Default: 0.5563636363636364
+			# Range: 0.0 ~ 180.0
+			horseTurnDegreesPerTick = 0.5563636363636364
+
+		#Firing, activation and loading timings.
+		[engines.mangonel.operation]
+			#Recovery time after firing or activating. Loading cannot begin during recovery.
+			#The minimum preserves the fixed firing or impact event in the animation.
+			# Default: 10
+			# Range: 4 ~ 72000
+			recoveryTicks = 10
+
+			#Loading stage durations. Winding stages also scale their reload animation to match.
+			[engines.mangonel.operation.loading]
+				# Default: 95
+				# Range: 1 ~ 72000
+				stoneTicks = 95
+				# Default: 105
+				# Range: 1 ~ 72000
+				fireProjectileTicks = 105
+				# Default: 170
+				# Range: 1 ~ 72000
+				windingTicks = 170
+
+		#Movement and steering settings.
+		[engines.trebuchet.movement]
+			#Movement speed when operated by a player.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			playerSpeed = 0.0
+			#Movement speed when pulled by a horse.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			horseSpeed = 0.0
+			#Speed gained per tick while a player is driving.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			playerAcceleration = 0.0
+			#Speed gained per tick while a horse is pulling.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			horseAcceleration = 0.0
+			#Speed lost per tick after a direct operator releases forward or backward.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			playerDeceleration = 0.0
+			#Speed lost per tick after a draft-mount rider releases forward or backward.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			horseDeceleration = 0.0
+			#Maximum reverse speed as a fraction of forward speed.
+			# Default: 0.55
+			# Range: 0.0 ~ 1.0
+			reverseSpeedMultiplier = 0.55
+			#Degrees turned per tick while driven by a player.
+			# Default: 0.0
+			# Range: 0.0 ~ 180.0
+			playerTurnDegreesPerTick = 0.0
+			#Degrees turned per tick while pulled by a horse.
+			# Default: 0.0
+			# Range: 0.0 ~ 180.0
+			horseTurnDegreesPerTick = 0.0
+
+		#Firing, activation and loading timings.
+		[engines.trebuchet.operation]
+			#Recovery time after firing or activating. Loading cannot begin during recovery.
+			#The minimum preserves the fixed firing or impact event in the animation.
+			# Default: 60
+			# Range: 16 ~ 72000
+			recoveryTicks = 60
+
+			#Loading stage durations. Winding stages also scale their reload animation to match.
+			[engines.trebuchet.operation.loading]
+				# Default: 150
+				# Range: 1 ~ 72000
+				stoneTicks = 150
+				# Default: 165
+				# Range: 1 ~ 72000
+				fireProjectileTicks = 165
+				# Default: 320
+				# Range: 1 ~ 72000
+				windingTicks = 320
+
+		#Movement and steering settings.
+		[engines.battering_ram.movement]
+			#Movement speed when operated by a player.
+			# Default: 0.03
+			# Range: 0.0 ~ 10.0
+			playerSpeed = 0.03
+			#Movement speed when pulled by a horse.
+			# Default: 0.09
+			# Range: 0.0 ~ 10.0
+			horseSpeed = 0.09
+			#Speed gained per tick while a player is driving.
+			# Default: 8.333333333333333E-4
+			# Range: 0.0 ~ 10.0
+			playerAcceleration = 8.333333333333333E-4
+			#Speed gained per tick while a horse is pulling.
+			# Default: 0.0018
+			# Range: 0.0 ~ 10.0
+			horseAcceleration = 0.0018
+			#Speed lost per tick after a direct operator releases forward or backward.
+			# Default: 8.333333333333333E-4
+			# Range: 0.0 ~ 10.0
+			playerDeceleration = 8.333333333333333E-4
+			#Speed lost per tick after a draft-mount rider releases forward or backward.
+			# Default: 0.0019565217391304345
+			# Range: 0.0 ~ 10.0
+			horseDeceleration = 0.0019565217391304345
+			#Maximum reverse speed as a fraction of forward speed.
+			# Default: 0.55
+			# Range: 0.0 ~ 1.0
+			reverseSpeedMultiplier = 0.55
+			#Degrees turned per tick while driven by a player.
+			# Default: 0.16
+			# Range: 0.0 ~ 180.0
+			playerTurnDegreesPerTick = 0.16
+			#Degrees turned per tick while pulled by a horse.
+			# Default: 0.24
+			# Range: 0.0 ~ 180.0
+			horseTurnDegreesPerTick = 0.24
+
+		#Firing, activation and loading timings.
+		[engines.battering_ram.operation]
+			#Recovery time after firing or activating. Loading cannot begin during recovery.
+			#The minimum preserves the fixed firing or impact event in the animation.
+			# Default: 80
+			# Range: 80 ~ 72000
+			recoveryTicks = 80
+
+		#Movement and steering settings.
+		[engines.mantlet.movement]
+			#Movement speed when operated by a player.
+			# Default: 0.085
+			# Range: 0.0 ~ 10.0
+			playerSpeed = 0.085
+			#Movement speed when pulled by a horse.
+			# Default: 0.21
+			# Range: 0.0 ~ 10.0
+			horseSpeed = 0.21
+			#Speed gained per tick while a player is driving.
+			# Default: 0.007083333333333334
+			# Range: 0.0 ~ 10.0
+			playerAcceleration = 0.007083333333333334
+			#Speed gained per tick while a horse is pulling.
+			# Default: 0.008749999999999999
+			# Range: 0.0 ~ 10.0
+			horseAcceleration = 0.008749999999999999
+			#Speed lost per tick after a direct operator releases forward or backward.
+			# Default: 0.0053125
+			# Range: 0.0 ~ 10.0
+			playerDeceleration = 0.0053125
+			#Speed lost per tick after a draft-mount rider releases forward or backward.
+			# Default: 0.0075
+			# Range: 0.0 ~ 10.0
+			horseDeceleration = 0.0075
+			#Maximum reverse speed as a fraction of forward speed.
+			# Default: 0.55
+			# Range: 0.0 ~ 1.0
+			reverseSpeedMultiplier = 0.55
+			#Degrees turned per tick while driven by a player.
+			# Default: 0.85
+			# Range: 0.0 ~ 180.0
+			playerTurnDegreesPerTick = 0.85
+			#Degrees turned per tick while pulled by a horse.
+			# Default: 1.0499999999999998
+			# Range: 0.0 ~ 180.0
+			horseTurnDegreesPerTick = 1.0499999999999998
+
+		#Firing, activation and loading timings.
+		[engines.mantlet.operation]
+			#Recovery time after firing or activating. Loading cannot begin during recovery.
+			#Set to 0 to disable recovery.
+			# Default: 0
+			# Range: 0 ~ 72000
+			recoveryTicks = 0
+
+		#Movement and steering settings.
+		[engines.siege_tower.movement]
+			#Movement speed when operated by a player.
+			# Default: 0.022
+			# Range: 0.0 ~ 10.0
+			playerSpeed = 0.022
+			#Movement speed when pulled by a horse.
+			# Default: 0.12
+			# Range: 0.0 ~ 10.0
+			horseSpeed = 0.12
+			#Speed gained per tick while a player is driving.
+			# Default: 3.6666666666666667E-4
+			# Range: 0.0 ~ 10.0
+			playerAcceleration = 3.6666666666666667E-4
+			#Speed gained per tick while a horse is pulling.
+			# Default: 0.0015
+			# Range: 0.0 ~ 10.0
+			horseAcceleration = 0.0015
+			#Speed lost per tick after a direct operator releases forward or backward.
+			# Default: 4.3999999999999996E-4
+			# Range: 0.0 ~ 10.0
+			playerDeceleration = 4.3999999999999996E-4
+			#Speed lost per tick after a draft-mount rider releases forward or backward.
+			# Default: 0.0017142857142857142
+			# Range: 0.0 ~ 10.0
+			horseDeceleration = 0.0017142857142857142
+			#Maximum reverse speed as a fraction of forward speed.
+			# Default: 0.55
+			# Range: 0.0 ~ 1.0
+			reverseSpeedMultiplier = 0.55
+			#Degrees turned per tick while driven by a player.
+			# Default: 0.1
+			# Range: 0.0 ~ 180.0
+			playerTurnDegreesPerTick = 0.1
+			#Degrees turned per tick while pulled by a horse.
+			# Default: 0.27272727272727276
+			# Range: 0.0 ~ 180.0
+			horseTurnDegreesPerTick = 0.27272727272727276
+
+		#Firing, activation and loading timings.
+		[engines.siege_tower.operation]
+			#Recovery time after firing or activating. Loading cannot begin during recovery.
+			#Set to 0 to disable recovery.
+			# Default: 0
+			# Range: 0 ~ 72000
+			recoveryTicks = 0
+
+		[engines.siege_tower.crew]
+			#Minimum number of active crew members required to move the tower. The driver counts as crew.
+			# Default: 2
+			# Range: 1 ~ 6
+			minimumCrew = 2
+			#Active crew required to reach the configured player speed. The tower has six pushing positions, including the driver.
+			# Default: 6
+			# Range: 1 ~ 6
+			fullSpeedCrew = 6
+			#Fraction of configured player speed available at the minimum crew size. Speed scales linearly to full speed.
+			# Default: 0.3
+			# Range: 0.0 ~ 1.0
+			minimumCrewSpeedMultiplier = 0.3
+
+		#Movement and steering settings.
+		[engines.siege_ladder.movement]
+			#Movement speed when operated by a player.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			playerSpeed = 0.0
+			#Movement speed when pulled by a horse.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			horseSpeed = 0.0
+			#Speed gained per tick while a player is driving.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			playerAcceleration = 0.0
+			#Speed gained per tick while a horse is pulling.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			horseAcceleration = 0.0
+			#Speed lost per tick after a direct operator releases forward or backward.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			playerDeceleration = 0.0
+			#Speed lost per tick after a draft-mount rider releases forward or backward.
+			# Default: 0.0
+			# Range: 0.0 ~ 10.0
+			horseDeceleration = 0.0
+			#Maximum reverse speed as a fraction of forward speed.
+			# Default: 0.55
+			# Range: 0.0 ~ 1.0
+			reverseSpeedMultiplier = 0.55
+			#Degrees turned per tick while driven by a player.
+			# Default: 0.0
+			# Range: 0.0 ~ 180.0
+			playerTurnDegreesPerTick = 0.0
+			#Degrees turned per tick while pulled by a horse.
+			# Default: 0.0
+			# Range: 0.0 ~ 180.0
+			horseTurnDegreesPerTick = 0.0
+
+		#Firing, activation and loading timings.
+		[engines.siege_ladder.operation]
+			#Recovery time after firing or activating. Loading cannot begin during recovery.
+			#Set to 0 to disable recovery.
+			# Default: 0
+			# Range: 0 ~ 72000
+			recoveryTicks = 0
+
+		#Movement and steering settings.
+		[engines.hwacha.movement]
+			#Movement speed when operated by a player.
+			# Default: 0.055
+			# Range: 0.0 ~ 10.0
+			playerSpeed = 0.055
+			#Movement speed when pulled by a horse.
+			# Default: 0.19
+			# Range: 0.0 ~ 10.0
+			horseSpeed = 0.19
+			#Speed gained per tick while a player is driving.
+			# Default: 0.00275
+			# Range: 0.0 ~ 10.0
+			playerAcceleration = 0.00275
+			#Speed gained per tick while a horse is pulling.
+			# Default: 0.0059375
+			# Range: 0.0 ~ 10.0
+			horseAcceleration = 0.0059375
+			#Speed lost per tick after a direct operator releases forward or backward.
+			# Default: 0.00275
+			# Range: 0.0 ~ 10.0
+			playerDeceleration = 0.00275
+			#Speed lost per tick after a draft-mount rider releases forward or backward.
+			# Default: 0.005588235294117647
+			# Range: 0.0 ~ 10.0
+			horseDeceleration = 0.005588235294117647
+			#Maximum reverse speed as a fraction of forward speed.
+			# Default: 0.55
+			# Range: 0.0 ~ 1.0
+			reverseSpeedMultiplier = 0.55
+			#Degrees turned per tick while driven by a player.
+			# Default: 0.65
+			# Range: 0.0 ~ 180.0
+			playerTurnDegreesPerTick = 0.65
+			#Degrees turned per tick while pulled by a horse.
+			# Default: 1.1227272727272728
+			# Range: 0.0 ~ 180.0
+			horseTurnDegreesPerTick = 1.1227272727272728
+
+		#Firing, activation and loading timings.
+		[engines.hwacha.operation]
+			#Recovery time after firing or activating. Loading cannot begin during recovery.
+			#Set to 0 to disable recovery.
+			# Default: 100
+			# Range: 0 ~ 72000
+			recoveryTicks = 100
+
+			#Loading stage durations. Winding stages also scale their reload animation to match.
+			[engines.hwacha.operation.loading]
+				# Default: 10
+				# Range: 1 ~ 72000
+				rocketTicks = 10
+				# Default: 24
+				# Range: 1 ~ 72000
+				primingTicks = 24
+
+#Gameplay rules that apply across all siege engines.
+[rules]
+
+	#Maximum deployed siege engines owned by one scoreboard team.
+	#Players without a team are counted individually. Set a value to 0 for no limit.
+	[rules.deploymentLimits]
+		# Default: 0
+		# Range: 0 ~ 100000
+		serpentine = 0
+		# Default: 0
+		# Range: 0 ~ 100000
+		culverin = 0
+		# Default: 0
+		# Range: 0 ~ 100000
+		mons_meg = 0
+		# Default: 0
+		# Range: 0 ~ 100000
+		tower_crossbow = 0
+		# Default: 0
+		# Range: 0 ~ 100000
+		arcballista = 0
+		# Default: 0
+		# Range: 0 ~ 100000
+		mangonel = 0
+		# Default: 0
+		# Range: 0 ~ 100000
+		trebuchet = 0
+		# Default: 0
+		# Range: 0 ~ 100000
+		battering_ram = 0
+		# Default: 0
+		# Range: 0 ~ 100000
+		mantlet = 0
+		# Default: 0
+		# Range: 0 ~ 100000
+		siege_tower = 0
+		# Default: 0
+		# Range: 0 ~ 100000
+		siege_ladder = 0
+		# Default: 0
+		# Range: 0 ~ 100000
+		hwacha = 0
+
+	#Who may use, repair, dismantle and capture an owned siege engine.
+	[rules.ownership]
+		#Limit an owned engine to its owner, their scoreboard team and allied factions.
+		#Disabling this lets anyone use any engine.
+		enforceOwnership = false
+		#Let the owner's team and allies dismantle the engine, not only the owner.
+		teammatesMayDismantle = true
+		#Let an enemy take an engine left without its crew by holding its controls unhurt.
+		#Disabling this leaves enemies able only to destroy it.
+		allowCapture = true
+		#Allow capture only while the owner or a member of their team is online.
+		captureRequiresDefenderOnline = false
+		#Capture time grows with the engine's size, measured by the hammer strikes needed to dismantle it.
+		# Default: 0.5
+		# Range: 0.0 ~ 10.0
+		captureSecondsPerDismantleHit = 0.5
+		#Shortest capture time, in seconds.
+		# Default: 8
+		# Range: 1 ~ 600
+		minimumCaptureSeconds = 8
+		#Longest capture time, in seconds.
+		# Default: 45
+		# Range: 1 ~ 600
+		maximumCaptureSeconds = 45
+		#Release an engine to whoever uses it next once neither its owner nor anyone on their team
+		#has been online for this many days. Set to 0 to keep ownership forever.
+		# Default: 14
+		# Range: 0 ~ 3650
+		abandonAfterDays = 14
+
+	#What siege weapons may do to the world.
+	[rules.terrain]
+		#Where projectiles and rams break blocks.
+		#EVERYWHERE: anywhere.
+		#RESPECT_PROTECTION: only where the player behind the engine could break the block by hand,
+		#as claim mods and spawn protection decide. An offline owner is judged by their own profile.
+		#NEVER: siege weapons harm creatures and engines but leave blocks whole.
+		#Allowed Values: EVERYWHERE, RESPECT_PROTECTION, NEVER
+		blockDamage = "EVERYWHERE"
+		#Energy in joules to fracture one cubic metre of solid stone.
+		#50000 is a gameplay value: thick walls should take minutes of repeated artillery fire, not days.
+		#Higher values make blocks harder to destroy; lower values make them easier.
+		#Other materials scale from stone. A datapack's fractureEnergy overrides this value for its blocks.
+		#This changes craters and accumulated cracks, not flight, penetration resistance or entity damage.
+		# Default: 50000.0
+		# Range: 1.0 ~ 1.0E9
+		stoneFractureEnergy = 50000.0
+
+	#Incendiary pots, which burst only once lit. Their ingredients and burst values are datapack
+	#profiles: data/<namespace>/definitions/pot_fillings/incendiary.json.
+	[rules.incendiary]
+		#How long a lit pot's fuse burns, in ticks, before it bursts wherever it is:
+		#where it was placed, loaded in a stone thrower, or in flight.
+		# Default: 140
+		# Range: 20 ~ 1200
+		fuseTicks = 140
+
+[movement]
+	#Collide a moving engine with the world using its model geometry instead of its bounding box alone.
+	#An engine's box is smaller than its frame, so parts such as the arcballista's rear beam otherwise pass through terrain.
+	#Disabling this restores bounding-box movement and its own step height.
+	geometryTerrainCollision = true
+
+#Performance-related settings that do not alter combat calculations.
+[performance]
+
+	#Physical block debris created by impacts and explosions.
+	[performance.blockDebris]
+		#Create flying block entities when impacts or explosions destroy blocks.
+		#Disabling this does not change projectile trajectories, penetration, damage, or block destruction.
+		enableFlyingBlockDebris = true
+		#Maximum flying block entities created in one world tick.
+		#This limit is shared by simultaneous impacts and explosions. Set to 0 to disable debris.
+		# Default: 32
+		# Range: 0 ~ 512
+		maxFlyingBlockDebrisPerTick = 32
+
+#Settings for optional mod integrations.
+[integrations]
+
+	#Villager Recruits integration settings.
+	[integrations.recruits]
+		#Maximum radius, in blocks, of an artillery fire zone selected on the Recruits map.
+		# Default: 64
+		# Range: 1 ~ 256
+		maxFireZoneRadius = 64

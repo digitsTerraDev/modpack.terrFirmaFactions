@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "seed_drill",
+  "name": {
+    "translate": "collapsible_groups.group.seed_drill",
+    "fallback": "Seed Drill"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "astikorcartsredux:oak_seed_drill"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:spruce_seed_drill"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:birch_seed_drill"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:acacia_seed_drill"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:cherry_seed_drill"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:bamboo_seed_drill"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:mangrove_seed_drill"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:warped_seed_drill"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:crimson_seed_drill"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:dark_oak_seed_drill"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:jungle_seed_drill"
+      }
+    ]
+  }
+}

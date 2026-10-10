@@ -1,0 +1,11 @@
+name = "kaleidoscopetfctavern"
+filename = "kaleidoscopetfctavern-1.0.0-neoforge.mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GranniXXie/kaleidoscopetfctavern-TFCR/releases/download/1.0.0-TFCR/kaleidoscopetfctavern-1.0.0-neoforge.mc1.21.1.jar"
+
+# A number of tools can generate the hash for you, including 7-zip and sha256sum
+# packwiz supports a number of hashes, including sha256, sha512, sha1 and md5
+hash-format = "sha256"
+hash = "9c7d498a306e093529646bb626dc008d72dbfc60790b654a183f11041d90aa7b"

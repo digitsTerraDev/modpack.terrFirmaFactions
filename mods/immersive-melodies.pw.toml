@@ -1,21 +1,13 @@
-filename = 'immersive_melodies-neoforge-0.7.1+1.21.1.jar'
-name = 'Immersive Melodies'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '0.7.1+1.21.1'
+name = "Immersive Melodies"
+filename = "immersive_melodies-neoforge-0.8.0+1.21.1.jar"
+side = "both"
 
 [download]
-hash = '7767699354cbb1e85869b70765cd0d7c8ac245001673b0d6a52601121e526f5e2753123400599bcc8daae28724eaaa28145171090157cf82e6944a1e2a9ab3a8'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/TaSmHw8V/versions/g7uA7qmu/immersive_melodies-neoforge-0.7.1%2B1.21.1.jar'
+url = "https://cdn.modrinth.com/data/TaSmHw8V/versions/RLpigSXC/immersive_melodies-neoforge-0.8.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "79bf2f8dccb5b0db017f77956d73721d54e093416ebe4785f378515fc791ca9a2098d1039d6045c96e2f2c1eac7806de775b7ae84ab9b1b15e68adebebaeaff1"
 
+[update]
 [update.modrinth]
-mod-id = 'TaSmHw8V'
-version = 'g7uA7qmu'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'FPZYoBeQ'
-type = 'OPTIONAL'
+mod-id = "TaSmHw8V"
+version = "RLpigSXC"

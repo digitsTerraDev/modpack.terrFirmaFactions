@@ -1,0 +1,32 @@
+[tea_bush]
+	#Number of TFC calendar years without any harvest before a tea bush
+	#irreversibly transforms into a tea tree.
+	#With defaultMonthLength=30 one year ≈ 360 game-days.
+	# Default: 2
+	# Range: 1 ~ 100
+	transformYears = 2
+
+[fruit_regrowth]
+	#Number of TFC calendar days after harvest before a tea plant
+	#can transition from FLOWERING back to FRUITING.
+	#Applies to both tea bushes and tea tree leaves.
+	# Default: 3
+	# Range: 1 ~ 60
+	teaRegrowthDays = 3
+	#Number of TFC calendar days after harvest before a coffee tree
+	#can transition from FLOWERING back to FRUITING.
+	# Default: 8
+	# Range: 1 ~ 60
+	coffeeRegrowthDays = 8
+
+[frost]
+	#Instant temperature (°C) at or below which tea bushes and trees die.
+	#Default: -5.0 (tolerates light frost).
+	# Default: -5.0
+	# Range: -50.0 ~ 10.0
+	teaFrostKillTemp = -5.0
+	#Instant temperature (°C) at or below which coffee trees die.
+	#Default: 0.0 (cannot survive any sub-zero temperature).
+	# Default: 0.0
+	# Range: -50.0 ~ 10.0
+	coffeeFrostKillTemp = 0.0

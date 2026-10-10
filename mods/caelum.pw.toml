@@ -1,0 +1,13 @@
+name = "Caelum"
+filename = "caelum-3.0.0.6+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Xkw3TXqP/versions/n6LJlQL2/caelum-3.0.0.6%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "1ed3e209ad3c1c8c1aedbbcd42e0f9e384c8378ad6d3dbef588411cf2204d9a9e4de3b9b750fce7f6373547d8d8c49da8e16a0b8a39f71b5662a59992529fbe1"
+
+[update]
+[update.modrinth]
+mod-id = "Xkw3TXqP"
+version = "n6LJlQL2"

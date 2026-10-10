@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "pilot",
+  "name": {
+    "translate": "collapsible_groups.group.pilot",
+    "fallback": "Pilot"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_asurine_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_veridium_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_ochrum_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_crimsite_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_scorchia_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_scoria_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_limestone_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_calcite_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_tuff_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_dripstone_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_deepslate_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_diorite_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_granite_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:polished_andesite_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:metal_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:copper_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:brass_pilot"
+      },
+      {
+        "type": "item",
+        "id": "bellsandwhistles:andesite_pilot"
+      }
+    ]
+  }
+}

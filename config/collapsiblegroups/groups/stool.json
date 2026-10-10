@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "stool",
+  "name": {
+    "translate": "collapsible_groups.group.stool",
+    "fallback": "Stool"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tff:rosewood_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_short_stool"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_short_stool"
+      }
+    ]
+  }
+}

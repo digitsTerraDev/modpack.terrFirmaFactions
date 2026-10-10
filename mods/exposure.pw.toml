@@ -1,21 +1,13 @@
-filename = 'exposure-neoforge-1.21.1-1.9.18.jar'
-name = 'Exposure'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.9.18'
+name = "Exposure"
+filename = "exposure-neoforge-1.21.1-1.9.19.jar"
+side = "both"
 
 [download]
-hash = '2c0310cfbc9abfcf9e589fdf1079829253e47eb3ac84684a643951ebc432536a4e6f6567a67fc8ba4f4d55036e513804ff0996adee6a8a11cf59c76399de5ef6'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/hB899VmG/versions/KZR7AUbh/exposure-neoforge-1.21.1-1.9.18.jar'
+url = "https://cdn.modrinth.com/data/hB899VmG/versions/iBvaR6AK/exposure-neoforge-1.21.1-1.9.19.jar"
+hash-format = "sha512"
+hash = "b6b18638d61196c3b579dcb5cd977b125586c848822ffa3bb247b3d34dc019e3ca53629303cbb57c0875f7e29be30ae036e81d90dd8feb5dd87090b2b81c08b7"
 
+[update]
 [update.modrinth]
-mod-id = 'hB899VmG'
-version = 'KZR7AUbh'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'u6dRKJwZ'
-type = 'OPTIONAL'
+mod-id = "hB899VmG"
+version = "iBvaR6AK"

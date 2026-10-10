@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "gravel_fill",
+  "name": {
+    "translate": "collapsible_groups.group.gravel_fill",
+    "fallback": "Gravel Fill"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/marble"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/gneiss"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/schist"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/phyllite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/slate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/quartzite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/dacite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/andesite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/basalt"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/rhyolite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/tuff"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/chalk"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/chert"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/dolomite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/conglomerate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/limestone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/claystone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/shale"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/gabbro"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/diorite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:gravel_fill/granite"
+      }
+    ]
+  }
+}

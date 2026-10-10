@@ -1,0 +1,13 @@
+name = "Create: kinetics limitations"
+filename = "create_kinetics_tiers-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1efd56f72cb72ecee2fe3afc4eef5181bceb4a5a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8822083
+project-id = 1650079

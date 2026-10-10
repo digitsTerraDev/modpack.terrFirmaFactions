@@ -1,0 +1,37 @@
+[general]
+	#If false, crops with no proper crop block entity would be popped off on rich soil farmlands.
+	richSoilFarmlandAllowNonTFCCrop = true
+	#How many items can be put into skillet block at once.
+	# Default: 8
+	# Range: 1 ~ 32
+	skilletSlotNumber = 8
+	#The modifier for the 'Cabinet Stored' food trait. Values less than 1 extend food lifetime, values greater than one decrease it. A value of zero stops decay.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	traitCabinetStoredModifier = 0.5
+	#The modifier for the 'Skillet Cooked' food trait. Values less than 1 extend food lifetime, values greater than one decrease it. A value of zero stops decay.
+	# Default: 0.8
+	# Range: 0.0 ~ 1.7976931348623157E308
+	traitSkilletCookedModifier = 0.8
+	#How many ticks rich soil should boost the growth of the block above it.
+	# Default: 2400
+	# Range: 0 ~ 240000
+	richSoilGrowthBoostTick = 600
+	#How many degrees of temperature deviated from usual range is allowed for crops planted on rich soil farmlands to grow.
+	# Default: 5
+	# Range: 0 ~ 100
+	richSoilFarmlandTemperatureExpansion = 5
+	#How many percentile of hydration deviated from usual range is allowed for crops planted on rich soil farmlands to grow.
+	# Default: 5
+	# Range: 0 ~ 100
+	richSoilFarmlandHydrationExpansion = 5
+	#Chance (0~1) for rich soil random tick to spawn a mushroom on the block above, if it is air.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	richSoilRandomMushroomChance = 0.001
+	#Chance (0~1) that the spawned mushroom is a brown mushroom. (Otherwise red mushroom)
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	richSoilRandomMushroomBrownChance = 0.5
+	#If set true, feast servings give nutrients divided by its total serving count. (Experimental)
+	rebalancingFeast = false

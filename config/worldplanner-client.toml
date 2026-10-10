@@ -1,0 +1,106 @@
+#Colours of the overlays drawn on the planner map. Colours are #RRGGBB hex.
+[overlays]
+
+	#The tint over selected cells and the outline around the selected area.
+	[overlays.selection]
+		#Colour of the tint over selected cells.
+		fillColor = "#4C9AFF"
+		#Opacity of the selection tint, from 0 (invisible) to 1 (solid).
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		fillOpacity = 0.3
+		#Colour of the selection outline.
+		edgeColor = "#9ECBFF"
+		#Opacity of the selection outline, from 0 (invisible) to 1 (solid).
+		# Default: 0.94
+		# Range: 0.0 ~ 1.0
+		edgeOpacity = 0.94
+
+	#The shading that shows raised and lowered terrain.
+	[overlays.height]
+		#Colour of terrain above the natural height.
+		raisedColor = "#FFFFFF"
+		#Colour of terrain below the natural height.
+		loweredColor = "#000000"
+		#Opacity of the shading at the maximum height offset, from 0 (off) to 1 (solid).
+		#Smaller offsets fade proportionally.
+		# Default: 0.7
+		# Range: 0.0 ~ 1.0
+		intensity = 0.7
+
+	#The tint over ground that ends up below sea level, and so under water.
+	[overlays.water]
+		#Colour of the tint over submerged ground.
+		color = "#2C6FC4"
+		#Opacity of the water tint, from 0 (off) to 1 (solid).
+		# Default: 0.45
+		# Range: 0.0 ~ 1.0
+		intensity = 0.45
+
+[brushes]
+	#The largest brush radius the size slider allows, in cells.
+	#A radius of r paints a square of 2r+1 cells. Very large brushes can be slow.
+	# Default: 24
+	# Range: 1 ~ 512
+	maxBrushRadius = 24
+
+[map]
+	#Multiplier for the size of structure icons on the map.
+	#1 draws them one cell wide (never smaller than 14 pixels).
+	# Default: 1.0
+	# Range: 0.25 ~ 4.0
+	structureIconScale = 1.0
+	#How far each scroll wheel step zooms, on the map and in the 3D preview.
+	#1 is the default speed, 2 zooms twice as fast, 0.5 half as fast.
+	# Default: 1.0
+	# Range: 0.1 ~ 5.0
+	zoomSensitivity = 1.0
+
+#The "Export image" buttons on the 3D previews. Images are rendered at this size
+#whatever the size of the window, framed like the preview but widened or narrowed
+#to fit the shape. Sizes above what the graphics card supports are capped.
+[imageExport]
+	#Width of exported images, in pixels.
+	# Default: 1920
+	# Range: 16 ~ 16384
+	width = 1920
+	#Height of exported images, in pixels.
+	# Default: 1080
+	# Range: 16 ~ 16384
+	height = 1080
+
+#Keyboard shortcuts in the plan editor. Each is a comma separated list of keys by
+#ImGui key name: A-Z, 0-9, F1-F12, Keypad0-Keypad9, LeftBracket, RightBracket, Minus,
+#Equal, Comma, Period, Slash, Semicolon, Apostrophe, Backslash, GraveAccent, Tab, Space...
+#Leave one empty to unbind it. Shortcuts never fire with Ctrl or Alt held.
+[keybinds]
+	#Switch to the Biomes layer.
+	layerBiomes = "B"
+	#Switch to the Structures layer.
+	layerStructures = "S"
+	#Switch to the Terrain layer.
+	layerTerrain = "T,H"
+	#Switch to the Water layer.
+	layerWater = "W"
+	#Switch to the Paths layer.
+	layerPaths = "P"
+	#Switch to the Rules layer (spawns, ores, block swaps).
+	layerRules = "R"
+	#Switch to the Chance layer (spots and options the world seed picks from).
+	layerChance = "C"
+	#Switch to the Selection layer.
+	layerSelection = "M"
+	#Pick the first brush (Round).
+	brush1 = "1"
+	#Pick the second brush (Square).
+	brush2 = "2"
+	#Pick the third brush (Bucket).
+	brush3 = "3"
+	#Pick the fourth brush (Spray).
+	brush4 = "4"
+	#Pick the fifth brush (Smooth, Terrain layer only).
+	brush5 = "5"
+	#Make the brush smaller.
+	brushSmaller = "LeftBracket"
+	#Make the brush bigger.
+	brushBigger = "RightBracket"

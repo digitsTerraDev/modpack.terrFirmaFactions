@@ -1,0 +1,13 @@
+name = "TFC Depth Prospecting"
+filename = "tfcdepthprospecting-neoforge-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e27b4dd6ddc16a386ab17687bd0861fa93a43a01"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8274683
+project-id = 1579998

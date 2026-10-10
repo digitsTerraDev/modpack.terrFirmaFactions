@@ -1,0 +1,14 @@
+#How many recent foods are kept in stomach history.
+#Range: 3-24.
+#When the queue is full, the oldest food is removed first.
+# Default: 12
+# Range: 3 ~ 24
+stomachQueueSize = 12
+#How much food effectiveness is reduced each repeated eat of the same food.
+#Range: 1-100 (%).
+#This is rolling/multiplicative decay:
+#new effectiveness = current effectiveness * (1 - decay%).
+#Example with 6%: 100% -> 94% -> 88.36% -> 83.06%.
+# Default: 6
+# Range: 1 ~ 100
+foodDecayPercent = 6

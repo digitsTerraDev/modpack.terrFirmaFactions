@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "roof",
+  "name": {
+    "translate": "collapsible_groups.group.roof",
+    "fallback": "Roof"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:roof_frame"
+      },
+      {
+        "type": "item",
+        "id": "rnr:thatch_roof"
+      },
+      {
+        "type": "item",
+        "id": "rnr:terracotta_roof"
+      },
+      {
+        "type": "item",
+        "id": "rnr:ceramic_roof"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/acacia"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/ash"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/aspen"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/birch"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/hickory"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/kapok"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/maple"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/oak"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/palm"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/pine"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/spruce"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/sycamore"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/willow"
+      }
+    ]
+  }
+}

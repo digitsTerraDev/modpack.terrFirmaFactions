@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "roof_stairs",
+  "name": {
+    "translate": "collapsible_groups.group.roof_stairs",
+    "fallback": "Roof Stairs"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/willow_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/white_cedar_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/sycamore_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/spruce_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/sequoia_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/rosewood_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/pine_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/palm_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/oak_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/maple_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/mangrove_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/kapok_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/hickory_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/douglas_fir_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/chestnut_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/blackwood_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/birch_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/aspen_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/ash_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:wood/shingles/acacia_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:ceramic_roof_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:terracotta_roof_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:thatch_roof_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:roof_frame_stairs"
+      }
+    ]
+  }
+}

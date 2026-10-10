@@ -1,0 +1,41 @@
+{
+  "display_name": "Example Stage",
+  "research_time": 20,
+  "items": [
+    "minecraft:iron_ingot",
+    "minecraft:netherite_sword"
+  ],
+  "tags": [
+    "c:ores/iron",
+    "minecraft:logs"
+  ],
+  "mods": [
+    "lootr",
+    "mekanism"
+  ],
+  "mod_exceptions": [
+    "mekanism:creative_energy_cube"
+  ],
+  "recipes": [
+    "minecraft:diamond_sword"
+  ],
+  "dimensions": [
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ],
+  "structures": [
+    "minecraft:stronghold",
+    "#minecraft:village"
+  ],
+  "entities": {
+    "attacklock": [
+      "minecraft:zombie"
+    ],
+    "interactionlock": [
+      "minecraft:villager"
+    ],
+    "spawnlock": [
+      "minecraft:skeleton"
+    ]
+  }
+}

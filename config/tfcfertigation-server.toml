@@ -1,0 +1,35 @@
+#Fertigation injector scan and coverage settings.
+#灌肥机的耕地扫描与覆盖范围设置。
+[injector]
+	#Horizontal farmland scan radius around each carrier-filled aqueduct segment.
+	#Larger values widen the injector coverage along the aqueduct network.
+	#灌肥机会对每段有载体水的引水渠周围按这个水平半径扫描耕地。
+	#数值越大，沿渠覆盖范围越宽。
+	# Default: 2
+	# Range: 0 ~ 8
+	farmlandRadius = 2
+	#Vertical farmland scan range above and below each aqueduct segment.
+	#Increase this if your farmland sits higher or lower than the aqueduct line.
+	#灌肥机会对每段引水渠上下按这个垂直范围扫描耕地。
+	#如果农田高度与水渠不齐，可以适当调大。
+	# Default: 1
+	# Range: 0 ~ 8
+	farmlandVerticalRange = 1
+
+#Sprinkler rack scan and coverage settings.
+#滴灌桶架的目标扫描与覆盖范围设置。
+[dripRack]
+	#Maximum spray radius cap for the sprinkler rack.
+	#The actual radius now grows with the head height above the target layer, but it will never exceed this value.
+	#喷洒桶架的最大喷洒半径上限。
+	#实际半径会随喷头相对目标层的高度增加，但不会超过这个上限。
+	# Default: 4
+	# Range: 0 ~ 8
+	radius = 4
+	#Maximum downward search depth for the nearest valid target layer.
+	#Increase this if the farmland or target surface sits farther below the sprayer.
+	#滴灌桶架向下寻找最近有效目标层的最大搜索深度。
+	#如果农田或目标平面离龙头更低，可以适当调大。
+	# Default: 8
+	# Range: 1 ~ 32
+	searchDepth = 8

@@ -1,0 +1,12 @@
+{
+  "rendering": {
+    "amdRenderingSafetyMode": "auto"
+  },
+  "sodium": {
+    "showDebugOverlay": false,
+    "objectOverrides": {}
+  },
+  "additional": {
+    "wideSodiumVideoSettings": true
+  }
+}

@@ -1,0 +1,13 @@
+name = "Cirrus"
+filename = "cirrus-neoforge-1.21.1-1.4.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/SJDzFJH7/versions/gQSzD7br/cirrus-neoforge-1.21.1-1.4.1.jar"
+hash-format = "sha512"
+hash = "85b8796a77e624ac443324df876605d60c577b5c255736c030eeac8a885248b4e026c69b5779212332a2c6373f4a998d8b5c760be98ceec91051b3df2a095360"
+
+[update]
+[update.modrinth]
+mod-id = "SJDzFJH7"
+version = "gQSzD7br"

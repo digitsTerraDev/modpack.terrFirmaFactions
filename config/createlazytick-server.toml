@@ -66,6 +66,18 @@
 	# Default: 60
 	# Range: > 20
 	belt_delay_max = 60
+	#WARNING: Funnel overclocking may cause lag under frequent redstone pulses.
+	#This conflicts with Create Lazy Tick's optimization goal. Enable only if needed.
+	enable_funnel_overclock = false
+	#
+	#--------------------------------------------------------------------------
+	#Reduce repeated belt movement attempts for non-player living entities that remain blocked
+	enable_lazy_belt_stalled_passengers = true
+	#
+	#Ticks between retrying a belt passenger that stayed stationary for two movement attempts
+	# Default: 5
+	# Range: 2 ~ 20
+	belt_stalled_passenger_interval = 5
 
 #Processing Blocks Settings
 [processing]
@@ -211,3 +223,16 @@
 	#   true  = Dynamic Mode (Adjusts the dynamic optimization limit %)
 	#   false = Forced Mode (Adjusts the fixed sleep interval %)
 	clock_mode_default_dynamic = true
+
+#Factory Gauge Settings
+[factory-gauge]
+	#
+	#--------------------------------------------------------------------------
+	#Whether to adaptively reduce stable factory gauge storage checks.
+	enable_lazy_factory_gauge = true
+	#
+	#--------------------------------------------------------------------------
+	#Maximum interval for a factory gauge that has repeatedly observed no state changes.
+	# Default: 60
+	# Range: > 1
+	factory_gauge_stable_delay_max = 60

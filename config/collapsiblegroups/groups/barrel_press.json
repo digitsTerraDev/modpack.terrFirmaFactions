@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "barrel_press",
+  "name": {
+    "translate": "collapsible_groups.group.barrel_press",
+    "fallback": "Barrel Press"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/willow"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/sycamore"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/spruce"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/pine"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/palm"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/oak"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/maple"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/kapok"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/hickory"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/aspen"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/ash"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/birch"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/barrel_press/acacia"
+      }
+    ]
+  }
+}

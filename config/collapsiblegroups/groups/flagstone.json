@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "flagstone",
+  "name": {
+    "translate": "collapsible_groups.group.flagstone",
+    "fallback": "Flagstone"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:flagstone/yellow_sandstone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/granite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/diorite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/gabbro"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/shale"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/claystone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/limestone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/conglomerate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/dolomite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/chert"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/chalk"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/tuff"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/rhyolite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/basalt"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/andesite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/dacite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/quartzite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/slate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/phyllite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/schist"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/gneiss"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/marble"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/black_sandstone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/red_sandstone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/pink_sandstone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/white_sandstone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/green_sandstone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:flagstone/brown_sandstone"
+      }
+    ]
+  }
+}

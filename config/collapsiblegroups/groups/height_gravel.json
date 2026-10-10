@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "height_gravel",
+  "name": {
+    "translate": "collapsible_groups.group.height_gravel",
+    "fallback": "Height Gravel"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/granite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/diorite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/gabbro"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/shale"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/claystone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/limestone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/conglomerate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/dolomite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/chert"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/chalk"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/tuff"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/rhyolite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/basalt"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/andesite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/dacite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/quartzite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/slate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/phyllite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/schist"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/gneiss"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/over_height_gravel/marble"
+      }
+    ]
+  }
+}

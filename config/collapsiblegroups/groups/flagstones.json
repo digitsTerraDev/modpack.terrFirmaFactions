@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "flagstones",
+  "name": {
+    "translate": "collapsible_groups.group.flagstones",
+    "fallback": "Flagstones"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:concrete_road_flagstones"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/granite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/diorite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/gabbro"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/claystone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/limestone"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/shale"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/conglomerate"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/dolomite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/chert"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/chalk"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/tuff"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/rhyolite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/basalt"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/andesite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/dacite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/quartzite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/phyllite"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/schist"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/gneiss"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/marble"
+      },
+      {
+        "type": "item",
+        "id": "rnr:black_sandstone_flagstones"
+      },
+      {
+        "type": "item",
+        "id": "rnr:brown_sandstone_flagstones"
+      },
+      {
+        "type": "item",
+        "id": "rnr:green_sandstone_flagstones"
+      },
+      {
+        "type": "item",
+        "id": "rnr:pink_sandstone_flagstones"
+      },
+      {
+        "type": "item",
+        "id": "rnr:red_sandstone_flagstones"
+      },
+      {
+        "type": "item",
+        "id": "rnr:white_sandstone_flagstones"
+      },
+      {
+        "type": "item",
+        "id": "rnr:yellow_sandstone_flagstones"
+      }
+    ]
+  }
+}

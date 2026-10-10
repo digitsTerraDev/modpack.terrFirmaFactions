@@ -1,0 +1,12 @@
+{
+  "center": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "quartExpand": 1,
+  "quartStride": 1,
+  "samplerType": "AUTO",
+  "dimension": null,
+  "hideAllStructures": false
+}

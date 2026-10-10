@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "sett_stairs",
+  "name": {
+    "translate": "collapsible_groups.group.sett_stairs",
+    "fallback": "Sett Stairs"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:concrete_road_sett_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:brick_road_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/marble_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/gneiss_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/schist_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/phyllite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/slate_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/quartzite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/dacite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/andesite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/basalt_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/rhyolite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/tuff_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/chalk_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/chert_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/dolomite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/conglomerate_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/limestone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/claystone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/shale_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/gabbro_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/diorite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/sett_road/granite_stairs"
+      }
+    ]
+  }
+}

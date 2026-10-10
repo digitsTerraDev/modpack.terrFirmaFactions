@@ -1,0 +1,13 @@
+name = "Flerovium"
+filename = "flerovium-neoforge-1.21.1-1.2.0-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "09917774048af0ebf7f4d2293f281bfcd3df2fdb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8978392
+project-id = 1142875

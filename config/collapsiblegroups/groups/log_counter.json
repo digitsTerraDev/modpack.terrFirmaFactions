@@ -1,0 +1,3613 @@
+{
+  "schema_version": 1,
+  "id": "log_counter",
+  "name": {
+    "translate": "collapsible_groups.group.log_counter",
+    "fallback": "Log Counter"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_basic_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_wooden_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_basalt_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_quartzite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_granite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_diorite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_dacite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:rosewood_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_phyllite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_rhyolite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_schist_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_shale_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_stripped_log_andesite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_slate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_stripped_log_dolomite_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_stripped_log_tuff_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_stripped_log_claystone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_stripped_log_limestone_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_stripped_log_conglomerate_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_gneiss_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_chert_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_stripped_log_chalk_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_stripped_log_marble_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_stripped_log_gabbro_counter"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_stripped_log_claystone_counter"
+      }
+    ]
+  }
+}

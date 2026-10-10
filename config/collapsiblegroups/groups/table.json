@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "table",
+  "name": {
+    "translate": "collapsible_groups.group.table",
+    "fallback": "Table"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tff:rosewood_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:pine_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:hickory_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:birch_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:chestnut_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:blackwood_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:ash_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:douglas_fir_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:white_cedar_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:palm_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:kapok_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:mangrove_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:acacia_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:oak_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:sequoia_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:spruce_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:aspen_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:maple_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:willow_table"
+      },
+      {
+        "type": "item",
+        "id": "tff:sycamore_table"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+name = "mod.terraIndustry"
+filename = "terraindustry-0.0.5.jar"
+side = "both"
+
+[download]
+url = "https://github.com/digitsTerraDev/mod.terraIndustry/releases/download/v0.0.5/terraindustry-0.0.5.jar"
+hash-format = "sha256"
+hash = "445113b3c8706c6276e269c031e2b83e0ec6d6d587a8251a35964d57c916daea"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "digitsTerraDev/mod.terraIndustry"
+tag = "v0.0.5"

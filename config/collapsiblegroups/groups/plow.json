@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "plow",
+  "name": {
+    "translate": "collapsible_groups.group.plow",
+    "fallback": "Plow"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "astikorcartsredux:oak_plow"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:spruce_plow"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:birch_plow"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:acacia_plow"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:cherry_plow"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:jungle_plow"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:dark_oak_plow"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:crimson_plow"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:warped_plow"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:mangrove_plow"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:bamboo_plow"
+      }
+    ]
+  }
+}

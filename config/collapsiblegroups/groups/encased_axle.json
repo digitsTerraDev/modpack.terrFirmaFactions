@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "encased_axle",
+  "name": {
+    "translate": "collapsible_groups.group.encased_axle",
+    "fallback": "Encased Axle"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/acacia"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/ash"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/maple"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/willow"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/aspen"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/oak"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/birch"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/palm"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/pine"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/hickory"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/spruce"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/kapok"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/encased_axle/sycamore"
+      }
+    ]
+  }
+}

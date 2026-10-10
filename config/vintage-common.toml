@@ -1,0 +1,8 @@
+#.
+#Client/server settings
+[common]
+	#.
+	#Defines default Belt Grinder appearance
+	# Default: 0
+	# Range: 0 ~ 4
+	defaultBeltGrinderSkin = 0

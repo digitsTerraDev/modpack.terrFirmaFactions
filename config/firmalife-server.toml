@@ -62,8 +62,8 @@
 	# The amount of 24000 tick periods it takes for bees that cannot produce honey to use up 1 item of available honey.
 	beeUseHoneyDays = 12
 	#
-	# The capacity in mB of the wine glass. Default 250
-	# Default: 250
+	# The capacity in mB of the hollow shell. Default 100
+	# Default: 100
 	# Range: > 1
 	hollowShellCapacity = 250
 	#
@@ -107,6 +107,11 @@
 	#
 	# If false, sprinklers will not accept Firmalife pipes and will instead require something that exposes a fluid capability, eg. a barrel.
 	usePipesForSprinklers = true
+	#
+	# The capacity in mB of the wine glass. Default 250
+	# Default: 250
+	# Range: > 1
+	wineGlassCapacity = 250
 
 [foodTraits]
 	#

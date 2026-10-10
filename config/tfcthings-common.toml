@@ -7,7 +7,7 @@
 		#100 cm = 1 block. Setting to 0 will disable the snow shoes from taking damaged.
 		# Default: 500
 		# Range: > 0
-		damageDistance = 1000
+		damageDistance = 500
 		#The percentage of the TFC slowdown effect that the snow shoes will negate.
 		#1 = remove all the slowdown effects of snow.
 		#0 = snow shoes have no effect on movement speed.
@@ -21,7 +21,7 @@
 		#100 cm = 1 block. Setting to 0 will disable the hiking boots from taking damaged.
 		# Default: 500
 		# Range: > 0
-		damageDistance = 1000
+		damageDistance = 500
 		#The percentage of the TFC plant slowdown effect that the hiking boots will negate.
 		#1 = remove all the slowdown effects of snow.
 		#0 = snow shoes have no effect on movement speed.
@@ -35,7 +35,7 @@
 		#100 cm = 1 block. Setting to 0 will disable the crampons from taking damaged.
 		# Default: 500
 		# Range: > 0
-		damageDistance = 1000
+		damageDistance = 500
 
 	#Bear Trap Settings
 	[items.bearTrap]
@@ -60,7 +60,7 @@
 		#Set to 0 to do no damage.
 		# Default: 3.0
 		# Range: 0.0 ~ 20.0
-		healthCut = 5.0
+		healthCut = 3.0
 		#The amount of fixed damage points dealt by a bear trap.
 		#This will override the fractional health cut setting if set to a value greater than 0.
 		# Default: 0.0
@@ -83,79 +83,79 @@
 		#If false, the snare will still pin the entity to the block each tick, but its AI remains enabled.
 		holdNoAi = false
 		#If true, captured animals are made invulnerable while trapped to prevent accidental kills.
-		preventDamage = true
+		preventDamage = false
 
 	#Rope Bridge Settings
 	[items.ropeBridge]
 		#The maximum length of a rope bridge that can be thrown.
 		# Default: 100
 		# Range: 1 ~ 256
-		maxLength = 128
+		maxLength = 100
 		#Maximum allowed angle (in degrees) between the throw direction and the bridge axis when placing. Lower values require a more precise straight throw. 0 = perfectly straight only, 44 = any angle accepted.
 		# Default: 4.0
 		# Range: 0.0 ~ 30.0
-		maxPlacementAngle = 30.0
+		maxPlacementAngle = 4.0
 
 	#Rope Ladder Settings
 	[items.ropeLadder]
 		#The maximum length of a rope ladder that can be deployed.
 		# Default: 64
 		# Range: 1 ~ 128
-		maxLength = 128
+		maxLength = 64
 
 	#Rope Javelin Settings
 	[items.ropeJavelin]
 		#The maximum length of rope attached to the javelin.
 		# Default: 32
 		# Range: 1 ~ 64
-		ropeLength = 64
+		ropeLength = 32
 		#The strength of the pull when reeling in with the rope javelin.
 		#Higher values pull the entity faster.
 		# Default: 1.0
 		# Range: 0.1 ~ 5.0
-		pullStrength = 2.0
+		pullStrength = 1.0
 
 	#Hook Javelin Settings
 	[items.hookJavelin]
 		#The maximum length of rope for the hook javelin grapple.
 		# Default: 32
 		# Range: 10 ~ 64
-		maxRopeLength = 64
+		maxRopeLength = 32
 		#The amount of rope retracted per right-click while airborne.
 		#Higher values let the player climb faster.
 		# Default: 0.5
 		# Range: 0.1 ~ 2.0
-		retractAmount = 2.0
+		retractAmount = 0.5
 
 	#Sling Settings
 	[items.sling]
 		#Damage multiplier when hitting predators or skeletons with the sling.
 		# Default: 2.0
 		# Range: 1.0 ~ 10.0
-		predatorMultiplier = 1.0
+		predatorMultiplier = 2.0
 		#The maximum power a fully charged sling can reach.
 		# Default: 12
 		# Range: 1 ~ 100
-		maxPower = 4
+		maxPower = 12
 		#The number of ticks to reach max power. Lower = faster charge.
 		# Default: 70
 		# Range: 1 ~ 200
-		chargeSpeed = 40
+		chargeSpeed = 70
 
 	#Whetstone / Honing Steel Settings
 	[items.whetstone]
 		#Sharpness charges added per whetstone use.
 		# Default: 1
 		# Range: 1 ~ 256
-		chargesPerWhetstone = 4
+		chargesPerWhetstone = 1
 		#Sharpness charges added per honing steel use.
 		# Default: 2
 		# Range: 1 ~ 256
-		chargesPerHoningSteel = 8
+		chargesPerHoningSteel = 2
 		#Sharpness charges added per diamond honing steel use.
 		# Default: 4
 		# Range: 1 ~ 256
-		chargesPerDiamondHoningSteel = 16
+		chargesPerDiamondHoningSteel = 4
 		#Use time in ticks for whetstone sharpening.
 		# Default: 40
 		# Range: 0 ~ 72000
@@ -171,35 +171,35 @@
 		#Maximum sharpness charges a tool can hold from whetstone use.
 		# Default: 50
 		# Range: 1 ~ 1024
-		maxChargesWhetstone = 64
+		maxChargesWhetstone = 50
 		#Maximum sharpness charges a tool can hold from honing steel use.
 		# Default: 100
 		# Range: 1 ~ 1024
-		maxChargesHoningSteel = 128
+		maxChargesHoningSteel = 100
 		#Maximum sharpness charges a tool can hold from diamond honing steel use.
 		# Default: 200
 		# Range: 1 ~ 1024
-		maxChargesDiamondHoningSteel = 256
+		maxChargesDiamondHoningSteel = 200
 		#Flat attack damage bonus (hearts) per hit at Tier 1 sharpness (1 to maxChargesWhetstone charges).
 		#Comparable in feel to Minecraft Sharpness I.
 		# Default: 0.5
 		# Range: 0.0 ~ 20.0
-		tier1WeaponBonus = 1.0
+		tier1WeaponBonus = 0.5
 		#Flat attack damage bonus (hearts) per hit at Tier 2 sharpness (maxChargesWhetstone+1 to maxChargesHoningSteel charges).
 		#Comparable in feel to Minecraft Sharpness III.
 		# Default: 1.0
 		# Range: 0.0 ~ 20.0
-		tier2WeaponBonus = 2.0
+		tier2WeaponBonus = 1.0
 		#Flat attack damage bonus (hearts) per hit at Tier 3 sharpness (maxChargesHoningSteel+1 to maxChargesDiamondHoningSteel charges).
 		#Comparable in feel to Minecraft Sharpness V.
 		# Default: 1.5
 		# Range: 0.0 ~ 20.0
-		tier3WeaponBonus = 2.5
+		tier3WeaponBonus = 1.5
 		#Mining speed bonus added when the tool has Tier 1 sharpness (1 to maxChargesWhetstone charges).
 		#Default matches vanilla Efficiency I (+2).
 		# Default: 2.0
 		# Range: 0.0 ~ 100.0
-		tier1MiningBonus = 4.0
+		tier1MiningBonus = 2.0
 		#Mining speed bonus added when the tool has Tier 2 sharpness (maxChargesWhetstone+1 to maxChargesHoningSteel charges).
 		#Default matches vanilla Efficiency III (+10).
 		# Default: 10.0
@@ -227,18 +227,18 @@
 		#Maximum number of grain items a single pile block can hold.
 		# Default: 128
 		# Range: 1 ~ 1024
-		maxCapacity = 64
+		maxCapacity = 128
 		#Decay rate modifier for grain in an unsheltered pile.
 		#Values > 1 accelerate decay; values < 1 slow it down.
 		#TFC default for no trait = 1.0. A value of 0.5 doubles shelf life.
 		# Default: 0.8
 		# Range: 0.01 ~ 10.0
-		decayModifier = 1.5
+		decayModifier = 0.8
 		#Decay rate modifier for grain in a sheltered pile (sky blocked).
 		#Should generally be lower than decayModifier.
 		# Default: 0.5
 		# Range: 0.01 ~ 10.0
-		shelterDecayModifier = 0.25
+		shelterDecayModifier = 0.5
 
 	#Enable/Disable Items
 	[items.masterList]

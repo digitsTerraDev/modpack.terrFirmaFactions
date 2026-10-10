@@ -4,7 +4,7 @@
 	#Scale of all UI elements
 	# Default: 1.0
 	# Range: 0.5 ~ 2.0
-	globalUiScale = 1.2
+	globalUiScale = 1.0
 	#X offset for all UI elements
 	# Default: 0
 	# Range: > -2147483648

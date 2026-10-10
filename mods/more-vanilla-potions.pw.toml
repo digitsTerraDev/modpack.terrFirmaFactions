@@ -1,0 +1,13 @@
+name = "More Vanilla Potions [NEOFORGE&FABRIC&FORGE]"
+filename = "morevanillapotions-NEOFORGE-1.21.1-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f6a13a8fc7f613bd4257a2dcb1d8d527ab08271"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6336327
+project-id = 627825

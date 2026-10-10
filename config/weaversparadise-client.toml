@@ -1,0 +1,20 @@
+#Display a message if Patchouli is not installed when joining the game
+patchouliWarning = true
+#Display a message if your mod version is outdated
+versionWarning = true
+#Items that will prevent Thigh Highs from rendering
+thighHighsRestrictors = ["weaversparadise:astolfo_cosmetics", "weaversparadise:bridget_cosmetics", "weaversparadise:expie_cosmetics", "weaversparadise:felix_cosmetics", "weaversparadise:gabriel_cosmetics", "weaversparadise:gaster_cosmetics", "weaversparadise:giselle_cosmetics", "weaversparadise:griffith_cosmetics", "weaversparadise:jaya_utomo_cosmetics", "weaversparadise:mikkela_cosmetics", "weaversparadise:minos_prime_cosmetics", "weaversparadise:ralsei_cosmetics", "weaversparadise:niko_cosmetics"]
+#Items that will prevent Hand Warmers from rendering
+handWarmersRestrictors = ["weaversparadise:astolfo_cosmetics", "weaversparadise:bridget_cosmetics", "weaversparadise:expie_cosmetics", "weaversparadise:felix_cosmetics", "weaversparadise:gabriel_cosmetics", "weaversparadise:gaster_cosmetics", "weaversparadise:giselle_cosmetics", "weaversparadise:griffith_cosmetics", "weaversparadise:jaya_utomo_cosmetics", "weaversparadise:mikkela_cosmetics", "weaversparadise:minos_prime_cosmetics", "weaversparadise:ralsei_cosmetics", "weaversparadise:niko_cosmetics"]
+#Items that will prevent Pants from rendering
+pantsRestrictors = []
+#Items that will prevent Shirt from rendering
+shirtRestrictors = ["weaversparadise:astolfo_cosmetics", "weaversparadise:bridget_cosmetics", "weaversparadise:expie_cosmetics", "weaversparadise:felix_cosmetics", "weaversparadise:gabriel_cosmetics", "weaversparadise:gaster_cosmetics", "weaversparadise:giselle_cosmetics", "weaversparadise:griffith_cosmetics", "weaversparadise:jaya_utomo_cosmetics", "weaversparadise:mikkela_cosmetics", "weaversparadise:minos_prime_cosmetics", "weaversparadise:ralsei_cosmetics", "weaversparadise:niko_cosmetics"]
+#Items that will prevent Choker and it's trinkets from rendering
+chokerRestrictors = ["weaversparadise:astolfo_cosmetics", "weaversparadise:bridget_cosmetics", "weaversparadise:expie_cosmetics", "weaversparadise:felix_cosmetics", "weaversparadise:gabriel_cosmetics", "weaversparadise:gaster_cosmetics", "weaversparadise:giselle_cosmetics", "weaversparadise:griffith_cosmetics", "weaversparadise:jaya_utomo_cosmetics", "weaversparadise:mikkela_cosmetics", "weaversparadise:minos_prime_cosmetics", "weaversparadise:ralsei_cosmetics", "weaversparadise:niko_cosmetics"]
+#Items that will prevent Hats from rendering
+hatsRestrictors = ["weaversparadise:astolfo_cosmetics", "weaversparadise:bridget_cosmetics", "weaversparadise:expie_cosmetics", "weaversparadise:felix_cosmetics", "weaversparadise:gabriel_cosmetics", "weaversparadise:gaster_cosmetics", "weaversparadise:giselle_cosmetics", "weaversparadise:griffith_cosmetics", "weaversparadise:jaya_utomo_cosmetics", "weaversparadise:mikkela_cosmetics", "weaversparadise:minos_prime_cosmetics", "weaversparadise:ralsei_cosmetics", "weaversparadise:niko_cosmetics"]
+#Items that will prevent Skirts from rendering
+skirtsRestrictors = ["weaversparadise:astolfo_cosmetics", "weaversparadise:bridget_cosmetics", "weaversparadise:expie_cosmetics", "weaversparadise:felix_cosmetics", "weaversparadise:gabriel_cosmetics", "weaversparadise:gaster_cosmetics", "weaversparadise:giselle_cosmetics", "weaversparadise:griffith_cosmetics", "weaversparadise:jaya_utomo_cosmetics", "weaversparadise:mikkela_cosmetics", "weaversparadise:minos_prime_cosmetics", "weaversparadise:ralsei_cosmetics", "weaversparadise:niko_cosmetics"]
+#Should cosplay armor render fully, or use equipped armor to determine visible pieces
+fullArmor = true

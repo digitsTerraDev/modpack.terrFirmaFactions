@@ -1,0 +1,23 @@
+#Config layout version, not the mod version. Leave this unchanged.
+#Adding settings does not change the layout version.
+# Default: 1
+# Range: > 1
+configVersion = 1
+
+[construction]
+	#Hammer blows a construction stage takes for each item it fits.
+	# Default: 1.0
+	# Range: 0.05 ~ 20.0
+	hitsPerItem = 1.0
+	#Fewest blows any stage can take, however little it costs.
+	# Default: 3
+	# Range: 1 ~ 1000
+	minStageHits = 3
+	#Hard safety ceiling for the number of blows in one construction stage. Authored heavy-machine stages are expected to exceed twenty blows.
+	# Default: 100
+	# Range: 1 ~ 1000
+	maxStageHits = 100
+	#Minimum delay in ticks between accepted hammer blows from one builder.
+	# Default: 8
+	# Range: 0 ~ 1200
+	hitCooldownTicks = 20

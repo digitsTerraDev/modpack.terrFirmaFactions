@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "bookshelf",
+  "name": {
+    "translate": "collapsible_groups.group.bookshelf",
+    "fallback": "Bookshelf"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/willow"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/sycamore"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/spruce"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/pine"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/palm"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/oak"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/maple"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/kapok"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/hickory"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/birch"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/aspen"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/ash"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/bookshelf/acacia"
+      }
+    ]
+  }
+}

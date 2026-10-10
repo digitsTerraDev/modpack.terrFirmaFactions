@@ -1,0 +1,13 @@
+name = "UI Lib"
+filename = "uilib-9.0.0-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/AOEDs9Al/versions/XSWl7TVm/uilib-9.0.0-neoforge.jar"
+hash-format = "sha512"
+hash = "de38cc9389cdcf78a0ca6bd8a6a1e5e8ef80a27395b4be3c56c415ea2cda8a86153542ea49f4d98a628ffb2cd69c36fd2d2e7045826ef9f144899fe33bf986b2"
+
+[update]
+[update.modrinth]
+mod-id = "AOEDs9Al"
+version = "XSWl7TVm"

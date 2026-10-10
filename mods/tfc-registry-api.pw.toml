@@ -1,13 +1,21 @@
-name = "TFC Registry API"
-filename = "TFCRegistryAPI-1.21.x-1.2.jar"
-side = "both"
+filename = 'TFCRegistryAPI-1.21.x-1.2.jar'
+name = 'TFC Registry API'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2'
 
 [download]
-hash-format = "sha1"
-hash = "9cf372565758c6eacae2b39652b5a288c138c45d"
-mode = "metadata:curseforge"
+hash = 'cd0dd03ea1d9684fbc314ded386e8330c11ab570c149a33d7dd4e8d8347080c97290baee1042e03011bb39d4f24f2006a8c2afdb11127901609a94600b27f5f9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mrSESjNK/versions/qh51dOax/TFCRegistryAPI-1.21.x-1.2.jar'
 
-[update]
-[update.curseforge]
-file-id = 7324760
-project-id = 1396119
+[update.modrinth]
+mod-id = 'mrSESjNK'
+version = 'qh51dOax'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JaCEZUhg'
+type = 'REQUIRED'

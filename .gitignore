@@ -12,3 +12,5 @@ index.toml
 index.toml
 config/jei/world/local/New World/lookupHistory.json
 config/fabric/indigo-renderer.properties
+/config/historystages/logs
+/config/jei/world

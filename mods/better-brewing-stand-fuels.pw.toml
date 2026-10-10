@@ -1,0 +1,13 @@
+name = "Better Brewing Stand Fuels"
+filename = "betterbrewingfuels-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "473d86122f749bc417abd2124c043a4963f376e7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7674459
+project-id = 1471145

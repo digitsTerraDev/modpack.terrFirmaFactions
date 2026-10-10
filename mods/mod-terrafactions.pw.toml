@@ -1,0 +1,15 @@
+name = "mod.terraFactions"
+filename = "terrafactions-0.1.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/digitsTerraDev/mod.terraFactions/releases/download/v0.1.1/terrafactions-0.1.1.jar"
+hash-format = "sha256"
+hash = "5f22530e61f6cc021ee4dab903f9f9727434e6f41f4d08137d74a5ac55707bf5"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "digitsTerraDev/mod.terraFactions"
+tag = "v0.1.1"

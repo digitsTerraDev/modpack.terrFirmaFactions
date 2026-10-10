@@ -1,18 +1,13 @@
-filename = 'createvintageneoforged-1.21.1-1.3.8.jar'
-name = 'Create: Vintage'
-side = 'both'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21.1-1.3.8'
+name = "Create: Vintage"
+filename = "vintage-1.21.1-1.6.3.jar"
+side = "both"
 
 [download]
-hash = 'ecc2a988a35c593eaea37e6d25fc4f992c53377edd132b772627fdfa91575e3e91c9ed8b86517072385f17bb2dfd13c2b5c061d0704dffc24209ee1da64c4b91'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/qVZh767G/versions/M0cd6zmQ/createvintageneoforged-1.21.1-1.3.8.jar'
+url = "https://cdn.modrinth.com/data/qVZh767G/versions/jxbnjFb3/vintage-1.21.1-1.6.3.jar"
+hash-format = "sha512"
+hash = "ab208bfa802b5608158d1c7aa296add6582de3c4acb01a4d9ac71a7a3b78dbda56ec8d03ce80294b2769c25f5b7178fb2897d33a3a4c829a5e5e9faf12bf672b"
 
+[update]
 [update.modrinth]
-mod-id = 'qVZh767G'
-version = 'M0cd6zmQ'
+mod-id = "qVZh767G"
+version = "jxbnjFb3"

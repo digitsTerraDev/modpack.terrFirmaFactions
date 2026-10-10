@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "axle",
+  "name": {
+    "translate": "collapsible_groups.group.axle",
+    "fallback": "Axle"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/acacia"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/ash"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/aspen"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/birch"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/spruce"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/sycamore"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/willow"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/hickory"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/kapok"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/maple"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/oak"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/palm"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/axle/pine"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+name = "TFC + IE Crossover"
+filename = "TFC-IE-Crossover-NeoForge-1.21.1-2.1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IsYwQTKM/versions/q5cvg8JU/TFC-IE-Crossover-NeoForge-1.21.1-2.1.3.jar"
+hash-format = "sha512"
+hash = "c8eb370fa40e199702ba1672bb025de804fc170a7d25a34a70a48e687be5bb4736b4df379426c1d7264c585bc5403a4bd02c10006eafbe38f870c5b3becefcc6"
+
+[update]
+[update.modrinth]
+mod-id = "IsYwQTKM"
+version = "q5cvg8JU"

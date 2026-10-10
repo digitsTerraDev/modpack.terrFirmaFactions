@@ -1,0 +1,15 @@
+name = "mod.terraLib"
+filename = "terralib-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/digitsTerraDev/mod.terraLib/releases/download/v0.1.0/terralib-0.1.0.jar"
+hash-format = "sha256"
+hash = "2cf8abdd0479d33d18506aee66785041916a029a13037254523b6157c769d060"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "digitsTerraDev/mod.terraLib"
+tag = "v0.1.0"

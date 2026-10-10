@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "create_brick_slab",
+  "name": {
+    "translate": "collapsible_groups.group.create_brick_slab",
+    "fallback": "Create Brick Slab"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "create:small_veridium_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_granite_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_granite_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_diorite_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_diorite_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_andesite_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_andesite_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_calcite_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_calcite_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_dripstone_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_dripstone_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_deepslate_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_deepslate_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_tuff_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_tuff_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_asurine_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_asurine_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_crimsite_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_crimsite_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_limestone_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_limestone_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_ochrum_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_ochrum_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_scoria_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_scoria_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_scorchia_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:small_scorchia_brick_slab"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_veridium_brick_slab"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "shelf",
+  "name": {
+    "translate": "collapsible_groups.group.shelf",
+    "fallback": "Shelf"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/willow"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/sycamore"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/spruce"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/pine"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/palm"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/oak"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/maple"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/kapok"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/hickory"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/birch"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/aspen"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/ash"
+      },
+      {
+        "type": "item",
+        "id": "tfc:wood/shelf/acacia"
+      },
+      {
+        "type": "item",
+        "id": "tfc:fire_brick_shelf"
+      }
+    ]
+  }
+}

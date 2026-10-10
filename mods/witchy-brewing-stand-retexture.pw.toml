@@ -1,0 +1,13 @@
+name = "Witchy Brewing Stand Retexture"
+filename = "witchy_brewing_stand-0.1.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d95a4655abdcc0ee948e08dc1e504a4b0e2fe1e9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8516465
+project-id = 1626763

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "flagstones_stairs",
+  "name": {
+    "translate": "collapsible_groups.group.flagstones_stairs",
+    "fallback": "Flagstones Stairs"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "rnr:concrete_road_flagstones_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/granite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/diorite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/gabbro_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/shale_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/claystone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/limestone_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/conglomerate_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/dolomite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/chert_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/chalk_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/tuff_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/rhyolite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/basalt_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/andesite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/dacite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/quartzite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/phyllite_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/schist_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/gneiss_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:rock/flagstones/marble_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:black_sandstone_flagstones_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:red_sandstone_flagstones_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:white_sandstone_flagstones_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:yellow_sandstone_flagstones_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:pink_sandstone_flagstones_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:green_sandstone_flagstones_stairs"
+      },
+      {
+        "type": "item",
+        "id": "rnr:brown_sandstone_flagstones_stairs"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+name = "Survivor's Rich Soil"
+filename = "survivorsrichsoils-0.3.0-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "061f666b2fec0be31a0a290ac152d093d02501fd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8928266
+project-id = 1447555

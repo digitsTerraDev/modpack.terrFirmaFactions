@@ -1,0 +1,13 @@
+name = "Firma Crates"
+filename = "applecrates_-forge_firmacrates-1.21.1-4.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "399f833e0cbaa4a7153e398feaacd62b23839a91"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7036593
+project-id = 677954

@@ -1,0 +1,32 @@
+#Create rough (diluted) variants of registered potions.
+enable_rough_potions = true
+#Rough potions last this fraction of the original duration. 0.5 = half.
+# Default: 0.5
+# Range: 0.01 ~ 1.0
+duration_multiplier = 0.5
+#Round the diluted duration up instead of down, so short potions stay useful.
+round_duration_up = true
+#Never derive a duration shorter than this many ticks (20 ticks = 1 second).
+# Default: 200
+# Range: 1 ~ 72000
+min_duration_ticks = 200
+#Levels removed from every effect. 1 turns Strength II into Strength I.
+# Default: 1
+# Range: 0 ~ 10
+amplifier_reduction = 1
+#Amplifier floor; 0 is level I.
+# Default: 0
+# Range: 0 ~ 10
+min_amplifier = 0
+#Potion namespaces to leave alone, e.g. "minecraft" to only convert modded potions.
+excluded_namespaces = []
+#Enable cauldron brewing and its generated recipes.
+enable_cauldron_recipes = true
+#Generate default cauldron recipes. Disable to use only datapack/KubeJS recipes; brewing remains enabled.
+generate_cauldron_recipes = true
+#Allowed blocks immediately below vanilla cauldrons. Replaces the whole list; [] disables heating.
+#Accepts block IDs, #block tags and state conditions, e.g. minecraft:furnace[lit=true].
+#Blocks with a lit property must be lit unless explicitly matched with [lit=false].
+#The default tag can be edited with datapacks or KubeJS ServerEvents.tags('block', ...).
+#Unknown IDs, missing properties and invalid property values never match. Does not affect Hexalia.
+cauldron_heat_sources = ["#barebonesbrews:heat_sources", "tfc:firepit"]

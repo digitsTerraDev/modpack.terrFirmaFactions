@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "food_shelf",
+  "name": {
+    "translate": "collapsible_groups.group.food_shelf",
+    "fallback": "Food Shelf"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/willow"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/spruce"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/pine"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/palm"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/oak"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/maple"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/kapok"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/hickory"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/birch"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/aspen"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/ash"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/acacia"
+      },
+      {
+        "type": "item",
+        "id": "firmalife:wood/food_shelf/sycamore"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "wooden_wheel",
+  "name": {
+    "translate": "collapsible_groups.group.wooden_wheel",
+    "fallback": "Wooden Wheel"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/willow"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/white_cedar"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/sycamore"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/spruce"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/sequoia"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/rosewood"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/pine"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/palm"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/oak"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/maple"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/mangrove"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/kapok"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/hickory"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/douglas_fir"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/chestnut"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/blackwood"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/birch"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/aspen"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/ash"
+      },
+      {
+        "type": "item",
+        "id": "tfcastikorcarts:wheel/acacia"
+      },
+      {
+        "type": "item",
+        "id": "astikorcartsredux:wheel"
+      }
+    ]
+  }
+}

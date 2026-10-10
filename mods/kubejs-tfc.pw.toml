@@ -1,13 +1,13 @@
 name = "KubeJS TFC"
-filename = "kubejs_tfc-1.21.1-2.0.2.jar"
+filename = "kubejs_tfc-1.21.1-2.1.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7119e0ef6fb95cd297faada427e0bca186683db3"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/mhtClB2S/versions/rsBv9bL5/kubejs_tfc-1.21.1-2.1.0.jar"
+hash-format = "sha512"
+hash = "090a955fb081cdab73049930e3870b2f18ba0e3f42adc91c6eea4cdb2b95c77a6c0fe724acd9767853382500426e09eee02633a5a8be8dcd593e1212bf11ea4c"
 
 [update]
-[update.curseforge]
-file-id = 8468127
-project-id = 841001
+[update.modrinth]
+mod-id = "mhtClB2S"
+version = "rsBv9bL5"

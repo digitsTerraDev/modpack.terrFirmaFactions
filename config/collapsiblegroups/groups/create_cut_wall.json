@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "create_cut_wall",
+  "name": {
+    "translate": "collapsible_groups.group.create_cut_wall",
+    "fallback": "Create Cut Wall"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "create:cut_granite_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_granite_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_diorite_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_diorite_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_andesite_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_andesite_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_calcite_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_calcite_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_asurine_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_tuff_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_tuff_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_deepslate_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_deepslate_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_dripstone_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_dripstone_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_asurine_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_crimsite_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_crimsite_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_limestone_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_limestone_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_ochrum_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_scorchia_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_veridium_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_scorchia_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:cut_scoria_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_ochrum_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_veridium_wall"
+      },
+      {
+        "type": "item",
+        "id": "create:polished_cut_scoria_wall"
+      }
+    ]
+  }
+}

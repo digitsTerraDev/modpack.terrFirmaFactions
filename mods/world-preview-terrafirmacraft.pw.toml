@@ -1,0 +1,13 @@
+name = "World Preview TFC"
+filename = "world_preview_tfc-3.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/LEqrn5wh/versions/nPYNu1Fv/world_preview_tfc-3.1.0.jar"
+hash-format = "sha512"
+hash = "6620a06e8903faa0b0fc3b584a156f77fbbf2984a7f4ab57b43134b153521f9fb7692ff3cca6855e9a5423f41cc4c7773b7598b2e0ff1cb7fb8b39dbac76fa19"
+
+[update]
+[update.modrinth]
+mod-id = "LEqrn5wh"
+version = "nPYNu1Fv"

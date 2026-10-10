@@ -1,0 +1,13 @@
+name = "TFCFertigation"
+filename = "tfcfertigation-mc1.21.1-neoforge21.1.248-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "13927b8d9cffcad0bf7135da44f067997b613e85"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8903094
+project-id = 1523476

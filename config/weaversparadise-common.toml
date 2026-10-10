@@ -1,0 +1,10 @@
+#Whether items have special abilities when enchanted
+itemAbilities = true
+#Chance for armor lootbox to spawn
+# Default: 0.05
+# Range: 0.0 ~ 1.0
+armorLootboxChance = 0.05
+#Chance for plushie to spawn
+# Default: 0.05
+# Range: 0.0 ~ 1.0
+plushieChance = 0.05

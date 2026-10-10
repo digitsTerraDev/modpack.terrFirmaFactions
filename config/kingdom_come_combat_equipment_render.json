@@ -1,0 +1,73 @@
+{
+  "rendering": {
+    "enable_blood": true,
+    "enable_player_blood": true,
+    "player_blood_overlay_compat": false,
+    "enable_armor_holes": true,
+    "enable_blade_trails": true,
+    "enable_armor_physics_compat": false,
+    "enable_mob_renderer_compatibility_mode": false,
+    "enable_screen_effects": false,
+    "enable_hurt_camera_movement": true,
+    "enable_dodge_animation": true,
+    "enable_cauldron_face_wash": true
+  },
+  "interaction": {
+    "enable_third_party_right_click_outside_lock": true
+  },
+  "first_person": {
+    "enable_rendering": true,
+    "weapon_only": true,
+    "model_mode": "when_needed",
+    "body_forward_offset": 0.0,
+    "camera_forward_offset": 0.0,
+    "bind_camera_to_head_front": false,
+    "simple_eye_simulation": false,
+    "disabled_items": []
+  },
+  "blood": {
+    "primary_noise_scale": 0.0975,
+    "detail_noise_scale": 0.1885,
+    "drip_noise_scale": 0.065,
+    "minimum_blend_strength": 0.04,
+    "maximum_blend_strength": 0.68,
+    "noise_contrast": 1.0,
+    "particle_percent": 1.0,
+    "stain_percent": 1.0
+  },
+  "lock_on": {
+    "show_crosshair": true,
+    "show_target_stamina_ring": true,
+    "target_stamina_ring_scale": 1.0,
+    "crosshair_scale": 1.0,
+    "auto_lock_on_hit": true,
+    "crosshair_target_angle_degrees": 70.0,
+    "crosshair_release_distance": 10.0,
+    "crosshair_switch_angle_degrees": 35.0,
+    "crosshair_switch_side_threshold": 0.18,
+    "camera_shoulder_offset": 1.55,
+    "camera_height_offset": 0.16,
+    "camera_pull_in": 2.15,
+    "camera_aim_left_offset": 0.48,
+    "camera_yaw_follow_speed": 14.0,
+    "camera_pitch_follow_speed": 10.0,
+    "camera_transition_speed": 12.0,
+    "first_person_camera_forward_offset": 0.0,
+    "stance_gesture_sensitivity": 1.0
+  },
+  "particles": {
+    "spark_percent": 1.0,
+    "blood_percent": 1.0,
+    "blood_trace_percent": 1.0,
+    "blood_mist_opacity": 1.0
+  },
+  "feedback": {
+    "screen_red_effect_strength": 1.0,
+    "screen_blue_effect_strength": 1.0,
+    "hit_reaction_animation_strength": 1.0,
+    "hit_reaction_return_ticks": 8
+  },
+  "debug": {
+    "show_messages": false
+  }
+}
