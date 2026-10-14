@@ -1,0 +1,13 @@
+name = "Warfactory Ultimate Weight"
+filename = "wfweight-1.21.1-NeoForge-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RWQYcqFx/versions/Dr2VvSV3/wfweight-1.21.1-NeoForge-1.2.0.jar"
+hash-format = "sha512"
+hash = "275cc55ac49344ba0ac1bef67ad33d3461a72105bce4ecd932856c68aa72a75c43b3ca837f9a723edb0df50d9f1467d9de69c526965157b5ab07c89a7439bfb1"
+
+[update]
+[update.modrinth]
+mod-id = "RWQYcqFx"
+version = "Dr2VvSV3"

@@ -3033,6 +3033,10 @@ file = "mods/vortylib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/warfactory-ultimate-weight.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/wary-predators-for-tfc.pw.toml"
 metafile = true
 
