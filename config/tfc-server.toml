@@ -923,7 +923,7 @@
 		foodDecayModifier = 1.0
 		#
 		# Enables negative effects from carrying too many very heavy items, including potion effects.
-		enableOverburdening = true
+		enableOverburdening = false
 		#
 		# A multiplier for the minimum health that the player will obtain, based on their nutrition
 		# Default: 0.2

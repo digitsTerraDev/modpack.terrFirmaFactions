@@ -1747,6 +1747,9 @@ file = "kubejs/client_scripts/ore_models.js"
 file = "kubejs/client_scripts/renaming.js"
 
 [[files]]
+file = "kubejs/client_scripts/tfc_weight_tooltip.js"
+
+[[files]]
 file = "kubejs/client_scripts/tooltips.js"
 
 [[files]]
