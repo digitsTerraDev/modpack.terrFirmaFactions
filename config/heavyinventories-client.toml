@@ -1,3 +1,0 @@
-#The weight measurement system to use. This is purely cosmetic.
-#Allowed Values: KGS, LBS, NONE
-weightMeasure = "LBS"

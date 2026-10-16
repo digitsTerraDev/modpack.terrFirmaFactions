@@ -13,18 +13,6 @@ file = ".github/workflows/release.yml"
 file = "README.md"
 
 [[files]]
-file = "config/ModernUI/bootstrap.properties"
-
-[[files]]
-file = "config/ModernUI/client.toml"
-
-[[files]]
-file = "config/ModernUI/common.toml"
-
-[[files]]
-file = "config/ModernUI/text.toml"
-
-[[files]]
 file = "config/MouseTweaks.cfg"
 
 [[files]]
@@ -79,18 +67,6 @@ file = "config/astikorcartsredux-client.toml"
 file = "config/astikorcartsredux-common.toml"
 
 [[files]]
-file = "config/auroras-startup.toml"
-
-[[files]]
-file = "config/auroras/aether.json"
-
-[[files]]
-file = "config/auroras/overworld.json"
-
-[[files]]
-file = "config/auroras/the_end.json"
-
-[[files]]
 file = "config/axiomata-client.toml"
 
 [[files]]
@@ -137,9 +113,6 @@ file = "config/chaoslib/chaoslib-common.json"
 
 [[files]]
 file = "config/chatanimation.json"
-
-[[files]]
-file = "config/chloride-client.json"
 
 [[files]]
 file = "config/chunky/config.json"
@@ -400,9 +373,6 @@ file = "config/create_train_physics-common.toml"
 file = "config/createbullettrain-common.toml"
 
 [[files]]
-file = "config/createcasing-common.toml"
-
-[[files]]
 file = "config/createjeicompat-client.toml"
 
 [[files]]
@@ -410,21 +380,6 @@ file = "config/createlazytick-client.toml"
 
 [[files]]
 file = "config/createlazytick-server.toml"
-
-[[files]]
-file = "config/createoreexcavation-common.toml"
-
-[[files]]
-file = "config/createoreexcavation-server.toml"
-
-[[files]]
-file = "config/createvintageneoforged-client.toml"
-
-[[files]]
-file = "config/createvintageneoforged-common.toml"
-
-[[files]]
-file = "config/createvintageneoforged-server.toml"
 
 [[files]]
 file = "config/curios-client.toml"
@@ -443,12 +398,6 @@ file = "config/decay_2012-server.toml"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
-
-[[files]]
-file = "config/delightfulcreators-server.toml"
-
-[[files]]
-file = "config/dndecor-server.toml"
 
 [[files]]
 file = "config/drippyloadingscreen/early_window_reference.properties"
@@ -470,9 +419,6 @@ file = "config/easy_factions-server.toml"
 
 [[files]]
 file = "config/effectdescriptions-client.toml"
-
-[[files]]
-file = "config/efwarborn-server.toml"
 
 [[files]]
 file = "config/enhanced_bes.properties"
@@ -568,9 +514,6 @@ file = "config/fancymenu/ui_themes/spooky_season.json"
 file = "config/fancymenu/user_variables.db"
 
 [[files]]
-file = "config/farm_and_charm-common.toml"
-
-[[files]]
 file = "config/farmersdelight-client.toml"
 
 [[files]]
@@ -610,28 +553,7 @@ file = "config/flywheel-client.toml"
 file = "config/fml.toml"
 
 [[files]]
-file = "config/ftbquests/quests/chapter_groups.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/choose_your_profession.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/journey_to_master_smith.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/primitive_age.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/data.snbt"
-
-[[files]]
 file = "config/global_packs.toml"
-
-[[files]]
-file = "config/heavyinventories-client.toml"
-
-[[files]]
-file = "config/heavyinventories-common.toml"
 
 [[files]]
 file = "config/hexcasting-client.toml"
@@ -677,12 +599,6 @@ file = "config/immersiveengineering-startup.toml"
 
 [[files]]
 file = "config/inventoryessentials-common.toml"
-
-[[files]]
-file = "config/iris-excluded.json"
-
-[[files]]
-file = "config/iris.properties"
 
 [[files]]
 file = "config/item-restrictions-common.yaml"
@@ -835,12 +751,6 @@ file = "config/ktfcc-common.toml"
 file = "config/lambdynlights.toml"
 
 [[files]]
-file = "config/legendarysurvivaloverhaul-client.toml"
-
-[[files]]
-file = "config/legendarysurvivaloverhaul-common.toml"
-
-[[files]]
 file = "config/libtooltips-client.toml"
 
 [[files]]
@@ -875,45 +785,6 @@ file = "config/modernfix-common.toml"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-
-[[files]]
-file = "config/molten_vents/conductive/asurine.json"
-
-[[files]]
-file = "config/molten_vents/conductive/crimsite.json"
-
-[[files]]
-file = "config/molten_vents/conductive/ochrum.json"
-
-[[files]]
-file = "config/molten_vents/conductive/scorchia.json"
-
-[[files]]
-file = "config/molten_vents/conductive/scoria.json"
-
-[[files]]
-file = "config/molten_vents/conductive/veridium.json"
-
-[[files]]
-file = "config/molten_vents/convertible/asurine.json"
-
-[[files]]
-file = "config/molten_vents/convertible/crimsite.json"
-
-[[files]]
-file = "config/molten_vents/convertible/ochrum.json"
-
-[[files]]
-file = "config/molten_vents/convertible/scorchia.json"
-
-[[files]]
-file = "config/molten_vents/convertible/scoria.json"
-
-[[files]]
-file = "config/molten_vents/convertible/veridium.json"
-
-[[files]]
-file = "config/molten_vents/custom_blocks.json"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -1009,25 +880,10 @@ file = "config/remains-hints-known.txt"
 file = "config/ritchiesprojectilelib-server.toml"
 
 [[files]]
-file = "config/sable-client.toml"
-
-[[files]]
-file = "config/sable-common.toml"
-
-[[files]]
 file = "config/siegeworks-client.toml"
 
 [[files]]
 file = "config/siegeworks-server.toml"
-
-[[files]]
-file = "config/skinlayers.json"
-
-[[files]]
-file = "config/sliceanddice-client.toml"
-
-[[files]]
-file = "config/sliceanddice-common.toml"
 
 [[files]]
 file = "config/sodium-fingerprint.json"
@@ -1037,9 +893,6 @@ file = "config/sodium-mixins.properties"
 
 [[files]]
 file = "config/sodium-options.json"
-
-[[files]]
-file = "config/solstick-common.toml"
 
 [[files]]
 file = "config/spark/config.json"
@@ -1090,9 +943,6 @@ file = "config/terrafactions-client.toml"
 file = "config/terrafactions-server.toml"
 
 [[files]]
-file = "config/territory-server.toml"
-
-[[files]]
 file = "config/tfc-client.toml"
 
 [[files]]
@@ -1102,31 +952,16 @@ file = "config/tfc-common.toml"
 file = "config/tfc-server.toml"
 
 [[files]]
-file = "config/tfc_eratosthenes-client.toml"
-
-[[files]]
-file = "config/tfc_eratosthenes-common.toml"
-
-[[files]]
 file = "config/tfc_fire_clay_addition-common.toml"
 
 [[files]]
 file = "config/tfc_ie_addon-server.toml"
 
 [[files]]
-file = "config/tfc_real_world/common.toml"
-
-[[files]]
 file = "config/tfc_tobacconist-server.toml"
 
 [[files]]
 file = "config/tfc_toroidal_compat-client.toml"
-
-[[files]]
-file = "config/tfcambiental-client.toml"
-
-[[files]]
-file = "config/tfcambiental-common.toml"
 
 [[files]]
 file = "config/tfcastikorcarts-common.toml"
@@ -1147,9 +982,6 @@ file = "config/tfcfasttriphammer-common.toml"
 file = "config/tfcfertigation-server.toml"
 
 [[files]]
-file = "config/tfcfridge-common.toml"
-
-[[files]]
 file = "config/tfcgenviewer-client.toml"
 
 [[files]]
@@ -1166,18 +998,6 @@ file = "config/tfcthings-common.toml"
 
 [[files]]
 file = "config/tfctrough-common.toml"
-
-[[files]]
-file = "config/tfcvolcanoes-client.toml"
-
-[[files]]
-file = "config/tfcvolcanoes-startup.toml"
-
-[[files]]
-file = "config/tfmg-common.toml"
-
-[[files]]
-file = "config/tfmg-server.toml"
 
 [[files]]
 file = "config/thermia-client.toml"
