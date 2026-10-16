@@ -1465,10 +1465,37 @@ file = "datapacks/terra_skills/data/terraskills/puffish_skills/categories/miner/
 file = "datapacks/terra_skills/data/terraskills/puffish_skills/categories/miner/skills.json"
 
 [[files]]
+file = "datapacks/terra_skills/data/terraskills/puffish_skills/categories/mount_hooks/category.json"
+
+[[files]]
+file = "datapacks/terra_skills/data/terraskills/puffish_skills/categories/mount_hooks/connections.json"
+
+[[files]]
+file = "datapacks/terra_skills/data/terraskills/puffish_skills/categories/mount_hooks/definitions.json"
+
+[[files]]
+file = "datapacks/terra_skills/data/terraskills/puffish_skills/categories/mount_hooks/skills.json"
+
+[[files]]
+file = "datapacks/terra_skills/data/terraskills/puffish_skills/categories/mounts/category.json"
+
+[[files]]
+file = "datapacks/terra_skills/data/terraskills/puffish_skills/categories/mounts/connections.json"
+
+[[files]]
+file = "datapacks/terra_skills/data/terraskills/puffish_skills/categories/mounts/definitions.json"
+
+[[files]]
+file = "datapacks/terra_skills/data/terraskills/puffish_skills/categories/mounts/skills.json"
+
+[[files]]
 file = "datapacks/terra_skills/data/terraskills/puffish_skills/config.json"
 
 [[files]]
 file = "datapacks/terra_skills/data/terraskills/terraskills_research/miner.json"
+
+[[files]]
+file = "datapacks/terra_skills/data/terraskills/terraskills_research/mounts.json"
 
 [[files]]
 file = "datapacks/terra_skills/pack.mcmeta"
@@ -1514,6 +1541,9 @@ file = "datapacks/tfc_dmg_res_datapack/data/tfc/tfc/item_damage_resistance/wroug
 
 [[files]]
 file = "datapacks/tfc_dmg_res_datapack/pack.mcmeta"
+
+[[files]]
+file = "defaultconfigs/terraskillspowers-server.toml"
 
 [[files]]
 file = "docker/Dockerfile"
@@ -1739,6 +1769,9 @@ file = "kubejs/assets/tfc/lang/en_us.json"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
+
+[[files]]
+file = "kubejs/client_scripts/mount_skill_tooltips.js"
 
 [[files]]
 file = "kubejs/client_scripts/ore_models.js"
@@ -2108,6 +2141,12 @@ file = "kubejs/server_scripts/mepafolderserver/hardtack sandwich/craftablesandwi
 
 [[files]]
 file = "kubejs/server_scripts/mepafolderserver/hardtack sandwich/sandwichnutrition.js"
+
+[[files]]
+file = "kubejs/server_scripts/mount_balance.js"
+
+[[files]]
+file = "kubejs/server_scripts/mount_skill_gates.js"
 
 [[files]]
 file = "kubejs/server_scripts/mustache/create.js"
@@ -2520,6 +2559,10 @@ file = "mods/history-stages.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/horseman.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ihearttfc.pw.toml"
 metafile = true
 
@@ -2724,6 +2767,10 @@ file = "mods/mouse-tweaks.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mule-armor.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 metafile = true
 
@@ -2805,6 +2852,10 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ride-together.pw.toml"
 metafile = true
 
 [[files]]

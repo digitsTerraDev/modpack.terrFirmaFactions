@@ -1,6 +1,8 @@
 {
   "version": 3,
   "categories": [
-    "miner"
+    "miner",
+    "mounts",
+    "mount_hooks"
   ]
 }

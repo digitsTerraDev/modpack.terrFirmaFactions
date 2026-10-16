@@ -13,7 +13,7 @@
 		#Base speed modifier applied to animals (-0.5 = half normal speed)
 		# Default: 0.0
 		# Range: -1.0 ~ 0.0
-		pull_speed = 0.0
+		pull_speed = -0.35
 		#Damage needed to destroy the cart. Damage accumulates over time but decays at a rate of 2 damage per second.
 		# Default: 4
 		# Range: 1 ~ 100
@@ -31,7 +31,7 @@
 		#Base speed modifier applied to animals (-0.5 = half normal speed)
 		# Default: 0.0
 		# Range: -1.0 ~ 0.0
-		pull_speed = 0.0
+		pull_speed = -0.35
 		#Damage needed to destroy the cart. Damage accumulates over time but decays at a rate of 2 damage per second.
 		# Default: 4
 		# Range: 1 ~ 100

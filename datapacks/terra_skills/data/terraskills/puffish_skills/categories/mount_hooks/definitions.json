@@ -1,0 +1,97 @@
+{
+  "pack_animal_jump_limit_1": {
+    "title": "Footing jump hook 1",
+    "description": "Internal rank synchronized from Pack Animal Footing.",
+    "extra_description": "",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "cost": 0,
+    "rewards": []
+  },
+  "pack_animal_jump_limit_2": {
+    "title": "Footing jump hook 2",
+    "description": "Internal rank synchronized from Pack Animal Footing.",
+    "extra_description": "",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "cost": 0,
+    "rewards": []
+  },
+  "pack_animal_jump_limit_3": {
+    "title": "Footing jump hook 3",
+    "description": "Internal rank synchronized from Pack Animal Footing.",
+    "extra_description": "",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "cost": 0,
+    "rewards": []
+  },
+  "pack_animal_jump_limit_4": {
+    "title": "Footing jump hook 4",
+    "description": "Internal rank synchronized from Pack Animal Footing.",
+    "extra_description": "",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "cost": 0,
+    "rewards": []
+  },
+  "pack_animal_jump_limit_5": {
+    "title": "Footing jump hook 5",
+    "description": "Internal rank synchronized from Pack Animal Footing.",
+    "extra_description": "",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "cost": 0,
+    "rewards": []
+  }
+}

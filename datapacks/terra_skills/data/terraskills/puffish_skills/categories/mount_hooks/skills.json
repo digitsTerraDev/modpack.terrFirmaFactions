@@ -1,0 +1,27 @@
+{
+  "pack_animal_jump_limit_1": {
+    "x": 0,
+    "y": 0,
+    "definition": "pack_animal_jump_limit_1"
+  },
+  "pack_animal_jump_limit_2": {
+    "x": 0,
+    "y": 64,
+    "definition": "pack_animal_jump_limit_2"
+  },
+  "pack_animal_jump_limit_3": {
+    "x": 0,
+    "y": 128,
+    "definition": "pack_animal_jump_limit_3"
+  },
+  "pack_animal_jump_limit_4": {
+    "x": 0,
+    "y": 192,
+    "definition": "pack_animal_jump_limit_4"
+  },
+  "pack_animal_jump_limit_5": {
+    "x": 0,
+    "y": 256,
+    "definition": "pack_animal_jump_limit_5"
+  }
+}

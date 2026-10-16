@@ -1,0 +1,14 @@
+{
+  "unlocked_by_default": false,
+  "exclusive_root": false,
+  "starting_points": 0,
+  "title": "Mount hooks",
+  "description": "Internal mount-power ranks.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:saddle"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+}

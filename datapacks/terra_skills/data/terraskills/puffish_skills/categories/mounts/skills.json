@@ -1,0 +1,328 @@
+{
+  "mount_speed_1": {
+    "x": 0,
+    "y": 0,
+    "definition": "mount_speed_1",
+    "root": true
+  },
+  "mount_speed_2": {
+    "x": 0,
+    "y": 64,
+    "definition": "mount_speed_2"
+  },
+  "mount_speed_3": {
+    "x": 0,
+    "y": 128,
+    "definition": "mount_speed_3"
+  },
+  "mount_speed_4": {
+    "x": 0,
+    "y": 192,
+    "definition": "mount_speed_4"
+  },
+  "mount_speed_5": {
+    "x": 0,
+    "y": 256,
+    "definition": "mount_speed_5"
+  },
+  "mount_armor_1": {
+    "x": 0,
+    "y": 400,
+    "definition": "mount_armor_1"
+  },
+  "mount_armor_2": {
+    "x": 0,
+    "y": 464,
+    "definition": "mount_armor_2"
+  },
+  "mount_armor_3": {
+    "x": 0,
+    "y": 528,
+    "definition": "mount_armor_3"
+  },
+  "mount_armor_4": {
+    "x": 0,
+    "y": 592,
+    "definition": "mount_armor_4"
+  },
+  "mount_armor_5": {
+    "x": 0,
+    "y": 656,
+    "definition": "mount_armor_5"
+  },
+  "mount_toughness_1": {
+    "x": 150,
+    "y": 850,
+    "definition": "mount_toughness_1"
+  },
+  "mount_toughness_2": {
+    "x": 150,
+    "y": 914,
+    "definition": "mount_toughness_2"
+  },
+  "mount_toughness_3": {
+    "x": 150,
+    "y": 978,
+    "definition": "mount_toughness_3"
+  },
+  "mount_toughness_4": {
+    "x": 150,
+    "y": 1042,
+    "definition": "mount_toughness_4"
+  },
+  "mount_toughness_5": {
+    "x": 150,
+    "y": 1106,
+    "definition": "mount_toughness_5"
+  },
+  "riding_pull_percent_1": {
+    "x": -550,
+    "y": 400,
+    "definition": "riding_pull_percent_1"
+  },
+  "riding_pull_percent_2": {
+    "x": -550,
+    "y": 464,
+    "definition": "riding_pull_percent_2"
+  },
+  "riding_pull_percent_3": {
+    "x": -550,
+    "y": 528,
+    "definition": "riding_pull_percent_3"
+  },
+  "riding_pull_percent_4": {
+    "x": -550,
+    "y": 592,
+    "definition": "riding_pull_percent_4"
+  },
+  "riding_pull_percent_5": {
+    "x": -550,
+    "y": 656,
+    "definition": "riding_pull_percent_5"
+  },
+  "riding_speed_penalty_1": {
+    "x": -900,
+    "y": 850,
+    "definition": "riding_speed_penalty_1"
+  },
+  "riding_speed_penalty_2": {
+    "x": -900,
+    "y": 914,
+    "definition": "riding_speed_penalty_2"
+  },
+  "riding_speed_penalty_3": {
+    "x": -900,
+    "y": 978,
+    "definition": "riding_speed_penalty_3"
+  },
+  "riding_speed_penalty_4": {
+    "x": -900,
+    "y": 1042,
+    "definition": "riding_speed_penalty_4"
+  },
+  "riding_speed_penalty_5": {
+    "x": -900,
+    "y": 1106,
+    "definition": "riding_speed_penalty_5"
+  },
+  "horse_light_harness_1": {
+    "x": 550,
+    "y": 400,
+    "definition": "horse_light_harness_1"
+  },
+  "horse_light_harness_2": {
+    "x": 550,
+    "y": 464,
+    "definition": "horse_light_harness_2"
+  },
+  "horse_light_harness_3": {
+    "x": 550,
+    "y": 528,
+    "definition": "horse_light_harness_3"
+  },
+  "horse_light_harness_4": {
+    "x": 550,
+    "y": 592,
+    "definition": "horse_light_harness_4"
+  },
+  "horse_light_harness_5": {
+    "x": 550,
+    "y": 656,
+    "definition": "horse_light_harness_5"
+  },
+  "horse_speed_1": {
+    "x": 550,
+    "y": 850,
+    "definition": "horse_speed_1"
+  },
+  "horse_speed_2": {
+    "x": 550,
+    "y": 914,
+    "definition": "horse_speed_2"
+  },
+  "horse_speed_3": {
+    "x": 550,
+    "y": 978,
+    "definition": "horse_speed_3"
+  },
+  "horse_speed_4": {
+    "x": 550,
+    "y": 1042,
+    "definition": "horse_speed_4"
+  },
+  "horse_speed_5": {
+    "x": 550,
+    "y": 1106,
+    "definition": "horse_speed_5"
+  },
+  "horse_armor_1": {
+    "x": 900,
+    "y": 850,
+    "definition": "horse_armor_1"
+  },
+  "horse_armor_2": {
+    "x": 900,
+    "y": 914,
+    "definition": "horse_armor_2"
+  },
+  "horse_armor_3": {
+    "x": 900,
+    "y": 978,
+    "definition": "horse_armor_3"
+  },
+  "horse_armor_4": {
+    "x": 900,
+    "y": 1042,
+    "definition": "horse_armor_4"
+  },
+  "horse_armor_5": {
+    "x": 900,
+    "y": 1106,
+    "definition": "horse_armor_5"
+  },
+  "horse_toughness_1": {
+    "x": 900,
+    "y": 1300,
+    "definition": "horse_toughness_1"
+  },
+  "horse_toughness_2": {
+    "x": 900,
+    "y": 1364,
+    "definition": "horse_toughness_2"
+  },
+  "horse_toughness_3": {
+    "x": 900,
+    "y": 1428,
+    "definition": "horse_toughness_3"
+  },
+  "horse_toughness_4": {
+    "x": 900,
+    "y": 1492,
+    "definition": "horse_toughness_4"
+  },
+  "horse_toughness_5": {
+    "x": 900,
+    "y": 1556,
+    "definition": "horse_toughness_5"
+  },
+  "donkey_draft_harness_1": {
+    "x": -600,
+    "y": 1300,
+    "definition": "donkey_draft_harness_1"
+  },
+  "donkey_draft_harness_2": {
+    "x": -600,
+    "y": 1364,
+    "definition": "donkey_draft_harness_2"
+  },
+  "donkey_draft_harness_3": {
+    "x": -600,
+    "y": 1428,
+    "definition": "donkey_draft_harness_3"
+  },
+  "donkey_draft_harness_4": {
+    "x": -600,
+    "y": 1492,
+    "definition": "donkey_draft_harness_4"
+  },
+  "donkey_draft_harness_5": {
+    "x": -600,
+    "y": 1556,
+    "definition": "donkey_draft_harness_5"
+  },
+  "pack_animal_back_percent_1": {
+    "x": -250,
+    "y": 850,
+    "definition": "pack_animal_back_percent_1"
+  },
+  "pack_animal_back_percent_2": {
+    "x": -250,
+    "y": 914,
+    "definition": "pack_animal_back_percent_2"
+  },
+  "pack_animal_back_percent_3": {
+    "x": -250,
+    "y": 978,
+    "definition": "pack_animal_back_percent_3"
+  },
+  "pack_animal_back_percent_4": {
+    "x": -250,
+    "y": 1042,
+    "definition": "pack_animal_back_percent_4"
+  },
+  "pack_animal_back_percent_5": {
+    "x": -250,
+    "y": 1106,
+    "definition": "pack_animal_back_percent_5"
+  },
+  "pack_animal_step_limit_1": {
+    "x": -250,
+    "y": 1300,
+    "definition": "pack_animal_step_limit_1"
+  },
+  "pack_animal_step_limit_2": {
+    "x": -250,
+    "y": 1364,
+    "definition": "pack_animal_step_limit_2"
+  },
+  "pack_animal_step_limit_3": {
+    "x": -250,
+    "y": 1428,
+    "definition": "pack_animal_step_limit_3"
+  },
+  "pack_animal_step_limit_4": {
+    "x": -250,
+    "y": 1492,
+    "definition": "pack_animal_step_limit_4"
+  },
+  "pack_animal_step_limit_5": {
+    "x": -250,
+    "y": 1556,
+    "definition": "pack_animal_step_limit_5"
+  },
+  "mule_expedition_balance_1": {
+    "x": 100,
+    "y": 1300,
+    "definition": "mule_expedition_balance_1"
+  },
+  "mule_expedition_balance_2": {
+    "x": 100,
+    "y": 1364,
+    "definition": "mule_expedition_balance_2"
+  },
+  "mule_expedition_balance_3": {
+    "x": 100,
+    "y": 1428,
+    "definition": "mule_expedition_balance_3"
+  },
+  "mule_expedition_balance_4": {
+    "x": 100,
+    "y": 1492,
+    "definition": "mule_expedition_balance_4"
+  },
+  "mule_expedition_balance_5": {
+    "x": 100,
+    "y": 1556,
+    "definition": "mule_expedition_balance_5"
+  }
+}

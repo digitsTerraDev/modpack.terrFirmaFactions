@@ -1,0 +1,13 @@
+name = "Ride Together"
+filename = "ridetogether-neoforge-1.0.3-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5OpfEtF0/versions/gaJPNQvj/ridetogether-neoforge-1.0.3-1.21.1.jar"
+hash-format = "sha512"
+hash = "8b2ed6a8068f5a30c36a433f019c67ddcd502248abfaf60e5939f882ffb68da30ecfe1cad25984eb1571ddc5ee33b1247cab69644bdbe96328f5b5da97e67332"
+
+[update]
+[update.modrinth]
+mod-id = "5OpfEtF0"
+version = "gaJPNQvj"

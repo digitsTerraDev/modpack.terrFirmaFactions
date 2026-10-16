@@ -1,0 +1,35 @@
+--- a/src/main/java/com/terraskills/powers/weight/WeightSkillPowers.java
++++ b/src/main/java/com/terraskills/powers/weight/WeightSkillPowers.java
+@@ -53,7 +53,10 @@
+     public static double jumpLoadLimit(AbstractHorse horse, Player rider, double baseLimit) {
+         if (!(rider instanceof ServerPlayer server)) return baseLimit;
+         if (isPackAnimal(horse)) {
+-            return baseLimit * (1.0D + PowersConfig.PACK_ANIMAL_JUMP_LIMIT_PERCENT_PER_RANK.get() * SkillRanks.packAnimalJumpLimit(server));
++            double limit = baseLimit * (1.0D + PowersConfig.PACK_ANIMAL_JUMP_LIMIT_PERCENT_PER_RANK.get() * SkillRanks.packAnimalJumpLimit(server));
++            return horse instanceof Mule
++                    ? AnimalWeightApi.horseLightHarnessJumpLimit(limit, SkillRanks.horseLightHarness(server))
++                    : limit;
+         }
+         return AnimalWeightApi.horseLightHarnessJumpLimit(baseLimit, SkillRanks.horseLightHarness(server));
+     }
+@@ -61,7 +64,10 @@
+     public static double stepLoadLimit(AbstractHorse horse, Player rider, double baseLimit) {
+         if (!(rider instanceof ServerPlayer server)) return baseLimit;
+         if (isPackAnimal(horse)) {
+-            return baseLimit * (1.0D + PowersConfig.PACK_ANIMAL_STEP_LIMIT_PERCENT_PER_RANK.get() * SkillRanks.packAnimalStepLimit(server));
++            double limit = baseLimit * (1.0D + PowersConfig.PACK_ANIMAL_STEP_LIMIT_PERCENT_PER_RANK.get() * SkillRanks.packAnimalStepLimit(server));
++            return horse instanceof Mule
++                    ? AnimalWeightApi.horseLightHarnessStepLimit(limit, SkillRanks.horseLightHarness(server))
++                    : limit;
+         }
+         return AnimalWeightApi.horseLightHarnessStepLimit(baseLimit, SkillRanks.horseLightHarness(server));
+     }
+@@ -70,7 +76,7 @@
+         double curveStart = horse instanceof Donkey ? PowersConfig.DONKEY_SPEED_PENALTY_START.get()
+                 : horse instanceof Mule ? PowersConfig.MULE_SPEED_PENALTY_START.get()
+                 : PowersConfig.HORSE_SPEED_PENALTY_START.get();
+-        if (!(horse instanceof Donkey) && !(horse instanceof Mule) && rider instanceof ServerPlayer server) {
++        if (!(horse instanceof Donkey) && rider instanceof ServerPlayer server) {
+             curveStart = AnimalWeightApi.horseLightHarnessSpeedStart(curveStart, SkillRanks.horseLightHarness(server));
+         }
+         if (loadRatio <= curveStart) return 1.0D;

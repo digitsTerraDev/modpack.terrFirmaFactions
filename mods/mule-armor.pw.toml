@@ -1,0 +1,13 @@
+name = "Mule Armor"
+filename = "mulearmor-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NVx2i4Q8/versions/Fo3HVfbg/mulearmor-1.0.0.jar"
+hash-format = "sha512"
+hash = "f9c4a4cb960e1b31151f97ad958ef8fc889969d8ddb32682bc45b79d0cdf1e16b9ff0456971b138454f7f11541371276be8cd5757884d884c6f97b6733ade52a"
+
+[update]
+[update.modrinth]
+mod-id = "NVx2i4Q8"
+version = "Fo3HVfbg"

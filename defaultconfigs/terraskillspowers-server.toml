@@ -1,0 +1,63 @@
+# Pack balance for TerraSkills Powers 0.0.8. Mount settings also apply to existing saves through KubeJS.
+
+[hazardManagement]
+shoreRadius = 4
+chancePerRank = 0.1
+shores = ["kubejs:copper_braced_shore=0.10,1", "kubejs:black_steel_shore=0.45,4"]
+allowAutomatedPlacement = false
+
+[weightPowers]
+carryCapacityPercentPerRank = 0.1
+carryCapacityFlatKgPerRank = 0.0
+ridingPullPercentPerRank = 0.02
+ridingPullFlatKgPerRank = 0.0
+ridingSpeedPenaltyReductionPerRank = 0.02
+horseLightHarnessSpeedStartPerRank = 0.03
+horseLightHarnessJumpLimitPerRank = 0.03
+horseLightHarnessStepLimitPerRank = 0.03
+donkeyDraftHarnessPullPercentPerRank = 0.02
+muleExpeditionBalanceReductionPerRank = 0.04
+mountSpeedPercentPerRank = 0.02
+horseSpeedPercentPerRank = 0.02
+muleSpeedPercentPerRank = 0.0
+mountArmorPerRank = 0.4
+horseArmorPerRank = 0.2
+muleArmorPerRank = 0.0
+mountToughnessPerRank = 0.1
+horseToughnessPerRank = 0.1
+muleToughnessPerRank = 0.0
+packAnimalPullPercentPerRank = 0.0
+packAnimalPullFlatKgPerRank = 0.0
+packAnimalBackPercentPerRank = 0.02
+packAnimalBackFlatKgPerRank = 0.0
+packAnimalJumpLimitPercentPerRank = 0.03
+packAnimalStepLimitPercentPerRank = 0.03
+
+[weightPowers.baseMountStats]
+horseMinPullCapacityKg = 400.0
+horseMaxPullCapacityKg = 460.0
+donkeyMinPullCapacityKg = 440.0
+donkeyMaxPullCapacityKg = 500.0
+muleMinPullCapacityKg = 420.0
+muleMaxPullCapacityKg = 480.0
+horseBackCapacityMultiplier = 1.0
+donkeyBackCapacityMultiplier = 1.1
+muleBackCapacityMultiplier = 1.2
+horseSpeedPenaltyStart = 0.3
+donkeySpeedPenaltyStart = 0.4
+muleSpeedPenaltyStart = 0.35
+horseMinSpeedAtCapacity = 0.5
+donkeyMinSpeedAtCapacity = 0.5
+muleMinSpeedAtCapacity = 0.55
+horseJumpLoadLimit = 0.45
+donkeyJumpLoadLimit = 0.25
+muleJumpLoadLimit = 0.35
+horseStepLoadLimit = 0.75
+donkeyStepLoadLimit = 0.55
+muleStepLoadLimit = 0.65
+pullCapacityMinJumpStrength = 0.4
+pullCapacityMaxJumpStrength = 1.0
+reducedStepHeight = 0.6
+
+[carefulEye]
+gemWeights = ["granite=emerald@1", "diorite=emerald@1", "gabbro=diamond@2,emerald@1", "shale=amethyst@1,opal@1", "claystone=amethyst@1,opal@1", "limestone=amethyst@1,opal@1,lapis_lazuli@1", "conglomerate=amethyst@1,opal@1", "dolomite=amethyst@1,opal@1", "chert=amethyst@1,opal@1", "chalk=amethyst@1,opal@1", "tuff=amethyst@1,opal@1", "rhyolite=opal@1", "basalt=opal@1", "andesite=opal@1", "dacite=opal@1", "quartzite=amethyst@1", "slate=amethyst@1", "phyllite=amethyst@1", "schist=amethyst@1", "gneiss=amethyst@1", "marble=amethyst@1,lapis_lazuli@1,ruby@1"]

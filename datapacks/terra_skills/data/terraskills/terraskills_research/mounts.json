@@ -1,0 +1,465 @@
+{
+  "title": "Mounts",
+  "skills": [
+    {
+      "id": "mount_speed",
+      "title": "Riding",
+      "description": "+2% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
+      "primary_stat": "finesse",
+      "secondary_stat": "instinct",
+      "prerequisites": [],
+      "research_bonuses": [
+        "+2% mount speed per level while riding.",
+        "Level 1: Permits riding mounts.",
+        "Level 3: Permits copper-horn binding and calling."
+      ],
+      "levels": [
+        {
+          "skill": "mount_speed_1",
+          "cost": 1
+        },
+        {
+          "skill": "mount_speed_2",
+          "cost": 3
+        },
+        {
+          "skill": "mount_speed_3",
+          "cost": 8
+        },
+        {
+          "skill": "mount_speed_4",
+          "cost": 20
+        },
+        {
+          "skill": "mount_speed_5",
+          "cost": 50
+        }
+      ]
+    },
+    {
+      "id": "mount_armor",
+      "title": "Mount Armor",
+      "description": "+0.4 mount armor per level while riding.",
+      "primary_stat": "endurance",
+      "secondary_stat": "finesse",
+      "prerequisites": [
+        "mount_speed_3"
+      ],
+      "research_bonuses": [
+        "+0.4 mount armor per level while riding."
+      ],
+      "levels": [
+        {
+          "skill": "mount_armor_1",
+          "cost": 2
+        },
+        {
+          "skill": "mount_armor_2",
+          "cost": 6
+        },
+        {
+          "skill": "mount_armor_3",
+          "cost": 16
+        },
+        {
+          "skill": "mount_armor_4",
+          "cost": 40
+        },
+        {
+          "skill": "mount_armor_5",
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "id": "mount_toughness",
+      "title": "Mount Toughness",
+      "description": "+0.1 mount armor toughness per level while riding.",
+      "primary_stat": "endurance",
+      "secondary_stat": "instinct",
+      "prerequisites": [
+        "mount_armor_2"
+      ],
+      "research_bonuses": [
+        "+0.1 mount armor toughness per level while riding."
+      ],
+      "levels": [
+        {
+          "skill": "mount_toughness_1",
+          "cost": 2
+        },
+        {
+          "skill": "mount_toughness_2",
+          "cost": 6
+        },
+        {
+          "skill": "mount_toughness_3",
+          "cost": 16
+        },
+        {
+          "skill": "mount_toughness_4",
+          "cost": 40
+        },
+        {
+          "skill": "mount_toughness_5",
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "id": "riding_pull_percent",
+      "title": "Hauling",
+      "description": "+2% animal pull capacity per level. Level 1: Permits hitching and driving animal-drawn carts.",
+      "primary_stat": "endurance",
+      "secondary_stat": "finesse",
+      "prerequisites": [
+        "mount_speed_2"
+      ],
+      "research_bonuses": [
+        "+2% animal pull capacity per level.",
+        "Level 1: Permits hitching and driving animal-drawn carts."
+      ],
+      "levels": [
+        {
+          "skill": "riding_pull_percent_1",
+          "cost": 1
+        },
+        {
+          "skill": "riding_pull_percent_2",
+          "cost": 3
+        },
+        {
+          "skill": "riding_pull_percent_3",
+          "cost": 8
+        },
+        {
+          "skill": "riding_pull_percent_4",
+          "cost": 20
+        },
+        {
+          "skill": "riding_pull_percent_5",
+          "cost": 50
+        }
+      ]
+    },
+    {
+      "id": "riding_speed_penalty",
+      "title": "Loaded Riding",
+      "description": "-2 percentage points of heavy-load speed loss per level.",
+      "primary_stat": "finesse",
+      "secondary_stat": "endurance",
+      "prerequisites": [
+        "riding_pull_percent_3"
+      ],
+      "research_bonuses": [
+        "-2 percentage points of heavy-load speed loss per level."
+      ],
+      "levels": [
+        {
+          "skill": "riding_speed_penalty_1",
+          "cost": 2
+        },
+        {
+          "skill": "riding_speed_penalty_2",
+          "cost": 6
+        },
+        {
+          "skill": "riding_speed_penalty_3",
+          "cost": 16
+        },
+        {
+          "skill": "riding_speed_penalty_4",
+          "cost": 40
+        },
+        {
+          "skill": "riding_speed_penalty_5",
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "id": "horse_light_harness",
+      "title": "Harnessing",
+      "description": "Horses and mules only: +3 percentage points per level to slowdown, jump and step load thresholds.",
+      "primary_stat": "finesse",
+      "secondary_stat": "instinct",
+      "prerequisites": [
+        "mount_speed_3"
+      ],
+      "research_bonuses": [
+        "Horses and mules only: +3 percentage points per level to slowdown, jump and step load thresholds."
+      ],
+      "levels": [
+        {
+          "skill": "horse_light_harness_1",
+          "cost": 2
+        },
+        {
+          "skill": "horse_light_harness_2",
+          "cost": 6
+        },
+        {
+          "skill": "horse_light_harness_3",
+          "cost": 16
+        },
+        {
+          "skill": "horse_light_harness_4",
+          "cost": 40
+        },
+        {
+          "skill": "horse_light_harness_5",
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "id": "horse_speed",
+      "title": "Horse Speed",
+      "description": "Horses: +2% speed per level while riding.",
+      "primary_stat": "finesse",
+      "secondary_stat": "endurance",
+      "prerequisites": [
+        "horse_light_harness_3"
+      ],
+      "research_bonuses": [
+        "Horses: +2% speed per level while riding."
+      ],
+      "levels": [
+        {
+          "skill": "horse_speed_1",
+          "cost": 2
+        },
+        {
+          "skill": "horse_speed_2",
+          "cost": 6
+        },
+        {
+          "skill": "horse_speed_3",
+          "cost": 16
+        },
+        {
+          "skill": "horse_speed_4",
+          "cost": 40
+        },
+        {
+          "skill": "horse_speed_5",
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "id": "horse_armor",
+      "title": "Horse Armor",
+      "description": "Horses: +0.2 armor per level while riding.",
+      "primary_stat": "endurance",
+      "secondary_stat": "finesse",
+      "prerequisites": [
+        "horse_light_harness_3",
+        "mount_armor_4"
+      ],
+      "research_bonuses": [
+        "Horses: +0.2 armor per level while riding."
+      ],
+      "levels": [
+        {
+          "skill": "horse_armor_1",
+          "cost": 2
+        },
+        {
+          "skill": "horse_armor_2",
+          "cost": 6
+        },
+        {
+          "skill": "horse_armor_3",
+          "cost": 16
+        },
+        {
+          "skill": "horse_armor_4",
+          "cost": 40
+        },
+        {
+          "skill": "horse_armor_5",
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "id": "horse_toughness",
+      "title": "Horse Toughness",
+      "description": "Horses: +0.1 armor toughness per level while riding.",
+      "primary_stat": "endurance",
+      "secondary_stat": "instinct",
+      "prerequisites": [
+        "mount_toughness_4",
+        "horse_armor_4"
+      ],
+      "research_bonuses": [
+        "Horses: +0.1 armor toughness per level while riding."
+      ],
+      "levels": [
+        {
+          "skill": "horse_toughness_1",
+          "cost": 2
+        },
+        {
+          "skill": "horse_toughness_2",
+          "cost": 6
+        },
+        {
+          "skill": "horse_toughness_3",
+          "cost": 16
+        },
+        {
+          "skill": "horse_toughness_4",
+          "cost": 40
+        },
+        {
+          "skill": "horse_toughness_5",
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "id": "donkey_draft_harness",
+      "title": "Donkey Draft Harness",
+      "description": "Donkeys: +2% pull capacity per level.",
+      "primary_stat": "endurance",
+      "secondary_stat": "instinct",
+      "prerequisites": [
+        "riding_pull_percent_3"
+      ],
+      "research_bonuses": [
+        "Donkeys: +2% pull capacity per level."
+      ],
+      "levels": [
+        {
+          "skill": "donkey_draft_harness_1",
+          "cost": 2
+        },
+        {
+          "skill": "donkey_draft_harness_2",
+          "cost": 6
+        },
+        {
+          "skill": "donkey_draft_harness_3",
+          "cost": 16
+        },
+        {
+          "skill": "donkey_draft_harness_4",
+          "cost": 40
+        },
+        {
+          "skill": "donkey_draft_harness_5",
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "id": "pack_animal_back_percent",
+      "title": "Pack Animals",
+      "description": "Donkeys and mules: +2% back capacity per level.",
+      "primary_stat": "endurance",
+      "secondary_stat": "finesse",
+      "prerequisites": [
+        "mount_speed_4",
+        "riding_pull_percent_3"
+      ],
+      "research_bonuses": [
+        "Donkeys and mules: +2% back capacity per level."
+      ],
+      "levels": [
+        {
+          "skill": "pack_animal_back_percent_1",
+          "cost": 2
+        },
+        {
+          "skill": "pack_animal_back_percent_2",
+          "cost": 6
+        },
+        {
+          "skill": "pack_animal_back_percent_3",
+          "cost": 16
+        },
+        {
+          "skill": "pack_animal_back_percent_4",
+          "cost": 40
+        },
+        {
+          "skill": "pack_animal_back_percent_5",
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "id": "pack_animal_step_limit",
+      "title": "Pack Animal Footing",
+      "description": "Donkeys and mules: +3% of the base jump and step load thresholds per level.",
+      "primary_stat": "finesse",
+      "secondary_stat": "instinct",
+      "prerequisites": [
+        "pack_animal_back_percent_3"
+      ],
+      "research_bonuses": [
+        "Donkeys and mules: +3% of the base jump and step load thresholds per level."
+      ],
+      "levels": [
+        {
+          "skill": "pack_animal_step_limit_1",
+          "cost": 2
+        },
+        {
+          "skill": "pack_animal_step_limit_2",
+          "cost": 6
+        },
+        {
+          "skill": "pack_animal_step_limit_3",
+          "cost": 16
+        },
+        {
+          "skill": "pack_animal_step_limit_4",
+          "cost": 40
+        },
+        {
+          "skill": "pack_animal_step_limit_5",
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "id": "mule_expedition_balance",
+      "title": "Mounted Expedition",
+      "description": "Mules: -4% effective rider, passenger inventory and body armor weight per level.",
+      "primary_stat": "finesse",
+      "secondary_stat": "endurance",
+      "prerequisites": [
+        "horse_light_harness_2",
+        "pack_animal_back_percent_2"
+      ],
+      "research_bonuses": [
+        "Mules: -4% effective rider, passenger inventory and body armor weight per level."
+      ],
+      "levels": [
+        {
+          "skill": "mule_expedition_balance_1",
+          "cost": 2
+        },
+        {
+          "skill": "mule_expedition_balance_2",
+          "cost": 6
+        },
+        {
+          "skill": "mule_expedition_balance_3",
+          "cost": 16
+        },
+        {
+          "skill": "mule_expedition_balance_4",
+          "cost": 40
+        },
+        {
+          "skill": "mule_expedition_balance_5",
+          "cost": 100
+        }
+      ]
+    }
+  ]
+}

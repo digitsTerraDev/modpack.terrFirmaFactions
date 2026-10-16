@@ -1,15 +1,15 @@
 name = "mod.terraSkillsPowers"
-filename = "terraskillspowers-0.0.4.jar"
+filename = "terraskillspowers-0.0.8.jar"
 side = "both"
 
 [download]
-url = "https://github.com/digitsTerraDev/mod.terraSkillsPowers/releases/download/v0.0.4/terraskillspowers-0.0.4.jar"
+url = "https://github.com/digitsTerraDev/mod.terraSkillsPowers/releases/download/v0.0.8/terraskillspowers-0.0.8.jar"
 hash-format = "sha256"
-hash = "94c2fdf944bc1ee1223edeb7c7cec35f96d17e4f52baae315940fe44b81c4603"
+hash = "b53a9b78f6d5d738b6a38d76d2191fb4c7c978b7296f92ffa93a144a73359b1b"
 
 [update]
 [update.github]
 branch = "main"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
 slug = "digitsTerraDev/mod.terraSkillsPowers"
-tag = "v0.0.4"
+tag = "v0.0.8"
