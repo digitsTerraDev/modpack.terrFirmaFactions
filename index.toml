@@ -985,9 +985,6 @@ file = "config/precision-prospecting.toml"
 file = "config/puffish_skills/config.json"
 
 [[files]]
-file = "config/rechanted-common.toml"
-
-[[files]]
 file = "config/reliable_recipes.json"
 
 [[files]]
@@ -1295,9 +1292,6 @@ file = "config/worldplanner-client.toml"
 
 [[files]]
 file = "config/xercapaint-server.toml"
-
-[[files]]
-file = "config/xptome.toml"
 
 [[files]]
 file = "config/yacl.json5"
@@ -2587,10 +2581,6 @@ file = "mods/immersive-optimization.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/immersiveengineering.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/interiors.pw.toml"
 metafile = true
 
@@ -2839,10 +2829,6 @@ file = "mods/puzzles-lib.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/rechanted.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/reliable-recipes.pw.toml"
 metafile = true
 
@@ -2983,10 +2969,6 @@ file = "mods/tfc-glass-workshop.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/tfc-hammer-time-(unofficial-port).pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/tfc-hammer-time-unofficial-port.pw.toml"
 metafile = true
 
@@ -3067,10 +3049,6 @@ file = "mods/torque-link-create-to-tfc.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/two-players-one-horse.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/ui-lib.pw.toml"
 metafile = true
 
@@ -3116,10 +3094,6 @@ metafile = true
 
 [[files]]
 file = "mods/world-preview-terrafirmacraft.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/xp-tome.pw.toml"
 metafile = true
 
 [[files]]
