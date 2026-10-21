@@ -1,0 +1,73 @@
+# Season pacing prioritizes round costs and useful training times.
+# One skill day = one real hour; 500 base + up to 500 nutrition SP/hour.
+# Typical 3/3 stats and balanced 80% nutrition: 1305 SP/hour.
+# Four-week continuous research is about 27% of total mastery, not a quota.
+[generation]
+	#Points generated per configured real-time skill day before nutrition and stats.
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	baseSkillPointsPerDay = 500.0
+	#Number of real-world minutes in one skill day. 1440 is a real 24-hour day; lower values are useful for testing.
+	# Default: 1440.0
+	# Range: 0.0167 ~ 525600.0
+	realMinutesPerSkillDay = 60.0
+	#Master startup switch for passive generation. Admins can also pause/resume the live server with commands.
+	enabled = true
+	#If true, calendar time while logged out is awarded on login using the player's current nutrition.
+	accrueWhileOffline = true
+	#Multiplier applied to points banked while no research is queued. 0.5 banks 50% of the normal base-and-nutrition rate.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	unskilledPointMultiplier = 0.5
+
+[nutrition]
+	#Points per day contributed when this nutrient is 100% full.
+	# Default: 0.2
+	# Range: 0.0 ~ 10000.0
+	grainPointsPerDayAtFull = 100.0
+	#Points per day contributed when this nutrient is 100% full.
+	# Default: 0.2
+	# Range: 0.0 ~ 10000.0
+	fruitPointsPerDayAtFull = 100.0
+	#Points per day contributed when this nutrient is 100% full.
+	# Default: 0.2
+	# Range: 0.0 ~ 10000.0
+	vegetablePointsPerDayAtFull = 100.0
+	#Points per day contributed when this nutrient is 100% full.
+	# Default: 0.2
+	# Range: 0.0 ~ 10000.0
+	proteinPointsPerDayAtFull = 100.0
+	#Points per day contributed when this nutrient is 100% full.
+	# Default: 0.2
+	# Range: 0.0 ~ 10000.0
+	dairyPointsPerDayAtFull = 100.0
+	#Curve applied to each normalized nutrient. Above 1 rewards high fullness more strongly; below 1 is more forgiving.
+	# Default: 1.0
+	# Range: 0.05 ~ 10.0
+	fullnessExponent = 1.0
+	#Lowest possible nutrition balance multiplier. Perfect balance always scales to 1.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	minimumBalanceMultiplier = 0.25
+	#Curve applied to the average closeness of every pair of nutrients when calculating balance.
+	# Default: 1.0
+	# Range: 0.05 ~ 10.0
+	balanceExponent = 1.0
+
+[rpgStats]
+	#Additive generation multiplier per point in a tree's primary stat. 0.05 means +5%.
+	# Default: 0.05
+	# Range: 0.0 ~ 100.0
+	primaryBonusPerPoint = 0.1
+	#Additive generation multiplier per point in a tree's secondary stat.
+	# Default: 0.025
+	# Range: 0.0 ~ 100.0
+	secondaryBonusPerPoint = 0.05
+	#Hard cap on the combined primary/secondary stat multiplier.
+	# Default: 10.0
+	# Range: 1.0 ~ 10000.0
+	maximumMultiplier = 1.75
+	#Maximum value accepted for any stat.
+	# Default: 100
+	# Range: 0 ~ 1000000
+	maximumStatValue = 5

@@ -59,5 +59,17 @@ pullCapacityMinJumpStrength = 0.4
 pullCapacityMaxJumpStrength = 1.0
 reducedStepHeight = 0.6
 
+[explorationPowers.trailActivity]
+decayTicks = 72000
+normalizationLow = 0.0
+normalizationHigh = 320.0
+sampleIntervalTicks = 10
+contributionWindowTicks = 1200
+contributionCapBlocks = 128.0
+maxSampleDistance = 12.0
+heatmapMaxRadiusChunks = 48
+heatmapMaxEntries = 1024
+heatmapRequestCooldownTicks = 20
+
 [carefulEye]
 gemWeights = ["granite=emerald@1", "diorite=emerald@1", "gabbro=diamond@2,emerald@1", "shale=amethyst@1,opal@1", "claystone=amethyst@1,opal@1", "limestone=amethyst@1,opal@1,lapis_lazuli@1", "conglomerate=amethyst@1,opal@1", "dolomite=amethyst@1,opal@1", "chert=amethyst@1,opal@1", "chalk=amethyst@1,opal@1", "tuff=amethyst@1,opal@1", "rhyolite=opal@1", "basalt=opal@1", "andesite=opal@1", "dacite=opal@1", "quartzite=amethyst@1", "slate=amethyst@1", "phyllite=amethyst@1", "schist=amethyst@1", "gneiss=amethyst@1", "marble=amethyst@1,lapis_lazuli@1,ruby@1"]

@@ -2,7 +2,7 @@
   "miner_1": {
     "title": "Mining I",
     "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 1 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 250 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -15,13 +15,13 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 1,
+    "cost": 250,
     "rewards": []
   },
   "miner_2": {
     "title": "Mining II",
     "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 2 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 500 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -34,13 +34,13 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 2,
+    "cost": 500,
     "rewards": []
   },
   "miner_3": {
     "title": "Mining III",
     "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 4 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 2000 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -53,13 +53,13 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 4,
+    "cost": 2000,
     "rewards": []
   },
   "miner_4": {
     "title": "Mining IV",
     "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 7 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 6750 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -72,13 +72,13 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 7,
+    "cost": 6750,
     "rewards": []
   },
   "miner_5": {
     "title": "Mining V",
     "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 11 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 22500 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -91,13 +91,13 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 11,
+    "cost": 22500,
     "rewards": []
   },
   "careful_excavation_1": {
     "title": "Excavation Reach I",
     "description": "+0.5 block interaction reach per rank only while holding a pickaxe or shovel in your main hand; maximum +2.5 blocks.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 1 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 1000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -110,13 +110,13 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 1,
+    "cost": 1000,
     "rewards": []
   },
   "careful_excavation_2": {
     "title": "Excavation Reach II",
     "description": "+0.5 block interaction reach per rank only while holding a pickaxe or shovel in your main hand; maximum +2.5 blocks.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 2 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 2000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -129,13 +129,13 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 2,
+    "cost": 2000,
     "rewards": []
   },
   "careful_excavation_3": {
     "title": "Excavation Reach III",
     "description": "+0.5 block interaction reach per rank only while holding a pickaxe or shovel in your main hand; maximum +2.5 blocks.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 4 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 8000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -148,13 +148,13 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 4,
+    "cost": 8000,
     "rewards": []
   },
   "careful_excavation_4": {
     "title": "Excavation Reach IV",
     "description": "+0.5 block interaction reach per rank only while holding a pickaxe or shovel in your main hand; maximum +2.5 blocks.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 7 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 27000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -167,13 +167,13 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 7,
+    "cost": 27000,
     "rewards": []
   },
   "careful_excavation_5": {
     "title": "Excavation Reach V",
     "description": "+0.5 block interaction reach per rank only while holding a pickaxe or shovel in your main hand; maximum +2.5 blocks.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 11 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 90000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -186,13 +186,13 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 11,
+    "cost": 90000,
     "rewards": []
   },
   "mine_safety_1": {
     "title": "Heights Training I",
     "description": "+0.5 blocks of fall-distance reduction per rank; maximum 2.5 blocks. Deep drops still hurt.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 1 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 500 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -205,13 +205,13 @@
         "item": "minecraft:feather"
       }
     },
-    "cost": 1,
+    "cost": 500,
     "rewards": []
   },
   "mine_safety_2": {
     "title": "Heights Training II",
     "description": "+0.5 blocks of fall-distance reduction per rank; maximum 2.5 blocks. Deep drops still hurt.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 2 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 1000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -224,13 +224,13 @@
         "item": "minecraft:feather"
       }
     },
-    "cost": 2,
+    "cost": 1000,
     "rewards": []
   },
   "mine_safety_3": {
     "title": "Heights Training III",
     "description": "+0.5 blocks of fall-distance reduction per rank; maximum 2.5 blocks. Deep drops still hurt.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 4 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 4000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -243,13 +243,13 @@
         "item": "minecraft:feather"
       }
     },
-    "cost": 4,
+    "cost": 4000,
     "rewards": []
   },
   "mine_safety_4": {
     "title": "Heights Training IV",
     "description": "+0.5 blocks of fall-distance reduction per rank; maximum 2.5 blocks. Deep drops still hurt.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 7 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 13500 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -262,13 +262,13 @@
         "item": "minecraft:feather"
       }
     },
-    "cost": 7,
+    "cost": 13500,
     "rewards": []
   },
   "mine_safety_5": {
     "title": "Heights Training V",
     "description": "+0.5 blocks of fall-distance reduction per rank; maximum 2.5 blocks. Deep drops still hurt.",
-    "extra_description": "Rank bonuses accumulate. Research cost: 11 points.",
+    "extra_description": "Rank bonuses accumulate. Research cost: 45000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -281,7 +281,7 @@
         "item": "minecraft:feather"
       }
     },
-    "cost": 11,
+    "cost": 45000,
     "rewards": []
   },
   "careful_mining_1": {
@@ -299,8 +299,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 1,
-    "rewards": []
+    "cost": 750,
+    "rewards": [],
+    "extra_description": "Research cost: 750 points. Training multiplier: 3x."
   },
   "careful_mining_2": {
     "title": "Careful Mining II",
@@ -317,8 +318,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 2,
-    "rewards": []
+    "cost": 1500,
+    "rewards": [],
+    "extra_description": "Research cost: 1500 points. Training multiplier: 3x."
   },
   "careful_mining_3": {
     "title": "Careful Mining III",
@@ -335,8 +337,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 4,
-    "rewards": []
+    "cost": 6000,
+    "rewards": [],
+    "extra_description": "Research cost: 6000 points. Training multiplier: 3x."
   },
   "careful_mining_4": {
     "title": "Careful Mining IV",
@@ -353,8 +356,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 7,
-    "rewards": []
+    "cost": 20250,
+    "rewards": [],
+    "extra_description": "Research cost: 20250 points. Training multiplier: 3x."
   },
   "careful_mining_5": {
     "title": "Careful Mining V",
@@ -371,8 +375,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 11,
-    "rewards": []
+    "cost": 67500,
+    "rewards": [],
+    "extra_description": "Research cost: 67500 points. Training multiplier: 3x."
   },
   "support_assessment_1": {
     "title": "Mine Safety I",
@@ -389,8 +394,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 1,
-    "rewards": []
+    "cost": 250,
+    "rewards": [],
+    "extra_description": "Research cost: 250 points. Training multiplier: 1x."
   },
   "support_assessment_2": {
     "title": "Mine Safety II",
@@ -407,8 +413,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 2,
-    "rewards": []
+    "cost": 500,
+    "rewards": [],
+    "extra_description": "Research cost: 500 points. Training multiplier: 1x."
   },
   "support_assessment_3": {
     "title": "Mine Safety III",
@@ -425,8 +432,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 4,
-    "rewards": []
+    "cost": 2000,
+    "rewards": [],
+    "extra_description": "Research cost: 2000 points. Training multiplier: 1x."
   },
   "support_assessment_4": {
     "title": "Mine Safety IV",
@@ -443,8 +451,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 7,
-    "rewards": []
+    "cost": 6750,
+    "rewards": [],
+    "extra_description": "Research cost: 6750 points. Training multiplier: 1x."
   },
   "support_assessment_5": {
     "title": "Mine Safety V",
@@ -461,8 +470,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 11,
-    "rewards": []
+    "cost": 22500,
+    "rewards": [],
+    "extra_description": "Research cost: 22500 points. Training multiplier: 1x."
   },
   "deep_mining_1": {
     "title": "Deep Mining I",
@@ -479,9 +489,10 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 1,
+    "cost": 750,
     "rewards": [],
-    "required_skills": 1
+    "required_skills": 1,
+    "extra_description": "Research cost: 750 points. Training multiplier: 3x."
   },
   "deep_mining_2": {
     "title": "Deep Mining II",
@@ -498,8 +509,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 2,
-    "rewards": []
+    "cost": 1500,
+    "rewards": [],
+    "extra_description": "Research cost: 1500 points. Training multiplier: 3x."
   },
   "deep_mining_3": {
     "title": "Deep Mining III",
@@ -516,8 +528,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 4,
-    "rewards": []
+    "cost": 6000,
+    "rewards": [],
+    "extra_description": "Research cost: 6000 points. Training multiplier: 3x."
   },
   "deep_mining_4": {
     "title": "Deep Mining IV",
@@ -534,8 +547,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 7,
-    "rewards": []
+    "cost": 20250,
+    "rewards": [],
+    "extra_description": "Research cost: 20250 points. Training multiplier: 3x."
   },
   "deep_mining_5": {
     "title": "Deep Mining V",
@@ -552,8 +566,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 11,
-    "rewards": []
+    "cost": 67500,
+    "rewards": [],
+    "extra_description": "Research cost: 67500 points. Training multiplier: 3x."
   },
   "stone_mining_1": {
     "title": "Stone Mining I",
@@ -570,9 +585,10 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 1,
+    "cost": 500,
     "rewards": [],
-    "required_skills": 1
+    "required_skills": 1,
+    "extra_description": "Research cost: 500 points. Training multiplier: 2x."
   },
   "stone_mining_2": {
     "title": "Stone Mining II",
@@ -589,8 +605,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 2,
-    "rewards": []
+    "cost": 1000,
+    "rewards": [],
+    "extra_description": "Research cost: 1000 points. Training multiplier: 2x."
   },
   "stone_mining_3": {
     "title": "Stone Mining III",
@@ -607,8 +624,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 4,
-    "rewards": []
+    "cost": 4000,
+    "rewards": [],
+    "extra_description": "Research cost: 4000 points. Training multiplier: 2x."
   },
   "stone_mining_4": {
     "title": "Stone Mining IV",
@@ -625,8 +643,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 7,
-    "rewards": []
+    "cost": 13500,
+    "rewards": [],
+    "extra_description": "Research cost: 13500 points. Training multiplier: 2x."
   },
   "stone_mining_5": {
     "title": "Stone Mining V",
@@ -643,8 +662,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 11,
-    "rewards": []
+    "cost": 45000,
+    "rewards": [],
+    "extra_description": "Research cost: 45000 points. Training multiplier: 2x."
   },
   "excavating_1": {
     "title": "Excavating I",
@@ -661,9 +681,10 @@
         "item": "tfc:metal/shovel/copper"
       }
     },
-    "cost": 1,
+    "cost": 250,
     "rewards": [],
-    "required_skills": 1
+    "required_skills": 1,
+    "extra_description": "Research cost: 250 points. Training multiplier: 1x."
   },
   "excavating_2": {
     "title": "Excavating II",
@@ -680,8 +701,9 @@
         "item": "tfc:metal/shovel/copper"
       }
     },
-    "cost": 2,
-    "rewards": []
+    "cost": 500,
+    "rewards": [],
+    "extra_description": "Research cost: 500 points. Training multiplier: 1x."
   },
   "excavating_3": {
     "title": "Excavating III",
@@ -698,8 +720,9 @@
         "item": "tfc:metal/shovel/copper"
       }
     },
-    "cost": 4,
-    "rewards": []
+    "cost": 2000,
+    "rewards": [],
+    "extra_description": "Research cost: 2000 points. Training multiplier: 1x."
   },
   "excavating_4": {
     "title": "Excavating IV",
@@ -716,8 +739,9 @@
         "item": "tfc:metal/shovel/copper"
       }
     },
-    "cost": 7,
-    "rewards": []
+    "cost": 6750,
+    "rewards": [],
+    "extra_description": "Research cost: 6750 points. Training multiplier: 1x."
   },
   "excavating_5": {
     "title": "Excavating V",
@@ -734,8 +758,9 @@
         "item": "tfc:metal/shovel/copper"
       }
     },
-    "cost": 11,
-    "rewards": []
+    "cost": 22500,
+    "rewards": [],
+    "extra_description": "Research cost: 22500 points. Training multiplier: 1x."
   },
   "careful_eye_1": {
     "title": "Careful Eye I",
@@ -752,9 +777,10 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 1,
+    "cost": 1250,
     "rewards": [],
-    "required_skills": 1
+    "required_skills": 1,
+    "extra_description": "Research cost: 1250 points. Training multiplier: 5x."
   },
   "careful_eye_2": {
     "title": "Careful Eye II",
@@ -771,8 +797,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 2,
-    "rewards": []
+    "cost": 2500,
+    "rewards": [],
+    "extra_description": "Research cost: 2500 points. Training multiplier: 5x."
   },
   "careful_eye_3": {
     "title": "Careful Eye III",
@@ -789,8 +816,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 4,
-    "rewards": []
+    "cost": 10000,
+    "rewards": [],
+    "extra_description": "Research cost: 10000 points. Training multiplier: 5x."
   },
   "careful_eye_4": {
     "title": "Careful Eye IV",
@@ -807,8 +835,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 7,
-    "rewards": []
+    "cost": 33750,
+    "rewards": [],
+    "extra_description": "Research cost: 33750 points. Training multiplier: 5x."
   },
   "careful_eye_5": {
     "title": "Careful Eye V",
@@ -825,8 +854,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 11,
-    "rewards": []
+    "cost": 112500,
+    "rewards": [],
+    "extra_description": "Research cost: 112500 points. Training multiplier: 5x."
   },
   "tool_conservation_1": {
     "title": "Tool Conservation I",
@@ -843,9 +873,10 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 1,
+    "cost": 500,
     "rewards": [],
-    "required_skills": 1
+    "required_skills": 1,
+    "extra_description": "Research cost: 500 points. Training multiplier: 2x."
   },
   "tool_conservation_2": {
     "title": "Tool Conservation II",
@@ -862,8 +893,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 2,
-    "rewards": []
+    "cost": 1000,
+    "rewards": [],
+    "extra_description": "Research cost: 1000 points. Training multiplier: 2x."
   },
   "tool_conservation_3": {
     "title": "Tool Conservation III",
@@ -880,8 +912,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 4,
-    "rewards": []
+    "cost": 4000,
+    "rewards": [],
+    "extra_description": "Research cost: 4000 points. Training multiplier: 2x."
   },
   "tool_conservation_4": {
     "title": "Tool Conservation IV",
@@ -898,8 +931,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 7,
-    "rewards": []
+    "cost": 13500,
+    "rewards": [],
+    "extra_description": "Research cost: 13500 points. Training multiplier: 2x."
   },
   "tool_conservation_5": {
     "title": "Tool Conservation V",
@@ -916,8 +950,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 11,
-    "rewards": []
+    "cost": 45000,
+    "rewards": [],
+    "extra_description": "Research cost: 45000 points. Training multiplier: 2x."
   },
   "brutish_mining_1": {
     "title": "Brutish Mining I",
@@ -934,9 +969,10 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 1,
+    "cost": 1500,
     "rewards": [],
-    "required_skills": 1
+    "required_skills": 1,
+    "extra_description": "Research cost: 1500 points. Training multiplier: 6x."
   },
   "brutish_mining_2": {
     "title": "Brutish Mining II",
@@ -953,8 +989,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 2,
-    "rewards": []
+    "cost": 3000,
+    "rewards": [],
+    "extra_description": "Research cost: 3000 points. Training multiplier: 6x."
   },
   "brutish_mining_3": {
     "title": "Brutish Mining III",
@@ -971,8 +1008,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 4,
-    "rewards": []
+    "cost": 12000,
+    "rewards": [],
+    "extra_description": "Research cost: 12000 points. Training multiplier: 6x."
   },
   "brutish_mining_4": {
     "title": "Brutish Mining IV",
@@ -989,8 +1027,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 7,
-    "rewards": []
+    "cost": 40500,
+    "rewards": [],
+    "extra_description": "Research cost: 40500 points. Training multiplier: 6x."
   },
   "brutish_mining_5": {
     "title": "Brutish Mining V",
@@ -1007,8 +1046,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 11,
-    "rewards": []
+    "cost": 135000,
+    "rewards": [],
+    "extra_description": "Research cost: 135000 points. Training multiplier: 6x."
   },
   "hazard_management_1": {
     "title": "Hazard Management I",
@@ -1025,9 +1065,10 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 1,
+    "cost": 1250,
     "rewards": [],
-    "required_skills": 2
+    "required_skills": 2,
+    "extra_description": "Research cost: 1250 points. Training multiplier: 5x."
   },
   "hazard_management_2": {
     "title": "Hazard Management II",
@@ -1044,8 +1085,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 2,
-    "rewards": []
+    "cost": 2500,
+    "rewards": [],
+    "extra_description": "Research cost: 2500 points. Training multiplier: 5x."
   },
   "hazard_management_3": {
     "title": "Hazard Management III",
@@ -1062,8 +1104,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 4,
-    "rewards": []
+    "cost": 10000,
+    "rewards": [],
+    "extra_description": "Research cost: 10000 points. Training multiplier: 5x."
   },
   "hazard_management_4": {
     "title": "Hazard Management IV",
@@ -1080,8 +1123,9 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 7,
-    "rewards": []
+    "cost": 33750,
+    "rewards": [],
+    "extra_description": "Research cost: 33750 points. Training multiplier: 5x."
   },
   "hazard_management_5": {
     "title": "Hazard Management V",
@@ -1098,7 +1142,8 @@
         "item": "tfc:metal/pickaxe/copper"
       }
     },
-    "cost": 11,
-    "rewards": []
+    "cost": 112500,
+    "rewards": [],
+    "extra_description": "Research cost: 112500 points. Training multiplier: 5x."
   }
 }

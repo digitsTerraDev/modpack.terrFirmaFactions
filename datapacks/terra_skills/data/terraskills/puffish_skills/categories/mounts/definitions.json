@@ -2,7 +2,7 @@
   "mount_speed_1": {
     "title": "Riding I",
     "description": "+2% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
-    "extra_description": "Research cost: 1 points.",
+    "extra_description": "Research cost: 250 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -15,13 +15,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 1,
+    "cost": 250,
     "rewards": []
   },
   "mount_speed_2": {
     "title": "Riding II",
     "description": "+2% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
-    "extra_description": "Research cost: 3 points.",
+    "extra_description": "Research cost: 500 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -34,13 +34,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 3,
+    "cost": 500,
     "rewards": []
   },
   "mount_speed_3": {
     "title": "Riding III",
     "description": "+2% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
-    "extra_description": "Research cost: 8 points.",
+    "extra_description": "Research cost: 2000 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -53,13 +53,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 8,
+    "cost": 2000,
     "rewards": []
   },
   "mount_speed_4": {
     "title": "Riding IV",
     "description": "+2% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
-    "extra_description": "Research cost: 20 points.",
+    "extra_description": "Research cost: 6750 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -72,13 +72,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 20,
+    "cost": 6750,
     "rewards": []
   },
   "mount_speed_5": {
     "title": "Riding V",
     "description": "+2% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
-    "extra_description": "Research cost: 50 points.",
+    "extra_description": "Research cost: 22500 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -91,13 +91,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 50,
+    "cost": 22500,
     "rewards": []
   },
   "mount_armor_1": {
     "title": "Mount Armor I",
     "description": "+0.4 mount armor per level while riding.",
-    "extra_description": "Research cost: 2 points.",
+    "extra_description": "Research cost: 500 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -110,13 +110,13 @@
         "item": "minecraft:iron_horse_armor"
       }
     },
-    "cost": 2,
+    "cost": 500,
     "rewards": []
   },
   "mount_armor_2": {
     "title": "Mount Armor II",
     "description": "+0.4 mount armor per level while riding.",
-    "extra_description": "Research cost: 6 points.",
+    "extra_description": "Research cost: 1000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -129,13 +129,13 @@
         "item": "minecraft:iron_horse_armor"
       }
     },
-    "cost": 6,
+    "cost": 1000,
     "rewards": []
   },
   "mount_armor_3": {
     "title": "Mount Armor III",
     "description": "+0.4 mount armor per level while riding.",
-    "extra_description": "Research cost: 16 points.",
+    "extra_description": "Research cost: 4000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -148,13 +148,13 @@
         "item": "minecraft:iron_horse_armor"
       }
     },
-    "cost": 16,
+    "cost": 4000,
     "rewards": []
   },
   "mount_armor_4": {
     "title": "Mount Armor IV",
     "description": "+0.4 mount armor per level while riding.",
-    "extra_description": "Research cost: 40 points.",
+    "extra_description": "Research cost: 13500 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -167,13 +167,13 @@
         "item": "minecraft:iron_horse_armor"
       }
     },
-    "cost": 40,
+    "cost": 13500,
     "rewards": []
   },
   "mount_armor_5": {
     "title": "Mount Armor V",
     "description": "+0.4 mount armor per level while riding.",
-    "extra_description": "Research cost: 100 points.",
+    "extra_description": "Research cost: 45000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -186,13 +186,13 @@
         "item": "minecraft:iron_horse_armor"
       }
     },
-    "cost": 100,
+    "cost": 45000,
     "rewards": []
   },
   "mount_toughness_1": {
     "title": "Mount Toughness I",
     "description": "+0.1 mount armor toughness per level while riding.",
-    "extra_description": "Research cost: 2 points.",
+    "extra_description": "Research cost: 1000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -205,13 +205,13 @@
         "item": "minecraft:diamond_horse_armor"
       }
     },
-    "cost": 2,
+    "cost": 1000,
     "rewards": []
   },
   "mount_toughness_2": {
     "title": "Mount Toughness II",
     "description": "+0.1 mount armor toughness per level while riding.",
-    "extra_description": "Research cost: 6 points.",
+    "extra_description": "Research cost: 2000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -224,13 +224,13 @@
         "item": "minecraft:diamond_horse_armor"
       }
     },
-    "cost": 6,
+    "cost": 2000,
     "rewards": []
   },
   "mount_toughness_3": {
     "title": "Mount Toughness III",
     "description": "+0.1 mount armor toughness per level while riding.",
-    "extra_description": "Research cost: 16 points.",
+    "extra_description": "Research cost: 8000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -243,13 +243,13 @@
         "item": "minecraft:diamond_horse_armor"
       }
     },
-    "cost": 16,
+    "cost": 8000,
     "rewards": []
   },
   "mount_toughness_4": {
     "title": "Mount Toughness IV",
     "description": "+0.1 mount armor toughness per level while riding.",
-    "extra_description": "Research cost: 40 points.",
+    "extra_description": "Research cost: 27000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -262,13 +262,13 @@
         "item": "minecraft:diamond_horse_armor"
       }
     },
-    "cost": 40,
+    "cost": 27000,
     "rewards": []
   },
   "mount_toughness_5": {
     "title": "Mount Toughness V",
     "description": "+0.1 mount armor toughness per level while riding.",
-    "extra_description": "Research cost: 100 points.",
+    "extra_description": "Research cost: 90000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -281,13 +281,13 @@
         "item": "minecraft:diamond_horse_armor"
       }
     },
-    "cost": 100,
+    "cost": 90000,
     "rewards": []
   },
   "riding_pull_percent_1": {
     "title": "Hauling I",
     "description": "+2% animal pull capacity per level. Level 1: Permits hitching and driving animal-drawn carts.",
-    "extra_description": "Research cost: 1 points.",
+    "extra_description": "Research cost: 500 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -300,13 +300,13 @@
         "item": "minecraft:lead"
       }
     },
-    "cost": 1,
+    "cost": 500,
     "rewards": []
   },
   "riding_pull_percent_2": {
     "title": "Hauling II",
     "description": "+2% animal pull capacity per level. Level 1: Permits hitching and driving animal-drawn carts.",
-    "extra_description": "Research cost: 3 points.",
+    "extra_description": "Research cost: 1000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -319,13 +319,13 @@
         "item": "minecraft:lead"
       }
     },
-    "cost": 3,
+    "cost": 1000,
     "rewards": []
   },
   "riding_pull_percent_3": {
     "title": "Hauling III",
     "description": "+2% animal pull capacity per level. Level 1: Permits hitching and driving animal-drawn carts.",
-    "extra_description": "Research cost: 8 points.",
+    "extra_description": "Research cost: 4000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -338,13 +338,13 @@
         "item": "minecraft:lead"
       }
     },
-    "cost": 8,
+    "cost": 4000,
     "rewards": []
   },
   "riding_pull_percent_4": {
     "title": "Hauling IV",
     "description": "+2% animal pull capacity per level. Level 1: Permits hitching and driving animal-drawn carts.",
-    "extra_description": "Research cost: 20 points.",
+    "extra_description": "Research cost: 13500 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -357,13 +357,13 @@
         "item": "minecraft:lead"
       }
     },
-    "cost": 20,
+    "cost": 13500,
     "rewards": []
   },
   "riding_pull_percent_5": {
     "title": "Hauling V",
     "description": "+2% animal pull capacity per level. Level 1: Permits hitching and driving animal-drawn carts.",
-    "extra_description": "Research cost: 50 points.",
+    "extra_description": "Research cost: 45000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -376,13 +376,13 @@
         "item": "minecraft:lead"
       }
     },
-    "cost": 50,
+    "cost": 45000,
     "rewards": []
   },
   "riding_speed_penalty_1": {
     "title": "Loaded Riding I",
     "description": "-2 percentage points of heavy-load speed loss per level.",
-    "extra_description": "Research cost: 2 points.",
+    "extra_description": "Research cost: 750 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -395,13 +395,13 @@
         "item": "minecraft:sugar"
       }
     },
-    "cost": 2,
+    "cost": 750,
     "rewards": []
   },
   "riding_speed_penalty_2": {
     "title": "Loaded Riding II",
     "description": "-2 percentage points of heavy-load speed loss per level.",
-    "extra_description": "Research cost: 6 points.",
+    "extra_description": "Research cost: 1500 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -414,13 +414,13 @@
         "item": "minecraft:sugar"
       }
     },
-    "cost": 6,
+    "cost": 1500,
     "rewards": []
   },
   "riding_speed_penalty_3": {
     "title": "Loaded Riding III",
     "description": "-2 percentage points of heavy-load speed loss per level.",
-    "extra_description": "Research cost: 16 points.",
+    "extra_description": "Research cost: 6000 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -433,13 +433,13 @@
         "item": "minecraft:sugar"
       }
     },
-    "cost": 16,
+    "cost": 6000,
     "rewards": []
   },
   "riding_speed_penalty_4": {
     "title": "Loaded Riding IV",
     "description": "-2 percentage points of heavy-load speed loss per level.",
-    "extra_description": "Research cost: 40 points.",
+    "extra_description": "Research cost: 20250 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -452,13 +452,13 @@
         "item": "minecraft:sugar"
       }
     },
-    "cost": 40,
+    "cost": 20250,
     "rewards": []
   },
   "riding_speed_penalty_5": {
     "title": "Loaded Riding V",
     "description": "-2 percentage points of heavy-load speed loss per level.",
-    "extra_description": "Research cost: 100 points.",
+    "extra_description": "Research cost: 67500 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -471,13 +471,13 @@
         "item": "minecraft:sugar"
       }
     },
-    "cost": 100,
+    "cost": 67500,
     "rewards": []
   },
   "horse_light_harness_1": {
     "title": "Harnessing I",
     "description": "Horses and mules only: +3 percentage points per level to slowdown, jump and step load thresholds.",
-    "extra_description": "Research cost: 2 points.",
+    "extra_description": "Research cost: 750 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -490,13 +490,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 2,
+    "cost": 750,
     "rewards": []
   },
   "horse_light_harness_2": {
     "title": "Harnessing II",
     "description": "Horses and mules only: +3 percentage points per level to slowdown, jump and step load thresholds.",
-    "extra_description": "Research cost: 6 points.",
+    "extra_description": "Research cost: 1500 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -509,13 +509,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 6,
+    "cost": 1500,
     "rewards": []
   },
   "horse_light_harness_3": {
     "title": "Harnessing III",
     "description": "Horses and mules only: +3 percentage points per level to slowdown, jump and step load thresholds.",
-    "extra_description": "Research cost: 16 points.",
+    "extra_description": "Research cost: 6000 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -528,13 +528,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 16,
+    "cost": 6000,
     "rewards": []
   },
   "horse_light_harness_4": {
     "title": "Harnessing IV",
     "description": "Horses and mules only: +3 percentage points per level to slowdown, jump and step load thresholds.",
-    "extra_description": "Research cost: 40 points.",
+    "extra_description": "Research cost: 20250 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -547,13 +547,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 40,
+    "cost": 20250,
     "rewards": []
   },
   "horse_light_harness_5": {
     "title": "Harnessing V",
     "description": "Horses and mules only: +3 percentage points per level to slowdown, jump and step load thresholds.",
-    "extra_description": "Research cost: 100 points.",
+    "extra_description": "Research cost: 67500 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -566,13 +566,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 100,
+    "cost": 67500,
     "rewards": []
   },
   "horse_speed_1": {
     "title": "Horse Speed I",
     "description": "Horses: +2% speed per level while riding.",
-    "extra_description": "Research cost: 2 points.",
+    "extra_description": "Research cost: 1000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -585,13 +585,13 @@
         "item": "minecraft:sugar"
       }
     },
-    "cost": 2,
+    "cost": 1000,
     "rewards": []
   },
   "horse_speed_2": {
     "title": "Horse Speed II",
     "description": "Horses: +2% speed per level while riding.",
-    "extra_description": "Research cost: 6 points.",
+    "extra_description": "Research cost: 2000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -604,13 +604,13 @@
         "item": "minecraft:sugar"
       }
     },
-    "cost": 6,
+    "cost": 2000,
     "rewards": []
   },
   "horse_speed_3": {
     "title": "Horse Speed III",
     "description": "Horses: +2% speed per level while riding.",
-    "extra_description": "Research cost: 16 points.",
+    "extra_description": "Research cost: 8000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -623,13 +623,13 @@
         "item": "minecraft:sugar"
       }
     },
-    "cost": 16,
+    "cost": 8000,
     "rewards": []
   },
   "horse_speed_4": {
     "title": "Horse Speed IV",
     "description": "Horses: +2% speed per level while riding.",
-    "extra_description": "Research cost: 40 points.",
+    "extra_description": "Research cost: 27000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -642,13 +642,13 @@
         "item": "minecraft:sugar"
       }
     },
-    "cost": 40,
+    "cost": 27000,
     "rewards": []
   },
   "horse_speed_5": {
     "title": "Horse Speed V",
     "description": "Horses: +2% speed per level while riding.",
-    "extra_description": "Research cost: 100 points.",
+    "extra_description": "Research cost: 90000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -661,13 +661,13 @@
         "item": "minecraft:sugar"
       }
     },
-    "cost": 100,
+    "cost": 90000,
     "rewards": []
   },
   "horse_armor_1": {
     "title": "Horse Armor I",
     "description": "Horses: +0.2 armor per level while riding.",
-    "extra_description": "Research cost: 2 points.",
+    "extra_description": "Research cost: 750 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -680,14 +680,14 @@
         "item": "minecraft:iron_horse_armor"
       }
     },
-    "cost": 2,
+    "cost": 750,
     "rewards": [],
     "required_skills": 2
   },
   "horse_armor_2": {
     "title": "Horse Armor II",
     "description": "Horses: +0.2 armor per level while riding.",
-    "extra_description": "Research cost: 6 points.",
+    "extra_description": "Research cost: 1500 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -700,13 +700,13 @@
         "item": "minecraft:iron_horse_armor"
       }
     },
-    "cost": 6,
+    "cost": 1500,
     "rewards": []
   },
   "horse_armor_3": {
     "title": "Horse Armor III",
     "description": "Horses: +0.2 armor per level while riding.",
-    "extra_description": "Research cost: 16 points.",
+    "extra_description": "Research cost: 6000 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -719,13 +719,13 @@
         "item": "minecraft:iron_horse_armor"
       }
     },
-    "cost": 16,
+    "cost": 6000,
     "rewards": []
   },
   "horse_armor_4": {
     "title": "Horse Armor IV",
     "description": "Horses: +0.2 armor per level while riding.",
-    "extra_description": "Research cost: 40 points.",
+    "extra_description": "Research cost: 20250 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -738,13 +738,13 @@
         "item": "minecraft:iron_horse_armor"
       }
     },
-    "cost": 40,
+    "cost": 20250,
     "rewards": []
   },
   "horse_armor_5": {
     "title": "Horse Armor V",
     "description": "Horses: +0.2 armor per level while riding.",
-    "extra_description": "Research cost: 100 points.",
+    "extra_description": "Research cost: 67500 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -757,13 +757,13 @@
         "item": "minecraft:iron_horse_armor"
       }
     },
-    "cost": 100,
+    "cost": 67500,
     "rewards": []
   },
   "horse_toughness_1": {
     "title": "Horse Toughness I",
     "description": "Horses: +0.1 armor toughness per level while riding.",
-    "extra_description": "Research cost: 2 points.",
+    "extra_description": "Research cost: 1250 points. Training multiplier: 5x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -776,14 +776,14 @@
         "item": "minecraft:diamond_horse_armor"
       }
     },
-    "cost": 2,
+    "cost": 1250,
     "rewards": [],
     "required_skills": 2
   },
   "horse_toughness_2": {
     "title": "Horse Toughness II",
     "description": "Horses: +0.1 armor toughness per level while riding.",
-    "extra_description": "Research cost: 6 points.",
+    "extra_description": "Research cost: 2500 points. Training multiplier: 5x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -796,13 +796,13 @@
         "item": "minecraft:diamond_horse_armor"
       }
     },
-    "cost": 6,
+    "cost": 2500,
     "rewards": []
   },
   "horse_toughness_3": {
     "title": "Horse Toughness III",
     "description": "Horses: +0.1 armor toughness per level while riding.",
-    "extra_description": "Research cost: 16 points.",
+    "extra_description": "Research cost: 10000 points. Training multiplier: 5x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -815,13 +815,13 @@
         "item": "minecraft:diamond_horse_armor"
       }
     },
-    "cost": 16,
+    "cost": 10000,
     "rewards": []
   },
   "horse_toughness_4": {
     "title": "Horse Toughness IV",
     "description": "Horses: +0.1 armor toughness per level while riding.",
-    "extra_description": "Research cost: 40 points.",
+    "extra_description": "Research cost: 33750 points. Training multiplier: 5x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -834,13 +834,13 @@
         "item": "minecraft:diamond_horse_armor"
       }
     },
-    "cost": 40,
+    "cost": 33750,
     "rewards": []
   },
   "horse_toughness_5": {
     "title": "Horse Toughness V",
     "description": "Horses: +0.1 armor toughness per level while riding.",
-    "extra_description": "Research cost: 100 points.",
+    "extra_description": "Research cost: 112500 points. Training multiplier: 5x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -853,13 +853,13 @@
         "item": "minecraft:diamond_horse_armor"
       }
     },
-    "cost": 100,
+    "cost": 112500,
     "rewards": []
   },
   "donkey_draft_harness_1": {
     "title": "Donkey Draft Harness I",
     "description": "Donkeys: +2% pull capacity per level.",
-    "extra_description": "Research cost: 2 points.",
+    "extra_description": "Research cost: 750 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -872,13 +872,13 @@
         "item": "minecraft:lead"
       }
     },
-    "cost": 2,
+    "cost": 750,
     "rewards": []
   },
   "donkey_draft_harness_2": {
     "title": "Donkey Draft Harness II",
     "description": "Donkeys: +2% pull capacity per level.",
-    "extra_description": "Research cost: 6 points.",
+    "extra_description": "Research cost: 1500 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -891,13 +891,13 @@
         "item": "minecraft:lead"
       }
     },
-    "cost": 6,
+    "cost": 1500,
     "rewards": []
   },
   "donkey_draft_harness_3": {
     "title": "Donkey Draft Harness III",
     "description": "Donkeys: +2% pull capacity per level.",
-    "extra_description": "Research cost: 16 points.",
+    "extra_description": "Research cost: 6000 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -910,13 +910,13 @@
         "item": "minecraft:lead"
       }
     },
-    "cost": 16,
+    "cost": 6000,
     "rewards": []
   },
   "donkey_draft_harness_4": {
     "title": "Donkey Draft Harness IV",
     "description": "Donkeys: +2% pull capacity per level.",
-    "extra_description": "Research cost: 40 points.",
+    "extra_description": "Research cost: 20250 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -929,13 +929,13 @@
         "item": "minecraft:lead"
       }
     },
-    "cost": 40,
+    "cost": 20250,
     "rewards": []
   },
   "donkey_draft_harness_5": {
     "title": "Donkey Draft Harness V",
     "description": "Donkeys: +2% pull capacity per level.",
-    "extra_description": "Research cost: 100 points.",
+    "extra_description": "Research cost: 67500 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -948,13 +948,13 @@
         "item": "minecraft:lead"
       }
     },
-    "cost": 100,
+    "cost": 67500,
     "rewards": []
   },
   "pack_animal_back_percent_1": {
     "title": "Pack Animals I",
     "description": "Donkeys and mules: +2% back capacity per level.",
-    "extra_description": "Research cost: 2 points.",
+    "extra_description": "Research cost: 500 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -967,14 +967,14 @@
         "item": "minecraft:leather"
       }
     },
-    "cost": 2,
+    "cost": 500,
     "rewards": [],
     "required_skills": 2
   },
   "pack_animal_back_percent_2": {
     "title": "Pack Animals II",
     "description": "Donkeys and mules: +2% back capacity per level.",
-    "extra_description": "Research cost: 6 points.",
+    "extra_description": "Research cost: 1000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -987,13 +987,13 @@
         "item": "minecraft:leather"
       }
     },
-    "cost": 6,
+    "cost": 1000,
     "rewards": []
   },
   "pack_animal_back_percent_3": {
     "title": "Pack Animals III",
     "description": "Donkeys and mules: +2% back capacity per level.",
-    "extra_description": "Research cost: 16 points.",
+    "extra_description": "Research cost: 4000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1006,13 +1006,13 @@
         "item": "minecraft:leather"
       }
     },
-    "cost": 16,
+    "cost": 4000,
     "rewards": []
   },
   "pack_animal_back_percent_4": {
     "title": "Pack Animals IV",
     "description": "Donkeys and mules: +2% back capacity per level.",
-    "extra_description": "Research cost: 40 points.",
+    "extra_description": "Research cost: 13500 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1025,13 +1025,13 @@
         "item": "minecraft:leather"
       }
     },
-    "cost": 40,
+    "cost": 13500,
     "rewards": []
   },
   "pack_animal_back_percent_5": {
     "title": "Pack Animals V",
     "description": "Donkeys and mules: +2% back capacity per level.",
-    "extra_description": "Research cost: 100 points.",
+    "extra_description": "Research cost: 45000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1044,13 +1044,13 @@
         "item": "minecraft:leather"
       }
     },
-    "cost": 100,
+    "cost": 45000,
     "rewards": []
   },
   "pack_animal_step_limit_1": {
     "title": "Pack Animal Footing I",
     "description": "Donkeys and mules: +3% of the base jump and step load thresholds per level.",
-    "extra_description": "Research cost: 2 points.",
+    "extra_description": "Research cost: 750 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1063,13 +1063,13 @@
         "item": "minecraft:leather_boots"
       }
     },
-    "cost": 2,
+    "cost": 750,
     "rewards": []
   },
   "pack_animal_step_limit_2": {
     "title": "Pack Animal Footing II",
     "description": "Donkeys and mules: +3% of the base jump and step load thresholds per level.",
-    "extra_description": "Research cost: 6 points.",
+    "extra_description": "Research cost: 1500 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1082,13 +1082,13 @@
         "item": "minecraft:leather_boots"
       }
     },
-    "cost": 6,
+    "cost": 1500,
     "rewards": []
   },
   "pack_animal_step_limit_3": {
     "title": "Pack Animal Footing III",
     "description": "Donkeys and mules: +3% of the base jump and step load thresholds per level.",
-    "extra_description": "Research cost: 16 points.",
+    "extra_description": "Research cost: 6000 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1101,13 +1101,13 @@
         "item": "minecraft:leather_boots"
       }
     },
-    "cost": 16,
+    "cost": 6000,
     "rewards": []
   },
   "pack_animal_step_limit_4": {
     "title": "Pack Animal Footing IV",
     "description": "Donkeys and mules: +3% of the base jump and step load thresholds per level.",
-    "extra_description": "Research cost: 40 points.",
+    "extra_description": "Research cost: 20250 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1120,13 +1120,13 @@
         "item": "minecraft:leather_boots"
       }
     },
-    "cost": 40,
+    "cost": 20250,
     "rewards": []
   },
   "pack_animal_step_limit_5": {
     "title": "Pack Animal Footing V",
     "description": "Donkeys and mules: +3% of the base jump and step load thresholds per level.",
-    "extra_description": "Research cost: 100 points.",
+    "extra_description": "Research cost: 67500 points. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1139,13 +1139,13 @@
         "item": "minecraft:leather_boots"
       }
     },
-    "cost": 100,
+    "cost": 67500,
     "rewards": []
   },
   "mule_expedition_balance_1": {
     "title": "Mounted Expedition I",
     "description": "Mules: -4% effective rider, passenger inventory and body armor weight per level.",
-    "extra_description": "Research cost: 2 points.",
+    "extra_description": "Research cost: 1000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1158,14 +1158,14 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 2,
+    "cost": 1000,
     "rewards": [],
     "required_skills": 2
   },
   "mule_expedition_balance_2": {
     "title": "Mounted Expedition II",
     "description": "Mules: -4% effective rider, passenger inventory and body armor weight per level.",
-    "extra_description": "Research cost: 6 points.",
+    "extra_description": "Research cost: 2000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1178,13 +1178,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 6,
+    "cost": 2000,
     "rewards": []
   },
   "mule_expedition_balance_3": {
     "title": "Mounted Expedition III",
     "description": "Mules: -4% effective rider, passenger inventory and body armor weight per level.",
-    "extra_description": "Research cost: 16 points.",
+    "extra_description": "Research cost: 8000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1197,13 +1197,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 16,
+    "cost": 8000,
     "rewards": []
   },
   "mule_expedition_balance_4": {
     "title": "Mounted Expedition IV",
     "description": "Mules: -4% effective rider, passenger inventory and body armor weight per level.",
-    "extra_description": "Research cost: 40 points.",
+    "extra_description": "Research cost: 27000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1216,13 +1216,13 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 40,
+    "cost": 27000,
     "rewards": []
   },
   "mule_expedition_balance_5": {
     "title": "Mounted Expedition V",
     "description": "Mules: -4% effective rider, passenger inventory and body armor weight per level.",
-    "extra_description": "Research cost: 100 points.",
+    "extra_description": "Research cost: 90000 points. Training multiplier: 4x.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1235,7 +1235,7 @@
         "item": "minecraft:saddle"
       }
     },
-    "cost": 100,
+    "cost": 90000,
     "rewards": []
   }
 }

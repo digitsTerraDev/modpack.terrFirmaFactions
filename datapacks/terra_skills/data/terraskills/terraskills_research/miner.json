@@ -1,5 +1,5 @@
 {
-  "title": "Extraction & Reprocessing",
+  "title": "Mining",
   "skills": [
     {
       "id": "miner",
@@ -7,32 +7,33 @@
       "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
       "primary_stat": "might",
       "secondary_stat": "intelligence",
-      "prerequisites": [],
       "research_bonuses": [
         "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply."
       ],
       "levels": [
         {
           "skill": "miner_1",
-          "cost": 1
+          "cost": 250
         },
         {
           "skill": "miner_2",
-          "cost": 2
+          "cost": 500
         },
         {
           "skill": "miner_3",
-          "cost": 4
+          "cost": 2000
         },
         {
           "skill": "miner_4",
-          "cost": 7
+          "cost": 6750
         },
         {
           "skill": "miner_5",
-          "cost": 11
+          "cost": 22500
         }
-      ]
+      ],
+      "requires": [],
+      "rank": 1
     },
     {
       "id": "deep_mining",
@@ -40,34 +41,35 @@
       "description": "+5% mining speed per rank while holding a pickaxe below Y=0 (player position).",
       "primary_stat": "might",
       "secondary_stat": "endurance",
-      "prerequisites": [
-        "miner_2"
-      ],
       "research_bonuses": [
         "+5% mining speed per rank while holding a pickaxe below Y=0 (player position)."
       ],
       "levels": [
         {
           "skill": "deep_mining_1",
-          "cost": 1
+          "cost": 750
         },
         {
           "skill": "deep_mining_2",
-          "cost": 2
+          "cost": 1500
         },
         {
           "skill": "deep_mining_3",
-          "cost": 4
+          "cost": 6000
         },
         {
           "skill": "deep_mining_4",
-          "cost": 7
+          "cost": 20250
         },
         {
           "skill": "deep_mining_5",
-          "cost": 11
+          "cost": 67500
         }
-      ]
+      ],
+      "requires": [
+        "miner_3"
+      ],
+      "rank": 3
     },
     {
       "id": "stone_mining",
@@ -75,34 +77,35 @@
       "description": "+4% mining speed per rank on TFC raw stone with a pickaxe; maximum +20%.",
       "primary_stat": "might",
       "secondary_stat": "finesse",
-      "prerequisites": [
-        "miner_2"
-      ],
       "research_bonuses": [
         "+4% mining speed per rank on TFC raw stone with a pickaxe; maximum +20%."
       ],
       "levels": [
         {
           "skill": "stone_mining_1",
-          "cost": 1
+          "cost": 500
         },
         {
           "skill": "stone_mining_2",
-          "cost": 2
+          "cost": 1000
         },
         {
           "skill": "stone_mining_3",
-          "cost": 4
+          "cost": 4000
         },
         {
           "skill": "stone_mining_4",
-          "cost": 7
+          "cost": 13500
         },
         {
           "skill": "stone_mining_5",
-          "cost": 11
+          "cost": 45000
         }
-      ]
+      ],
+      "requires": [
+        "miner_2"
+      ],
+      "rank": 2
     },
     {
       "id": "excavating",
@@ -110,34 +113,33 @@
       "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
       "primary_stat": "might",
       "secondary_stat": "endurance",
-      "prerequisites": [
-        "miner_2"
-      ],
       "research_bonuses": [
         "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%."
       ],
       "levels": [
         {
           "skill": "excavating_1",
-          "cost": 1
+          "cost": 250
         },
         {
           "skill": "excavating_2",
-          "cost": 2
+          "cost": 500
         },
         {
           "skill": "excavating_3",
-          "cost": 4
+          "cost": 2000
         },
         {
           "skill": "excavating_4",
-          "cost": 7
+          "cost": 6750
         },
         {
           "skill": "excavating_5",
-          "cost": 11
+          "cost": 22500
         }
-      ]
+      ],
+      "requires": [],
+      "rank": 1
     },
     {
       "id": "careful_eye",
@@ -145,34 +147,36 @@
       "description": "0.2 percentage points per rank to find a rock-appropriate gem when mining eligible natural TFC raw stone; maximum 1%. Player-placed and piston-moved stone is excluded.",
       "primary_stat": "instinct",
       "secondary_stat": "intelligence",
-      "prerequisites": [
-        "miner_2"
-      ],
       "research_bonuses": [
         "0.2 percentage points per rank to find a rock-appropriate gem when mining eligible natural TFC raw stone; maximum 1%. Player-placed and piston-moved stone is excluded."
       ],
       "levels": [
         {
           "skill": "careful_eye_1",
-          "cost": 1
+          "cost": 1250
         },
         {
           "skill": "careful_eye_2",
-          "cost": 2
+          "cost": 2500
         },
         {
           "skill": "careful_eye_3",
-          "cost": 4
+          "cost": 10000
         },
         {
           "skill": "careful_eye_4",
-          "cost": 7
+          "cost": 33750
         },
         {
           "skill": "careful_eye_5",
-          "cost": 11
+          "cost": 112500
         }
-      ]
+      ],
+      "requires": [
+        "stone_mining_4",
+        "support_assessment_3"
+      ],
+      "rank": 5
     },
     {
       "id": "careful_excavation",
@@ -180,34 +184,36 @@
       "description": "+0.5 block interaction reach per rank only while holding a pickaxe or shovel in your main hand; maximum +2.5 blocks.",
       "primary_stat": "finesse",
       "secondary_stat": "intelligence",
-      "prerequisites": [
-        "miner_2"
-      ],
       "research_bonuses": [
         "+0.5 block interaction reach per rank only while holding a pickaxe or shovel in your main hand; maximum +2.5 blocks."
       ],
       "levels": [
         {
           "skill": "careful_excavation_1",
-          "cost": 1
+          "cost": 1000
         },
         {
           "skill": "careful_excavation_2",
-          "cost": 2
+          "cost": 2000
         },
         {
           "skill": "careful_excavation_3",
-          "cost": 4
+          "cost": 8000
         },
         {
           "skill": "careful_excavation_4",
-          "cost": 7
+          "cost": 27000
         },
         {
           "skill": "careful_excavation_5",
-          "cost": 11
+          "cost": 90000
         }
-      ]
+      ],
+      "requires": [
+        "excavating_3",
+        "miner_3"
+      ],
+      "rank": 4
     },
     {
       "id": "mine_safety",
@@ -215,34 +221,35 @@
       "description": "+0.5 blocks of fall-distance reduction per rank; maximum 2.5 blocks. Deep drops still hurt.",
       "primary_stat": "endurance",
       "secondary_stat": "instinct",
-      "prerequisites": [
-        "miner_2"
-      ],
       "research_bonuses": [
         "+0.5 blocks of fall-distance reduction per rank; maximum 2.5 blocks. Deep drops still hurt."
       ],
       "levels": [
         {
           "skill": "mine_safety_1",
-          "cost": 1
+          "cost": 500
         },
         {
           "skill": "mine_safety_2",
-          "cost": 2
+          "cost": 1000
         },
         {
           "skill": "mine_safety_3",
-          "cost": 4
+          "cost": 4000
         },
         {
           "skill": "mine_safety_4",
-          "cost": 7
+          "cost": 13500
         },
         {
           "skill": "mine_safety_5",
-          "cost": 11
+          "cost": 45000
         }
-      ]
+      ],
+      "requires": [
+        "miner_2"
+      ],
+      "rank": 2
     },
     {
       "id": "tool_conservation",
@@ -250,34 +257,35 @@
       "description": "3% chance per rank to prevent a complete TFC pickaxe/shovel mining wear charge; maximum 15%, doubled to 30% during Brutish Mining.",
       "primary_stat": "finesse",
       "secondary_stat": "intelligence",
-      "prerequisites": [
-        "miner_2"
-      ],
       "research_bonuses": [
         "3% chance per rank to prevent a complete TFC pickaxe/shovel mining wear charge; maximum 15%, doubled to 30% during Brutish Mining."
       ],
       "levels": [
         {
           "skill": "tool_conservation_1",
-          "cost": 1
+          "cost": 500
         },
         {
           "skill": "tool_conservation_2",
-          "cost": 2
+          "cost": 1000
         },
         {
           "skill": "tool_conservation_3",
-          "cost": 4
+          "cost": 4000
         },
         {
           "skill": "tool_conservation_4",
-          "cost": 7
+          "cost": 13500
         },
         {
           "skill": "tool_conservation_5",
-          "cost": 11
+          "cost": 45000
         }
-      ]
+      ],
+      "requires": [
+        "miner_2"
+      ],
+      "rank": 2
     },
     {
       "id": "careful_mining",
@@ -285,34 +293,36 @@
       "description": "10% relative reduction per rank in the chance of initiating a mining collapse; maximum 50%. Does not stop ongoing collapses.",
       "primary_stat": "intelligence",
       "secondary_stat": "instinct",
-      "prerequisites": [
-        "miner_2"
-      ],
       "research_bonuses": [
         "10% relative reduction per rank in the chance of initiating a mining collapse; maximum 50%. Does not stop ongoing collapses."
       ],
       "levels": [
         {
           "skill": "careful_mining_1",
-          "cost": 1
+          "cost": 750
         },
         {
           "skill": "careful_mining_2",
-          "cost": 2
+          "cost": 1500
         },
         {
           "skill": "careful_mining_3",
-          "cost": 4
+          "cost": 6000
         },
         {
           "skill": "careful_mining_4",
-          "cost": 7
+          "cost": 20250
         },
         {
           "skill": "careful_mining_5",
-          "cost": 11
+          "cost": 67500
         }
-      ]
+      ],
+      "requires": [
+        "miner_3",
+        "support_assessment_2"
+      ],
+      "rank": 3
     },
     {
       "id": "support_assessment",
@@ -320,34 +330,35 @@
       "description": "Sneak-right-click a block with a pickaxe to inspect nearby unsupported collapse candidates. Radius grows from 0 to 4 blocks; 5-second cooldown. This is an assessment, not a safety guarantee.",
       "primary_stat": "instinct",
       "secondary_stat": "intelligence",
-      "prerequisites": [
-        "miner_2"
-      ],
       "research_bonuses": [
         "Sneak-right-click a block with a pickaxe to inspect nearby unsupported collapse candidates. Radius grows from 0 to 4 blocks; 5-second cooldown. This is an assessment, not a safety guarantee."
       ],
       "levels": [
         {
           "skill": "support_assessment_1",
-          "cost": 1
+          "cost": 250
         },
         {
           "skill": "support_assessment_2",
-          "cost": 2
+          "cost": 500
         },
         {
           "skill": "support_assessment_3",
-          "cost": 4
+          "cost": 2000
         },
         {
           "skill": "support_assessment_4",
-          "cost": 7
+          "cost": 6750
         },
         {
           "skill": "support_assessment_5",
-          "cost": 11
+          "cost": 22500
         }
-      ]
+      ],
+      "requires": [
+        "miner_1"
+      ],
+      "rank": 1
     },
     {
       "id": "hazard_management",
@@ -355,35 +366,36 @@
       "description": "Emergency shores gain 10 percentage points per rank from the triggering miner. Copper unlocks at I (10% base); black steel at IV (45% base). Each attempt consumes the shore.",
       "primary_stat": "intelligence",
       "secondary_stat": "instinct",
-      "prerequisites": [
-        "careful_mining_1",
-        "support_assessment_1"
-      ],
       "research_bonuses": [
         "Emergency shores gain 10 percentage points per rank from the triggering miner. Copper unlocks at I (10% base); black steel at IV (45% base). Each attempt consumes the shore."
       ],
       "levels": [
         {
           "skill": "hazard_management_1",
-          "cost": 1
+          "cost": 1250
         },
         {
           "skill": "hazard_management_2",
-          "cost": 2
+          "cost": 2500
         },
         {
           "skill": "hazard_management_3",
-          "cost": 4
+          "cost": 10000
         },
         {
           "skill": "hazard_management_4",
-          "cost": 7
+          "cost": 33750
         },
         {
           "skill": "hazard_management_5",
-          "cost": 11
+          "cost": 112500
         }
-      ]
+      ],
+      "requires": [
+        "careful_mining_4",
+        "support_assessment_3"
+      ],
+      "rank": 5
     },
     {
       "id": "brutish_mining",
@@ -391,34 +403,36 @@
       "description": "Press B to toggle +50/100/150/200/250% mining speed with 3/3.5/4/4.5/5x TFC pickaxe/shovel wear. Requires Mining IV; doubles Tool Conservation.",
       "primary_stat": "might",
       "secondary_stat": "endurance",
-      "prerequisites": [
-        "miner_4"
-      ],
       "research_bonuses": [
         "Press B to toggle +50/100/150/200/250% mining speed with 3/3.5/4/4.5/5x TFC pickaxe/shovel wear. Requires Mining IV; doubles Tool Conservation."
       ],
       "levels": [
         {
           "skill": "brutish_mining_1",
-          "cost": 1
+          "cost": 1500
         },
         {
           "skill": "brutish_mining_2",
-          "cost": 2
+          "cost": 3000
         },
         {
           "skill": "brutish_mining_3",
-          "cost": 4
+          "cost": 12000
         },
         {
           "skill": "brutish_mining_4",
-          "cost": 7
+          "cost": 40500
         },
         {
           "skill": "brutish_mining_5",
-          "cost": 11
+          "cost": 135000
         }
-      ]
+      ],
+      "requires": [
+        "miner_4",
+        "tool_conservation_3"
+      ],
+      "rank": 6
     }
   ]
 }

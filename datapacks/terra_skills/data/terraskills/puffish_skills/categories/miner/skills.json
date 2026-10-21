@@ -178,7 +178,8 @@
   "excavating_1": {
     "x": -440,
     "y": 190,
-    "definition": "excavating_1"
+    "definition": "excavating_1",
+    "root": true
   },
   "excavating_2": {
     "x": -440,

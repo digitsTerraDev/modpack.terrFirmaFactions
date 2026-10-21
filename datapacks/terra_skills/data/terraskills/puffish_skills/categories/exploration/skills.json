@@ -1,0 +1,305 @@
+{
+  "endurance_1": {
+    "x": -960,
+    "y": 0,
+    "definition": "endurance_1",
+    "root": true
+  },
+  "endurance_2": {
+    "x": -960,
+    "y": 72,
+    "definition": "endurance_2"
+  },
+  "endurance_3": {
+    "x": -960,
+    "y": 144,
+    "definition": "endurance_3"
+  },
+  "endurance_4": {
+    "x": -960,
+    "y": 216,
+    "definition": "endurance_4"
+  },
+  "endurance_5": {
+    "x": -960,
+    "y": 288,
+    "definition": "endurance_5"
+  },
+  "water_conservation_1": {
+    "x": -640,
+    "y": 0,
+    "definition": "water_conservation_1"
+  },
+  "water_conservation_2": {
+    "x": -640,
+    "y": 72,
+    "definition": "water_conservation_2"
+  },
+  "water_conservation_3": {
+    "x": -640,
+    "y": 144,
+    "definition": "water_conservation_3"
+  },
+  "water_conservation_4": {
+    "x": -640,
+    "y": 216,
+    "definition": "water_conservation_4"
+  },
+  "water_conservation_5": {
+    "x": -640,
+    "y": 288,
+    "definition": "water_conservation_5"
+  },
+  "trailblazing_1": {
+    "x": -320,
+    "y": 0,
+    "definition": "trailblazing_1"
+  },
+  "trailblazing_2": {
+    "x": -320,
+    "y": 72,
+    "definition": "trailblazing_2"
+  },
+  "trailblazing_3": {
+    "x": -320,
+    "y": 144,
+    "definition": "trailblazing_3"
+  },
+  "trailblazing_4": {
+    "x": -320,
+    "y": 216,
+    "definition": "trailblazing_4"
+  },
+  "trailblazing_5": {
+    "x": -320,
+    "y": 288,
+    "definition": "trailblazing_5"
+  },
+  "well_trodden_1": {
+    "x": 0,
+    "y": 0,
+    "definition": "well_trodden_1"
+  },
+  "well_trodden_2": {
+    "x": 0,
+    "y": 72,
+    "definition": "well_trodden_2"
+  },
+  "well_trodden_3": {
+    "x": 0,
+    "y": 144,
+    "definition": "well_trodden_3"
+  },
+  "well_trodden_4": {
+    "x": 0,
+    "y": 216,
+    "definition": "well_trodden_4"
+  },
+  "well_trodden_5": {
+    "x": 0,
+    "y": 288,
+    "definition": "well_trodden_5"
+  },
+  "acclimatization_1": {
+    "x": 320,
+    "y": 0,
+    "definition": "acclimatization_1"
+  },
+  "acclimatization_2": {
+    "x": 320,
+    "y": 72,
+    "definition": "acclimatization_2"
+  },
+  "acclimatization_3": {
+    "x": 320,
+    "y": 144,
+    "definition": "acclimatization_3"
+  },
+  "acclimatization_4": {
+    "x": 320,
+    "y": 216,
+    "definition": "acclimatization_4"
+  },
+  "acclimatization_5": {
+    "x": 320,
+    "y": 288,
+    "definition": "acclimatization_5"
+  },
+  "expedition_packing_1": {
+    "x": 640,
+    "y": 0,
+    "definition": "expedition_packing_1"
+  },
+  "expedition_packing_2": {
+    "x": 640,
+    "y": 72,
+    "definition": "expedition_packing_2"
+  },
+  "expedition_packing_3": {
+    "x": 640,
+    "y": 144,
+    "definition": "expedition_packing_3"
+  },
+  "expedition_packing_4": {
+    "x": 640,
+    "y": 216,
+    "definition": "expedition_packing_4"
+  },
+  "expedition_packing_5": {
+    "x": 640,
+    "y": 288,
+    "definition": "expedition_packing_5"
+  },
+  "swimming_1": {
+    "x": 960,
+    "y": 0,
+    "definition": "swimming_1",
+    "root": true
+  },
+  "swimming_2": {
+    "x": 960,
+    "y": 72,
+    "definition": "swimming_2"
+  },
+  "swimming_3": {
+    "x": 960,
+    "y": 144,
+    "definition": "swimming_3"
+  },
+  "swimming_4": {
+    "x": 960,
+    "y": 216,
+    "definition": "swimming_4"
+  },
+  "swimming_5": {
+    "x": 960,
+    "y": 288,
+    "definition": "swimming_5"
+  },
+  "diving_1": {
+    "x": -960,
+    "y": 640,
+    "definition": "diving_1"
+  },
+  "diving_2": {
+    "x": -960,
+    "y": 712,
+    "definition": "diving_2"
+  },
+  "diving_3": {
+    "x": -960,
+    "y": 784,
+    "definition": "diving_3"
+  },
+  "diving_4": {
+    "x": -960,
+    "y": 856,
+    "definition": "diving_4"
+  },
+  "diving_5": {
+    "x": -960,
+    "y": 928,
+    "definition": "diving_5"
+  },
+  "wading_1": {
+    "x": -640,
+    "y": 640,
+    "definition": "wading_1"
+  },
+  "wading_2": {
+    "x": -640,
+    "y": 712,
+    "definition": "wading_2"
+  },
+  "wading_3": {
+    "x": -640,
+    "y": 784,
+    "definition": "wading_3"
+  },
+  "wading_4": {
+    "x": -640,
+    "y": 856,
+    "definition": "wading_4"
+  },
+  "wading_5": {
+    "x": -640,
+    "y": 928,
+    "definition": "wading_5"
+  },
+  "scrambling_1": {
+    "x": -320,
+    "y": 640,
+    "definition": "scrambling_1"
+  },
+  "scrambling_2": {
+    "x": -320,
+    "y": 712,
+    "definition": "scrambling_2"
+  },
+  "scrambling_3": {
+    "x": -320,
+    "y": 784,
+    "definition": "scrambling_3"
+  },
+  "scrambling_4": {
+    "x": -320,
+    "y": 856,
+    "definition": "scrambling_4"
+  },
+  "scrambling_5": {
+    "x": -320,
+    "y": 928,
+    "definition": "scrambling_5"
+  },
+  "foraging_1": {
+    "x": 0,
+    "y": 640,
+    "definition": "foraging_1",
+    "root": true
+  },
+  "foraging_2": {
+    "x": 0,
+    "y": 712,
+    "definition": "foraging_2"
+  },
+  "foraging_3": {
+    "x": 0,
+    "y": 784,
+    "definition": "foraging_3"
+  },
+  "foraging_4": {
+    "x": 0,
+    "y": 856,
+    "definition": "foraging_4"
+  },
+  "foraging_5": {
+    "x": 0,
+    "y": 928,
+    "definition": "foraging_5"
+  },
+  "quiet_passage_1": {
+    "x": 320,
+    "y": 640,
+    "definition": "quiet_passage_1"
+  },
+  "quiet_passage_2": {
+    "x": 320,
+    "y": 712,
+    "definition": "quiet_passage_2"
+  },
+  "quiet_passage_3": {
+    "x": 320,
+    "y": 784,
+    "definition": "quiet_passage_3"
+  },
+  "quiet_passage_4": {
+    "x": 320,
+    "y": 856,
+    "definition": "quiet_passage_4"
+  },
+  "quiet_passage_5": {
+    "x": 320,
+    "y": 928,
+    "definition": "quiet_passage_5"
+  }
+}

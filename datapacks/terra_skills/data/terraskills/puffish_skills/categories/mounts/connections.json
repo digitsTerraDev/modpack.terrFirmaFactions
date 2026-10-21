@@ -18,7 +18,7 @@
         "mount_speed_5"
       ],
       [
-        "mount_speed_3",
+        "mount_speed_2",
         "mount_armor_1"
       ],
       [
@@ -38,7 +38,7 @@
         "mount_armor_5"
       ],
       [
-        "mount_armor_2",
+        "mount_armor_3",
         "mount_toughness_1"
       ],
       [
@@ -118,7 +118,11 @@
         "horse_light_harness_5"
       ],
       [
-        "horse_light_harness_3",
+        "horse_light_harness_4",
+        "horse_speed_1"
+      ],
+      [
+        "mount_speed_4",
         "horse_speed_1"
       ],
       [
@@ -139,6 +143,10 @@
       ],
       [
         "horse_light_harness_3",
+        "horse_armor_1"
+      ],
+      [
+        "mount_armor_4",
         "horse_armor_1"
       ],
       [
@@ -182,7 +190,7 @@
         "horse_toughness_5"
       ],
       [
-        "riding_pull_percent_3",
+        "riding_pull_percent_4",
         "donkey_draft_harness_1"
       ],
       [
@@ -202,11 +210,11 @@
         "donkey_draft_harness_5"
       ],
       [
-        "mount_speed_4",
+        "mount_speed_3",
         "pack_animal_back_percent_1"
       ],
       [
-        "riding_pull_percent_3",
+        "riding_pull_percent_2",
         "pack_animal_back_percent_1"
       ],
       [
@@ -246,11 +254,11 @@
         "pack_animal_step_limit_5"
       ],
       [
-        "horse_light_harness_2",
+        "horse_light_harness_3",
         "mule_expedition_balance_1"
       ],
       [
-        "pack_animal_back_percent_2",
+        "pack_animal_back_percent_3",
         "mule_expedition_balance_1"
       ],
       [
@@ -268,10 +276,6 @@
       [
         "mule_expedition_balance_4",
         "mule_expedition_balance_5"
-      ],
-      [
-        "mount_armor_4",
-        "horse_armor_1"
       ]
     ]
   }

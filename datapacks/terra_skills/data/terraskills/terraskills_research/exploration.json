@@ -1,0 +1,435 @@
+{
+  "title": "Exploration",
+  "skills": [
+    {
+      "id": "endurance",
+      "title": "Endurance",
+      "description": "Reduce sprinting exhaustion by 5% per rank.",
+      "primary_stat": "endurance",
+      "secondary_stat": "instinct",
+      "research_bonuses": [
+        "Reduce sprinting exhaustion by 5% per rank."
+      ],
+      "levels": [
+        {
+          "skill": "endurance_1",
+          "cost": 250
+        },
+        {
+          "skill": "endurance_2",
+          "cost": 500
+        },
+        {
+          "skill": "endurance_3",
+          "cost": 2000
+        },
+        {
+          "skill": "endurance_4",
+          "cost": 6750
+        },
+        {
+          "skill": "endurance_5",
+          "cost": 22500
+        }
+      ],
+      "requires": [],
+      "rank": 1
+    },
+    {
+      "id": "water_conservation",
+      "title": "Water Conservation",
+      "description": "Reduce travel-related thirst consumption by 5% per rank.",
+      "primary_stat": "endurance",
+      "secondary_stat": "instinct",
+      "research_bonuses": [
+        "Reduce travel-related thirst consumption by 5% per rank."
+      ],
+      "levels": [
+        {
+          "skill": "water_conservation_1",
+          "cost": 500
+        },
+        {
+          "skill": "water_conservation_2",
+          "cost": 1000
+        },
+        {
+          "skill": "water_conservation_3",
+          "cost": 4000
+        },
+        {
+          "skill": "water_conservation_4",
+          "cost": 13500
+        },
+        {
+          "skill": "water_conservation_5",
+          "cost": 45000
+        }
+      ],
+      "requires": [
+        "endurance_3"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "trailblazing",
+      "title": "Trailblazing",
+      "description": "Gain up to 3% movement speed per rank on foot in areas with low recent player activity.",
+      "primary_stat": "instinct",
+      "secondary_stat": "endurance",
+      "research_bonuses": [
+        "Gain up to 3% movement speed per rank on foot in areas with low recent player activity."
+      ],
+      "levels": [
+        {
+          "skill": "trailblazing_1",
+          "cost": 750
+        },
+        {
+          "skill": "trailblazing_2",
+          "cost": 1500
+        },
+        {
+          "skill": "trailblazing_3",
+          "cost": 6000
+        },
+        {
+          "skill": "trailblazing_4",
+          "cost": 20250
+        },
+        {
+          "skill": "trailblazing_5",
+          "cost": 67500
+        }
+      ],
+      "requires": [
+        "endurance_3",
+        "scrambling_2"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "well_trodden",
+      "title": "Well-Trodden",
+      "description": "Gain up to 3% movement speed per rank on foot in areas with high recent player activity.",
+      "primary_stat": "instinct",
+      "secondary_stat": "endurance",
+      "research_bonuses": [
+        "Gain up to 3% movement speed per rank on foot in areas with high recent player activity."
+      ],
+      "levels": [
+        {
+          "skill": "well_trodden_1",
+          "cost": 750
+        },
+        {
+          "skill": "well_trodden_2",
+          "cost": 1500
+        },
+        {
+          "skill": "well_trodden_3",
+          "cost": 6000
+        },
+        {
+          "skill": "well_trodden_4",
+          "cost": 20250
+        },
+        {
+          "skill": "well_trodden_5",
+          "cost": 67500
+        }
+      ],
+      "requires": [
+        "endurance_3"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "acclimatization",
+      "title": "Acclimatization",
+      "description": "Reduce harmful environmental heat and cold exposure in Thermia by 5% per rank.",
+      "primary_stat": "endurance",
+      "secondary_stat": "instinct",
+      "research_bonuses": [
+        "Reduce harmful environmental heat and cold exposure in Thermia by 5% per rank."
+      ],
+      "levels": [
+        {
+          "skill": "acclimatization_1",
+          "cost": 1000
+        },
+        {
+          "skill": "acclimatization_2",
+          "cost": 2000
+        },
+        {
+          "skill": "acclimatization_3",
+          "cost": 8000
+        },
+        {
+          "skill": "acclimatization_4",
+          "cost": 27000
+        },
+        {
+          "skill": "acclimatization_5",
+          "cost": 90000
+        }
+      ],
+      "requires": [
+        "endurance_4",
+        "water_conservation_3"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "expedition_packing",
+      "title": "Expedition Packing",
+      "description": "Reduce the effective carried weight of tagged exploration supplies by 3% per rank.",
+      "primary_stat": "finesse",
+      "secondary_stat": "endurance",
+      "research_bonuses": [
+        "Reduce the effective carried weight of tagged exploration supplies by 3% per rank."
+      ],
+      "levels": [
+        {
+          "skill": "expedition_packing_1",
+          "cost": 750
+        },
+        {
+          "skill": "expedition_packing_2",
+          "cost": 1500
+        },
+        {
+          "skill": "expedition_packing_3",
+          "cost": 6000
+        },
+        {
+          "skill": "expedition_packing_4",
+          "cost": 20250
+        },
+        {
+          "skill": "expedition_packing_5",
+          "cost": 67500
+        }
+      ],
+      "requires": [
+        "endurance_3",
+        "foraging_2"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "swimming",
+      "title": "Swimming",
+      "description": "+5% swimming speed per rank while in water and not riding.",
+      "primary_stat": "endurance",
+      "secondary_stat": "finesse",
+      "research_bonuses": [
+        "+5% swimming speed per rank while in water and not riding."
+      ],
+      "levels": [
+        {
+          "skill": "swimming_1",
+          "cost": 250
+        },
+        {
+          "skill": "swimming_2",
+          "cost": 500
+        },
+        {
+          "skill": "swimming_3",
+          "cost": 2000
+        },
+        {
+          "skill": "swimming_4",
+          "cost": 6750
+        },
+        {
+          "skill": "swimming_5",
+          "cost": 22500
+        }
+      ],
+      "requires": [],
+      "rank": 1
+    },
+    {
+      "id": "diving",
+      "title": "Diving",
+      "description": "+0.2 oxygen bonus per rank. Uses the vanilla chance to avoid consuming air; does not multiply the air meter.",
+      "primary_stat": "endurance",
+      "secondary_stat": "instinct",
+      "research_bonuses": [
+        "+0.2 oxygen bonus per rank. Uses the vanilla chance to avoid consuming air; does not multiply the air meter."
+      ],
+      "levels": [
+        {
+          "skill": "diving_1",
+          "cost": 500
+        },
+        {
+          "skill": "diving_2",
+          "cost": 1000
+        },
+        {
+          "skill": "diving_3",
+          "cost": 4000
+        },
+        {
+          "skill": "diving_4",
+          "cost": 13500
+        },
+        {
+          "skill": "diving_5",
+          "cost": 45000
+        }
+      ],
+      "requires": [
+        "swimming_3"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "wading",
+      "title": "Wading",
+      "description": "+0.1 water movement efficiency per rank while in water, head above water, not swimming or riding.",
+      "primary_stat": "finesse",
+      "secondary_stat": "endurance",
+      "research_bonuses": [
+        "+0.1 water movement efficiency per rank while in water, head above water, not swimming or riding."
+      ],
+      "levels": [
+        {
+          "skill": "wading_1",
+          "cost": 250
+        },
+        {
+          "skill": "wading_2",
+          "cost": 500
+        },
+        {
+          "skill": "wading_3",
+          "cost": 2000
+        },
+        {
+          "skill": "wading_4",
+          "cost": 6750
+        },
+        {
+          "skill": "wading_5",
+          "cost": 22500
+        }
+      ],
+      "requires": [
+        "swimming_1"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "scrambling",
+      "title": "Scrambling",
+      "description": "+5% upward ladder and vine climbing speed per rank.",
+      "primary_stat": "finesse",
+      "secondary_stat": "endurance",
+      "research_bonuses": [
+        "+5% upward ladder and vine climbing speed per rank."
+      ],
+      "levels": [
+        {
+          "skill": "scrambling_1",
+          "cost": 500
+        },
+        {
+          "skill": "scrambling_2",
+          "cost": 1000
+        },
+        {
+          "skill": "scrambling_3",
+          "cost": 4000
+        },
+        {
+          "skill": "scrambling_4",
+          "cost": 13500
+        },
+        {
+          "skill": "scrambling_5",
+          "cost": 45000
+        }
+      ],
+      "requires": [
+        "endurance_2"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "foraging",
+      "title": "Foraging",
+      "description": "10% chance per rank for one extra food item when breaking a mature TFC wild crop by hand or tool. Seeds and cultivated crops receive no bonus.",
+      "primary_stat": "instinct",
+      "secondary_stat": "finesse",
+      "research_bonuses": [
+        "10% chance per rank for one extra food item when breaking a mature TFC wild crop by hand or tool. Seeds and cultivated crops receive no bonus."
+      ],
+      "levels": [
+        {
+          "skill": "foraging_1",
+          "cost": 250
+        },
+        {
+          "skill": "foraging_2",
+          "cost": 500
+        },
+        {
+          "skill": "foraging_3",
+          "cost": 2000
+        },
+        {
+          "skill": "foraging_4",
+          "cost": 6750
+        },
+        {
+          "skill": "foraging_5",
+          "cost": 22500
+        }
+      ],
+      "requires": [],
+      "rank": 1
+    },
+    {
+      "id": "quiet_passage",
+      "title": "Quiet Passage",
+      "description": "Reduce wildlife detection distance by 5% per rank while sneaking on foot.",
+      "primary_stat": "finesse",
+      "secondary_stat": "instinct",
+      "research_bonuses": [
+        "Reduce wildlife detection distance by 5% per rank while sneaking on foot."
+      ],
+      "levels": [
+        {
+          "skill": "quiet_passage_1",
+          "cost": 750
+        },
+        {
+          "skill": "quiet_passage_2",
+          "cost": 1500
+        },
+        {
+          "skill": "quiet_passage_3",
+          "cost": 6000
+        },
+        {
+          "skill": "quiet_passage_4",
+          "cost": 20250
+        },
+        {
+          "skill": "quiet_passage_5",
+          "cost": 67500
+        }
+      ],
+      "requires": [
+        "foraging_3",
+        "scrambling_2"
+      ],
+      "rank": 3
+    }
+  ]
+}

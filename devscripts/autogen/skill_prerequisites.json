@@ -1,0 +1,121 @@
+{
+  "exploration": {
+    "endurance": [],
+    "water_conservation": [
+      "endurance_3"
+    ],
+    "trailblazing": [
+      "endurance_3",
+      "scrambling_2"
+    ],
+    "well_trodden": [
+      "endurance_3"
+    ],
+    "acclimatization": [
+      "endurance_4",
+      "water_conservation_3"
+    ],
+    "expedition_packing": [
+      "endurance_3",
+      "foraging_2"
+    ],
+    "swimming": [],
+    "diving": [
+      "swimming_3"
+    ],
+    "wading": [
+      "swimming_1"
+    ],
+    "scrambling": [
+      "endurance_2"
+    ],
+    "foraging": [],
+    "quiet_passage": [
+      "foraging_3",
+      "scrambling_2"
+    ]
+  },
+  "miner": {
+    "miner": [],
+    "excavating": [],
+    "deep_mining": [
+      "miner_3"
+    ],
+    "stone_mining": [
+      "miner_2"
+    ],
+    "careful_eye": [
+      "stone_mining_4",
+      "support_assessment_3"
+    ],
+    "careful_excavation": [
+      "excavating_3",
+      "miner_3"
+    ],
+    "mine_safety": [
+      "miner_2"
+    ],
+    "tool_conservation": [
+      "miner_2"
+    ],
+    "careful_mining": [
+      "miner_3",
+      "support_assessment_2"
+    ],
+    "support_assessment": [
+      "miner_1"
+    ],
+    "hazard_management": [
+      "careful_mining_4",
+      "support_assessment_3"
+    ],
+    "brutish_mining": [
+      "miner_4",
+      "tool_conservation_3"
+    ]
+  },
+  "mounts": {
+    "mount_speed": [],
+    "mount_armor": [
+      "mount_speed_2"
+    ],
+    "mount_toughness": [
+      "mount_armor_3"
+    ],
+    "riding_pull_percent": [
+      "mount_speed_2"
+    ],
+    "riding_speed_penalty": [
+      "riding_pull_percent_3"
+    ],
+    "horse_light_harness": [
+      "mount_speed_3"
+    ],
+    "horse_speed": [
+      "horse_light_harness_4",
+      "mount_speed_4"
+    ],
+    "horse_armor": [
+      "horse_light_harness_3",
+      "mount_armor_4"
+    ],
+    "horse_toughness": [
+      "mount_toughness_4",
+      "horse_armor_4"
+    ],
+    "donkey_draft_harness": [
+      "riding_pull_percent_4"
+    ],
+    "pack_animal_back_percent": [
+      "mount_speed_3",
+      "riding_pull_percent_2"
+    ],
+    "pack_animal_step_limit": [
+      "pack_animal_back_percent_3"
+    ],
+    "mule_expedition_balance": [
+      "horse_light_harness_3",
+      "pack_animal_back_percent_3"
+    ]
+  }
+}

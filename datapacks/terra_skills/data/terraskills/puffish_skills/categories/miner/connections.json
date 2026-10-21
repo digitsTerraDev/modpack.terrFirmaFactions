@@ -1,6 +1,6 @@
 {
   "normal": {
-    "bidirectional": [
+    "unidirectional": [
       [
         "miner_1",
         "miner_2"
@@ -18,7 +18,91 @@
         "miner_5"
       ],
       [
+        "miner_3",
+        "deep_mining_1"
+      ],
+      [
+        "deep_mining_1",
+        "deep_mining_2"
+      ],
+      [
+        "deep_mining_2",
+        "deep_mining_3"
+      ],
+      [
+        "deep_mining_3",
+        "deep_mining_4"
+      ],
+      [
+        "deep_mining_4",
+        "deep_mining_5"
+      ],
+      [
         "miner_2",
+        "stone_mining_1"
+      ],
+      [
+        "stone_mining_1",
+        "stone_mining_2"
+      ],
+      [
+        "stone_mining_2",
+        "stone_mining_3"
+      ],
+      [
+        "stone_mining_3",
+        "stone_mining_4"
+      ],
+      [
+        "stone_mining_4",
+        "stone_mining_5"
+      ],
+      [
+        "excavating_1",
+        "excavating_2"
+      ],
+      [
+        "excavating_2",
+        "excavating_3"
+      ],
+      [
+        "excavating_3",
+        "excavating_4"
+      ],
+      [
+        "excavating_4",
+        "excavating_5"
+      ],
+      [
+        "stone_mining_4",
+        "careful_eye_1"
+      ],
+      [
+        "support_assessment_3",
+        "careful_eye_1"
+      ],
+      [
+        "careful_eye_1",
+        "careful_eye_2"
+      ],
+      [
+        "careful_eye_2",
+        "careful_eye_3"
+      ],
+      [
+        "careful_eye_3",
+        "careful_eye_4"
+      ],
+      [
+        "careful_eye_4",
+        "careful_eye_5"
+      ],
+      [
+        "excavating_3",
+        "careful_excavation_1"
+      ],
+      [
+        "miner_3",
         "careful_excavation_1"
       ],
       [
@@ -59,126 +143,6 @@
       ],
       [
         "miner_2",
-        "careful_mining_1"
-      ],
-      [
-        "careful_mining_1",
-        "careful_mining_2"
-      ],
-      [
-        "careful_mining_2",
-        "careful_mining_3"
-      ],
-      [
-        "careful_mining_3",
-        "careful_mining_4"
-      ],
-      [
-        "careful_mining_4",
-        "careful_mining_5"
-      ],
-      [
-        "miner_2",
-        "support_assessment_1"
-      ],
-      [
-        "support_assessment_1",
-        "support_assessment_2"
-      ],
-      [
-        "support_assessment_2",
-        "support_assessment_3"
-      ],
-      [
-        "support_assessment_3",
-        "support_assessment_4"
-      ],
-      [
-        "support_assessment_4",
-        "support_assessment_5"
-      ],
-      [
-        "miner_2",
-        "deep_mining_1"
-      ],
-      [
-        "deep_mining_1",
-        "deep_mining_2"
-      ],
-      [
-        "deep_mining_2",
-        "deep_mining_3"
-      ],
-      [
-        "deep_mining_3",
-        "deep_mining_4"
-      ],
-      [
-        "deep_mining_4",
-        "deep_mining_5"
-      ],
-      [
-        "miner_2",
-        "stone_mining_1"
-      ],
-      [
-        "stone_mining_1",
-        "stone_mining_2"
-      ],
-      [
-        "stone_mining_2",
-        "stone_mining_3"
-      ],
-      [
-        "stone_mining_3",
-        "stone_mining_4"
-      ],
-      [
-        "stone_mining_4",
-        "stone_mining_5"
-      ],
-      [
-        "miner_2",
-        "excavating_1"
-      ],
-      [
-        "excavating_1",
-        "excavating_2"
-      ],
-      [
-        "excavating_2",
-        "excavating_3"
-      ],
-      [
-        "excavating_3",
-        "excavating_4"
-      ],
-      [
-        "excavating_4",
-        "excavating_5"
-      ],
-      [
-        "miner_2",
-        "careful_eye_1"
-      ],
-      [
-        "careful_eye_1",
-        "careful_eye_2"
-      ],
-      [
-        "careful_eye_2",
-        "careful_eye_3"
-      ],
-      [
-        "careful_eye_3",
-        "careful_eye_4"
-      ],
-      [
-        "careful_eye_4",
-        "careful_eye_5"
-      ],
-      [
-        "miner_2",
         "tool_conservation_1"
       ],
       [
@@ -198,31 +162,55 @@
         "tool_conservation_5"
       ],
       [
-        "miner_4",
-        "brutish_mining_1"
+        "miner_3",
+        "careful_mining_1"
       ],
       [
-        "brutish_mining_1",
-        "brutish_mining_2"
-      ],
-      [
-        "brutish_mining_2",
-        "brutish_mining_3"
-      ],
-      [
-        "brutish_mining_3",
-        "brutish_mining_4"
-      ],
-      [
-        "brutish_mining_4",
-        "brutish_mining_5"
+        "support_assessment_2",
+        "careful_mining_1"
       ],
       [
         "careful_mining_1",
-        "hazard_management_1"
+        "careful_mining_2"
+      ],
+      [
+        "careful_mining_2",
+        "careful_mining_3"
+      ],
+      [
+        "careful_mining_3",
+        "careful_mining_4"
+      ],
+      [
+        "careful_mining_4",
+        "careful_mining_5"
+      ],
+      [
+        "miner_1",
+        "support_assessment_1"
       ],
       [
         "support_assessment_1",
+        "support_assessment_2"
+      ],
+      [
+        "support_assessment_2",
+        "support_assessment_3"
+      ],
+      [
+        "support_assessment_3",
+        "support_assessment_4"
+      ],
+      [
+        "support_assessment_4",
+        "support_assessment_5"
+      ],
+      [
+        "careful_mining_4",
+        "hazard_management_1"
+      ],
+      [
+        "support_assessment_3",
         "hazard_management_1"
       ],
       [
@@ -240,6 +228,30 @@
       [
         "hazard_management_4",
         "hazard_management_5"
+      ],
+      [
+        "miner_4",
+        "brutish_mining_1"
+      ],
+      [
+        "tool_conservation_3",
+        "brutish_mining_1"
+      ],
+      [
+        "brutish_mining_1",
+        "brutish_mining_2"
+      ],
+      [
+        "brutish_mining_2",
+        "brutish_mining_3"
+      ],
+      [
+        "brutish_mining_3",
+        "brutish_mining_4"
+      ],
+      [
+        "brutish_mining_4",
+        "brutish_mining_5"
       ]
     ]
   }

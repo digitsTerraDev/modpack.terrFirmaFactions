@@ -1,0 +1,1142 @@
+{
+  "endurance_1": {
+    "title": "Endurance I",
+    "description": "Reduce sprinting exhaustion by 5% per rank.",
+    "extra_description": "Research cost: 250 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 250,
+    "rewards": []
+  },
+  "endurance_2": {
+    "title": "Endurance II",
+    "description": "Reduce sprinting exhaustion by 5% per rank.",
+    "extra_description": "Research cost: 500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 500,
+    "rewards": []
+  },
+  "endurance_3": {
+    "title": "Endurance III",
+    "description": "Reduce sprinting exhaustion by 5% per rank.",
+    "extra_description": "Research cost: 2000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 2000,
+    "rewards": []
+  },
+  "endurance_4": {
+    "title": "Endurance IV",
+    "description": "Reduce sprinting exhaustion by 5% per rank.",
+    "extra_description": "Research cost: 6750 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 6750,
+    "rewards": []
+  },
+  "endurance_5": {
+    "title": "Endurance V",
+    "description": "Reduce sprinting exhaustion by 5% per rank.",
+    "extra_description": "Research cost: 22500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 22500,
+    "rewards": []
+  },
+  "water_conservation_1": {
+    "title": "Water Conservation I",
+    "description": "Reduce travel-related thirst consumption by 5% per rank.",
+    "extra_description": "Research cost: 500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc:ceramic/jug"
+      }
+    },
+    "cost": 500,
+    "rewards": []
+  },
+  "water_conservation_2": {
+    "title": "Water Conservation II",
+    "description": "Reduce travel-related thirst consumption by 5% per rank.",
+    "extra_description": "Research cost: 1000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc:ceramic/jug"
+      }
+    },
+    "cost": 1000,
+    "rewards": []
+  },
+  "water_conservation_3": {
+    "title": "Water Conservation III",
+    "description": "Reduce travel-related thirst consumption by 5% per rank.",
+    "extra_description": "Research cost: 4000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc:ceramic/jug"
+      }
+    },
+    "cost": 4000,
+    "rewards": []
+  },
+  "water_conservation_4": {
+    "title": "Water Conservation IV",
+    "description": "Reduce travel-related thirst consumption by 5% per rank.",
+    "extra_description": "Research cost: 13500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc:ceramic/jug"
+      }
+    },
+    "cost": 13500,
+    "rewards": []
+  },
+  "water_conservation_5": {
+    "title": "Water Conservation V",
+    "description": "Reduce travel-related thirst consumption by 5% per rank.",
+    "extra_description": "Research cost: 45000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc:ceramic/jug"
+      }
+    },
+    "cost": 45000,
+    "rewards": []
+  },
+  "trailblazing_1": {
+    "title": "Trailblazing I",
+    "description": "Gain up to 3% movement speed per rank on foot in areas with low recent player activity.",
+    "extra_description": "Research cost: 750 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "cost": 750,
+    "rewards": []
+  },
+  "trailblazing_2": {
+    "title": "Trailblazing II",
+    "description": "Gain up to 3% movement speed per rank on foot in areas with low recent player activity.",
+    "extra_description": "Research cost: 1500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "cost": 1500,
+    "rewards": []
+  },
+  "trailblazing_3": {
+    "title": "Trailblazing III",
+    "description": "Gain up to 3% movement speed per rank on foot in areas with low recent player activity.",
+    "extra_description": "Research cost: 6000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "cost": 6000,
+    "rewards": []
+  },
+  "trailblazing_4": {
+    "title": "Trailblazing IV",
+    "description": "Gain up to 3% movement speed per rank on foot in areas with low recent player activity.",
+    "extra_description": "Research cost: 20250 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "cost": 20250,
+    "rewards": []
+  },
+  "trailblazing_5": {
+    "title": "Trailblazing V",
+    "description": "Gain up to 3% movement speed per rank on foot in areas with low recent player activity.",
+    "extra_description": "Research cost: 67500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "cost": 67500,
+    "rewards": []
+  },
+  "well_trodden_1": {
+    "title": "Well-Trodden I",
+    "description": "Gain up to 3% movement speed per rank on foot in areas with high recent player activity.",
+    "extra_description": "Research cost: 750 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "cost": 750,
+    "rewards": []
+  },
+  "well_trodden_2": {
+    "title": "Well-Trodden II",
+    "description": "Gain up to 3% movement speed per rank on foot in areas with high recent player activity.",
+    "extra_description": "Research cost: 1500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "cost": 1500,
+    "rewards": []
+  },
+  "well_trodden_3": {
+    "title": "Well-Trodden III",
+    "description": "Gain up to 3% movement speed per rank on foot in areas with high recent player activity.",
+    "extra_description": "Research cost: 6000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "cost": 6000,
+    "rewards": []
+  },
+  "well_trodden_4": {
+    "title": "Well-Trodden IV",
+    "description": "Gain up to 3% movement speed per rank on foot in areas with high recent player activity.",
+    "extra_description": "Research cost: 20250 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "cost": 20250,
+    "rewards": []
+  },
+  "well_trodden_5": {
+    "title": "Well-Trodden V",
+    "description": "Gain up to 3% movement speed per rank on foot in areas with high recent player activity.",
+    "extra_description": "Research cost: 67500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "cost": 67500,
+    "rewards": []
+  },
+  "acclimatization_1": {
+    "title": "Acclimatization I",
+    "description": "Reduce harmful environmental heat and cold exposure in Thermia by 5% per rank.",
+    "extra_description": "Research cost: 1000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 4x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:campfire"
+      }
+    },
+    "cost": 1000,
+    "rewards": []
+  },
+  "acclimatization_2": {
+    "title": "Acclimatization II",
+    "description": "Reduce harmful environmental heat and cold exposure in Thermia by 5% per rank.",
+    "extra_description": "Research cost: 2000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 4x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:campfire"
+      }
+    },
+    "cost": 2000,
+    "rewards": []
+  },
+  "acclimatization_3": {
+    "title": "Acclimatization III",
+    "description": "Reduce harmful environmental heat and cold exposure in Thermia by 5% per rank.",
+    "extra_description": "Research cost: 8000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 4x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:campfire"
+      }
+    },
+    "cost": 8000,
+    "rewards": []
+  },
+  "acclimatization_4": {
+    "title": "Acclimatization IV",
+    "description": "Reduce harmful environmental heat and cold exposure in Thermia by 5% per rank.",
+    "extra_description": "Research cost: 27000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 4x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:campfire"
+      }
+    },
+    "cost": 27000,
+    "rewards": []
+  },
+  "acclimatization_5": {
+    "title": "Acclimatization V",
+    "description": "Reduce harmful environmental heat and cold exposure in Thermia by 5% per rank.",
+    "extra_description": "Research cost: 90000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 4x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:campfire"
+      }
+    },
+    "cost": 90000,
+    "rewards": []
+  },
+  "expedition_packing_1": {
+    "title": "Expedition Packing I",
+    "description": "Reduce the effective carried weight of tagged exploration supplies by 3% per rank.",
+    "extra_description": "Research cost: 750 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bundle"
+      }
+    },
+    "cost": 750,
+    "rewards": []
+  },
+  "expedition_packing_2": {
+    "title": "Expedition Packing II",
+    "description": "Reduce the effective carried weight of tagged exploration supplies by 3% per rank.",
+    "extra_description": "Research cost: 1500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bundle"
+      }
+    },
+    "cost": 1500,
+    "rewards": []
+  },
+  "expedition_packing_3": {
+    "title": "Expedition Packing III",
+    "description": "Reduce the effective carried weight of tagged exploration supplies by 3% per rank.",
+    "extra_description": "Research cost: 6000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bundle"
+      }
+    },
+    "cost": 6000,
+    "rewards": []
+  },
+  "expedition_packing_4": {
+    "title": "Expedition Packing IV",
+    "description": "Reduce the effective carried weight of tagged exploration supplies by 3% per rank.",
+    "extra_description": "Research cost: 20250 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bundle"
+      }
+    },
+    "cost": 20250,
+    "rewards": []
+  },
+  "expedition_packing_5": {
+    "title": "Expedition Packing V",
+    "description": "Reduce the effective carried weight of tagged exploration supplies by 3% per rank.",
+    "extra_description": "Research cost: 67500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bundle"
+      }
+    },
+    "cost": 67500,
+    "rewards": []
+  },
+  "swimming_1": {
+    "title": "Swimming I",
+    "description": "+5% swimming speed per rank while in water and not riding.",
+    "extra_description": "Research cost: 250 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "cost": 250,
+    "rewards": []
+  },
+  "swimming_2": {
+    "title": "Swimming II",
+    "description": "+5% swimming speed per rank while in water and not riding.",
+    "extra_description": "Research cost: 500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "cost": 500,
+    "rewards": []
+  },
+  "swimming_3": {
+    "title": "Swimming III",
+    "description": "+5% swimming speed per rank while in water and not riding.",
+    "extra_description": "Research cost: 2000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "cost": 2000,
+    "rewards": []
+  },
+  "swimming_4": {
+    "title": "Swimming IV",
+    "description": "+5% swimming speed per rank while in water and not riding.",
+    "extra_description": "Research cost: 6750 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "cost": 6750,
+    "rewards": []
+  },
+  "swimming_5": {
+    "title": "Swimming V",
+    "description": "+5% swimming speed per rank while in water and not riding.",
+    "extra_description": "Research cost: 22500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "cost": 22500,
+    "rewards": []
+  },
+  "diving_1": {
+    "title": "Diving I",
+    "description": "+0.2 oxygen bonus per rank. Uses the vanilla chance to avoid consuming air; does not multiply the air meter.",
+    "extra_description": "Research cost: 500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nautilus_shell"
+      }
+    },
+    "cost": 500,
+    "rewards": []
+  },
+  "diving_2": {
+    "title": "Diving II",
+    "description": "+0.2 oxygen bonus per rank. Uses the vanilla chance to avoid consuming air; does not multiply the air meter.",
+    "extra_description": "Research cost: 1000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nautilus_shell"
+      }
+    },
+    "cost": 1000,
+    "rewards": []
+  },
+  "diving_3": {
+    "title": "Diving III",
+    "description": "+0.2 oxygen bonus per rank. Uses the vanilla chance to avoid consuming air; does not multiply the air meter.",
+    "extra_description": "Research cost: 4000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nautilus_shell"
+      }
+    },
+    "cost": 4000,
+    "rewards": []
+  },
+  "diving_4": {
+    "title": "Diving IV",
+    "description": "+0.2 oxygen bonus per rank. Uses the vanilla chance to avoid consuming air; does not multiply the air meter.",
+    "extra_description": "Research cost: 13500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nautilus_shell"
+      }
+    },
+    "cost": 13500,
+    "rewards": []
+  },
+  "diving_5": {
+    "title": "Diving V",
+    "description": "+0.2 oxygen bonus per rank. Uses the vanilla chance to avoid consuming air; does not multiply the air meter.",
+    "extra_description": "Research cost: 45000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nautilus_shell"
+      }
+    },
+    "cost": 45000,
+    "rewards": []
+  },
+  "wading_1": {
+    "title": "Wading I",
+    "description": "+0.1 water movement efficiency per rank while in water, head above water, not swimming or riding.",
+    "extra_description": "Research cost: 250 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lily_pad"
+      }
+    },
+    "cost": 250,
+    "rewards": []
+  },
+  "wading_2": {
+    "title": "Wading II",
+    "description": "+0.1 water movement efficiency per rank while in water, head above water, not swimming or riding.",
+    "extra_description": "Research cost: 500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lily_pad"
+      }
+    },
+    "cost": 500,
+    "rewards": []
+  },
+  "wading_3": {
+    "title": "Wading III",
+    "description": "+0.1 water movement efficiency per rank while in water, head above water, not swimming or riding.",
+    "extra_description": "Research cost: 2000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lily_pad"
+      }
+    },
+    "cost": 2000,
+    "rewards": []
+  },
+  "wading_4": {
+    "title": "Wading IV",
+    "description": "+0.1 water movement efficiency per rank while in water, head above water, not swimming or riding.",
+    "extra_description": "Research cost: 6750 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lily_pad"
+      }
+    },
+    "cost": 6750,
+    "rewards": []
+  },
+  "wading_5": {
+    "title": "Wading V",
+    "description": "+0.1 water movement efficiency per rank while in water, head above water, not swimming or riding.",
+    "extra_description": "Research cost: 22500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lily_pad"
+      }
+    },
+    "cost": 22500,
+    "rewards": []
+  },
+  "scrambling_1": {
+    "title": "Scrambling I",
+    "description": "+5% upward ladder and vine climbing speed per rank.",
+    "extra_description": "Research cost: 500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ladder"
+      }
+    },
+    "cost": 500,
+    "rewards": []
+  },
+  "scrambling_2": {
+    "title": "Scrambling II",
+    "description": "+5% upward ladder and vine climbing speed per rank.",
+    "extra_description": "Research cost: 1000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ladder"
+      }
+    },
+    "cost": 1000,
+    "rewards": []
+  },
+  "scrambling_3": {
+    "title": "Scrambling III",
+    "description": "+5% upward ladder and vine climbing speed per rank.",
+    "extra_description": "Research cost: 4000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ladder"
+      }
+    },
+    "cost": 4000,
+    "rewards": []
+  },
+  "scrambling_4": {
+    "title": "Scrambling IV",
+    "description": "+5% upward ladder and vine climbing speed per rank.",
+    "extra_description": "Research cost: 13500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ladder"
+      }
+    },
+    "cost": 13500,
+    "rewards": []
+  },
+  "scrambling_5": {
+    "title": "Scrambling V",
+    "description": "+5% upward ladder and vine climbing speed per rank.",
+    "extra_description": "Research cost: 45000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 2x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ladder"
+      }
+    },
+    "cost": 45000,
+    "rewards": []
+  },
+  "foraging_1": {
+    "title": "Foraging I",
+    "description": "10% chance per rank for one extra food item when breaking a mature TFC wild crop by hand or tool. Seeds and cultivated crops receive no bonus.",
+    "extra_description": "Research cost: 250 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "cost": 250,
+    "rewards": []
+  },
+  "foraging_2": {
+    "title": "Foraging II",
+    "description": "10% chance per rank for one extra food item when breaking a mature TFC wild crop by hand or tool. Seeds and cultivated crops receive no bonus.",
+    "extra_description": "Research cost: 500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "cost": 500,
+    "rewards": []
+  },
+  "foraging_3": {
+    "title": "Foraging III",
+    "description": "10% chance per rank for one extra food item when breaking a mature TFC wild crop by hand or tool. Seeds and cultivated crops receive no bonus.",
+    "extra_description": "Research cost: 2000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "cost": 2000,
+    "rewards": []
+  },
+  "foraging_4": {
+    "title": "Foraging IV",
+    "description": "10% chance per rank for one extra food item when breaking a mature TFC wild crop by hand or tool. Seeds and cultivated crops receive no bonus.",
+    "extra_description": "Research cost: 6750 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "cost": 6750,
+    "rewards": []
+  },
+  "foraging_5": {
+    "title": "Foraging V",
+    "description": "10% chance per rank for one extra food item when breaking a mature TFC wild crop by hand or tool. Seeds and cultivated crops receive no bonus.",
+    "extra_description": "Research cost: 22500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "cost": 22500,
+    "rewards": []
+  },
+  "quiet_passage_1": {
+    "title": "Quiet Passage I",
+    "description": "Reduce wildlife detection distance by 5% per rank while sneaking on foot.",
+    "extra_description": "Research cost: 750 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 750,
+    "rewards": []
+  },
+  "quiet_passage_2": {
+    "title": "Quiet Passage II",
+    "description": "Reduce wildlife detection distance by 5% per rank while sneaking on foot.",
+    "extra_description": "Research cost: 1500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 1500,
+    "rewards": []
+  },
+  "quiet_passage_3": {
+    "title": "Quiet Passage III",
+    "description": "Reduce wildlife detection distance by 5% per rank while sneaking on foot.",
+    "extra_description": "Research cost: 6000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 6000,
+    "rewards": []
+  },
+  "quiet_passage_4": {
+    "title": "Quiet Passage IV",
+    "description": "Reduce wildlife detection distance by 5% per rank while sneaking on foot.",
+    "extra_description": "Research cost: 20250 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 20250,
+    "rewards": []
+  },
+  "quiet_passage_5": {
+    "title": "Quiet Passage V",
+    "description": "Reduce wildlife detection distance by 5% per rank while sneaking on foot.",
+    "extra_description": "Research cost: 67500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 67500,
+    "rewards": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "exploration": {
+    "endurance": 1,
+    "water_conservation": 2,
+    "trailblazing": 3,
+    "well_trodden": 3,
+    "acclimatization": 4,
+    "expedition_packing": 3,
+    "swimming": 1,
+    "diving": 2,
+    "wading": 1,
+    "scrambling": 2,
+    "foraging": 1,
+    "quiet_passage": 3
+  },
+  "miner": {
+    "miner": 1,
+    "deep_mining": 3,
+    "stone_mining": 2,
+    "excavating": 1,
+    "careful_eye": 5,
+    "careful_excavation": 4,
+    "mine_safety": 2,
+    "tool_conservation": 2,
+    "careful_mining": 3,
+    "support_assessment": 1,
+    "hazard_management": 5,
+    "brutish_mining": 6
+  },
+  "mounts": {
+    "mount_speed": 1,
+    "mount_armor": 2,
+    "mount_toughness": 4,
+    "riding_pull_percent": 2,
+    "riding_speed_penalty": 3,
+    "horse_light_harness": 3,
+    "horse_speed": 4,
+    "horse_armor": 3,
+    "horse_toughness": 5,
+    "donkey_draft_harness": 3,
+    "pack_animal_back_percent": 2,
+    "pack_animal_step_limit": 3,
+    "mule_expedition_balance": 4
+  }
+}
