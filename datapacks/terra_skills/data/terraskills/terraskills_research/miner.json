@@ -109,7 +109,7 @@
     },
     {
       "id": "excavating",
-      "title": "Excavating",
+      "title": "Digging",
       "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
       "primary_stat": "might",
       "secondary_stat": "endurance",
@@ -433,6 +433,78 @@
         "tool_conservation_3"
       ],
       "rank": 6
+    },
+    {
+      "id": "hammering",
+      "title": "Hammering",
+      "description": "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools.",
+      "primary_stat": "might",
+      "secondary_stat": "intelligence",
+      "research_bonuses": [
+        "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools."
+      ],
+      "requires": [
+        "miner_5"
+      ],
+      "rank": 3,
+      "levels": [
+        {
+          "skill": "hammering_1",
+          "cost": 750
+        },
+        {
+          "skill": "hammering_2",
+          "cost": 1500
+        },
+        {
+          "skill": "hammering_3",
+          "cost": 6000
+        },
+        {
+          "skill": "hammering_4",
+          "cost": 20250
+        },
+        {
+          "skill": "hammering_5",
+          "cost": 67500
+        }
+      ]
+    },
+    {
+      "id": "area_excavating",
+      "title": "Excavating",
+      "description": "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools.",
+      "primary_stat": "might",
+      "secondary_stat": "endurance",
+      "research_bonuses": [
+        "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools."
+      ],
+      "requires": [
+        "excavating_5"
+      ],
+      "rank": 3,
+      "levels": [
+        {
+          "skill": "area_excavating_1",
+          "cost": 750
+        },
+        {
+          "skill": "area_excavating_2",
+          "cost": 1500
+        },
+        {
+          "skill": "area_excavating_3",
+          "cost": 6000
+        },
+        {
+          "skill": "area_excavating_4",
+          "cost": 20250
+        },
+        {
+          "skill": "area_excavating_5",
+          "cost": 67500
+        }
+      ]
     }
   ]
 }

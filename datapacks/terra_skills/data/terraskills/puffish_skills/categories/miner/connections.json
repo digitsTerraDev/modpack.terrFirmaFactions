@@ -252,6 +252,46 @@
       [
         "brutish_mining_4",
         "brutish_mining_5"
+      ],
+      [
+        "miner_5",
+        "hammering_1"
+      ],
+      [
+        "hammering_1",
+        "hammering_2"
+      ],
+      [
+        "hammering_2",
+        "hammering_3"
+      ],
+      [
+        "hammering_3",
+        "hammering_4"
+      ],
+      [
+        "hammering_4",
+        "hammering_5"
+      ],
+      [
+        "excavating_5",
+        "area_excavating_1"
+      ],
+      [
+        "area_excavating_1",
+        "area_excavating_2"
+      ],
+      [
+        "area_excavating_2",
+        "area_excavating_3"
+      ],
+      [
+        "area_excavating_3",
+        "area_excavating_4"
+      ],
+      [
+        "area_excavating_4",
+        "area_excavating_5"
       ]
     ]
   }

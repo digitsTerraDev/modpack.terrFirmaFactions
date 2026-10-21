@@ -1,7 +1,7 @@
 # Season pacing prioritizes round costs and useful training times.
 # One skill day = one real hour; 500 base + up to 500 nutrition SP/hour.
 # Typical 3/3 stats and balanced 80% nutrition: 1305 SP/hour.
-# Four-week continuous research is about 27% of total mastery, not a quota.
+# Four-week continuous research is about 26% of total mastery, not a quota.
 [generation]
 	#Points generated per configured real-time skill day before nutrition and stats.
 	# Default: 1.0

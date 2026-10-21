@@ -667,7 +667,7 @@
     "extra_description": "Research cost: 45000 points. Training multiplier: 2x."
   },
   "excavating_1": {
-    "title": "Excavating I",
+    "title": "Digging I",
     "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
     "frame": {
       "type": "advancement",
@@ -687,7 +687,7 @@
     "extra_description": "Research cost: 250 points. Training multiplier: 1x."
   },
   "excavating_2": {
-    "title": "Excavating II",
+    "title": "Digging II",
     "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
     "frame": {
       "type": "advancement",
@@ -706,7 +706,7 @@
     "extra_description": "Research cost: 500 points. Training multiplier: 1x."
   },
   "excavating_3": {
-    "title": "Excavating III",
+    "title": "Digging III",
     "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
     "frame": {
       "type": "advancement",
@@ -725,7 +725,7 @@
     "extra_description": "Research cost: 2000 points. Training multiplier: 1x."
   },
   "excavating_4": {
-    "title": "Excavating IV",
+    "title": "Digging IV",
     "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
     "frame": {
       "type": "advancement",
@@ -744,7 +744,7 @@
     "extra_description": "Research cost: 6750 points. Training multiplier: 1x."
   },
   "excavating_5": {
-    "title": "Excavating V",
+    "title": "Digging V",
     "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
     "frame": {
       "type": "advancement",
@@ -1145,5 +1145,195 @@
     "cost": 112500,
     "rewards": [],
     "extra_description": "Research cost: 112500 points. Training multiplier: 5x."
+  },
+  "hammering_1": {
+    "title": "Hammering I",
+    "description": "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools.",
+    "extra_description": "Research cost: 750 points. Level bonuses accumulate. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc_hammer_time:metal/sledgehammer/copper"
+      }
+    },
+    "cost": 750,
+    "rewards": []
+  },
+  "hammering_2": {
+    "title": "Hammering II",
+    "description": "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools.",
+    "extra_description": "Research cost: 1500 points. Level bonuses accumulate. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc_hammer_time:metal/sledgehammer/copper"
+      }
+    },
+    "cost": 1500,
+    "rewards": []
+  },
+  "hammering_3": {
+    "title": "Hammering III",
+    "description": "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools.",
+    "extra_description": "Research cost: 6000 points. Level bonuses accumulate. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc_hammer_time:metal/sledgehammer/copper"
+      }
+    },
+    "cost": 6000,
+    "rewards": []
+  },
+  "hammering_4": {
+    "title": "Hammering IV",
+    "description": "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools.",
+    "extra_description": "Research cost: 20250 points. Level bonuses accumulate. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc_hammer_time:metal/sledgehammer/copper"
+      }
+    },
+    "cost": 20250,
+    "rewards": []
+  },
+  "hammering_5": {
+    "title": "Hammering V",
+    "description": "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools.",
+    "extra_description": "Research cost: 67500 points. Level bonuses accumulate. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc_hammer_time:metal/sledgehammer/copper"
+      }
+    },
+    "cost": 67500,
+    "rewards": []
+  },
+  "area_excavating_1": {
+    "title": "Excavating I",
+    "description": "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools.",
+    "extra_description": "Research cost: 750 points. Level bonuses accumulate. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc_hammer_time:metal/excavator/copper"
+      }
+    },
+    "cost": 750,
+    "rewards": []
+  },
+  "area_excavating_2": {
+    "title": "Excavating II",
+    "description": "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools.",
+    "extra_description": "Research cost: 1500 points. Level bonuses accumulate. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc_hammer_time:metal/excavator/copper"
+      }
+    },
+    "cost": 1500,
+    "rewards": []
+  },
+  "area_excavating_3": {
+    "title": "Excavating III",
+    "description": "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools.",
+    "extra_description": "Research cost: 6000 points. Level bonuses accumulate. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc_hammer_time:metal/excavator/copper"
+      }
+    },
+    "cost": 6000,
+    "rewards": []
+  },
+  "area_excavating_4": {
+    "title": "Excavating IV",
+    "description": "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools.",
+    "extra_description": "Research cost: 20250 points. Level bonuses accumulate. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc_hammer_time:metal/excavator/copper"
+      }
+    },
+    "cost": 20250,
+    "rewards": []
+  },
+  "area_excavating_5": {
+    "title": "Excavating V",
+    "description": "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools.",
+    "extra_description": "Research cost: 67500 points. Level bonuses accumulate. Training multiplier: 3x.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "tfc_hammer_time:metal/excavator/copper"
+      }
+    },
+    "cost": 67500,
+    "rewards": []
   }
 }

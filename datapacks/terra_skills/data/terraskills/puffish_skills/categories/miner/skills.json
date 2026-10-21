@@ -300,5 +300,55 @@
     "x": 510,
     "y": 806,
     "definition": "hazard_management_5"
+  },
+  "hammering_1": {
+    "x": -160,
+    "y": 650,
+    "definition": "hammering_1"
+  },
+  "hammering_2": {
+    "x": -160,
+    "y": 714,
+    "definition": "hammering_2"
+  },
+  "hammering_3": {
+    "x": -160,
+    "y": 778,
+    "definition": "hammering_3"
+  },
+  "hammering_4": {
+    "x": -160,
+    "y": 842,
+    "definition": "hammering_4"
+  },
+  "hammering_5": {
+    "x": -160,
+    "y": 906,
+    "definition": "hammering_5"
+  },
+  "area_excavating_1": {
+    "x": -440,
+    "y": 650,
+    "definition": "area_excavating_1"
+  },
+  "area_excavating_2": {
+    "x": -440,
+    "y": 714,
+    "definition": "area_excavating_2"
+  },
+  "area_excavating_3": {
+    "x": -440,
+    "y": 778,
+    "definition": "area_excavating_3"
+  },
+  "area_excavating_4": {
+    "x": -440,
+    "y": 842,
+    "definition": "area_excavating_4"
+  },
+  "area_excavating_5": {
+    "x": -440,
+    "y": 906,
+    "definition": "area_excavating_5"
   }
 }

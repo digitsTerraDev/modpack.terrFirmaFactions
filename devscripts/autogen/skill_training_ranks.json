@@ -25,7 +25,9 @@
     "careful_mining": 3,
     "support_assessment": 1,
     "hazard_management": 5,
-    "brutish_mining": 6
+    "brutish_mining": 6,
+    "hammering": 3,
+    "area_excavating": 3
   },
   "mounts": {
     "mount_speed": 1,

@@ -72,6 +72,12 @@
     "brutish_mining": [
       "miner_4",
       "tool_conservation_3"
+    ],
+    "hammering": [
+      "miner_5"
+    ],
+    "area_excavating": [
+      "excavating_5"
     ]
   },
   "mounts": {
