@@ -1,7 +1,7 @@
 {
   "miner_1": {
     "title": "Mining I",
-    "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
+    "description": "+6% breaking speed per level while holding a pickaxe; tool harvest requirements still apply.",
     "extra_description": "Rank bonuses accumulate. Research cost: 250 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -20,7 +20,7 @@
   },
   "miner_2": {
     "title": "Mining II",
-    "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
+    "description": "+6% breaking speed per level while holding a pickaxe; tool harvest requirements still apply.",
     "extra_description": "Rank bonuses accumulate. Research cost: 500 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -39,7 +39,7 @@
   },
   "miner_3": {
     "title": "Mining III",
-    "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
+    "description": "+6% breaking speed per level while holding a pickaxe; tool harvest requirements still apply.",
     "extra_description": "Rank bonuses accumulate. Research cost: 2000 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -58,7 +58,7 @@
   },
   "miner_4": {
     "title": "Mining IV",
-    "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
+    "description": "+6% breaking speed per level while holding a pickaxe; tool harvest requirements still apply.",
     "extra_description": "Rank bonuses accumulate. Research cost: 6750 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -77,7 +77,7 @@
   },
   "miner_5": {
     "title": "Mining V",
-    "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
+    "description": "+6% breaking speed per level while holding a pickaxe; tool harvest requirements still apply.",
     "extra_description": "Rank bonuses accumulate. Research cost: 22500 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -668,7 +668,7 @@
   },
   "excavating_1": {
     "title": "Digging I",
-    "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
+    "description": "+6% breaking speed per level with a shovel on shovel-mineable blocks.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -688,7 +688,7 @@
   },
   "excavating_2": {
     "title": "Digging II",
-    "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
+    "description": "+6% breaking speed per level with a shovel on shovel-mineable blocks.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -707,7 +707,7 @@
   },
   "excavating_3": {
     "title": "Digging III",
-    "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
+    "description": "+6% breaking speed per level with a shovel on shovel-mineable blocks.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -726,7 +726,7 @@
   },
   "excavating_4": {
     "title": "Digging IV",
-    "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
+    "description": "+6% breaking speed per level with a shovel on shovel-mineable blocks.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -745,7 +745,7 @@
   },
   "excavating_5": {
     "title": "Digging V",
-    "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
+    "description": "+6% breaking speed per level with a shovel on shovel-mineable blocks.",
     "frame": {
       "type": "advancement",
       "data": {
@@ -1148,7 +1148,7 @@
   },
   "hammering_1": {
     "title": "Hammering I",
-    "description": "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools.",
+    "description": "+7% breaking speed per level with TFC Hammer Time sledgehammers on pickaxe-mineable blocks. Level I permits using these tools.",
     "extra_description": "Research cost: 750 points. Level bonuses accumulate. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
@@ -1167,7 +1167,7 @@
   },
   "hammering_2": {
     "title": "Hammering II",
-    "description": "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools.",
+    "description": "+7% breaking speed per level with TFC Hammer Time sledgehammers on pickaxe-mineable blocks. Level I permits using these tools.",
     "extra_description": "Research cost: 1500 points. Level bonuses accumulate. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
@@ -1186,7 +1186,7 @@
   },
   "hammering_3": {
     "title": "Hammering III",
-    "description": "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools.",
+    "description": "+7% breaking speed per level with TFC Hammer Time sledgehammers on pickaxe-mineable blocks. Level I permits using these tools.",
     "extra_description": "Research cost: 6000 points. Level bonuses accumulate. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
@@ -1205,7 +1205,7 @@
   },
   "hammering_4": {
     "title": "Hammering IV",
-    "description": "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools.",
+    "description": "+7% breaking speed per level with TFC Hammer Time sledgehammers on pickaxe-mineable blocks. Level I permits using these tools.",
     "extra_description": "Research cost: 20250 points. Level bonuses accumulate. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
@@ -1224,7 +1224,7 @@
   },
   "hammering_5": {
     "title": "Hammering V",
-    "description": "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools.",
+    "description": "+7% breaking speed per level with TFC Hammer Time sledgehammers on pickaxe-mineable blocks. Level I permits using these tools.",
     "extra_description": "Research cost: 67500 points. Level bonuses accumulate. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
@@ -1243,7 +1243,7 @@
   },
   "area_excavating_1": {
     "title": "Excavating I",
-    "description": "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools.",
+    "description": "+7% breaking speed per level with TFC Hammer Time excavators on shovel-mineable blocks. Level I permits using these tools.",
     "extra_description": "Research cost: 750 points. Level bonuses accumulate. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
@@ -1262,7 +1262,7 @@
   },
   "area_excavating_2": {
     "title": "Excavating II",
-    "description": "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools.",
+    "description": "+7% breaking speed per level with TFC Hammer Time excavators on shovel-mineable blocks. Level I permits using these tools.",
     "extra_description": "Research cost: 1500 points. Level bonuses accumulate. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
@@ -1281,7 +1281,7 @@
   },
   "area_excavating_3": {
     "title": "Excavating III",
-    "description": "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools.",
+    "description": "+7% breaking speed per level with TFC Hammer Time excavators on shovel-mineable blocks. Level I permits using these tools.",
     "extra_description": "Research cost: 6000 points. Level bonuses accumulate. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
@@ -1300,7 +1300,7 @@
   },
   "area_excavating_4": {
     "title": "Excavating IV",
-    "description": "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools.",
+    "description": "+7% breaking speed per level with TFC Hammer Time excavators on shovel-mineable blocks. Level I permits using these tools.",
     "extra_description": "Research cost: 20250 points. Level bonuses accumulate. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",
@@ -1319,7 +1319,7 @@
   },
   "area_excavating_5": {
     "title": "Excavating V",
-    "description": "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools.",
+    "description": "+7% breaking speed per level with TFC Hammer Time excavators on shovel-mineable blocks. Level I permits using these tools.",
     "extra_description": "Research cost: 67500 points. Level bonuses accumulate. Training multiplier: 3x.",
     "frame": {
       "type": "advancement",

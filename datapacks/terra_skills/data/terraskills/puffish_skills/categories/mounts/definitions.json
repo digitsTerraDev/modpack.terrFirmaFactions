@@ -1,7 +1,7 @@
 {
   "mount_speed_1": {
     "title": "Riding I",
-    "description": "+2% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
+    "description": "+4% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
     "extra_description": "Research cost: 250 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -20,7 +20,7 @@
   },
   "mount_speed_2": {
     "title": "Riding II",
-    "description": "+2% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
+    "description": "+4% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
     "extra_description": "Research cost: 500 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -39,7 +39,7 @@
   },
   "mount_speed_3": {
     "title": "Riding III",
-    "description": "+2% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
+    "description": "+4% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
     "extra_description": "Research cost: 2000 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -58,7 +58,7 @@
   },
   "mount_speed_4": {
     "title": "Riding IV",
-    "description": "+2% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
+    "description": "+4% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
     "extra_description": "Research cost: 6750 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -77,7 +77,7 @@
   },
   "mount_speed_5": {
     "title": "Riding V",
-    "description": "+2% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
+    "description": "+4% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
     "extra_description": "Research cost: 22500 points. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -96,7 +96,7 @@
   },
   "mount_armor_1": {
     "title": "Mount Armor I",
-    "description": "+0.4 mount armor per level while riding.",
+    "description": "+0.8 mount armor per level while riding.",
     "extra_description": "Research cost: 500 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
@@ -115,7 +115,7 @@
   },
   "mount_armor_2": {
     "title": "Mount Armor II",
-    "description": "+0.4 mount armor per level while riding.",
+    "description": "+0.8 mount armor per level while riding.",
     "extra_description": "Research cost: 1000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
@@ -134,7 +134,7 @@
   },
   "mount_armor_3": {
     "title": "Mount Armor III",
-    "description": "+0.4 mount armor per level while riding.",
+    "description": "+0.8 mount armor per level while riding.",
     "extra_description": "Research cost: 4000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
@@ -153,7 +153,7 @@
   },
   "mount_armor_4": {
     "title": "Mount Armor IV",
-    "description": "+0.4 mount armor per level while riding.",
+    "description": "+0.8 mount armor per level while riding.",
     "extra_description": "Research cost: 13500 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",
@@ -172,7 +172,7 @@
   },
   "mount_armor_5": {
     "title": "Mount Armor V",
-    "description": "+0.4 mount armor per level while riding.",
+    "description": "+0.8 mount armor per level while riding.",
     "extra_description": "Research cost: 45000 points. Training multiplier: 2x.",
     "frame": {
       "type": "advancement",

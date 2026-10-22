@@ -1,0 +1,17 @@
+REQUESTED NATIVE SKILL BUFFS - NOT YET ACTIVE
+===========================================
+Patch: devscripts/patches/powers-skill-buffs.patch
+Target: digitsTerraDev/mod.terraSkillsPowers tag v0.0.9.
+Apply in that source repository, build/test, publish a new release, then update
+this pack's manifest. Do not describe these as active before the jar is updated.
+
+Tool Conservation: 5% per level (currently 3%); Brutish still doubles it.
+Water Conservation: 8% per level (currently 5%); travel-base thirst only.
+Scrambling: 10% per level (currently 5%).
+Expedition Packing: 6% per level (currently 3%); tagged supply shells only.
+
+Once the new jar is integrated, update research_bonuses and descriptions for
+these four skills in their research catalogues and Pufferfish definitions.
+
+Already applied in the pack:
+Riding 4% per level; Mount Armor +0.8 armor per level; Swimming 7% per level.

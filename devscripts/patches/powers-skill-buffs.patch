@@ -1,0 +1,43 @@
+--- a/src/main/java/com/terraskills/powers/mining/MiningDurability.java
++++ b/src/main/java/com/terraskills/powers/mining/MiningDurability.java
+@@ -21,7 +21,7 @@
+                 && stack == player.getMainHandItem() && (stack.is(ItemTags.PICKAXES) || stack.is(ItemTags.SHOVELS))) {
+             int brutishRank = BrutishMining.activeRank(player);
+             int rank = SkillRanks.rank(player, "tool_conservation");
+-            float conservationChance = 0.03F * rank * (brutishRank > 0 ? 2 : 1);
++            float conservationChance = 0.05F * rank * (brutishRank > 0 ? 2 : 1);
+             if (conservationChance > 0 && player.getRandom().nextFloat() < conservationChance) return;
+ 
+             double charge = brutishRank > 0 ? BrutishMining.wearMultiplier(brutishRank) : 1D;
+--- a/src/main/java/com/terraskills/powers/exploration/TravelThirstLedger.java
++++ b/src/main/java/com/terraskills/powers/exploration/TravelThirstLedger.java
+@@ -48,7 +48,7 @@
+         double movementFraction = consumeTravelFraction(player.getUUID(), 4.0D);
+         if (rank == 0 || movementFraction <= 0.0D) return originalLoss;
+         double multiplier = Math.max(1.0D, 1.0D + temperatureContribution);
+-        double discount = -originalLoss / multiplier * movementFraction * (0.05D * rank);
++        double discount = -originalLoss / multiplier * movementFraction * (0.08D * rank);
+         return (float) Math.min(0.0D, originalLoss + discount);
+     }
+ 
+--- a/src/main/java/com/terraskills/powers/exploration/ScramblingPowers.java
++++ b/src/main/java/com/terraskills/powers/exploration/ScramblingPowers.java
+@@ -10,6 +10,6 @@
+     public static double multiplier(Player player) {
+         if (player.isSpectator() || player.isPassenger() || player.isFallFlying() || player.getAbilities().flying
+                 || player.isSwimming() || player.isInWater()) return 1.0D;
+-        return 1.0D + 0.05D * Math.clamp(SkillRanks.scrambling(player), 0, 5);
++        return 1.0D + 0.10D * Math.clamp(SkillRanks.scrambling(player), 0, 5);
+     }
+ }
+--- a/src/main/java/com/terraskills/powers/weight/ExpeditionPackingWeights.java
++++ b/src/main/java/com/terraskills/powers/weight/ExpeditionPackingWeights.java
+@@ -33,7 +33,7 @@
+         // Ultimate Weight calculates nested contents separately. Discount only this tagged shell's configured weight;
+         // content weight remains untouched and nested containers cannot be discounted twice.
+         double shellKg = Math.max(0.0D, WeightViews1211.configuredWeightOf(stack, resolutionDepth));
+-        return shellKg * (0.03D * rank);
++        return shellKg * (0.06D * rank);
+     }
+ 
+     public static double effectiveSingleWeightKg(Player player, ItemStack stack, int resolutionDepth, double vanillaSingleKg) {

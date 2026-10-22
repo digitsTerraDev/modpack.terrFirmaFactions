@@ -4,11 +4,11 @@
     {
       "id": "mount_speed",
       "title": "Riding",
-      "description": "+2% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
+      "description": "+4% mount speed per level while riding. Level 1: Permits riding mounts. Level 3: Permits copper-horn binding and calling.",
       "primary_stat": "finesse",
       "secondary_stat": "instinct",
       "research_bonuses": [
-        "+2% mount speed per level while riding.",
+        "+4% mount speed per level while riding.",
         "Level 1: Permits riding mounts.",
         "Level 3: Permits copper-horn binding and calling."
       ],
@@ -40,11 +40,11 @@
     {
       "id": "mount_armor",
       "title": "Mount Armor",
-      "description": "+0.4 mount armor per level while riding.",
+      "description": "+0.8 mount armor per level while riding.",
       "primary_stat": "endurance",
       "secondary_stat": "finesse",
       "research_bonuses": [
-        "+0.4 mount armor per level while riding."
+        "+0.8 mount armor per level while riding."
       ],
       "levels": [
         {

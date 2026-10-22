@@ -39,7 +39,7 @@ NativeEvents.onEvent('net.neoforged.neoforge.event.tick.PlayerTickEvent$Post', e
     const inWaterOnFoot = player.isInWater() && !player.isPassenger()
     const wading = inWaterOnFoot && !player.isSwimming() && !player.isEyeInFluid(ExploreFluids.WATER)
     explorationModifier(player, ExploreNeoForge.SWIM_SPEED,
-        ExploreSwimId, inWaterOnFoot ? 0.05 * explorationRank(player, 'swimming') : 0,
+        ExploreSwimId, inWaterOnFoot ? 0.07 * explorationRank(player, 'swimming') : 0,
         ExploreOperation.ADD_MULTIPLIED_BASE)
     explorationModifier(player, ExploreAttributes.OXYGEN_BONUS,
         ExploreDiveId, 0.2 * explorationRank(player, 'diving'), ExploreOperation.ADD_VALUE)

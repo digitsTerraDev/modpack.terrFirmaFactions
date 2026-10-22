@@ -4,11 +4,11 @@
     {
       "id": "miner",
       "title": "Mining",
-      "description": "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply.",
+      "description": "+6% breaking speed per level while holding a pickaxe; tool harvest requirements still apply.",
       "primary_stat": "might",
       "secondary_stat": "intelligence",
       "research_bonuses": [
-        "+5% mining speed per rank while holding a pickaxe; tool harvest requirements still apply."
+        "+6% breaking speed per level while holding a pickaxe; tool harvest requirements still apply."
       ],
       "levels": [
         {
@@ -110,11 +110,11 @@
     {
       "id": "excavating",
       "title": "Digging",
-      "description": "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%.",
+      "description": "+6% breaking speed per level with a shovel on shovel-mineable blocks.",
       "primary_stat": "might",
       "secondary_stat": "endurance",
       "research_bonuses": [
-        "+3% mining speed per rank with a shovel on shovel-mineable blocks; maximum +15%."
+        "+6% breaking speed per level with a shovel on shovel-mineable blocks."
       ],
       "levels": [
         {
@@ -437,11 +437,11 @@
     {
       "id": "hammering",
       "title": "Hammering",
-      "description": "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools.",
+      "description": "+7% breaking speed per level with TFC Hammer Time sledgehammers on pickaxe-mineable blocks. Level I permits using these tools.",
       "primary_stat": "might",
       "secondary_stat": "intelligence",
       "research_bonuses": [
-        "+5% breaking speed per level with TFC Hammer Time sledgehammers on matching blocks. Level I permits using these tools."
+        "+7% breaking speed per level with TFC Hammer Time sledgehammers on pickaxe-mineable blocks. Level I permits using these tools."
       ],
       "requires": [
         "miner_5"
@@ -473,11 +473,11 @@
     {
       "id": "area_excavating",
       "title": "Excavating",
-      "description": "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools.",
+      "description": "+7% breaking speed per level with TFC Hammer Time excavators on shovel-mineable blocks. Level I permits using these tools.",
       "primary_stat": "might",
       "secondary_stat": "endurance",
       "research_bonuses": [
-        "+3% breaking speed per level with TFC Hammer Time excavators on matching blocks. Level I permits using these tools."
+        "+7% breaking speed per level with TFC Hammer Time excavators on shovel-mineable blocks. Level I permits using these tools."
       ],
       "requires": [
         "excavating_5"

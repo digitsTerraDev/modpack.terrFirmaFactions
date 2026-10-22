@@ -571,7 +571,7 @@
   },
   "swimming_1": {
     "title": "Swimming I",
-    "description": "+5% swimming speed per rank while in water and not riding.",
+    "description": "+7% swimming speed per rank while in water and not riding.",
     "extra_description": "Research cost: 250 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -590,7 +590,7 @@
   },
   "swimming_2": {
     "title": "Swimming II",
-    "description": "+5% swimming speed per rank while in water and not riding.",
+    "description": "+7% swimming speed per rank while in water and not riding.",
     "extra_description": "Research cost: 500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -609,7 +609,7 @@
   },
   "swimming_3": {
     "title": "Swimming III",
-    "description": "+5% swimming speed per rank while in water and not riding.",
+    "description": "+7% swimming speed per rank while in water and not riding.",
     "extra_description": "Research cost: 2000 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -628,7 +628,7 @@
   },
   "swimming_4": {
     "title": "Swimming IV",
-    "description": "+5% swimming speed per rank while in water and not riding.",
+    "description": "+7% swimming speed per rank while in water and not riding.",
     "extra_description": "Research cost: 6750 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
@@ -647,7 +647,7 @@
   },
   "swimming_5": {
     "title": "Swimming V",
-    "description": "+5% swimming speed per rank while in water and not riding.",
+    "description": "+7% swimming speed per rank while in water and not riding.",
     "extra_description": "Research cost: 22500 points. Rank effects do not stack with earlier ranks of this skill. Training multiplier: 1x.",
     "frame": {
       "type": "advancement",
