@@ -1,15 +1,15 @@
 name = "mod.terraSkills"
-filename = "terraskills-0.0.11.jar"
+filename = "terraskills-0.0.12.jar"
 side = "both"
 
 [download]
-url = "https://github.com/digitsTerraDev/mod.terraSkills/releases/download/v0.0.11/terraskills-0.0.11.jar"
+url = "https://github.com/digitsTerraDev/mod.terraSkills/releases/download/v0.0.12/terraskills-0.0.12.jar"
 hash-format = "sha256"
-hash = "0c5ea89f1be11680d480c0a4d0968eb62b7e5fbaa053e2715f9e35e85b129cc9"
+hash = "9ce25ab3e1eb1f6bfce8fa21a0061bddd1b1b4c326645d764651f23f9ffe469f"
 
 [update]
 [update.github]
 branch = "main"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
 slug = "digitsTerraDev/mod.terraSkills"
-tag = "v0.0.11"
+tag = "v0.0.12"
